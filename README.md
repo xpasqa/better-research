@@ -1,6 +1,6 @@
-# Disertasi Dodo Rohimat
+# Disertasi Gemma
 
-Repository ini adalah workspace resmi untuk naskah dan material riset disertasi Dodo Rohimat.
+Repository ini adalah workspace resmi untuk naskah dan material riset disertasi Gemma.
 
 ## Prinsip Kerja
 
@@ -12,4 +12,4 @@ Repository ini adalah workspace resmi untuk naskah dan material riset disertasi 
 
 ## Status Awal
 
-Repository dibootstrap pada Agustus 2026 sebagai workspace version-controlled untuk restrukturisasi Bab I.
+Repository ini disiapkan pada Agustus 2026 sebagai workspace version-controlled untuk disertasi Gemma.
