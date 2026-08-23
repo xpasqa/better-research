@@ -12,7 +12,19 @@
 
 ## 1.3 Masalah dan Pertanyaan Penelitian
 
-<!-- TODO: nyatakan formal research problem, unit analisis, dan pertanyaan penelitian yang selaras dengan model direct/indirect paths. -->
+Research problem sementara penelitian ini adalah belum cukup jelasnya bagaimana kondisi keluarga terkait penggunaan teknologi digital dan kondisi sekolah yang direpresentasikan oleh kompetensi guru yang dialami siswa berkaitan dengan kesiapan belajar siswa SMP pada level individu, serta apakah kapasitas sosial-emosional siswa dapat menjelaskan sebagian hubungan tersebut. Formulasi ini bersifat provisional sampai audit konstruk dan evidence pada Issue #4 selesai. Karena desain awal bersifat observasional, istilah hubungan dan mediasi pada tahap ini tidak diperlakukan sebagai bukti kausalitas.
+
+Pertanyaan penelitian sementara adalah:
+
+1. Bagaimana hubungan Pengasuhan Digital dengan Pembelajaran/Kompetensi Sosial-Emosional siswa SMP di DKI Jakarta?
+2. Bagaimana hubungan Kompetensi Guru yang dipersepsikan siswa dengan Pembelajaran/Kompetensi Sosial-Emosional siswa SMP di DKI Jakarta?
+3. Bagaimana hubungan Pembelajaran/Kompetensi Sosial-Emosional dengan Kesiapan Belajar siswa SMP di DKI Jakarta?
+4. Bagaimana hubungan Pengasuhan Digital dengan Kesiapan Belajar siswa SMP di DKI Jakarta?
+5. Bagaimana hubungan Kompetensi Guru yang dipersepsikan siswa dengan Kesiapan Belajar siswa SMP di DKI Jakarta?
+6. Apakah hubungan Pengasuhan Digital dengan Kesiapan Belajar secara statistik dimediasi oleh Pembelajaran/Kompetensi Sosial-Emosional siswa?
+7. Apakah hubungan Kompetensi Guru yang dipersepsikan siswa dengan Kesiapan Belajar secara statistik dimediasi oleh Pembelajaran/Kompetensi Sosial-Emosional siswa?
+
+<!-- CONSTRUCT GATE: nomenklatur dan measurement X1, X2, Z, dan Y belum final. Khusus Z, bedakan SEL sebagai proses/program dari social-emotional competence sebagai atribut siswa. Khusus Y, verifikasi construct validity 'kesiapan belajar' untuk konteks SMP. -->
 
 ## 1.4 Kesenjangan Penelitian
 
@@ -20,8 +32,10 @@
 
 ## 1.5 Tujuan Penelitian
 
-<!-- TODO: one-to-one alignment dengan pertanyaan penelitian. -->
+<!-- TODO: one-to-one alignment dengan pertanyaan penelitian setelah construct gate selesai. -->
 
 ## 1.6 Ruang Lingkup Penelitian
 
-<!-- TODO: tetapkan setting DKI Jakarta, populasi siswa SMP, unit analisis individu siswa, konstruk, sampling boundary, dan batas inferensi/generalisasi. -->
+Unit analisis penelitian ditetapkan sementara pada **individu siswa SMP** di DKI Jakarta. Data sekolah, wilayah, penetrasi internet, dan kebijakan pendidikan diperlakukan sebagai contextual evidence dan tidak digunakan sebagai bukti langsung kondisi individual siswa. Jika kompetensi guru diukur hanya melalui kuesioner siswa, konstruk empiris harus diposisikan sebagai kompetensi guru yang dipersepsikan siswa. Perubahan menuju desain multi-informant atau multilevel harus ditetapkan secara eksplisit pada tahap metodologi.
+
+<!-- TODO: finalisasi populasi, sampling frame, konstruk, setting sekolah negeri/swasta, dan batas inferensi/generalisasi setelah evidence dan measurement audit. -->
