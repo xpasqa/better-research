@@ -73,7 +73,7 @@ Pemilihan final antara tiga- vs empat-dimension model tidak dikunci hanya dari l
 
 ## 4. Self-Regulated Learning — decision: rival mechanism, bukan Y utama
 
-SRL memiliki theoretical maturity yang sangat kuat. Panadero menunjukkan bahwa SRL mencakup cognitive, metacognitive, behavioral, motivational, dan emotional/affective regulation dan memiliki beberapa model teori established [@panadero2017srl]. Meta-analysis Dent dan Koenka menemukan hubungan dengan achievement, tetapi magnitude berbeda menurut process/strategy, subject, grade, SRL measure, dan achievement measure; overall correlations untuk metacognitive processes dan cognitive strategies relatif kecil [@dent2015srl].
+SRL memiliki theoretical maturity yang sangat kuat. Panadero menunjukkan bahwa SRL mencakup cognitive, metacognitive, behavioral, motivational, dan emotional/affective regulation dan memiliki beberapa model teori established [@panadero2017srl]. Meta-analysis Dent dan Koenka menemukan hubungan dengan achievement, tetapi magnitude berbeda menurut process/strategy, subject, grade, SRL measure, dan achievement measure; overall correlations untuk metacognitive processes dan cognitive strategies relatif kecil [@dent2016srl].
 
 Measurement pada secondary school juga heterogen. Systematic review López-Angulo et al. menemukan 10 instrumen berbeda dalam 21 studi secondary-school dan menekankan perlunya validasi pada population of use [@lopezangulo2020srl]. Di Indonesia, Nu'man et al. mengembangkan 14-item SRL measure untuk junior-high mathematics/STEM dengan planning, monitoring, controlling, dan evaluation [@numan2021srl]. Namun instrumen ini domain-specific dan tidak otomatis menjadi generic SRL measure.
 
@@ -81,7 +81,7 @@ SRL **tidak dipilih sebagai Y utama** karena ia memiliki overlap konseptual lebi
 
 ## 5. School/Academic Adjustment — decision: secondary candidate
 
-School adjustment memiliki substantive relevance, dan family/school support berhubungan dengan adaptation. Basharpoor et al. menunjukkan pada usia 11–13 tahun bahwa school engagement dan academic self-concept berperan sebagai mediator antara family adaptability/social acceptability dan school adjustment [@basharpoor2020adjustment]. Systematic review terbaru juga melaporkan bahwa perceived support dari parents, teachers, dan peers umumnya berhubungan positif dengan school adjustment pada anak/remaja [@niu2025adjustment].
+School adjustment memiliki substantive relevance, dan family/school support berhubungan dengan adaptation. Basharpoor et al. menunjukkan pada usia 11–13 tahun bahwa school engagement dan academic self-concept berperan sebagai mediator antara family adaptability/social acceptability dan school adjustment [@basharpoor2020adjustment]. Systematic review terbaru juga melaporkan bahwa perceived support dari parents, teachers, dan peers umumnya berhubungan positif dengan school adjustment pada anak/remaja [@niu2026adjustment].
 
 Tetapi school adjustment tidak dipilih sebagai Y utama karena construct content sering broad dan dapat menyerap engagement, achievement, social adaptation, dan well-being. Dalam model yang sudah memiliki SEC, broad adjustment outcome meningkatkan risiko conceptual overlap dan interpretasi yang tidak tajam.
 
