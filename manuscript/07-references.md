@@ -2,6 +2,8 @@
 
 An, F., Yu, J., & Xi, L. (2022). Relationship between perceived teacher support and learning engagement among adolescents: Mediation role of technology acceptance and learning motivation. *Frontiers in Psychology, 13*, 992464. https://doi.org/10.3389/fpsyg.2022.992464
 
+Ansong, D., Okumu, M., Bowen, G. L., Walker, A. M., & Eisensmith, S. R. (2017). The role of parent, classmate, and teacher support in student engagement: Evidence from Ghana. *International Journal of Educational Development, 54*, 51–58. https://doi.org/10.1016/j.ijedudev.2017.03.010
+
 Badan Pusat Statistik Provinsi DKI Jakarta. (2025). *Profil pendidikan Provinsi DKI Jakarta 2024* (Publikasi No. 31000.25032). https://jakarta.bps.go.id/id/publication/2025/08/29/2a09a8113ca39915285504f3/profil-pendidikan-provinsi-dki-jakarta-2024.html
 
 Basharpoor, S., Heidari, F., Narimani, M., & Barahmand, U. (2020). School adjustment, engagement and academic self-concept: Family, child, and school factors. *Journal of Psychologists and Counsellors in Schools, 32*, 23–38. https://doi.org/10.1017/jgc.2020.6
@@ -11,6 +13,8 @@ Bharara, G., & Duncan, S. (2024). Preliminary development and validation of the 
 Bureau, J. S., Howard, J. L., Chong, J. X. Y., & Guay, F. (2022). Pathways to student motivation: A meta-analysis of antecedents of autonomous and controlled motivations. *Review of Educational Research, 92*(1), 46–72. https://doi.org/10.3102/00346543211042426
 
 Chen, V., & Chng, G. (2016). Active and restrictive parental mediation over time: Effects on youths’ self-regulatory competencies and impulsivity. *Computers & Education, 98*, 206–212. https://doi.org/10.1016/j.compedu.2016.03.012
+
+Cheng, M., Huang, S., & Lai, X. (2024). Examining digital parental mediation, social and emotional competence, and well-being on cyberbullying roles across different cohorts of Chinese children. *The Asia-Pacific Education Researcher, 34*, 75–92. https://doi.org/10.1007/s40299-024-00838-1
 
 Cipriano, C., Strambler, M., Naples, L. H., Ha, C., Kirk, M. A., Wood, M., Sehgal, K., Zieher, A. K., Eveleigh, A., McCarthy, M. F., Funaro, M., Ponnock, A. R., Chow, J. C., & Durlak, J. (2023). The state of evidence for social and emotional learning: A contemporary meta-analysis of universal school-based SEL interventions. *Child Development, 94*(5), 1181–1204. https://doi.org/10.1111/cdev.13968
 
@@ -58,6 +62,8 @@ Martin, A. J., Collie, R. J., Stephan, M., Flesken, A., Halcrow, F., & McCourt, 
 
 Martinez-Yarza, N., Santibáñez, R., & Solabarrieta, J. (2023). A systematic review of instruments measuring social and emotional skills in school-aged children and adolescents. *Child Indicators Research, 16*, 1475–1502. https://doi.org/10.1007/s12187-023-10031-3
 
+Martinez-Yarza, N., Solabarrieta-Eizaguirre, J., & Santibáñez-Gruber, R. (2024). The impact of family involvement on students’ social-emotional development: The mediational role of school engagement. *European Journal of Psychology of Education, 39*, 4297–4327. https://doi.org/10.1007/s10212-024-00862-1
+
 Modecki, K., Goldberg, R. E., Wisniewski, P., & Orben, A. (2022). What is digital parenting? A systematic review of past measurement and blueprint for the future. *Perspectives on Psychological Science, 17*, 1673–1691. https://doi.org/10.1177/17456916211072458
 
 Navarro, J. L., & Tudge, J. R. H. (2023). Technologizing Bronfenbrenner: Neo-ecological theory. *Current Psychology, 42*(22), 19338–19354. https://doi.org/10.1007/s12144-022-02738-3
@@ -86,6 +92,8 @@ Santos, A. C., Simões, C., Melo, M. H. S., Santos, M. F., Freitas, I., Branquin
 
 Setiyorini, S. R., Isnaeni, W., & Ridlo, S. (2025). Psychometric evaluation of a social-emotional competence assessment instrument for high school students: Evidence of construct validity and reliability. *REID (Research and Evaluation in Education), 11*(2), 199–209. https://doi.org/10.21831/reid.v11i2.89685
 
+Song, L., Ishak, N. A., & Wei, Y. (2026). The influence of teacher support and parent support on learning engagement of Chinese middle school students through self-regulation and self-efficacy. *Journal of Educational and Social Research*. https://doi.org/10.36941/jesr-2026-0347
+
 Stroet, K., Opdenakker, M.-C., & Minnaert, A. (2013). Effects of need supportive teaching on early adolescents’ motivation and engagement: A review of the literature. *Educational Research Review, 9*, 65–87. https://doi.org/10.1016/j.edurev.2012.11.003
 
 Symons, K., Ponnet, K., Emmery, K., Walrave, M., & Heirman, W. (2017). A factorial validation of parental mediation strategies with regard to internet use. *Psychologica Belgica, 57*(2), 93–111. https://doi.org/10.5334/pb.372
@@ -99,6 +107,8 @@ Ulfa, A., Kendhawati, L., & Moeliono, M. F. (2025). Adapting internet parental m
 Vargas-Madriz, L. F., Konishi, C., & Wong, T. K. Y. (2024). A meta-analysis of the association between teacher support and school engagement. *Social Development, 33*(4), e12745. https://doi.org/10.1111/sode.12745
 
 Vossen, H. G. M., van den Eijnden, R. J. J. M., Visser, I., & Koning, I. M. (2024). Parenting and problematic social media use: A systematic review. *Current Addiction Reports, 11*, 511–527. https://doi.org/10.1007/s40429-024-00559-x
+
+Wang, H., Jimerson, S. R., Saiding, A., Guo, K., & Chen, C. (2024). The longitudinal effect of perceived social support on school engagement: A multiple mediation model examining the role of emotion regulation and left-behind status. *School Psychology*. https://doi.org/10.1037/spq0000673
 
 Wang, M.-T., & Eccles, J. S. (2012). Social support matters: Longitudinal effects of social support on three dimensions of school engagement from middle to high school. *Child Development, 83*(3), 877–895. https://doi.org/10.1111/j.1467-8624.2012.01745.x
 
