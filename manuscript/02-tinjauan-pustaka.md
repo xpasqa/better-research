@@ -2,188 +2,126 @@
 
 ## 2.1 Landasan Teori
 
-### 2.1.1 Bioecological dan neo-ecological positioning
+### 2.1.1 Perspektif Bioekologis dan Neo-Ekologis
 
-Penelitian ini menggunakan tradisi bioecological Bronfenbrenner sebagai **contextual architecture**, bukan sebagai teori yang secara otomatis menghasilkan seluruh structural paths. Rosa dan Tudge (2013) menunjukkan bahwa teori Bronfenbrenner berkembang dari ecological systems framing menuju bioecological theory yang menempatkan Process–Person–Context–Time (PPCT) sebagai unsur sentral. Konsekuensinya, sekadar menempatkan keluarga sebagai microsystem dan sekolah sebagai microsystem lain tidak cukup untuk mengklaim bahwa penelitian telah menguji PPCT atau mesosystem secara penuh.
+Penelitian ini menggunakan perspektif bioekologis Bronfenbrenner untuk menjelaskan bahwa perkembangan dan pengalaman belajar siswa tidak dapat dipisahkan dari lingkungan tempat siswa hidup. Keluarga dan sekolah merupakan dua konteks yang dekat dengan kehidupan siswa, sedangkan perkembangan teknologi membuat lingkungan digital juga menjadi bagian dari pengalaman sehari-hari remaja (Rosa & Tudge, 2013; Navarro & Tudge, 2023).
 
-Fungsi teori bioecological dalam penelitian ini lebih terbatas tetapi substantif. Pertama, teori membantu menjelaskan mengapa pengalaman siswa tidak dipisahkan dari konteks keluarga, sekolah, dan karakteristik personal. Kedua, teori mengingatkan bahwa hubungan individu–konteks dapat bersifat transactional dan berkembang sepanjang waktu. Ketiga, teori menyediakan alasan untuk mempertimbangkan lebih dari satu proximal context tanpa mengasumsikan bahwa seluruh konteks memberi kontribusi yang sama. Dengan demikian, posisi DPM dan PTS dalam model diturunkan dari kebutuhan untuk menguji pengalaman keluarga digital dan sekolah yang dekat dengan siswa, bukan dari asumsi bahwa masing-masing merupakan causal force yang sudah terbukti.
+Fungsi teori ini dalam penelitian adalah **menempatkan konteks**, bukan menjelaskan seluruh hubungan antarvariabel secara otomatis. Mediasi Digital Orang Tua mewakili pengalaman siswa dalam konteks keluarga digital, sedangkan Dukungan Guru yang Dipersepsikan Siswa mewakili pengalaman siswa dalam konteks sekolah. Keduanya dapat berkaitan dengan perkembangan siswa dan keterlibatan belajar, tetapi arah serta besarnya hubungan tetap harus diuji secara empiris.
 
-Neo-ecological theory memperluas contextual positioning tersebut untuk kondisi ketika interaksi perkembangan berlangsung melalui teknologi digital. Navarro dan Tudge (2023) menempatkan virtual contexts sebagai bagian yang perlu diperhitungkan dalam ecological analysis kontemporer. Dalam penelitian ini, extension tersebut relevan untuk menempatkan parental mediation atas penggunaan internet/media digital sebagai bagian dari proximal family experience remaja. Namun, neo-ecological theory tidak digunakan sebagai bukti direct effect DPM terhadap SEC atau engagement. Ia menjelaskan **di mana** proses berlangsung; mechanism-specific theory dan empirical evidence tetap diperlukan untuk menjelaskan **bagaimana** dan **mengapa** hubungan terjadi.
+Perspektif neo-ekologis membantu memperjelas posisi teknologi dalam model. Lingkungan digital tidak dianggap sebagai konteks yang terpisah sepenuhnya dari kehidupan siswa, melainkan sebagai bagian dari interaksi keluarga dan sosial yang berlangsung melalui teknologi. Karena itu, penelitian tidak menilai penggunaan teknologi semata, tetapi menilai bagaimana orang tua mendampingi penggunaan teknologi tersebut.
 
-### 2.1.2 Self-Determination Theory sebagai proximal motivational mechanism
+### 2.1.2 Self-Determination Theory
 
-Self-Determination Theory (SDT) digunakan untuk menjelaskan salah satu proximal mechanisms yang paling langsung menghubungkan supportive school context dengan engagement. SDT memandang autonomy, competence, dan relatedness sebagai basic psychological needs; ketika konteks sosial mendukung kebutuhan tersebut, autonomous motivation dan adaptive functioning lebih mungkin muncul (Ryan & Deci, 2020). Pada konteks pendidikan, teacher support dapat memberi structure, feedback, informational support, emotional availability, dan respect terhadap perspektif siswa yang relevan dengan pengalaman competence, relatedness, dan autonomy.
+*Self-Determination Theory* (SDT) digunakan untuk menjelaskan jalur dari dukungan guru menuju keterlibatan belajar. SDT menjelaskan bahwa manusia memiliki tiga kebutuhan psikologis dasar, yaitu otonomi, kompetensi, dan keterhubungan (Ryan & Deci, 2020). Dalam konteks sekolah, siswa lebih mungkin terlibat dalam belajar ketika mereka merasa memiliki ruang untuk memilih, merasa mampu menghadapi tuntutan belajar, dan merasa diterima atau didukung oleh orang lain.
 
-Meta-analysis memperkuat mekanisme tersebut. Bureau et al. (2022) menunjukkan bahwa teacher autonomy support berkaitan dengan need satisfaction dan autonomous motivation, sementara Howard et al. (2025) menemukan bahwa need-supportive behaviors pada konteks siswa berkaitan positif dengan engagement, performance, dan well-being, sedangkan need-thwarting behaviors cenderung menunjukkan pola berlawanan. Review pada early adolescents juga menemukan hubungan positif antara need-supportive teaching dengan motivation dan engagement, meskipun evidence untuk masing-masing komponen teaching tidak selalu seragam (Stroet et al., 2013).
+Dukungan guru dapat membantu memenuhi kebutuhan tersebut melalui bantuan akademik, perhatian, umpan balik, dan hubungan yang menghargai siswa. Meta-analisis menunjukkan bahwa dukungan terhadap kebutuhan psikologis berkaitan dengan motivasi, keterlibatan, kinerja, dan kesejahteraan siswa (Bureau et al., 2022; Howard et al., 2025). Karena itu, Pemenuhan Kebutuhan Psikologis Dasar di Sekolah ditempatkan sebagai salah satu jalur yang dapat menjelaskan hubungan Dukungan Guru dengan Keterlibatan Belajar.
 
-Dalam penelitian ini, SDT tidak dijadikan dekorasi kedua setelah Bronfenbrenner. Fungsinya berbeda: bioecological/neo-ecological theory memosisikan family–school–digital contexts, sedangkan SDT menghasilkan **competing proximal mechanism** yang spesifik untuk school-support pathway. Karena itu, BPNS at school diukur secara eksplisit agar klaim bahwa PTS bekerja melalui need satisfaction dapat diuji dan dibandingkan dengan SEC, bukan hanya disebut dalam discussion setelah hasil diperoleh.
-
-### 2.1.3 Developmental social-emotional capacity sebagai mechanism yang berbeda
-
-SEC tidak merupakan konstruk SDT. SEC menggambarkan kapasitas sosial dan emosional siswa, sedangkan BPNS menggambarkan pengalaman pemenuhan kebutuhan psikologis dalam konteks tertentu. CASEL membedakan SEL sebagai proses dengan competence areas seperti self-awareness, self-management, social awareness, relationship skills, dan responsible decision-making (Collaborative for Academic, Social, and Emotional Learning, 2020). Perbedaan ontologis ini penting karena dua siswa dapat memiliki tingkat social-emotional competence yang berbeda walaupun melaporkan tingkat need satisfaction yang sama, atau sebaliknya.
-
-Evidence menunjukkan SEC berkaitan dengan engagement, tetapi mekanisme dan direction tidak dapat dianggap final. Santos et al. (2023) menemukan association positif secara umum antara social-emotional competencies dan student engagement pada youth literature. Sebaliknya, Martinez-Yarza et al. (2024) menemukan statistical pathway di mana engagement berada sebelum social-emotional development. Karena itu, penelitian ini membandingkan SEC dan BPNS sebagai mechanisms yang berbeda dan menguji reciprocal temporal ordering sebagai sensitivity analysis.
+Dalam penelitian ini, SDT tidak digunakan untuk menjelaskan seluruh model. Teori ini terutama digunakan untuk menjelaskan mengapa Dukungan Guru dapat berkaitan dengan Keterlibatan Belajar melalui terpenuhinya kebutuhan psikologis dasar siswa. Jalur lain melalui Kompetensi Sosial-Emosional diperlakukan sebagai proses yang berbeda.
 
 ## 2.2 Konsep dan Konstruk Penelitian
 
-### 2.2.1 Digital Parental Mediation
+### 2.2.1 Mediasi Digital Orang Tua
 
-Digital Parental Mediation (DPM) didefinisikan sebagai serangkaian praktik spesifik orang tua untuk membimbing, memungkinkan, membatasi, mengamati, atau mendiskusikan penggunaan internet dan media digital remaja. Konstruk ini sengaja dibatasi dari general parenting style, warmth, autonomy support, parental educational involvement, parental digital literacy, dan parental own-media use. Variabel-variabel tersebut dapat menjadi antecedents, contexts, atau rival explanations, tetapi tidak dicampur ke dalam DPM score.
+Mediasi Digital Orang Tua (*Digital Parental Mediation*) adalah praktik orang tua dalam membimbing, membatasi, memantau, atau mendiskusikan penggunaan internet dan media digital anak. Konsep ini berbeda dari pola pengasuhan umum, literasi digital orang tua, atau keterlibatan orang tua dalam pendidikan secara umum.
 
-Systematic review Modecki et al. (2022) menunjukkan bahwa digital parenting literature sangat beragam dan measurement-nya fragmented. Kuldas et al. (2021) mengelompokkan praktik parental mediation ke dalam restrictive, enabling, dan observant families. Symons et al. (2017) menemukan enam faktor parental mediation pada adolescent, mother, dan father reports, sementara Ho et al. (2019) membedakan active mediation, restrictive mediation, authoritarian surveillance, dan non-intrusive inspection pada social-media context. Evidence tersebut menunjukkan bahwa DPM merupakan **family of related but non-interchangeable strategies**.
+Kajian sistematis menunjukkan bahwa mediasi digital orang tua tidak merupakan satu bentuk perilaku yang seragam (Modecki et al., 2022; Kuldas et al., 2021). Secara sederhana, praktik tersebut dapat dikelompokkan menjadi tiga bentuk utama:
 
-Working architecture penelitian ini menggunakan tiga keluarga strategi pada level teori:
+1. **mediasi yang membantu atau membimbing**, misalnya berdiskusi tentang penggunaan internet dan membantu anak memahami risiko serta manfaatnya;
+2. **mediasi yang membatasi**, misalnya menetapkan aturan mengenai waktu, akses, konten, atau aktivitas tertentu; dan
+3. **mediasi yang memantau**, misalnya mengawasi atau memeriksa aktivitas digital anak.
 
-1. **Enabling mediation**, mencakup active/interpretative guidance dan komunikasi yang membantu remaja memahami atau menggunakan lingkungan digital secara adaptif.
-2. **Restrictive mediation**, mencakup aturan atau pembatasan mengenai akses, waktu, konten, interaksi, dan technical restriction.
-3. **Observant mediation**, mencakup monitoring, supervision, inspection, atau praktik untuk memperoleh informasi mengenai aktivitas digital remaja.
+Penelitian Symons et al. (2017) menunjukkan bahwa beberapa bentuk mediasi dapat dibedakan secara empiris. Karena itu, penelitian ini tidak membentuk satu skor umum yang menganggap seluruh bentuk mediasi selalu bermanfaat. Setiap strategi diperlakukan sebagai bagian yang dapat mempunyai hubungan berbeda dengan perkembangan siswa.
 
-Architecture tersebut tidak memaksakan tiga-factor measurement model. Struktur item/faktor final mengikuti evidence instrumen dan hasil pilot/model comparison. Modelling orang tua tidak dimasukkan otomatis sebagai indikator DPM karena modelling dapat terjadi tanpa tindakan mediation yang ditujukan kepada anak.
+Bukti mengenai akibat mediasi digital orang tua masih beragam. Lukavská et al. (2022) menunjukkan bahwa hubungan antara praktik pengasuhan dan penggunaan internet bermasalah pada remaja cenderung tidak besar dan dipengaruhi oleh perbedaan konteks serta pengukuran. Tong et al. (2024) juga menunjukkan bahwa hubungan dapat berlangsung dua arah, yaitu perilaku anak dapat memengaruhi cara orang tua merespons penggunaan internet. Karena itu, penelitian ini tidak mengasumsikan bahwa mediasi digital orang tua selalu menghasilkan dampak positif.
 
-Arah hubungan DPM tidak dipaksakan. Lukavská et al. (2022) dan Vossen et al. (2024) menunjukkan weak/heterogeneous associations pada berbagai digital outcomes, sedangkan Tong et al. (2024) dan Huang et al. (2023) menunjukkan perlunya mempertimbangkan reverse/child effects serta absence of blanket longitudinal benefits. Karena itu, only enabling/interpretative DPM memperoleh directional expectation yang terbatas terhadap selected regulatory/social-emotional capacities; restrictive dan observant mediation tetap diuji secara strategy-specific tanpa universal sign.
+### 2.2.2 Dukungan Guru yang Dipersepsikan Siswa
 
-Primary informant DPM adalah siswa/remaja sehingga konstruk operasional menjadi **Adolescent-Perceived DPM**. Symons et al. (2017) menunjukkan bahwa struktur dapat serupa antar informan tetapi jumlah mediation yang dilaporkan berbeda. Parent report, apabila feasible, digunakan sebagai corroborative measure pada full sample atau prespecified subsample dan informant discrepancy diperlakukan sebagai measurement issue yang substantif.
+Dukungan Guru yang Dipersepsikan Siswa (*Perceived Teacher Support*) adalah sejauh mana siswa merasa guru memberikan bantuan akademik dan emosional yang membantu proses belajar. Dukungan tersebut dapat berupa penjelasan, bantuan ketika mengalami kesulitan, perhatian, dorongan, dan umpan balik.
 
-### 2.2.2 Perceived Teacher Support
+Konstruk ini berbeda dari kompetensi profesional guru. Penelitian ini tidak menilai pengetahuan pedagogis atau kemampuan profesional guru secara objektif. Karena data diperoleh dari siswa, yang dinilai adalah pengalaman dukungan yang dirasakan siswa selama berinteraksi dengan guru.
 
-Perceived Teacher Support (PTS) didefinisikan sebagai dukungan instrumental, emotional, informational, dan appraisal yang dialami atau dipersepsikan siswa dalam interaksi dengan guru. Definisi ini berbeda dari objective professional teacher competence. Kunter et al. (2013) menunjukkan bahwa professional competence dapat mencakup knowledge, beliefs, motivation, dan self-regulation yang diukur pada level guru dan berkaitan dengan instructional quality. Konstruk seperti itu tidak dapat direduksi secara valid menjadi general student rating of “teacher competence.”
+Meta-analisis menunjukkan bahwa dukungan guru secara umum berkaitan positif dengan keterlibatan belajar dan pencapaian akademik, walaupun kekuatan hubungannya dapat berbeda menurut jenis dukungan dan konteks penelitian (Tao et al., 2022). An et al. (2022) juga menunjukkan bahwa dukungan guru dapat berkaitan dengan keterlibatan belajar melalui proses psikologis siswa. Temuan ini mendukung penempatan dukungan guru sebagai salah satu konteks utama dalam model penelitian.
 
-Wu et al. (2024) mengembangkan Perceived Teacher Support Scale pada siswa grade 7–10 dengan empat dimensi: instrumental, emotional, informational, dan appraisal support. Konstruk ini sesuai dengan student-report design dan mempunyai concurrent relation dengan engagement. PTS diperlakukan sebagai multidimensional perceived exposure, bukan satu evaluasi objektif tentang kualitas profesi guru.
+### 2.2.3 Kompetensi Sosial-Emosional Siswa
 
-Teacher-student relationship dan instructional quality tetap merupakan neighboring constructs. Emslander et al. (2025) menunjukkan broad associations teacher-student relationship dengan student outcomes, sedangkan Wisniewski et al. (2020) menunjukkan student-perceived instructional quality memiliki two-level structure. Karena itu, PTS tidak boleh diperluas hingga menyerap seluruh relational quality, classroom management, cognitive activation, atau professional competence.
+Kompetensi Sosial-Emosional Siswa (*Social-Emotional Competence*) adalah kemampuan siswa untuk memahami dan mengelola diri serta berhubungan secara adaptif dengan orang lain. CASEL mengelompokkan kompetensi ini ke dalam kesadaran diri, pengelolaan diri, kesadaran sosial, keterampilan hubungan, dan pengambilan keputusan yang bertanggung jawab (Collaborative for Academic, Social, and Emotional Learning, 2020).
 
-PTS mempunyai direct relevance untuk engagement. Vargas-Madriz et al. (2024) menemukan positive average association pada meta-analysis 141 studi, tetapi magnitude bervariasi. Tao et al. (2022) juga menunjukkan hubungan PTS dengan engagement dan achievement, sedangkan Martin et al. (2024) memberikan longitudinal trajectory evidence. Ansong et al. (2017) memberi falsification evidence bahwa teacher support tidak selalu menjadi direct predictor ketika sumber dukungan lain dimasukkan. Berdasarkan evidence tersebut, PTS → engagement menjadi directional hypothesis dengan explicit heterogeneity qualification.
+Kompetensi sosial-emosional berbeda dari *Social and Emotional Learning* (SEL). SEL merupakan proses pembelajaran dan pengembangan kompetensi, sedangkan yang diukur dalam penelitian ini adalah kemampuan yang dimiliki siswa. Pembedaan tersebut penting agar konstruk yang diukur sesuai dengan pertanyaan penelitian.
 
-### 2.2.3 Student Social-Emotional Competence
+Tinjauan sistematis menunjukkan bahwa kompetensi sosial-emosional secara umum berkaitan positif dengan keterlibatan siswa (Santos et al., 2023). Kemampuan mengelola emosi, memahami diri, dan membangun hubungan dapat membantu siswa menghadapi tuntutan belajar dan tetap terlibat dalam kegiatan sekolah. Namun, hubungan ini tidak otomatis membuktikan bahwa kompetensi sosial-emosional selalu menjadi penyebab keterlibatan belajar; karena itu, urutan waktu tetap diperhatikan dalam desain penelitian.
 
-Student Social-Emotional Competence (SEC) didefinisikan sebagai kapasitas siswa untuk memahami dan mengelola aspek sosial-emosional diri serta interaksi sosial secara adaptif. Working domain structure mengikuti lima competence areas yang selaras dengan CASEL: self-awareness, self-management, social awareness, relationship management/skills, dan responsible decision-making (Collaborative for Academic, Social, and Emotional Learning, 2020; Zhou & Ee, 2012).
+### 2.2.4 Pemenuhan Kebutuhan Psikologis Dasar di Sekolah
 
-SEC tidak identik dengan SEL, motivation, self-efficacy, self-regulated learning, atau emotion regulation saja. SEL adalah learning/development process; motivation/self-efficacy adalah motivational-belief constructs; self-regulated learning mencakup regulation of cognition, motivation, behavior, dan learning strategies; emotion regulation hanya satu capacity domain yang lebih sempit. Discriminant validity terhadap BPNS dan engagement menjadi syarat sebelum structural paths ditafsirkan.
+Pemenuhan Kebutuhan Psikologis Dasar di Sekolah (*Basic Psychological Need Satisfaction at School*) menunjukkan sejauh mana siswa merasa kebutuhan otonomi, kompetensi, dan keterhubungan terpenuhi ketika berada di sekolah. Otonomi berkaitan dengan rasa memiliki pilihan, kompetensi berkaitan dengan rasa mampu, sedangkan keterhubungan berkaitan dengan rasa diterima dan dekat dengan orang lain.
 
-Zhou dan Ee (2012) menyediakan SECQ sebagai primary measurement candidate. Jabeen dan Maqsood (2023) mendukung five-factor solution dalam cross-language adolescent validation, tetapi Portela-Pino et al. (2024) menunjukkan bahwa alternative structures dapat memberi fit berbeda. Karena itu, default measurement specification adalah **five correlated first-order factors**. Higher-order global SEC hanya dipertimbangkan apabila pilot/main-sample model comparison dan construct interpretation mendukungnya.
+Konstruk ini berbeda dari Kompetensi Sosial-Emosional. Kompetensi sosial-emosional menggambarkan kemampuan siswa, sedangkan pemenuhan kebutuhan psikologis menggambarkan pengalaman siswa dalam suatu konteks. Seorang siswa dapat memiliki kemampuan sosial-emosional yang baik tetapi tetap merasa kurang didukung atau kurang mampu di sekolah, dan sebaliknya.
 
-SEC dipertahankan sebagai candidate mechanism karena systematic review menunjukkan association dengan engagement (Santos et al., 2023) dan school-support evidence menunjukkan teacher-related social-emotional support dapat berkaitan dengan selected SEC facets (Collie, 2022). Namun, DPM → full SEC masih lebih lemah dan construct-adjacent. Cheng et al. (2024) juga menunjukkan bahwa DPM dan SEC telah dipertemukan dalam literatur, sehingga jalur tersebut bukan novelty.
+Tian et al. (2014) mengembangkan skala kebutuhan psikologis dasar untuk remaja di sekolah yang membedakan ketiga kebutuhan tersebut. Sesuai SDT, dukungan guru diharapkan berkaitan dengan terpenuhinya kebutuhan psikologis dasar, yang selanjutnya berkaitan dengan keterlibatan belajar (Ryan & Deci, 2020; Bureau et al., 2022).
 
-### 2.2.4 Basic Psychological Need Satisfaction at School
+### 2.2.5 Keterlibatan Belajar Siswa
 
-Basic Psychological Need Satisfaction at School (BPNS) didefinisikan sebagai tingkat terpenuhinya kebutuhan autonomy, competence, dan relatedness siswa dalam pengalaman sekolah. Konstruk ini dipilih karena langsung diturunkan dari SDT dan mempunyai mechanism fit yang lebih spesifik untuk PTS dibanding SEC.
+Keterlibatan Belajar Siswa (*Student Engagement in Learning*) adalah tingkat keterlibatan aktif siswa dalam kegiatan belajar. Konstruk ini umumnya mencakup keterlibatan perilaku, emosional, dan kognitif. Beberapa pendekatan juga memasukkan keterlibatan agentik, yaitu upaya siswa secara aktif memengaruhi proses belajarnya.
 
-Tian et al. (2014) mengembangkan Adolescent Students’ Basic Psychological Needs at School Scale melalui beberapa studi dengan total sampel remaja yang besar dan membedakan autonomy, competence, dan relatedness. Instrument tersebut menjadi primary content candidate, tetapi belum dianggap validated untuk SMP DKI sebelum adaptation, cognitive interviewing, dan CFA.
+Lam et al. (2014) menunjukkan bahwa keterlibatan belajar dapat diukur sebagai konstruk multidimensional pada siswa usia sekolah menengah. Diniyah et al. (2025) juga menyediakan bukti adaptasi pengukuran keterlibatan siswa dalam konteks Indonesia. Keterlibatan belajar dipilih sebagai hasil utama karena dekat dengan proses belajar sehari-hari dan dapat berubah selama masa remaja (Salmela-Aro et al., 2021).
 
-BPNS diharapkan lebih proximal terhadap PTS → engagement pathway. Ryan dan Deci (2020), Bureau et al. (2022), Howard et al. (2025), dan Stroet et al. (2013) secara teoritis dan empiris mendukung sequence supportive context → need satisfaction/motivation → engagement. Karena itu, PTS → BPNS dan BPNS → engagement memperoleh directional hypotheses. SEC dan BPNS kemudian dibandingkan dalam joint model untuk menilai incremental explanatory association.
+Keterlibatan belajar tidak disamakan dengan nilai akademik, motivasi, kehadiran, atau penyesuaian sekolah. Variabel-variabel tersebut dapat berkaitan, tetapi tetap memiliki makna yang berbeda.
 
-### 2.2.5 Student Engagement in Learning
+## 2.3 Hubungan Antar Konstruk dan Penelitian Terdahulu
 
-Student Engagement in Learning didefinisikan sebagai kualitas keterlibatan aktif siswa dalam aktivitas belajar dan kehidupan sekolah yang mempunyai dimensi behavioral, affective/emotional, cognitive, dan bergantung framework dapat mencakup agentic dimension. Lam et al. (2014) memberikan cross-national evidence untuk multidimensional engagement pada siswa grade 7–9. Diniyah et al. (2025) menyediakan Indonesian secondary-school adaptation candidate yang menunjukkan feasibility pengukuran lokal.
+### 2.3.1 Mediasi Digital Orang Tua, Kompetensi Sosial-Emosional, dan Keterlibatan Belajar
 
-Engagement dipilih menggantikan generic “Kesiapan Belajar” karena construct boundary dan measurement literature lebih matang. Engagement juga sesuai dengan substantive problem karena bersifat proximal terhadap actual learning process dan menunjukkan developmental change selama adolescence (Salmela-Aro et al., 2021). Outcome ini tetap berbeda dari achievement, attendance, adjustment, motivation, dan SEC. Administrative achievement/attendance dapat digunakan sebagai auxiliary validity variables bila tersedia, tetapi tidak menjadi proxy engagement.
+Bukti paling konsisten mengenai mediasi digital orang tua masih banyak berasal dari hasil yang berkaitan dengan penggunaan internet dan kemampuan regulasi. Chen dan Chng (2016) menemukan hubungan longitudinal antara beberapa bentuk mediasi orang tua dengan regulasi diri dan regulasi emosi. Temuan ini mendukung dugaan bahwa praktik orang tua yang membimbing penggunaan digital dapat berkaitan dengan aspek tertentu dari Kompetensi Sosial-Emosional.
 
-Dalam longitudinal model, engagement diukur berulang dan baseline engagement dimasukkan. Keputusan tersebut penting karena prior engagement dapat menjadi predictor kuat terhadap future engagement dan dapat pula memengaruhi bagaimana siswa memperoleh atau mempersepsikan dukungan berikutnya. Dengan demikian, longitudinal analysis berusaha membedakan prospective association dari simple stable between-student differences.
+Namun, hubungan langsung Mediasi Digital Orang Tua dengan Keterlibatan Belajar belum dapat diasumsikan selalu positif. Perbedaan strategi dan kemungkinan hubungan dua arah antara orang tua dan anak membuat penelitian ini mempertahankan analisis berdasarkan jenis strategi, bukan menggunakan satu skor umum.
 
-## 2.3 Penelitian Terdahulu
+### 2.3.2 Dukungan Guru, Pemenuhan Kebutuhan Psikologis, dan Keterlibatan Belajar
 
-### 2.3.1 Family-digital context menuju student capacity dan engagement
+Hubungan antara Dukungan Guru dan Keterlibatan Belajar memiliki dasar teori dan bukti empiris yang lebih kuat. Meta-analisis menunjukkan bahwa siswa yang merasakan dukungan guru lebih tinggi cenderung menunjukkan keterlibatan belajar yang lebih tinggi (Tao et al., 2022). SDT memberikan penjelasan bahwa dukungan tersebut dapat membantu siswa merasa mampu, memiliki pilihan, dan merasa terhubung di sekolah (Ryan & Deci, 2020).
 
-Evidence DPM paling kuat saat ini berada pada digital behavior dan regulatory outcomes, bukan general school engagement. Chen dan Chng (2016) memberikan longitudinal evidence bahwa parental mediation berkaitan dengan online self-regulation/emotion regulation. Tong et al. (2024) menunjukkan reverse child effects yang berarti parenting tidak dapat diperlakukan sebagai fully exogenous. Huang et al. (2023) menunjukkan bahwa banyak parental media mediation specifications tidak menghasilkan substantial longitudinal effects pada smartphone-related outcomes. Temuan ini mendukung dua keputusan: DPM harus strategy-specific dan prior child functioning harus dipertimbangkan.
+Karena itu, jalur Dukungan Guru → Pemenuhan Kebutuhan Psikologis Dasar → Keterlibatan Belajar menjadi jalur teori yang paling langsung dalam penelitian ini. Jalur tersebut tidak dianggap pasti benar, tetapi memiliki dasar yang cukup kuat untuk dirumuskan sebagai hipotesis.
 
-DPM–SEC adjacency sudah ada. Cheng et al. (2024) meneliti DPM dan SEC terhadap cyberbullying roles. Karena outcome mereka berbeda, studi tersebut tidak menjawab pertanyaan engagement penelitian ini, tetapi cukup untuk menolak novelty DPM+SEC. Research value penelitian ini terletak pada prospective strategy-specific comparison, bukan first-combination claim.
+### 2.3.3 Kompetensi Sosial-Emosional dan Keterlibatan Belajar
 
-### 2.3.2 School-support context menuju engagement
+Santos et al. (2023) menunjukkan bahwa kompetensi sosial-emosional secara umum berkaitan positif dengan keterlibatan belajar. Siswa yang lebih mampu mengelola diri dan berhubungan dengan orang lain dapat lebih siap menghadapi kesulitan belajar, mengatur respons emosional, dan mempertahankan partisipasi dalam kegiatan sekolah.
 
-PTS–engagement adalah hubungan paling established dalam model. Vargas-Madriz et al. (2024) memberikan meta-analytic evidence dengan sample kumulatif besar, Tao et al. (2022) menghubungkan PTS, engagement, dan achievement, serta Martin et al. (2024) menunjukkan relation dengan trajectory selama adolescence. Namun, heterogeneity berdasarkan support domain, engagement dimension, study design, informant, dan school level menunjukkan bahwa satu global standardized effect tidak boleh diasumsikan berlaku pada SMP DKI.
+Meskipun demikian, kompetensi sosial-emosional bukan satu-satunya proses yang mungkin menjelaskan keterlibatan belajar. Penelitian mengenai dukungan belajar juga telah menunjukkan peran regulasi diri, motivasi, dan proses psikologis lain (Jelas et al., 2016; An et al., 2022). Karena itu, penelitian ini membandingkan Kompetensi Sosial-Emosional dengan Pemenuhan Kebutuhan Psikologis Dasar, bukan menganggap salah satunya sebagai satu-satunya penjelasan.
 
-Null/conditional evidence juga harus dipertahankan. Ansong et al. (2017) menunjukkan bahwa sumber social support dapat berbeda urutan kepentingannya dan teacher support tidak selalu mempertahankan direct relation ketika contexts lain dimodelkan. Evidence tersebut membuat model penelitian lebih falsifiable: PTS dapat menunjukkan association yang lebih kecil, tidak langsung, atau context-dependent setelah prior engagement, BPNS, SEC, dan clustering diperhitungkan.
+### 2.3.4 Sintesis Penelitian Terdahulu
 
-### 2.3.3 Competing mechanisms
+Secara umum, literatur mendukung tiga hal. Pertama, keluarga dan sekolah sama-sama merupakan konteks yang relevan bagi pengalaman belajar siswa. Kedua, Mediasi Digital Orang Tua harus dipahami berdasarkan jenis strategi karena dampaknya tidak seragam. Ketiga, Dukungan Guru mempunyai hubungan yang relatif konsisten dengan keterlibatan belajar dan secara teoritis dapat bekerja melalui pemenuhan kebutuhan psikologis dasar.
 
-SEC mempunyai systematic-review support terhadap engagement (Santos et al., 2023), tetapi direction belum settled. Martinez-Yarza et al. (2024) menunjukkan engagement dapat berada pada jalur menuju social-emotional development. Di sisi lain, SDT memberi explanation yang lebih proximal untuk PTS pathway melalui BPNS, dan literature self-regulation/self-efficacy juga menawarkan mechanism alternatif (Song et al., 2026). Wang et al. (2024) menunjukkan bahwa emotion regulation dapat menjadi longitudinal pathway teacher support–engagement pada konteks tertentu.
+Literatur juga menunjukkan bahwa Kompetensi Sosial-Emosional berkaitan dengan keterlibatan belajar, tetapi belum cukup untuk menganggapnya sebagai satu-satunya jalur penjelasan. Oleh sebab itu, penelitian ini membandingkan dua proses yang berbeda: Kompetensi Sosial-Emosional sebagai kemampuan siswa dan Pemenuhan Kebutuhan Psikologis Dasar sebagai pengalaman psikologis siswa di sekolah.
 
-Karena itu, literature review tidak menghasilkan satu “winner mechanism” sebelum data. Ia menghasilkan competing explanations yang harus dibedakan melalui design. SEC dipertahankan karena teorinya relevan dengan developmental capacity; BPNS dipertahankan karena lebih langsung diturunkan dari SDT; self-efficacy/SRL diakui sebagai rivals tetapi tidak seluruhnya dimasukkan sebagai primary mediators agar model tetap identifiable, interpretable, dan tidak berubah menjadi kitchen-sink SEM.
+## 2.4 Model Penelitian
 
-### 2.3.4 Cross-context family–school configurations
+Model penelitian dapat dijelaskan secara sederhana sebagai berikut:
 
-Jelas et al. (2016) dan Wang dan Eccles (2012) menunjukkan bahwa family, teacher, dan peer contexts telah lama dianalisis secara simultan dan kontribusinya dapat berbeda menurut engagement dimension. Song et al. (2026) juga menguji teacher dan parent support melalui self-regulation/self-efficacy menuju engagement. Dengan demikian, cross-context model bukan novelty.
+**Konteks keluarga digital**
 
-Pertanyaan yang masih bernilai adalah bagaimana **jenis** family context yang lebih spesifik—DPM—berhubungan dengan PTS. Two-context support dapat secara konseptual menunjukkan reinforcement jika high support dalam kedua konteks berkaitan dengan outcome yang lebih favorable daripada additive expectation, atau compensation jika satu konteks menjadi lebih penting ketika konteks lain lemah. Bioecological positioning membuat kedua possibilities plausible, tetapi tidak menentukan sign interaction. Karena itu, interaction diperlakukan sebagai power-gated competing prediction.
+Mediasi Digital Orang Tua → Kompetensi Sosial-Emosional → Keterlibatan Belajar
 
-## 2.4 Research Gap
+**Konteks sekolah**
 
-Literature synthesis menghasilkan empat kesimpulan. Pertama, tidak ada dasar untuk research gap berbasis “few studies” atau “no study combines X and Y”. Kedua, construct re-specification—DPM, PTS, SEC, engagement—merupakan syarat validitas, bukan novelty. Ketiga, evidence yang ada menunjukkan beberapa competing mechanisms dan reciprocal processes. Keempat, banyak adjacent studies menggunakan cross-sectional SEM sehingga temporal sequence tetap lebih lemah daripada yang dibutuhkan untuk mechanism discrimination.
+Dukungan Guru → Kompetensi Sosial-Emosional → Keterlibatan Belajar
 
-Research gap yang dipertahankan adalah **explanatory and identification problem**: belum cukup untuk menentukan apakah family-digital mediation strategies dan perceived teacher support mempunyai prospective association dengan engagement melalui mechanism yang sama atau berbeda; apakah SEC menambah explanatory value setelah BPNS dimodelkan; dan apakah observed associations bertahan ketika prior levels dan reciprocal ordering dipertimbangkan. Gap ini dapat menghasilkan kontribusi teoretis hanya apabila competing models benar-benar diuji dan hasilnya menunjukkan discriminating pattern, bukan hanya karena salah satu indirect effect signifikan.
+Dukungan Guru → Pemenuhan Kebutuhan Psikologis Dasar → Keterlibatan Belajar
 
-Gap kedua adalah **cross-context configuration uncertainty**. Reinforcement versus compensation belum menjadi klaim yang established untuk kombinasi DPM dan PTS dalam model ini. Namun, karena interaction tests membutuhkan power tinggi dan measurement yang stabil, contribution claim tersebut bersifat secondary dan hanya dipertahankan jika design planning memenuhi precision gate.
+Selain jalur tidak langsung tersebut, hubungan langsung Mediasi Digital Orang Tua dan Dukungan Guru dengan Keterlibatan Belajar juga diuji. Keterlibatan belajar sebelumnya diperhitungkan agar hubungan pada waktu berikutnya tidak hanya mencerminkan perbedaan awal antar siswa.
 
-Gap ketiga bersifat empiris: individual-level longitudinal evidence pada SMP DKI dengan construct-valid measures dan probability-oriented clustered sampling masih belum terverifikasi dalam audit ini. Ini merupakan empirical/contextual extension, bukan theoretical novelty. Nilainya bergantung pada kualitas design, bukan pada nama lokasi.
+Model ini sengaja dibatasi pada jalur yang mempunyai alasan teori dan bukti empiris yang cukup. Interaksi tambahan dan model yang lebih kompleks tidak menjadi fokus utama proposal.
 
-## 2.5 Model Penelitian
+## 2.5 Hipotesis Penelitian
 
-### 2.5.1 Confirmatory core
+Hipotesis dirumuskan hanya pada hubungan yang mempunyai arah teori dan bukti empiris yang cukup jelas.
 
-Model konseptual utama dibangun sebagai sequence longitudinal dengan repeated measures:
+**H1.** Dukungan Guru yang Dipersepsikan Siswa berhubungan positif dengan Keterlibatan Belajar pada waktu berikutnya setelah Keterlibatan Belajar sebelumnya diperhitungkan.
 
-**Contextual predictors at baseline**
+**H2.** Dukungan Guru yang Dipersepsikan Siswa berhubungan positif dengan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah pada waktu berikutnya.
 
-- strategy-specific Adolescent-Perceived DPM;
-- Perceived Teacher Support.
+**H3.** Pemenuhan Kebutuhan Psikologis Dasar di Sekolah berhubungan positif dengan Keterlibatan Belajar pada waktu berikutnya.
 
-**Competing student mechanisms**
+**H4.** Kompetensi Sosial-Emosional Siswa berhubungan positif dengan Keterlibatan Belajar pada waktu berikutnya.
 
-- Student Social-Emotional Competence;
-- Basic Psychological Need Satisfaction at School.
+**H5.** Mediasi Digital Orang Tua yang bersifat membantu atau membimbing berhubungan positif dengan Kompetensi Sosial-Emosional pada waktu berikutnya.
 
-**Outcome**
-
-- Student Engagement in Learning.
-
-Primary model comparison terdiri atas:
-
-- **M1 — SEC pathway:** contextual predictors pada T1 → SEC pada T2 → engagement pada T3, dengan baseline SEC dan engagement diperhitungkan.
-- **M2 — BPNS pathway:** terutama PTS pada T1 → BPNS pada T2 → engagement pada T3, dengan baseline BPNS dan engagement diperhitungkan.
-- **M3 — Joint competing-mechanism model:** SEC dan BPNS dimasukkan bersama untuk menilai incremental explanatory association masing-masing.
-- **M4 — Reciprocal sensitivity model:** engagement sebelumnya → later SEC/BPNS dan reciprocal support relations dianalisis sejauh model, wave structure, dan convergence memungkinkan.
-
-Model tersebut bukan causal mediation model. Estimand utama adalah prospective and temporally ordered statistical associations.
-
-### 2.5.2 Secondary cross-context model
-
-Jika Monte Carlo simulation menunjukkan power dan precision yang memadai, enabling DPM × PTS diuji terhadap SEC/BPNS/engagement yang ditetapkan sebelum preregistration. Dua competing predictions adalah reinforcement dan compensation. Apabila interaction target tidak adequately powered, model ini tidak digunakan untuk novelty claim.
-
-### 2.5.3 Rival explanations dan boundary conditions
-
-Rival explanations yang harus dipertimbangkan dalam DAG/design audit mencakup prior engagement, prior achievement, SES/parental education, general parenting, parental educational involvement, teacher-student relationship, instructional/classroom quality, peer support, dan school resources. Variabel tersebut tidak otomatis semuanya menjadi statistical controls; adjustment set ditetapkan berdasarkan causal/theoretical DAG untuk estimand spesifik agar tidak menciptakan overcontrol atau collider bias.
-
-Boundary conditions yang theoretically plausible mencakup developmental stage, type of DPM strategy, PTS dimension, informant, prior engagement, dan digital-use context. DKI tidak diperlakukan sebagai theoretical boundary hanya karena berbeda lokasi.
-
-## 2.6 Hipotesis dan Competing Predictions
-
-Hipotesis directional hanya diberikan ketika theory dan evidence cukup mendukung arah. Seluruh hipotesis dibaca sebagai hubungan prospektif, bukan causal effect.
-
-**H1.** Dukungan Guru yang Dipersepsikan Siswa pada baseline berhubungan positif secara prospektif dengan Keterlibatan Belajar berikutnya setelah Keterlibatan Belajar sebelumnya diperhitungkan.
-
-Dasar: meta-analytic dan longitudinal evidence PTS–engagement kuat secara rata-rata tetapi heterogeneous (Martin et al., 2024; Vargas-Madriz et al., 2024).
-
-**H2.** Dukungan Guru yang Dipersepsikan Siswa pada baseline berhubungan positif dengan Kebutuhan Psikologis Dasar di sekolah pada gelombang berikutnya setelah level sebelumnya diperhitungkan.
-
-Dasar: SDT memprediksi supportive context berkaitan dengan autonomy, competence, dan relatedness satisfaction (Bureau et al., 2022; Ryan & Deci, 2020).
-
-**H3.** Kebutuhan Psikologis Dasar di sekolah berhubungan positif secara prospektif dengan Keterlibatan Belajar berikutnya setelah level Kebutuhan Psikologis Dasar dan Keterlibatan Belajar sebelumnya diperhitungkan.
-
-Dasar: meta-analytic/review evidence need support dan need satisfaction berkaitan dengan engagement (Howard et al., 2025; Stroet et al., 2013).
-
-**H4.** Kompetensi Sosial-Emosional berhubungan positif secara prospektif dengan Keterlibatan Belajar berikutnya setelah level Kompetensi Sosial-Emosional dan Keterlibatan Belajar sebelumnya diperhitungkan.
-
-Dasar: systematic review menunjukkan association positif secara umum, dengan qualification bahwa reciprocal direction tetap diuji (Martinez-Yarza et al., 2024; Santos et al., 2023).
-
-**H5 — lower-confidence hypothesis.** Enabling/interpretative Digital Parental Mediation pada baseline berhubungan positif dengan selected social-emotional/regulatory capacities pada gelombang berikutnya setelah level sebelumnya diperhitungkan.
-
-Dasar: longitudinal evidence parental mediation paling dekat dengan self-regulation/emotion regulation dan belum membuktikan full SEC (Chen & Chng, 2016). Karena itu, hipotesis ini lebih lemah dan final domain-specific specification mengikuti instrument/measurement results.
-
-Tidak dibuat universal directional hypothesis untuk restrictive atau observant DPM. Kedua strategy families diuji karena evidence mixed dan outcome-dependent (Huang et al., 2023; Vossen et al., 2024).
-
-Dua pertanyaan tetap diposisikan sebagai **competing predictions**, bukan hipotesis satu arah:
-
-1. **Mechanism discrimination:** apakah temporally ordered indirect association lebih konsisten dengan SEC, BPNS, atau keduanya ketika kedua mechanisms dimodelkan bersama?
-2. **Cross-context configuration:** jika adequately powered, apakah enabling DPM dan PTS menunjukkan reinforcement atau compensation?
-
-Struktur ini memastikan hipotesis mengikuti theory dan evidence, bukan sekadar mengikuti bentuk diagram SEM yang diinginkan.
+Untuk strategi Mediasi Digital Orang Tua yang bersifat membatasi dan memantau, arah hubungan tidak ditetapkan sejak awal karena bukti sebelumnya masih beragam. Hubungan tidak langsung melalui Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar akan dibandingkan sebagai bagian dari pertanyaan penelitian, bukan dipaksakan sebagai satu hipotesis tunggal.
