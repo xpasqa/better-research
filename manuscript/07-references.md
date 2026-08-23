@@ -1,5 +1,7 @@
 # 07. References — Draft Daftar Pustaka
 
+An, F., Yu, J., & Xi, L. (2022). Relationship between perceived teacher support and learning engagement among adolescents: Mediation role of technology acceptance and learning motivation. *Frontiers in Psychology, 13*, 992464. https://doi.org/10.3389/fpsyg.2022.992464
+
 Badan Pusat Statistik Provinsi DKI Jakarta. (2025). *Profil pendidikan Provinsi DKI Jakarta 2024* (Publikasi No. 31000.25032). https://jakarta.bps.go.id/id/publication/2025/08/29/2a09a8113ca39915285504f3/profil-pendidikan-provinsi-dki-jakarta-2024.html
 
 Bharara, G., & Duncan, S. (2024). Preliminary development and validation of the positive school transition readiness survey (PSTRS). *Psychology in the Schools, 61*(3), 1217–1237. https://doi.org/10.1002/pits.23108
@@ -15,6 +17,8 @@ Costa, A., Moreira, D., Casanova, J., Azevedo, Â., Gonçalves, A., Oliveira, Í
 Durlak, J. A., Mahoney, J. L., & Boyle, A. E. (2022). What we know, and what we need to find out about universal, school-based social and emotional learning programs for children and adolescents: A review of meta-analyses and directions for future research. *Psychological Bulletin, 148*(11–12), 765–782. https://doi.org/10.1037/bul0000383
 
 Emslander, V., Holzberger, D., Ofstad, S. B., Fischbach, A., & Scherer, R. (2025). Teacher-student relationships and student outcomes: A systematic second-order meta-analytic review. *Psychological Bulletin, 151*(3), 365–397. https://doi.org/10.1037/bul0000461
+
+Jelas, Z. M., Azman, N., Zulnaidi, H., & Ahmad, N. (2016). Learning support and academic achievement among Malaysian adolescents: The mediating role of student engagement. *Learning Environments Research, 19*, 221–240. https://doi.org/10.1007/s10984-015-9202-5
 
 López-Martín, E., Gutiérrez-de-Rozas, B., González-Benito, A. M., & Expósito-Casas, E. (2023). Why do teachers matter? A meta-analytic review of how teacher characteristics and competencies affect students’ academic achievement. *International Journal of Educational Research, 120*, 102199. https://doi.org/10.1016/j.ijer.2023.102199
 
@@ -35,3 +39,5 @@ Tao, Y., Meng, Y., Gao, Z., & Yang, X. (2022). Perceived teacher support, studen
 Tong, W., He, W., Wang, Y., Xie, C., Fang, L., Jia, J., & Fang, X. (2024). Associations between internet-specific parenting, general parenting, and adolescents’ online behaviors: A cross-lagged panel network analysis. *Journal of Youth and Adolescence, 53*, 1847–1860. https://doi.org/10.1007/s10964-024-01981-0
 
 Wang, Y., Xia, M., Guo, W., Xu, F., & Zhao, Y. (2023). Academic performance under COVID-19: The role of online learning readiness and emotional competence. *Current Psychology, 42*(34), 30562–30575. https://doi.org/10.1007/s12144-022-02699-7
+
+Yin, Z., Guo, W., & Wang, Y. (2023). The effect of psychological distress on adolescents’ academic engagement: The roles of social-emotional competence and teachers’ caring behavior. *Psychology Research and Behavior Management, 16*, 5011–5021. https://doi.org/10.2147/PRBM.S438998
