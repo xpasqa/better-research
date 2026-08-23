@@ -1,23 +1,27 @@
-# Bab 1. Latar Belakang
+# BAB 1 — PENDAHULUAN
 
-<!-- TODO GEMMA: isi konteks utama, objek penelitian, masalah penelitian, research gap, rumusan masalah, tujuan penelitian, dan kontribusi penelitian setelah topik disertasi Gemma ditetapkan. -->
+<!-- CANONICAL WORKING OUTLINE GEMMA — Issue #6. Status: project decision informed by verified UI-wide requirements and PPIM/Ilmu Manajemen precedent; not claimed as a universal UI/PPIM mandate. -->
 
-## 1.1 Konteks Penelitian
+## 1.1 Latar Belakang
 
-<!-- TODO: tambahkan konteks empiris dan akademik disertasi Gemma. -->
+<!-- TODO: rekonstruksi problem-driven berdasarkan Issue #1, #2, #4, dan #3. -->
 
-## 1.2 Masalah Penelitian
+## 1.2 Penelitian Terdahulu
 
-<!-- TODO: rumuskan masalah penelitian berdasarkan evidence yang terverifikasi. -->
+<!-- TODO: ringkas state of evidence yang paling langsung terkait research problem; sintesis, bukan citation dumping. -->
 
-## 1.3 Rumusan Masalah
+## 1.3 Masalah dan Pertanyaan Penelitian
 
-<!-- TODO: susun pertanyaan penelitian Gemma. -->
+<!-- TODO: nyatakan formal research problem, unit analisis, dan pertanyaan penelitian yang selaras dengan model direct/indirect paths. -->
 
-## 1.4 Tujuan Penelitian
+## 1.4 Kesenjangan Penelitian
 
-<!-- TODO: susun tujuan penelitian Gemma. -->
+<!-- TODO: tulis gap hanya setelah evidence audit dan falsification search; bedakan explanatory/mechanism, configuration/measurement, level-of-analysis, dan boundary-condition gap. -->
 
-## 1.5 Kontribusi Penelitian
+## 1.5 Tujuan Penelitian
 
-<!-- TODO: jelaskan kontribusi teoritis, metodologis, dan praktis secara proporsional. -->
+<!-- TODO: one-to-one alignment dengan pertanyaan penelitian. -->
+
+## 1.6 Ruang Lingkup Penelitian
+
+<!-- TODO: tetapkan setting DKI Jakarta, populasi siswa SMP, unit analisis individu siswa, konstruk, sampling boundary, dan batas inferensi/generalisasi. -->
