@@ -8,6 +8,8 @@ Basharpoor, S., Heidari, F., Narimani, M., & Barahmand, U. (2020). School adjust
 
 Bharara, G., & Duncan, S. (2024). Preliminary development and validation of the positive school transition readiness survey (PSTRS). *Psychology in the Schools, 61*(3), 1217–1237. https://doi.org/10.1002/pits.23108
 
+Bureau, J. S., Howard, J. L., Chong, J. X. Y., & Guay, F. (2022). Pathways to student motivation: A meta-analysis of antecedents of autonomous and controlled motivations. *Review of Educational Research, 92*(1), 46–72. https://doi.org/10.3102/00346543211042426
+
 Chen, V., & Chng, G. (2016). Active and restrictive parental mediation over time: Effects on youths’ self-regulatory competencies and impulsivity. *Computers & Education, 98*, 206–212. https://doi.org/10.1016/j.compedu.2016.03.012
 
 Cipriano, C., Strambler, M., Naples, L. H., Ha, C., Kirk, M. A., Wood, M., Sehgal, K., Zieher, A. K., Eveleigh, A., McCarthy, M. F., Funaro, M., Ponnock, A. R., Chow, J. C., & Durlak, J. (2023). The state of evidence for social and emotional learning: A contemporary meta-analysis of universal school-based SEL interventions. *Child Development, 94*(5), 1181–1204. https://doi.org/10.1111/cdev.13968
@@ -27,6 +29,8 @@ Durlak, J., Mahoney, J. L., & Boyle, A. E. (2022). What we know, and what we nee
 Emslander, V., Holzberger, D., Ofstad, S., Fischbach, A., & Scherer, R. (2025). Teacher-student relationships and student outcomes: A systematic second-order meta-analytic review. *Psychological Bulletin, 151*(3), 365–397. https://doi.org/10.1037/bul0000461
 
 Ho, S., Lwin, M. O., Chen, L., & Chen, M. (2019). Development and validation of a parental social media mediation scale across child and parent samples. *Internet Research, 30*(2), 677–694. https://doi.org/10.1108/INTR-02-2018-0061
+
+Howard, J. L., Slemp, G. R., & Wang, X. (2025). Need support and need thwarting: A meta-analysis of autonomy, competence, and relatedness supportive and thwarting behaviors in student populations. *Personality and Social Psychology Bulletin, 51*(9), 1552–1573. https://doi.org/10.1177/01461672231225364
 
 Huang, S., Lai, X., Li, Y., Wang, W., Zhao, X., Dai, X., Wang, H., & Wang, Y. (2023). Does parental media mediation make a difference for adolescents? Evidence from an empirical cohort study of parent-adolescent dyads. *Heliyon, 9*(4), e14897. https://doi.org/10.1016/j.heliyon.2023.e14897
 
@@ -74,11 +78,15 @@ Rosa, E. M., & Tudge, J. (2013). Urie Bronfenbrenner’s theory of human develop
 
 Ruzek, E. A., Aldrup, K., & Lüdtke, O. (2022). Assessing the effects of student perceptions of instructional quality: A cross-subject within-student design. *Contemporary Educational Psychology, 70*, 102085. https://doi.org/10.1016/j.cedpsych.2022.102085
 
+Ryan, R. M., & Deci, E. L. (2020). Intrinsic and extrinsic motivation from a self-determination theory perspective: Definitions, theory, practices, and future directions. *Contemporary Educational Psychology, 61*, 101860. https://doi.org/10.1016/j.cedpsych.2020.101860
+
 Salmela-Aro, K., Tang, X., Symonds, J., & Upadyaya, K. (2021). Student engagement in adolescence: A scoping review of longitudinal studies 2010–2020. *Journal of Research on Adolescence, 31*(2), 256–272. https://doi.org/10.1111/jora.12619
 
 Santos, A. C., Simões, C., Melo, M. H. S., Santos, M. F., Freitas, I., Branquinho, C., Cefai, C., & Arriaga, P. (2023). A systematic review of the association between social and emotional competencies and student engagement in youth. *Educational Research Review, 39*, 100535. https://doi.org/10.1016/j.edurev.2023.100535
 
 Setiyorini, S. R., Isnaeni, W., & Ridlo, S. (2025). Psychometric evaluation of a social-emotional competence assessment instrument for high school students: Evidence of construct validity and reliability. *REID (Research and Evaluation in Education), 11*(2), 199–209. https://doi.org/10.21831/reid.v11i2.89685
+
+Stroet, K., Opdenakker, M.-C., & Minnaert, A. (2013). Effects of need supportive teaching on early adolescents’ motivation and engagement: A review of the literature. *Educational Research Review, 9*, 65–87. https://doi.org/10.1016/j.edurev.2012.11.003
 
 Symons, K., Ponnet, K., Emmery, K., Walrave, M., & Heirman, W. (2017). A factorial validation of parental mediation strategies with regard to internet use. *Psychologica Belgica, 57*(2), 93–111. https://doi.org/10.5334/pb.372
 
@@ -91,6 +99,8 @@ Ulfa, A., Kendhawati, L., & Moeliono, M. F. (2025). Adapting internet parental m
 Vargas-Madriz, L. F., Konishi, C., & Wong, T. K. Y. (2024). A meta-analysis of the association between teacher support and school engagement. *Social Development, 33*(4), e12745. https://doi.org/10.1111/sode.12745
 
 Vossen, H. G. M., van den Eijnden, R. J. J. M., Visser, I., & Koning, I. M. (2024). Parenting and problematic social media use: A systematic review. *Current Addiction Reports, 11*, 511–527. https://doi.org/10.1007/s40429-024-00559-x
+
+Wang, M.-T., & Eccles, J. S. (2012). Social support matters: Longitudinal effects of social support on three dimensions of school engagement from middle to high school. *Child Development, 83*(3), 877–895. https://doi.org/10.1111/j.1467-8624.2012.01745.x
 
 Wang, Y., Xia, M., Guo, W., Xu, F., & Zhao, Y. (2023). Academic performance under COVID-19: The role of online learning readiness and emotional competence. *Current Psychology, 42*(34), 30562–30575. https://doi.org/10.1007/s12144-022-02699-7
 
