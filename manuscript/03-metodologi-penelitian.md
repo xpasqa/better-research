@@ -1,27 +1,42 @@
 # Bab 3. Metodologi Penelitian
 
-<!-- STATUS: scaffold akademik awal. Bab ini BELUM final karena terdapat controlled unresolved design decision antara proposal awal (kuantitatif explanatory, SEM-PLS) dan roadmap project management (explanatory sequential mixed method: kuantitatif -> kualitatif -> integrasi). Jangan menganggap keputusan desain sudah selesai sebelum dikonfirmasi. -->
+<!-- STATUS: core research design RESOLVED on Issue #29. Final design = explanatory sequential mixed methods with quantitative priority (QUAN -> QUAL -> integration). Remaining TODOs concern sampling frame, instrument verification, SEM justification, qualitative protocol detail, and ethics/field-access feasibility. -->
 
 ## 3.1 Pendekatan dan Desain Penelitian
 
-Proposal awal menyatakan penelitian menggunakan pendekatan kuantitatif dengan desain *explanatory research* dan analisis Structural Equation Modeling–Partial Least Squares (SEM-PLS). Namun, roadmap project management menetapkan Stage 8 sebagai penetapan desain *explanatory sequential mixed method*, kemudian Stage 10 mengintegrasikan SEM-PLS dengan analisis kualitatif menggunakan NVivo, *thematic coding*, dan triangulasi.
+Penelitian ini menggunakan **explanatory sequential mixed methods** dengan prioritas pada fase kuantitatif (**QUAN → QUAL → integration**). Pemilihan desain ini didasarkan pada kebutuhan research question dan research gap, bukan pada anggapan bahwa mixed methods lebih canggih daripada desain kuantitatif tunggal. Fase kuantitatif digunakan untuk menguji model hubungan Kepemimpinan Digital, Lingkungan Kerja Digital, Keterikatan Personel, dan Kinerja Personel pada tingkat individu. Fase kualitatif kemudian digunakan secara terarah untuk menjelaskan pola hasil kuantitatif yang penting, lemah, tidak terduga, heterogeneous, atau sangat bergantung pada konteks operational policing.
 
-Karena kedua dokumen tersebut belum sepenuhnya selaras, Bab III pada tahap ini mempertahankan dua kemungkinan desain tanpa menetapkan salah satunya secara prematur.
+Sequential explanatory design secara umum menempatkan pengumpulan dan analisis kuantitatif pada fase pertama, diikuti fase kualitatif yang dibangun dari hasil kuantitatif dan kemudian diintegrasikan pada tahap interpretasi (Ivankova et al., 2006). Integrasi tidak cukup dilakukan hanya dengan menempatkan hasil kuantitatif dan kualitatif dalam dua bagian terpisah. Fetters et al. (2013) menekankan bahwa integrasi dapat dilakukan pada level desain, metode, dan interpretasi melalui proses seperti *connecting*, *building*, *merging*, dan *joint display*. Dalam penelitian ini, fase kualitatif akan dihubungkan langsung dengan hasil fase kuantitatif sehingga mempunyai explanatory value yang jelas.
 
-### Opsi A — Kuantitatif Explanatory
+Desain mixed methods ini **tidak** diperlakukan sebagai strategi causal identification. Apabila fase kuantitatif bersifat observational, structural paths dan indirect effects tetap harus ditafsirkan secara hati-hati. Reverse causality, omitted variables, self-selection, dan common-method bias tidak hilang hanya karena penelitian memiliki fase kualitatif.
 
-Apabila proposal awal dipertahankan, desain penelitian akan menggunakan survei kuantitatif untuk menguji hubungan langsung dan tidak langsung antara Kepemimpinan Digital, Lingkungan Kerja Digital, Keterikatan Personel, dan Kinerja Personel dengan SEM-PLS.
+### 3.1.1 Fase Kuantitatif (QUAN — Prioritas Utama)
 
-### Opsi B — Explanatory Sequential Mixed Method
+Fase kuantitatif bertujuan untuk:
 
-Apabila roadmap project management dikunci sebagai desain final, penelitian akan dilakukan secara berurutan:
+1. menguji measurement model untuk keempat konstruk;
+2. menguji hubungan X1→Z, X2→Z, X1→Y, X2→Y, dan Z→Y;
+3. menguji indirect effects X1→Z→Y dan X2→Z→Y;
+4. menilai arah dan besaran hubungan, confidence interval, effect size, explanatory/predictive relevance, dan robustness;
+5. mengidentifikasi temuan yang perlu dijelaskan lebih lanjut pada fase kualitatif.
 
-1. tahap kuantitatif untuk menguji model struktural;
-2. tahap kualitatif untuk menjelaskan atau memperdalam temuan kuantitatif terpilih;
-3. tahap integrasi untuk menghubungkan hasil kuantitatif dan kualitatif.
+Fase kuantitatif merupakan sumber utama untuk menjawab tujuh pertanyaan penelitian substantif yang telah ditetapkan di Bab I.
 
-<!-- TODO: keputusan final desain harus dikonfirmasi sebelum finalisasi Bab III. -->
-<!-- TODO: setelah desain dipilih, hapus opsi yang tidak digunakan dari manuscript final tetapi pertahankan jejak keputusan pada revision log. -->
+### 3.1.2 Fase Kualitatif (QUAL — Explanatory Follow-up)
+
+Fase kualitatif tidak dirancang untuk mengulang survei dalam bentuk wawancara atau untuk meminta informan mengonfirmasi teori. Fase ini diarahkan untuk menjelaskan *why/how* dari temuan kuantitatif terpilih, termasuk kemungkinan peran technostress, digital self-efficacy, empowerment, organizational culture, system integration, discretion/control, user adaptation, atau kondisi lain yang muncul secara empiris.
+
+Pertanyaan kualitatif operasional akan dibangun setelah hasil QUAN tersedia. Purpose yang dikunci adalah:
+
+> Bagaimana personel menjelaskan pola kuantitatif terpilih mengenai hubungan Kepemimpinan Digital, Lingkungan Kerja Digital, Keterikatan Personel, dan Kinerja Personel, termasuk kondisi yang memperkuat, melemahkan, atau menantang mekanisme yang dihipotesiskan?
+
+### 3.1.3 Pertanyaan Integrasi Mixed Methods
+
+Pertanyaan integrasi penelitian adalah:
+
+> Bagaimana temuan kualitatif menjelaskan, mengkualifikasi, atau menantang hasil kuantitatif mengenai konfigurasi Kepemimpinan Digital–Lingkungan Kerja Digital–Keterikatan Personel–Kinerja Personel pada konteks operational policing?
+
+Pertanyaan integrasi tersebut tidak menambah variabel baru ke model kuantitatif. Fungsinya adalah menghasilkan *meta-inference* yang lebih informatif dibanding interpretasi masing-masing fase secara terpisah. Hirose dan Creswell (2022) menempatkan rationale mixed methods, separate quantitative/qualitative data, explicit integration, joint display, dan meta-inference sebagai elemen penting quality criteria mixed methods.
 
 ## 3.2 Lokasi dan Konteks Penelitian
 
@@ -32,9 +47,9 @@ Penelitian dilakukan pada Korps Brimob Polri sebagai konteks organisasi kepolisi
 
 ## 3.3 Unit Analisis
 
-Unit analisis utama diarahkan pada **personel Korps Brimob Polri pada tingkat individual**, karena variabel dependen penelitian adalah Kinerja Personel atau *individual work performance*.
+Unit analisis utama adalah **personel Korps Brimob Polri pada tingkat individual**, karena variabel dependen penelitian adalah Kinerja Personel atau *individual work performance*.
 
-Implikasinya, indikator kinerja unit organisasi, seperti LKIP, tidak diperlakukan sebagai pengukuran langsung variabel Kinerja Personel. Data organisasi dapat digunakan sebagai konteks, sedangkan pengukuran model harus dilakukan pada level individu yang konsisten.
+Implikasinya, indikator kinerja unit organisasi seperti LKIP tidak diperlakukan sebagai pengukuran langsung Kinerja Personel. Data organisasi dapat digunakan sebagai konteks dan bahan triangulasi pada fase integrasi, sedangkan measurement model kuantitatif tetap berada pada level individu.
 
 ## 3.4 Populasi Penelitian
 
@@ -46,22 +61,36 @@ Populasi penelitian adalah personel Korps Brimob Polri yang memenuhi kriteria in
 
 ## 3.5 Sampel dan Teknik Sampling
 
-Teknik sampling belum ditetapkan secara final. Pemilihan teknik harus mengikuti struktur populasi, akses lapangan, kebutuhan representasi unit/satuan, dan kebutuhan analisis SEM-PLS, bukan sekadar aturan praktis jumlah sampel.
+### 3.5.1 Sampel Kuantitatif
+
+Teknik sampling kuantitatif belum ditetapkan secara final. Pemilihan teknik harus mengikuti struktur populasi, akses lapangan, kebutuhan representasi unit/satuan, dan tujuan inferensi. Ukuran sampel tidak boleh hanya didasarkan pada *10-times rule*.
 
 Bagian final harus mencakup:
 
 1. sampling frame;
 2. teknik sampling;
 3. kriteria inklusi dan eksklusi;
-4. prosedur penentuan ukuran sampel;
-5. antisipasi nonresponse dan data tidak lengkap.
+4. power/precision-based sample-size rationale;
+5. antisipasi nonresponse dan data tidak lengkap;
+6. pertimbangan clustering/unit structure bila relevan.
 
-<!-- TODO: jangan gunakan “10-times rule” sebagai satu-satunya justifikasi ukuran sampel. -->
-<!-- TODO: gunakan power analysis atau pendekatan penentuan sampel yang konsisten dengan model dan tujuan inferensi. -->
+<!-- TODO: pilih probability/nonprobability sampling berdasarkan akses aktual dan target inferensi; dokumentasikan konsekuensi generalizability. -->
+
+### 3.5.2 Sampel Kualitatif
+
+Informan fase kualitatif dipilih secara purposive berdasarkan explanatory value dari hasil QUAN. Candidate selection logic dapat mencakup:
+
+- personel dengan X1/X2 relatif tinggi tetapi Z/Y rendah;
+- personel dengan X1/X2 relatif rendah tetapi Z/Y relatif tinggi;
+- kasus yang mewakili jalur mediasi lemah atau tidak terduga;
+- variasi unit/fungsi yang relevan apabila data dan sampling frame mendukung;
+- *negative/deviant cases* yang dapat menantang interpretasi awal.
+
+Jumlah informan tidak ditetapkan dengan angka arbitrer pada tahap proposal. Adequacy dinilai berdasarkan information richness, coverage of relevant patterns, negative cases, dan kebutuhan integrasi.
 
 ## 3.6 Variabel dan Definisi Operasional
 
-Model penelitian menggunakan empat konstruk utama:
+Model kuantitatif menggunakan empat konstruk utama:
 
 | Kode | Variabel | Peran dalam Model | Level Analisis |
 |---|---|---|---|
@@ -86,9 +115,9 @@ Definisi operasional harus sesuai dengan skala Digital Workplace yang digunakan.
 
 ### 3.6.3 Keterikatan Personel
 
-Keterikatan Personel merujuk pada *work engagement*. Pengukuran potensial dapat mengacu pada instrumen yang mengukur *vigor*, *dedication*, dan *absorption*, tetapi versi instrumen final belum ditetapkan.
+Keterikatan Personel merujuk pada *work engagement*, yang secara konseptual mencakup vigor, dedication, dan absorption.
 
-<!-- TODO: verifikasi relevansi dan lisensi/penggunaan instrumen, termasuk UWES apabila dipilih. -->
+<!-- TODO: verifikasi relevansi, izin/lisensi penggunaan, versi instrumen, dan prosedur adaptasi bahasa termasuk UWES apabila dipilih. -->
 
 ### 3.6.4 Kinerja Personel
 
@@ -98,200 +127,225 @@ Kinerja Personel merujuk pada *individual work performance*, bukan kinerja organ
 
 ## 3.7 Jenis dan Sumber Data
 
-### 3.7.1 Data Primer
+### 3.7.1 Data Primer Kuantitatif
 
-Pada desain kuantitatif, data primer diperoleh dari respons kuesioner personel.
+Data primer kuantitatif diperoleh dari kuesioner personel yang memenuhi kriteria penelitian.
 
-Apabila mixed method dipilih, data primer juga akan mencakup wawancara mendalam pada informan yang dipilih berdasarkan kebutuhan penjelasan temuan kuantitatif.
+### 3.7.2 Data Primer Kualitatif
 
-### 3.7.2 Data Sekunder
+Data primer kualitatif diperoleh melalui wawancara mendalam terhadap informan yang dipilih berdasarkan hasil fase kuantitatif. Recontact untuk wawancara hanya dilakukan apabila informed consent, izin etik, dan prosedur data linkage memungkinkan.
 
-Data sekunder dapat mencakup regulasi, laporan institusional, dokumen kinerja, kebijakan transformasi digital, dan dokumen lain yang relevan dengan konteks Korbrimob.
+### 3.7.3 Data Sekunder
 
-<!-- TODO: data sekunder digunakan sebagai konteks dan triangulasi, bukan otomatis sebagai pengukuran variabel individual. -->
+Data sekunder dapat mencakup regulasi, laporan institusional, dokumen kinerja, kebijakan transformasi digital, dan dokumen lain yang relevan dengan konteks Korbrimob. Data sekunder digunakan sebagai konteks/triangulasi dan tidak otomatis menjadi pengukuran variabel individual.
 
 ## 3.8 Teknik Pengumpulan Data
 
 ### 3.8.1 Kuesioner
 
-Proposal awal menyebut penggunaan kuesioner dengan skala Likert lima poin. Instrumen penelitian akan diadaptasi dari instrumen terdahulu yang telah diuji validitas dan reliabilitasnya, tetapi sumber skala final untuk setiap konstruk belum ditetapkan.
+Instrumen penelitian akan diadaptasi dari skala yang memiliki basis validitas dan reliabilitas. Format respons asli setiap instrumen harus diverifikasi sebelum diseragamkan.
 
-<!-- TODO: verifikasi skala respons asli dari setiap instrumen; jangan mengubah ke Likert lima poin tanpa justifikasi apabila instrumen asli menggunakan format berbeda. -->
-<!-- TODO: dokumentasikan translation/back-translation atau prosedur adaptasi bahasa jika instrumen berbahasa asing. -->
+<!-- TODO: jangan mengubah seluruh skala menjadi Likert lima poin tanpa justifikasi apabila format asli berbeda. -->
+<!-- TODO: dokumentasikan translation/back-translation atau prosedur adaptasi lintas bahasa yang dipilih. -->
 
-### 3.8.2 Wawancara Mendalam — Jika Mixed Method Dipilih
+### 3.8.2 Temporal Separation pada Fase Kuantitatif
 
-Tahap kualitatif diarahkan untuk menjelaskan hasil kuantitatif yang memerlukan elaborasi, misalnya jalur yang lemah/tidak signifikan, pola mediasi, perbedaan antarunit, atau pengalaman personel dalam mengintegrasikan teknologi ke pekerjaan.
+Karena model mengandung mediation, implementasi yang lebih kuat adalah memisahkan pengukuran secara temporal apabila akses lapangan memungkinkan, misalnya:
 
-<!-- TODO: finalisasi tujuan wawancara setelah hasil kuantitatif tersedia; jangan membuat fase kualitatif sebagai komponen dekoratif. -->
+- T1: Kepemimpinan Digital, Lingkungan Kerja Digital, dan covariates;
+- T2: Keterikatan Personel;
+- T3: Kinerja Personel.
 
-### 3.8.3 Dokumentasi
+Temporal separation dapat memperbaiki temporal ordering dan mengurangi sebagian common-method inflation, tetapi tidak menghasilkan causal identification dengan sendirinya. Jika feasibility hanya memungkinkan single-wave survey, konsekuensi terhadap inference harus dinyatakan eksplisit.
 
-Dokumentasi digunakan untuk memperoleh konteks regulasi, kelembagaan, dan transformasi digital yang relevan dengan penelitian.
+<!-- TODO: lakukan feasibility check untuk one-wave versus multi-wave data collection setelah akses lapangan dipastikan. -->
+
+### 3.8.3 Wawancara Mendalam
+
+Interview guide dibangun dari temuan QUAN yang membutuhkan explanation. Wawancara diarahkan pada pengalaman kerja digital, dukungan kepemimpinan, integrasi sistem, resources/demands, engagement, kondisi yang membantu/menghambat kinerja, serta rival explanations yang relevan. Pertanyaan harus netral dan tidak mengarahkan informan untuk membenarkan model.
+
+### 3.8.4 Dokumentasi
+
+Dokumentasi digunakan untuk memperoleh konteks regulasi, kelembagaan, transformasi digital, dan informasi nonindividual lain yang relevan dengan interpretation/integration.
 
 ## 3.9 Pengembangan dan Pengujian Instrumen
 
 Tahapan yang perlu ditetapkan meliputi:
 
-1. pemilihan skala berbasis literatur;
-2. evaluasi kesesuaian konsep dengan setting Korbrimob;
+1. pemilihan skala berbasis literature dan construct match;
+2. evaluasi kesesuaian dengan setting Korbrimob;
 3. adaptasi bahasa dan konteks;
-4. expert review/content validity apabila diperlukan;
-5. pilot test;
+4. expert review/content validity bila diperlukan;
+5. cognitive interview/pilot test bila relevan;
 6. evaluasi reliabilitas dan validitas konstruk pada data penelitian.
 
-<!-- TODO: tentukan prosedur pilot study dan jumlah peserta pilot berdasarkan kebutuhan metodologis, bukan angka arbitrer. -->
+<!-- TODO: tentukan prosedur pilot/cognitive testing berdasarkan kebutuhan metodologis, bukan angka arbitrer. -->
 
 ## 3.10 Prosedur Penelitian
 
-Prosedur penelitian final akan mengikuti desain yang dipilih.
+Prosedur penelitian mengikuti urutan explanatory sequential:
 
-### Jika Kuantitatif Explanatory
-
-1. finalisasi instrumen;
-2. izin dan akses lapangan;
-3. penentuan sampel;
-4. pengumpulan data survei;
-5. pembersihan dan screening data;
-6. analisis measurement model;
-7. analisis structural model dan mediasi;
-8. interpretasi hasil.
-
-### Jika Explanatory Sequential Mixed Method
-
-1. finalisasi instrumen kuantitatif;
-2. pengumpulan dan analisis data kuantitatif;
-3. pemilihan temuan yang perlu dijelaskan;
-4. pemilihan informan kualitatif;
-5. wawancara mendalam;
-6. coding dan analisis tematik;
-7. integrasi hasil kuantitatif dan kualitatif;
-8. penarikan meta-inference yang tetap memperhatikan batas desain.
+1. finalisasi model, instrumen, sampling frame, izin, dan ethical protocol;
+2. pengumpulan data fase QUAN;
+3. data screening dan analisis measurement/structural model;
+4. penetapan hasil QUAN yang membutuhkan explanation berdasarkan kriteria yang terdokumentasi;
+5. pemilihan informan QUAL melalui purposive follow-up sampling;
+6. pembangunan interview guide dari hasil QUAN (*building*);
+7. wawancara dan analisis kualitatif;
+8. integrasi QUAN dan QUAL melalui joint display dan narrative weaving;
+9. penarikan meta-inference dengan tetap mempertahankan batas causal inference dan generalizability.
 
 ## 3.11 Teknik Analisis Data Kuantitatif
 
-Proposal awal menetapkan SEM-PLS sebagai teknik analisis utama. Penggunaan SEM-PLS harus dijustifikasi berdasarkan karakter model, tujuan analisis, sifat konstruk, dan kondisi data; bukan karena metode dianggap lebih canggih.
+SEM-PLS direncanakan sebagai teknik analisis utama sesuai proposal awal, tetapi penggunaannya harus dibenarkan berdasarkan karakter model, tujuan analisis, measurement specification, sifat data, dan inferential target. SEM-PLS tidak digunakan hanya karena dianggap lebih modern atau lebih canggih.
 
 ### 3.11.1 Data Screening
 
-<!-- TODO: tetapkan prosedur missing data, straight-lining, response quality, outlier, dan deskriptif sampel. -->
+Analisis awal mencakup kualitas respons, missing data, straight-lining, outlier yang relevan, distribusi deskriptif, dan pemeriksaan pola nonresponse jika data memungkinkan.
 
-### 3.11.2 Evaluasi Model Pengukuran (*Outer Model*)
+<!-- TODO: tetapkan decision rules dan sumber metodologis final. -->
 
-Kriteria evaluasi akan disesuaikan dengan jenis konstruk reflektif atau formatif yang akhirnya ditetapkan.
+### 3.11.2 Evaluasi Model Pengukuran
 
-Untuk konstruk reflektif, evaluasi umumnya mencakup:
+Kriteria evaluasi mengikuti jenis konstruk reflektif atau formatif yang akhirnya ditetapkan. Untuk konstruk reflektif, evaluasi sekurang-kurangnya mencakup indicator reliability, internal consistency, convergent validity, dan discriminant validity.
 
-- outer loading;
-- internal consistency reliability;
-- convergent validity;
-- discriminant validity.
+<!-- TODO: tetapkan threshold/source metodologis final dan jangan menerapkan cut-off secara mekanistik. -->
 
-<!-- TODO: tetapkan threshold dan sumber metodologis final; jangan copy cutoff tanpa konteks. -->
+### 3.11.3 Evaluasi Model Struktural
 
-### 3.11.3 Evaluasi Model Struktural (*Inner Model*)
-
-Evaluasi model struktural diarahkan pada:
+Evaluasi diarahkan pada:
 
 - collinearity;
 - path coefficients;
-- uncertainty/significance melalui bootstrapping;
+- bootstrapped uncertainty/confidence intervals;
 - coefficient of determination;
 - effect size;
-- predictive/explanatory relevance sesuai tujuan penelitian.
+- explanatory/predictive relevance sesuai tujuan;
+- robustness/sensitivity checks yang relevan.
 
-Interpretasi tidak boleh berhenti pada *p-value*. Effect size, confidence interval, arah hubungan, dan substantive significance harus dipertimbangkan.
+Interpretasi tidak boleh berhenti pada *p-value*.
 
 ### 3.11.4 Pengujian Mediasi
 
 Jalur mediasi yang diuji adalah:
 
-- Kepemimpinan Digital -> Keterikatan Personel -> Kinerja Personel;
-- Lingkungan Kerja Digital -> Keterikatan Personel -> Kinerja Personel.
+- Kepemimpinan Digital → Keterikatan Personel → Kinerja Personel;
+- Lingkungan Kerja Digital → Keterikatan Personel → Kinerja Personel.
 
-Pengujian indirect effect dilakukan melalui bootstrapping. Klasifikasi mediasi harus mengikuti pola direct dan indirect effects secara hati-hati dan tidak dipakai untuk mengklaim causal mediation apabila desain tidak mendukung identifikasi kausal.
+Indirect effects diuji melalui bootstrapping. Mediation tidak diperlakukan sebagai causal mediation apabila desain tidak memenuhi kebutuhan identifikasi kausal.
 
-### 3.11.5 Pengujian “Simultan”
+### 3.11.5 Status H8/H9 “Simultan”
 
-Proposal awal mencantumkan H8 dan H9 sebagai pengaruh simultan. Statusnya belum final. Dalam SEM, konsep “simultan” perlu diterjemahkan secara tepat ke evaluasi model dan bukan secara otomatis diperlakukan seperti uji F pada regresi linear biasa.
+Sesuai keputusan #28, H8/H9 tidak diposisikan sebagai substantive research questions atau kontribusi teoritis tersendiri. Apabila format institusi tetap memerlukan evaluasi joint effects, hasil tersebut dapat dilaporkan sebagai supplementary/model-level tests. Pelaporan ini tidak disamakan dengan uji F regresi linear biasa dan tidak menambah hipotesis substantif baru.
 
-<!-- TODO: putuskan apakah H8/H9 dipertahankan sebagai model-level tests, direformulasi, atau dikeluarkan dari hipotesis substantif. -->
+## 3.12 Teknik Analisis Data Kualitatif
 
-## 3.12 Teknik Analisis Data Kualitatif — Jika Mixed Method Dipilih
+Data wawancara dianalisis dengan thematic analysis yang diarahkan pada tujuan explanatory. Proses mencakup:
 
-Jika desain explanatory sequential dipilih, analisis kualitatif diarahkan pada *thematic analysis* atas hasil wawancara dan dapat dibantu dengan NVivo.
-
-Proses awal yang direncanakan:
-
-1. transkripsi dan familiarisasi data;
+1. familiarisasi data;
 2. coding awal;
 3. pengembangan kategori/tema;
-4. pemeriksaan rival explanations dan negative cases;
-5. triangulasi dengan dokumen atau temuan kuantitatif yang relevan;
-6. interpretasi tema dalam kaitannya dengan hasil model kuantitatif.
+4. pengujian rival explanations;
+5. pencarian negative/deviant cases;
+6. penilaian hubungan tema dengan pola QUAN;
+7. dokumentasi audit trail keputusan analitik.
 
-<!-- TODO: pilih dan sitasi pendekatan thematic analysis yang digunakan; NVivo adalah software, bukan metode analisis. -->
+NVivo dapat digunakan untuk membantu pengelolaan data dan coding, tetapi **NVivo adalah software, bukan metode analisis**.
 
-## 3.13 Integrasi Data — Jika Mixed Method Dipilih
+<!-- TODO: pilih dan verifikasi pendekatan thematic analysis serta sumber metodologis final. -->
 
-Integrasi harus menjawab bagaimana temuan kualitatif menjelaskan, memperluas, mengkualifikasi, atau menantang temuan kuantitatif. Integrasi dapat dilakukan melalui *connecting*, *building*, dan/atau *joint display* sesuai desain final.
+## 3.13 Integrasi Data Mixed Methods
 
-<!-- TODO: tentukan titik integrasi dan bentuk joint display setelah desain final ditetapkan. -->
+Integrasi dilakukan melalui tiga mekanisme utama:
+
+### 3.13.1 Connecting
+
+Hasil QUAN digunakan untuk menentukan siapa atau kasus apa yang dipilih pada fase QUAL.
+
+### 3.13.2 Building
+
+Hasil QUAN digunakan untuk membangun interview guide dan probing questions secara targeted.
+
+### 3.13.3 Joint Display dan Meta-Inference
+
+Joint display minimal menggunakan struktur:
+
+`Quantitative Finding | Selected Case/Pattern | Qualitative Explanation | Convergence/Divergence | Rival Explanation | Meta-Inference`
+
+Tujuannya adalah menunjukkan dengan jelas apakah data QUAL menjelaskan, memperkuat, mengkualifikasi, atau menantang hasil QUAN. Integration quality dinilai dari added explanatory insight, bukan dari keharusan kedua fase selalu “sepakat”.
 
 ## 3.14 Validitas, Reliabilitas, dan Keabsahan Temuan
 
 ### 3.14.1 Kuantitatif
 
-Validitas dan reliabilitas dievaluasi melalui measurement model dan kualitas data.
+Validitas dan reliabilitas dievaluasi melalui measurement model, kualitas data, sensitivity analysis, dan ketepatan specification.
 
-### 3.14.2 Kualitatif — Jika Digunakan
+### 3.14.2 Kualitatif
 
-Keabsahan temuan kualitatif harus dirancang melalui strategi yang sesuai, seperti triangulasi, audit trail, negative case analysis, atau strategi lain yang konsisten dengan pendekatan analisis.
+Keabsahan temuan kualitatif dirancang melalui audit trail, negative-case analysis, transparansi coding/interpretation, dan triangulasi yang relevan dengan tujuan explanation.
 
-<!-- TODO: hindari checklist trustworthiness yang tidak terkait dengan desain. -->
+### 3.14.3 Mixed Methods
+
+Quality integration dievaluasi dengan memastikan:
+
+- rationale mixed methods eksplisit;
+- QUAN dan QUAL memiliki fungsi berbeda tetapi terhubung;
+- sampling/instrument QUAL dibangun dari QUAN;
+- joint display digunakan untuk integration;
+- meta-inference membedakan convergence, complementarity, dan divergence (Hirose & Creswell, 2022).
 
 ## 3.15 Pengendalian Bias dan Rival Explanations
 
-Penelitian perlu secara eksplisit mempertimbangkan kemungkinan:
+Penelitian secara eksplisit mempertimbangkan:
 
-- common method bias karena sebagian besar variabel diukur melalui self-report;
+- common method bias;
 - reverse causality;
 - omitted variables;
 - social desirability pada konteks organisasi kepolisian;
 - selection bias akibat akses responden;
-- measurement non-equivalence antarunit atau kelompok personel;
-- perbedaan karakter tugas yang dapat memengaruhi hubungan antarvariabel.
+- measurement non-equivalence antarunit/kelompok;
+- karakter tugas yang berbeda;
+- technostress, digital self-efficacy, empowerment, organizational culture, system integration, dan user adaptation sebagai potential rival explanations/boundary conditions.
 
-<!-- TODO: tetapkan strategi desain dan statistik untuk mengurangi atau menguji risiko tersebut. -->
+Fase QUAL dapat membantu menjelaskan rival mechanisms tetapi tidak menghilangkan bias statistik pada fase QUAN.
+
+<!-- TODO: tetapkan covariates/sensitivity checks hanya jika theory/evidence mendukung; hindari indiscriminate control-variable inclusion. -->
 
 ## 3.16 Etika Penelitian
 
 Penelitian harus memastikan:
 
-- persetujuan partisipasi yang sesuai;
-- kerahasiaan dan keamanan data responden;
-- pemisahan data identitas dari data analisis;
-- perlindungan terhadap risiko profesional atau hierarkis;
+- informed consent yang sesuai;
+- kerahasiaan dan keamanan data;
+- pemisahan identitas dari data analisis;
+- perlindungan terhadap risiko profesional/hierarkis;
+- consent khusus untuk recontact fase QUAL;
+- linkage key QUAN–QUAL disimpan terpisah dan terbatas;
 - kepatuhan terhadap izin institusional dan prosedur etik yang berlaku.
 
-<!-- TODO: tentukan lembaga/komite etik, mekanisme informed consent, dan prosedur penyimpanan data. -->
+<!-- TODO: tentukan lembaga/komite etik, prosedur consent, retention period, encryption/access control, dan mekanisme penghancuran linkage key. -->
 
 ## 3.17 Ringkasan Status Keputusan Metodologis
 
 | Komponen | Status Saat Ini |
 |---|---|
-| Unit analisis | Individual personel — relatif terkunci |
+| Unit analisis | Individual personel — terkunci |
 | Empirical model X1, X2, Z, Y | Terkunci |
-| Survei kuantitatif | Terkunci sebagai komponen utama |
-| SEM-PLS | Direncanakan; justifikasi final diperlukan |
-| Mixed method explanatory sequential | Roadmap mengarahkan ke sini; belum direkonsiliasi dengan proposal awal |
+| Core research design | **Explanatory sequential mixed methods (QUAN→QUAL→integration) — terkunci** |
+| Fase QUAN | Prioritas utama — terkunci |
+| Fase QUAL | Explanatory follow-up — terkunci secara fungsi |
+| Integration | Connecting + building + joint display/meta-inference — terkunci secara prinsip |
+| SEM-PLS | Direncanakan; justifikasi analitik final masih diperlukan |
+| One-wave vs multi-wave QUAN | Feasibility decision belum final; multi-wave preferred jika akses memungkinkan |
 | Populasi/sampling frame | Belum final |
-| Ukuran sampel | Belum final |
+| Ukuran sampel QUAN | Belum final |
+| Sampling informan QUAL | Purposive follow-up based on QUAN — prinsip terkunci, jumlah belum final |
 | Instrumen X1 | Belum final |
 | Instrumen X2 | Belum final |
 | Instrumen Z | Belum final |
 | Instrumen Y | Belum final |
-| Tahap kualitatif/NVivo | Kondisional pada keputusan mixed method |
-| H8/H9 “simultan” | Perlu keputusan konseptual/metodologis |
+| Thematic analysis approach | Belum final |
+| NVivo | Software support, bukan metode |
+| H8/H9 “simultan” | Bukan substantive RQ; supplementary/model-level only if institutionally required |
 
-<!-- TODO FINAL BAB III: selesaikan design contradiction sebelum Stage 8/penetapan Research Design. -->
+<!-- NEXT METHOD WORK: buat issue terpisah untuk instrument verification, sampling/power, SEM-PLS justification, qualitative protocol/integration, dan ethics/bias controls. -->
