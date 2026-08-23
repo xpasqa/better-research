@@ -14,6 +14,8 @@ Cipriano, C., Strambler, M., Naples, L. H., Ha, C., Kirk, M. A., Wood, M., Sehga
 
 Collaborative for Academic, Social, and Emotional Learning. (2020). *CASEL’s SEL framework: What are the core competence areas and where are they promoted?* https://files.casel.org/CASEL-SEL-Framework-11.2020.pdf
 
+Collie, R. J. (2022). Instructional support, perceived social-emotional competence, and students’ behavioral and emotional well-being outcomes. *Educational Psychology, 42*(1), 4–22. https://doi.org/10.1080/01443410.2021.1994127
+
 Costa, A., Moreira, D., Casanova, J., Azevedo, Â., Gonçalves, A., Oliveira, I., Azevedo, R., & Dias, P. C. (2024). Determinants of academic achievement from the middle to secondary school education: A systematic review. *Social Psychology of Education, 27*, 3533–3572. https://doi.org/10.1007/s11218-024-09941-z
 
 Dent, A. L., & Koenka, A. C. (2016). The relation between self-regulated learning and academic achievement across childhood and adolescence: A meta-analysis. *Educational Psychology Review, 28*(3), 425–474. https://doi.org/10.1007/s10648-015-9320-8
@@ -32,6 +34,8 @@ Jelas, Z. M., Azman, N., Zulnaidi, H., & Ahmad, N. (2016). Learning support and 
 
 Kuldas, S., Sargioti, A., Milosevic, T., & O’Higgins Norman, J. (2021). A review and content validation of 10 measurement scales for parental mediation of children’s internet use. *International Journal of Communication, 15*, 4062–4084. https://ijoc.org/index.php/ijoc/article/view/17265
 
+Kunter, M., Klusmann, U., Baumert, J., Richter, D., Voss, T., & Hachfeld, A. (2013). Professional competence of teachers: Effects on instructional quality and student development. *Journal of Educational Psychology, 105*, 805–820. https://doi.org/10.1037/a0032583
+
 Lam, S.-f., Jimerson, S., Wong, B. P. H., Kikas, E., Shin, H., Veiga, F. H., Cefai, C., Hatzichristou, C., Polychroni, F., Negovan, V., Stănculescu, E., Yang, H., Liu, Y., Basnett, J., Duck, R., Farrell, P., Nelson, B., & Zollneritsch, J. (2014). Understanding and measuring student engagement in school: The results of an international study from 12 countries. *School Psychology Quarterly, 29*(2), 213–232. https://doi.org/10.1037/spq0000057
 
 López-Angulo, Y., Sáez-Delgado, F., Arias-Roa, N., & Díaz-Mujica, A. (2020). Revisión sistemática sobre instrumentos de autorregulación del aprendizaje en estudiantes de educación secundaria. *Información Tecnológica, 31*(4), 85–98. https://doi.org/10.4067/S0718-07642020000400085
@@ -43,6 +47,8 @@ Lovelace, M. D., Reschly, A. L., Appleton, J. J., & Lutz, M. E. (2014). Concurre
 Lukavská, K., Hrabec, O., Lukavský, J., Demetrovics, Z., & Király, O. (2022). The associations of adolescent problematic internet use with parenting: A meta-analysis. *Addictive Behaviors, 135*, 107423. https://doi.org/10.1016/j.addbeh.2022.107423
 
 Magro, S. W., Hobbs, K. A., Li, P. H., Swenson, P., Riegelman, A., Rios, J. A., & Roisman, G. I. (2024). Meta-analytic associations between the Student-Teacher Relationship Scale and students’ social competence with peers. *School Psychology Review, 53*(5), 496–522. https://doi.org/10.1080/2372966X.2023.2258767
+
+Martin, A. J., Collie, R. J., Stephan, M., Flesken, A., Halcrow, F., & McCourt, B. (2024). What is the role of teaching support in students’ motivation and engagement trajectories during adolescence? A four-year latent growth modeling study. *Learning and Instruction, 92*, 101910. https://doi.org/10.1016/j.learninstruc.2024.101910
 
 Martinez-Yarza, N., Santibáñez, R., & Solabarrieta, J. (2023). A systematic review of instruments measuring social and emotional skills in school-aged children and adolescents. *Child Indicators Research, 16*, 1475–1502. https://doi.org/10.1007/s12187-023-10031-3
 
@@ -62,6 +68,8 @@ Ren, W., & Zhu, X. (2022). Parental mediation and adolescents’ internet use: T
 
 Rosa, E. M., & Tudge, J. (2013). Urie Bronfenbrenner’s theory of human development: Its evolution from ecology to bioecology. *Journal of Family Theory & Review, 5*, 243–258. https://doi.org/10.1111/jftr.12022
 
+Ruzek, E. A., Aldrup, K., & Lüdtke, O. (2022). Assessing the effects of student perceptions of instructional quality: A cross-subject within-student design. *Contemporary Educational Psychology, 70*, 102085. https://doi.org/10.1016/j.cedpsych.2022.102085
+
 Salmela-Aro, K., Tang, X., Symonds, J., & Upadyaya, K. (2021). Student engagement in adolescence: A scoping review of longitudinal studies 2010–2020. *Journal of Research on Adolescence, 31*(2), 256–272. https://doi.org/10.1111/jora.12619
 
 Santos, A. C., Simões, C., Melo, M. H. S., Santos, M. F., Freitas, I., Branquinho, C., Cefai, C., & Arriaga, P. (2023). A systematic review of the association between social and emotional competencies and student engagement in youth. *Educational Research Review, 39*, 100535. https://doi.org/10.1016/j.edurev.2023.100535
@@ -74,8 +82,14 @@ Tong, W., He, W., Wang, Y., Xie, C., Fang, L., Jia, J., & Fang, X. (2024). Assoc
 
 Ulfa, A., Kendhawati, L., & Moeliono, M. F. (2025). Adapting internet parental mediation survey: A pilot study. *Jurnal Ilmu Keluarga dan Konsumen, 18*(3), 275–286. https://doi.org/10.24156/jikk.2025.18.3.275
 
+Vargas-Madriz, L. F., Konishi, C., & Wong, T. K. Y. (2024). A meta-analysis of the association between teacher support and school engagement. *Social Development, 33*(4), e12745. https://doi.org/10.1111/sode.12745
+
 Vossen, H. G. M., van den Eijnden, R. J. J. M., Visser, I., & Koning, I. M. (2024). Parenting and problematic social media use: A systematic review. *Current Addiction Reports, 11*, 511–527. https://doi.org/10.1007/s40429-024-00559-x
 
 Wang, Y., Xia, M., Guo, W., Xu, F., & Zhao, Y. (2023). Academic performance under COVID-19: The role of online learning readiness and emotional competence. *Current Psychology, 42*(34), 30562–30575. https://doi.org/10.1007/s12144-022-02699-7
+
+Wisniewski, B., Zierer, K., Dresel, M., & Daumiller, M. (2020). Obtaining secondary students’ perceptions of instructional quality: Two-level structure and measurement invariance. *Learning and Instruction, 66*, 101303. https://doi.org/10.1016/j.learninstruc.2020.101303
+
+Wu, J., Yan, Z., Yang, Y., Zhu, J., Xiong, Y., & Chen, J. (2024). The perceived teacher support scale (PTSS) for students: Development and psychometric studies. *International Journal of Educational Research, 128*, 102487. https://doi.org/10.1016/j.ijer.2024.102487
 
 Yin, Z., Guo, W., & Wang, Y. (2023). The effect of psychological distress on adolescents’ academic engagement: The roles of social-emotional competence and teachers’ caring behavior. *Psychology Research and Behavior Management, 16*, 5011–5021. https://doi.org/10.2147/PRBM.S438998
