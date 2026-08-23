@@ -46,9 +46,7 @@ An et al. menunjukkan teacher support → technology acceptance/motivation → e
 
 ### 2.5 Teacher-support effect tidak universal
 
-Meta-analysis mendukung positive average association tetapi heterogeneous [@vargasmadriz2024support]. Ansong et al. menemukan pada sampel Ghana bahwa classmate dan parent support lebih kuat, sementara teacher support tidak menjadi direct predictor atau mediator engagement dalam model mereka [@ansong2017support]. Quin et al. juga menunjukkan bahwa setelah broader ecological predictors dimasukkan, prior engagement dan academic grades menjelaskan porsi lebih besar dibanding teacher support [@quin2018ecological; TODO-CITATION-KEY if not yet in central bibliography].
-
-Karena `quin2018ecological` belum ada pada central bibliography saat audit ini disusun, manuscript tidak boleh menggunakannya sampai metadata disinkronkan pada integration issue. Falsification utama tetap dapat berdiri dari Vargas-Madriz, Ansong, Wang, dan existing evidence.
+Meta-analysis mendukung positive average association tetapi heterogeneous [@vargasmadriz2024support]. Ansong et al. menemukan pada sampel Ghana bahwa classmate dan parent support lebih kuat, sementara teacher support tidak menjadi direct predictor atau mediator engagement dalam model mereka [@ansong2017support].
 
 **Falsification result:** `PTS has a universal direct effect on engagement` = **REJECT**.
 
@@ -90,53 +88,53 @@ This is stronger than simply saying `SEC mediates both X1 and X2`. The contribut
 
 ### 4.3 Methodological contribution
 
-**Do not claim by default:** CFA, SEM, multilevel SEM, longitudinal mediation, measurement invariance, or Monte Carlo power analysis are not methodological contributions merely because they are used correctly. A methodological contribution would require evidence that the study develops or validates a measurement/estimation insight that generalizes beyond this sample.
+**Do not claim by default:** CFA, SEM, multilevel SEM, longitudinal mediation, measurement invariance, atau Monte Carlo power analysis bukan methodological contribution hanya karena digunakan dengan benar. Kontribusi metodologis baru dapat diklaim bila studi menghasilkan measurement/estimation insight yang transferable melampaui sampel ini.
 
 ### 4.4 Practical contribution
 
-**Potential:** If strategy-specific DPM and specific PTS domains show different associations with engagement mechanisms, practical recommendations can distinguish enabling/restrictive/observant parental practices and instrumental/emotional/informational/appraisal teacher support. But practical recommendations must follow effect sizes and robustness, not merely statistical significance.
+**Potential:** Jika strategy-specific DPM dan specific PTS domains menunjukkan association yang berbeda dengan engagement mechanisms, rekomendasi praktis dapat membedakan enabling/restrictive/observant parental practices dan instrumental/emotional/informational/appraisal teacher support. Rekomendasi tetap harus mengikuti effect size, uncertainty, dan robustness, bukan hanya statistical significance.
 
 ## 5. Competing-model map
 
-The final methodology should compare a small set of theory-derived models rather than one preferred mediation chain.
+Final methodology harus membandingkan sejumlah kecil model theory-derived, bukan satu preferred mediation chain.
 
 ### Model A — SEC mechanism
 
 - enabling DPM → SEC → engagement
 - PTS → SEC → engagement
 - direct PTS → engagement retained
-- restrictive/observant DPM paths estimated non-directionally or exploratory unless evidence warrants direction
+- restrictive/observant DPM paths diperkirakan non-directionally atau exploratory kecuali evidence memberi dasar arah
 
 ### Model B — SDT/self-system mechanism
 
 - PTS → basic psychological need satisfaction / autonomous motivation → engagement
-- DPM included as context but not forced through the same mediator
+- DPM dipertahankan sebagai context tetapi tidak dipaksa melalui mediator yang sama
 
-This model is expected to be especially competitive for the school-support pathway.
+Model ini merupakan rival terkuat untuk school-support pathway.
 
 ### Model C — self-regulation/self-efficacy mechanism
 
-- DPM/PTS → self-regulation and/or self-efficacy → engagement
+- DPM/PTS → self-regulation dan/atau self-efficacy → engagement
 
-Song et al. and related literature make this a serious rival rather than a nuisance model [@song2026supportengagement].
+Song et al. membuat mekanisme ini serious rival, bukan nuisance model [@song2026supportengagement].
 
 ### Model D — reciprocal/temporal alternative
 
-- prior engagement → later perceived support and/or SEC
+- prior engagement → later perceived support dan/atau SEC
 - engagement → later SEC
 
-Existing developmental and transactional evidence makes reverse pathways plausible [@tong2024internetparenting; @martinezyarza2024familysec].
+Existing developmental/transactional evidence membuat reverse pathways plausible [@tong2024internetparenting; @martinezyarza2024familysec].
 
 ### Model E — cross-context interaction
 
-- enabling DPM × PTS → engagement and/or SEC
+- enabling DPM × PTS → engagement dan/atau SEC
 
-Two competing predictions must be pre-specified:
+Dua competing predictions harus dipra-spesifikasi:
 
-1. **Reinforcement:** high support in both contexts yields strongest engagement/capacity.
-2. **Compensation:** strong PTS matters more when enabling DPM is low, or vice versa.
+1. **Reinforcement:** support tinggi di kedua context berkaitan dengan engagement/capacity paling tinggi.
+2. **Compensation:** PTS yang kuat lebih penting ketika enabling DPM rendah, atau sebaliknya.
 
-A main-effects-only model cannot distinguish these theories.
+Main-effects-only model tidak dapat membedakan kedua teori tersebut.
 
 ## 6. Final contribution statement
 
@@ -145,30 +143,30 @@ A main-effects-only model cannot distinguish these theories.
 ## 7. Model implications
 
 1. **Drop:** one global DPM latent score dan one global positive DPM hypothesis.
-2. **Retain:** PTS as a multidimensional school-context predictor.
-3. **Retain but challenge:** SEC as one candidate mechanism, not privileged mediator.
-4. **Add:** at least one competing proximal mechanism in design/analysis plan; basic psychological needs/autonomous motivation is the strongest theory-derived comparator for PTS.
-5. **Add:** baseline engagement in longitudinal design to address stability/reverse pathways.
-6. **Consider:** DPM × PTS interaction only if sample size/power supports it and construct dimensionality is manageable.
-7. **Do not over-expand:** avoid a kitchen-sink SEM with every rival mediator; Issue #23 must prioritize a confirmatory core and limited preregistered competing models.
+2. **Retain:** PTS sebagai multidimensional school-context predictor.
+3. **Retain but challenge:** SEC sebagai satu candidate mechanism, bukan privileged mediator.
+4. **Add:** setidaknya satu competing proximal mechanism; basic psychological needs/autonomous motivation adalah comparator paling kuat untuk PTS.
+5. **Add:** baseline engagement dalam longitudinal design untuk mengatasi stability/reverse pathways.
+6. **Consider:** DPM × PTS interaction hanya jika sample size/power dan dimensionality membuat estimasi realistis.
+7. **Do not over-expand:** hindari kitchen-sink SEM; Issue #23 harus memprioritaskan confirmatory core dan limited preregistered competing models.
 
 ## 8. Boundary conditions
 
-Boundary-condition claims must be mechanism-based. Current evidence does **not** establish DKI as a theoretical boundary. More defensible conditions are:
+Boundary-condition claims harus mechanism-based. Evidence saat ini **tidak** menjadikan DKI theoretical boundary. Candidate conditions yang lebih defensible:
 
 - school level / developmental stage;
-- informant and level of aggregation;
-- type of DPM strategy;
-- type of PTS domain;
+- informant dan level aggregation;
+- jenis DPM strategy;
+- jenis PTS domain;
 - prior engagement level;
 - digital-use purpose/context;
-- possibly SES/general parenting as moderators only when theory predicts differential mechanisms.
+- SES/general parenting sebagai moderator hanya bila teori memprediksi differential mechanism.
 
-These are candidate conditions, not all required moderators.
+Candidate conditions tersebut tidak otomatis semuanya menjadi moderators dalam model final.
 
 ## 9. Reference synchronization
 
-New targeted-falsification sources to synchronize in this issue/final integration:
+Targeted-falsification sources berikut sudah disinkronkan ke `literature/references.bib` dan `manuscript/07-references.md` pada branch Issue #22:
 
 - Cheng, Huang, & Lai (2024), DOI 10.1007/s40299-024-00838-1.
 - Song, Ishak, & Wei (2026), DOI 10.36941/jesr-2026-0347.
@@ -176,8 +174,10 @@ New targeted-falsification sources to synchronize in this issue/final integratio
 - Wang, Jimerson, Saiding, Guo, & Chen (2024), DOI 10.1037/spq0000673.
 - Ansong, Okumu, Bowen, Walker, & Eisensmith (2017), DOI 10.1016/j.ijedudev.2017.03.010.
 
+Literature matrix juga diperbarui dengan fungsi falsification masing-masing sumber.
+
 ## 10. Decision
 
 **ISSUE #22 DECISION: PASS, WITH NOVELTY REFRAMED.**
 
-Most original novelty claims fail falsification. The study remains potentially doctoral-level only if it is redesigned as a **mechanism-discrimination and cross-context configuration study**, supported by longitudinal/temporally ordered data and explicit competing models. The theoretical contribution is therefore **candidate**, not yet established; the empirical contribution is defensible as high-quality individual-level evidence in SMP DKI if Issue #23 delivers a strong design.
+Sebagian besar novelty claim awal gagal falsification. Studi tetap berpotensi mencapai standar doktoral bila direka ulang sebagai **mechanism-discrimination and cross-context configuration study**, didukung longitudinal/temporally ordered data dan explicit competing models. Theoretical contribution tetap **candidate**, bukan established; empirical contribution defensible sebagai high-quality individual-level evidence pada SMP DKI bila Issue #23 menghasilkan design yang kuat.
