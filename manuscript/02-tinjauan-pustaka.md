@@ -2,99 +2,113 @@
 
 ## 2.1 Landasan Teori
 
+Bab ini menggunakan dua lensa teoretis dengan fungsi yang berbeda. Perspektif bioekologis dan neo-ekologis digunakan untuk menempatkan pengalaman siswa dalam hubungan antara individu, keluarga, sekolah, dan lingkungan digital. *Self-Determination Theory* (SDT) digunakan lebih khusus untuk menjelaskan salah satu proses psikologis yang menghubungkan dukungan guru dengan keterlibatan belajar. Pembagian fungsi ini penting agar teori tidak dipakai sekadar sebagai label bagi semua hubungan dalam model.
+
 ### 2.1.1 Perspektif Bioekologis dan Neo-Ekologis
 
-Penelitian ini menggunakan perspektif bioekologis Bronfenbrenner untuk menjelaskan bahwa perkembangan dan pengalaman belajar siswa tidak dapat dipisahkan dari lingkungan tempat siswa hidup. Keluarga dan sekolah merupakan dua konteks yang dekat dengan kehidupan siswa, sedangkan perkembangan teknologi membuat lingkungan digital juga menjadi bagian dari pengalaman sehari-hari remaja (Rosa & Tudge, 2013; Navarro & Tudge, 2023).
+Perspektif bioekologis memandang perkembangan sebagai proses yang berlangsung melalui interaksi berulang antara individu dan lingkungan dalam rentang waktu tertentu. Keluarga dan sekolah merupakan dua konteks yang dekat dengan kehidupan remaja dan membentuk pengalaman sehari-hari melalui relasi, aturan, dukungan, tuntutan, serta kesempatan yang tersedia bagi siswa (Rosa & Tudge, 2013). Dalam penelitian ini, perspektif tersebut tidak digunakan untuk menyatakan bahwa keluarga atau sekolah secara otomatis menyebabkan perubahan keterlibatan belajar, melainkan untuk menjelaskan mengapa pengalaman pada kedua konteks tersebut relevan untuk dipertimbangkan secara bersamaan.
 
-Fungsi teori ini dalam penelitian adalah **menempatkan konteks**, bukan menjelaskan seluruh hubungan antarvariabel secara otomatis. Mediasi Digital Orang Tua mewakili pengalaman siswa dalam konteks keluarga digital, sedangkan Dukungan Guru yang Dipersepsikan Siswa mewakili pengalaman siswa dalam konteks sekolah. Keduanya dapat berkaitan dengan perkembangan siswa dan keterlibatan belajar, tetapi arah serta besarnya hubungan tetap harus diuji secara empiris.
+Perkembangan teknologi digital membuat batas antara pengalaman keluarga, sekolah, dan ruang virtual menjadi semakin tidak tegas. Perspektif neo-ekologis memperluas pembacaan bioekologis dengan menempatkan pengalaman virtual sebagai bagian dari konteks perkembangan, bukan sebagai lingkungan yang sepenuhnya terpisah dari kehidupan sehari-hari (Navarro & Tudge, 2023). Interaksi digital remaja tetap berlangsung di dalam relasi sosial yang lebih luas, termasuk hubungan dengan orang tua, teman sebaya, dan sekolah.
 
-Perspektif neo-ekologis membantu memperjelas posisi teknologi dalam model. Lingkungan digital tidak dianggap sebagai konteks yang terpisah sepenuhnya dari kehidupan siswa, melainkan sebagai bagian dari interaksi keluarga dan sosial yang berlangsung melalui teknologi. Karena itu, penelitian tidak menilai penggunaan teknologi semata, tetapi menilai bagaimana orang tua mendampingi penggunaan teknologi tersebut.
+Posisi Mediasi Digital Orang Tua dalam penelitian ini berangkat dari logika tersebut. Yang menjadi perhatian bukan seberapa banyak teknologi digunakan, melainkan bagaimana orang tua membimbing, membatasi, atau memantau penggunaan teknologi oleh anak. Dukungan Guru yang Dipersepsikan Siswa mewakili pengalaman siswa dalam konteks sekolah. Keduanya ditempatkan sebagai kondisi kontekstual yang dapat berkaitan dengan perkembangan siswa dan keterlibatan belajar, tetapi jalur hubungan dan kekuatannya tetap merupakan pertanyaan empiris.
 
 ### 2.1.2 Self-Determination Theory
 
-*Self-Determination Theory* (SDT) digunakan untuk menjelaskan jalur dari dukungan guru menuju keterlibatan belajar. SDT menjelaskan bahwa manusia memiliki tiga kebutuhan psikologis dasar, yaitu otonomi, kompetensi, dan keterhubungan (Ryan & Deci, 2020). Dalam konteks sekolah, siswa lebih mungkin terlibat dalam belajar ketika mereka merasa memiliki ruang untuk memilih, merasa mampu menghadapi tuntutan belajar, dan merasa diterima atau didukung oleh orang lain.
+SDT memberikan penjelasan yang lebih spesifik mengenai kondisi psikologis yang mendukung keterlibatan siswa. Teori ini menempatkan otonomi, kompetensi, dan keterhubungan sebagai tiga kebutuhan psikologis dasar. Otonomi berkaitan dengan pengalaman memiliki pilihan dan rasa kemauan dalam bertindak; kompetensi berkaitan dengan pengalaman merasa mampu menghadapi tuntutan; sedangkan keterhubungan berkaitan dengan perasaan diterima dan memiliki hubungan yang bermakna dengan orang lain (Ryan & Deci, 2020).
 
-Dukungan guru dapat membantu memenuhi kebutuhan tersebut melalui bantuan akademik, perhatian, umpan balik, dan hubungan yang menghargai siswa. Meta-analisis menunjukkan bahwa dukungan terhadap kebutuhan psikologis berkaitan dengan motivasi, keterlibatan, kinerja, dan kesejahteraan siswa (Bureau et al., 2022; Howard et al., 2025). Karena itu, Pemenuhan Kebutuhan Psikologis Dasar di Sekolah ditempatkan sebagai salah satu jalur yang dapat menjelaskan hubungan Dukungan Guru dengan Keterlibatan Belajar.
+Dalam konteks sekolah, dukungan guru dapat berhubungan dengan ketiga kebutuhan tersebut melalui cara guru memberikan bantuan, pilihan, umpan balik, perhatian, dan hubungan yang menghargai siswa. Meta-analisis menunjukkan bahwa dukungan terhadap kebutuhan psikologis berkaitan dengan motivasi, keterlibatan, kinerja, dan kesejahteraan siswa, meskipun kekuatan hubungan berbeda menurut bentuk dukungan dan karakteristik studi (Bureau et al., 2022; Howard et al., 2025). Temuan tersebut memberi dasar bagi jalur Dukungan Guru → Pemenuhan Kebutuhan Psikologis Dasar → Keterlibatan Belajar.
 
-Dalam penelitian ini, SDT tidak digunakan untuk menjelaskan seluruh model. Teori ini terutama digunakan untuk menjelaskan mengapa Dukungan Guru dapat berkaitan dengan Keterlibatan Belajar melalui terpenuhinya kebutuhan psikologis dasar siswa. Jalur lain melalui Kompetensi Sosial-Emosional diperlakukan sebagai proses yang berbeda.
+SDT tidak digunakan untuk menjelaskan seluruh model. Secara khusus, teori ini menjadi dasar bagi jalur dukungan guru melalui Pemenuhan Kebutuhan Psikologis Dasar. Kompetensi Sosial-Emosional diperlakukan sebagai kemampuan siswa yang secara konseptual berbeda dari pengalaman terpenuhinya kebutuhan psikologis. Pembedaan ini mencegah dua proses yang berbeda digabung hanya karena keduanya sama-sama berkaitan dengan fungsi psikologis siswa.
 
 ## 2.2 Konsep dan Konstruk Penelitian
 
 ### 2.2.1 Mediasi Digital Orang Tua
 
-Mediasi Digital Orang Tua (*Digital Parental Mediation*) adalah praktik orang tua dalam membimbing, membatasi, memantau, atau mendiskusikan penggunaan internet dan media digital anak. Konsep ini berbeda dari pola pengasuhan umum, literasi digital orang tua, atau keterlibatan orang tua dalam pendidikan secara umum.
+Mediasi Digital Orang Tua (*Digital Parental Mediation*) merujuk pada praktik orang tua dalam mendampingi penggunaan internet dan media digital anak. Praktik tersebut dapat berbentuk diskusi dan bimbingan, penetapan aturan atau pembatasan, serta pengamatan atau pemantauan terhadap aktivitas digital. Konstruk ini berbeda dari pola pengasuhan secara umum, literasi digital orang tua, maupun keterlibatan orang tua dalam pendidikan.
 
-Kajian sistematis menunjukkan bahwa mediasi digital orang tua tidak merupakan satu bentuk perilaku yang seragam (Modecki et al., 2022; Kuldas et al., 2021). Secara sederhana, praktik tersebut dapat dikelompokkan menjadi tiga bentuk utama:
+Literatur menunjukkan bahwa mediasi digital bukan konstruk tunggal yang dapat diperlakukan sebagai satu intensitas umum. Modecki et al. (2022) menemukan keragaman yang besar dalam definisi dan pengukuran *digital parenting*, sedangkan Kuldas et al. (2021) menunjukkan ketidakkonsistenan struktur pada berbagai skala parental mediation. Validasi yang dilakukan Symons et al. (2017) juga memperlihatkan bahwa beberapa strategi mediasi dapat dibedakan secara empiris. Atas dasar ini, penelitian tidak mengasumsikan bahwa skor mediasi digital yang lebih tinggi selalu berarti pendampingan yang lebih baik.
 
-1. **mediasi yang membantu atau membimbing**, misalnya berdiskusi tentang penggunaan internet dan membantu anak memahami risiko serta manfaatnya;
-2. **mediasi yang membatasi**, misalnya menetapkan aturan mengenai waktu, akses, konten, atau aktivitas tertentu; dan
-3. **mediasi yang memantau**, misalnya mengawasi atau memeriksa aktivitas digital anak.
-
-Penelitian Symons et al. (2017) menunjukkan bahwa beberapa bentuk mediasi dapat dibedakan secara empiris. Karena itu, penelitian ini tidak membentuk satu skor umum yang menganggap seluruh bentuk mediasi selalu bermanfaat. Setiap strategi diperlakukan sebagai bagian yang dapat mempunyai hubungan berbeda dengan perkembangan siswa.
-
-Bukti mengenai akibat mediasi digital orang tua masih beragam. Lukavská et al. (2022) menunjukkan bahwa hubungan antara praktik pengasuhan dan penggunaan internet bermasalah pada remaja cenderung tidak besar dan dipengaruhi oleh perbedaan konteks serta pengukuran. Tong et al. (2024) juga menunjukkan bahwa hubungan dapat berlangsung dua arah, yaitu perilaku anak dapat memengaruhi cara orang tua merespons penggunaan internet. Karena itu, penelitian ini tidak mengasumsikan bahwa mediasi digital orang tua selalu menghasilkan dampak positif.
+Perbedaan strategi penting karena konsekuensi yang dilaporkan dalam literatur tidak seragam. Meta-analisis Lukavská et al. (2022) menunjukkan bahwa hubungan antara praktik pengasuhan dan penggunaan internet bermasalah pada remaja cenderung kecil dan heterogen. Studi longitudinal Huang et al. (2023) juga tidak menemukan manfaat yang seragam dari seluruh bentuk parental media mediation terhadap penggunaan smartphone berikutnya. Di sisi lain, Tong et al. (2024) menunjukkan adanya kemungkinan *child effects*, ketika perilaku digital remaja diikuti perubahan respons orang tua. Temuan-temuan tersebut mendukung perlakuan strategi DPM secara terpisah dan penggunaan bahasa hubungan, bukan kausalitas.
 
 ### 2.2.2 Dukungan Guru yang Dipersepsikan Siswa
 
-Dukungan Guru yang Dipersepsikan Siswa (*Perceived Teacher Support*) adalah sejauh mana siswa merasa guru memberikan bantuan akademik dan emosional yang membantu proses belajar. Dukungan tersebut dapat berupa penjelasan, bantuan ketika mengalami kesulitan, perhatian, dorongan, dan umpan balik.
+Dukungan Guru yang Dipersepsikan Siswa (*Perceived Teacher Support*) menunjukkan sejauh mana siswa merasakan bantuan akademik dan emosional dari guru. Dukungan dapat muncul dalam bentuk penjelasan ketika siswa mengalami kesulitan, dorongan, perhatian, ketersediaan untuk membantu, dan umpan balik yang dirasakan mendukung proses belajar.
 
-Konstruk ini berbeda dari kompetensi profesional guru. Penelitian ini tidak menilai pengetahuan pedagogis atau kemampuan profesional guru secara objektif. Karena data diperoleh dari siswa, yang dinilai adalah pengalaman dukungan yang dirasakan siswa selama berinteraksi dengan guru.
+Fokus pada persepsi siswa membedakan konstruk ini dari kompetensi profesional guru atau kualitas pengajaran yang dinilai secara objektif. Dua siswa yang berada di kelas yang sama dapat menilai pengalaman dukungan guru secara berbeda. Karena unit analisis penelitian adalah siswa, konstruk yang relevan adalah dukungan sebagaimana dirasakan oleh siswa, bukan kemampuan profesional guru sebagai karakteristik guru.
 
-Meta-analisis menunjukkan bahwa dukungan guru secara umum berkaitan positif dengan keterlibatan belajar dan pencapaian akademik, walaupun kekuatan hubungannya dapat berbeda menurut jenis dukungan dan konteks penelitian (Tao et al., 2022). An et al. (2022) juga menunjukkan bahwa dukungan guru dapat berkaitan dengan keterlibatan belajar melalui proses psikologis siswa. Temuan ini mendukung penempatan dukungan guru sebagai salah satu konteks utama dalam model penelitian.
+Dukungan guru memiliki dasar empiris yang relatif kuat dalam kaitannya dengan keterlibatan belajar. Meta-analisis Tao et al. (2022) dan Vargas-Madriz et al. (2024) menunjukkan hubungan positif antara dukungan guru dan keterlibatan siswa, tetapi keduanya juga menunjukkan adanya variasi menurut bentuk dukungan, dimensi keterlibatan, jenjang, desain, dan sumber informasi. Studi longitudinal Martin et al. (2024) menambah dukungan temporal dengan menunjukkan bahwa dukungan pengajaran berkaitan dengan lintasan motivasi dan engagement selama masa remaja. Bukti tersebut memperkuat relevansi konstruk ini tanpa menjadikannya prediktor yang diasumsikan bekerja dengan kekuatan sama pada semua siswa dan konteks.
 
 ### 2.2.3 Kompetensi Sosial-Emosional Siswa
 
-Kompetensi Sosial-Emosional Siswa (*Social-Emotional Competence*) adalah kemampuan siswa untuk memahami dan mengelola diri serta berhubungan secara adaptif dengan orang lain. CASEL mengelompokkan kompetensi ini ke dalam kesadaran diri, pengelolaan diri, kesadaran sosial, keterampilan hubungan, dan pengambilan keputusan yang bertanggung jawab (Collaborative for Academic, Social, and Emotional Learning, 2020).
+Kompetensi Sosial-Emosional Siswa (*Social-Emotional Competence*) merujuk pada kemampuan untuk memahami dan mengelola diri, memahami orang lain, membangun hubungan yang adaptif, dan mengambil keputusan secara bertanggung jawab. Kerangka CASEL mengelompokkan kompetensi tersebut ke dalam kesadaran diri, pengelolaan diri, kesadaran sosial, keterampilan hubungan, dan pengambilan keputusan yang bertanggung jawab (Collaborative for Academic, Social, and Emotional Learning, 2020).
 
-Kompetensi sosial-emosional berbeda dari *Social and Emotional Learning* (SEL). SEL merupakan proses pembelajaran dan pengembangan kompetensi, sedangkan yang diukur dalam penelitian ini adalah kemampuan yang dimiliki siswa. Pembedaan tersebut penting agar konstruk yang diukur sesuai dengan pertanyaan penelitian.
+Kompetensi Sosial-Emosional perlu dibedakan dari *Social and Emotional Learning* (SEL). SEL adalah proses pendidikan yang ditujukan untuk mengembangkan kemampuan sosial dan emosional, sedangkan penelitian ini mengukur kompetensi yang dimiliki siswa. Pembedaan ini juga berarti bahwa temuan mengenai efektivitas program SEL tidak dapat langsung diperlakukan sebagai bukti bahwa perbedaan kompetensi individual menyebabkan perubahan keterlibatan belajar.
 
-Tinjauan sistematis menunjukkan bahwa kompetensi sosial-emosional secara umum berkaitan positif dengan keterlibatan siswa (Santos et al., 2023). Kemampuan mengelola emosi, memahami diri, dan membangun hubungan dapat membantu siswa menghadapi tuntutan belajar dan tetap terlibat dalam kegiatan sekolah. Namun, hubungan ini tidak otomatis membuktikan bahwa kompetensi sosial-emosional selalu menjadi penyebab keterlibatan belajar; karena itu, urutan waktu tetap diperhatikan dalam desain penelitian.
+Tinjauan sistematis Santos et al. (2023) menunjukkan bahwa kompetensi sosial-emosional secara umum berkaitan positif dengan keterlibatan siswa. Kemampuan mengelola emosi, memahami diri, dan membangun relasi dapat membantu siswa menghadapi tuntutan belajar, berpartisipasi dalam kegiatan sekolah, dan mempertahankan keterlibatan ketika menghadapi kesulitan. Meski demikian, pola hubungan tersebut masih didominasi bukti asosiatif sehingga arah temporalnya tetap perlu diuji.
 
 ### 2.2.4 Pemenuhan Kebutuhan Psikologis Dasar di Sekolah
 
-Pemenuhan Kebutuhan Psikologis Dasar di Sekolah (*Basic Psychological Need Satisfaction at School*) menunjukkan sejauh mana siswa merasa kebutuhan otonomi, kompetensi, dan keterhubungan terpenuhi ketika berada di sekolah. Otonomi berkaitan dengan rasa memiliki pilihan, kompetensi berkaitan dengan rasa mampu, sedangkan keterhubungan berkaitan dengan rasa diterima dan dekat dengan orang lain.
+Pemenuhan Kebutuhan Psikologis Dasar di Sekolah (*Basic Psychological Need Satisfaction at School*) menggambarkan pengalaman siswa ketika kebutuhan otonomi, kompetensi, dan keterhubungan terpenuhi dalam lingkungan sekolah. Otonomi berkaitan dengan pengalaman memiliki ruang untuk memilih dan bertindak secara sukarela, kompetensi berkaitan dengan pengalaman merasa mampu, sedangkan keterhubungan berkaitan dengan perasaan diterima dan dekat dengan orang lain.
 
-Konstruk ini berbeda dari Kompetensi Sosial-Emosional. Kompetensi sosial-emosional menggambarkan kemampuan siswa, sedangkan pemenuhan kebutuhan psikologis menggambarkan pengalaman siswa dalam suatu konteks. Seorang siswa dapat memiliki kemampuan sosial-emosional yang baik tetapi tetap merasa kurang didukung atau kurang mampu di sekolah, dan sebaliknya.
+Konstruk ini berbeda dari Kompetensi Sosial-Emosional. Kompetensi sosial-emosional menggambarkan kemampuan yang dimiliki siswa, sedangkan pemenuhan kebutuhan psikologis menggambarkan kualitas pengalaman siswa di dalam suatu konteks. Siswa yang mampu mengelola emosi dan relasi dengan baik belum tentu merasa memiliki pilihan, merasa mampu menghadapi tuntutan sekolah, atau merasa terhubung dengan orang-orang di sekolah.
 
-Tian et al. (2014) mengembangkan skala kebutuhan psikologis dasar untuk remaja di sekolah yang membedakan ketiga kebutuhan tersebut. Sesuai SDT, dukungan guru diharapkan berkaitan dengan terpenuhinya kebutuhan psikologis dasar, yang selanjutnya berkaitan dengan keterlibatan belajar (Ryan & Deci, 2020; Bureau et al., 2022).
+Tian et al. (2014) menunjukkan bahwa ketiga kebutuhan tersebut dapat diukur pada remaja dalam konteks sekolah. Posisi konstruk ini dalam model terutama diturunkan dari SDT dan diperkuat oleh meta-analisis yang menunjukkan hubungan antara dukungan guru, pemenuhan kebutuhan, motivasi, dan keterlibatan siswa (Ryan & Deci, 2020; Bureau et al., 2022; Howard et al., 2025).
 
 ### 2.2.5 Keterlibatan Belajar Siswa
 
-Keterlibatan Belajar Siswa (*Student Engagement in Learning*) adalah tingkat keterlibatan aktif siswa dalam kegiatan belajar. Konstruk ini umumnya mencakup keterlibatan perilaku, emosional, dan kognitif. Beberapa pendekatan juga memasukkan keterlibatan agentik, yaitu upaya siswa secara aktif memengaruhi proses belajarnya.
+Keterlibatan Belajar Siswa (*Student Engagement in Learning*) adalah keterlibatan aktif siswa dalam proses belajar. Konstruk ini bersifat multidimensional dan umumnya mencakup aspek perilaku, emosional, dan kognitif. Beberapa pendekatan juga memasukkan keterlibatan agentik, yaitu upaya siswa secara aktif memberi kontribusi terhadap proses belajarnya.
 
-Lam et al. (2014) menunjukkan bahwa keterlibatan belajar dapat diukur sebagai konstruk multidimensional pada siswa usia sekolah menengah. Diniyah et al. (2025) juga menyediakan bukti adaptasi pengukuran keterlibatan siswa dalam konteks Indonesia. Keterlibatan belajar dipilih sebagai hasil utama karena dekat dengan proses belajar sehari-hari dan dapat berubah selama masa remaja (Salmela-Aro et al., 2021).
+Studi lintas negara Lam et al. (2014) menunjukkan bahwa keterlibatan belajar dapat dipahami sebagai konstruk multidimensional pada siswa usia sekolah menengah. Adaptasi instrumen dalam konteks Indonesia oleh Diniyah et al. (2025) memberi bukti bahwa konstruk tersebut dapat diukur pada siswa sekolah menengah dengan instrumen berbahasa Indonesia. Bukti tersebut berfungsi sebagai dasar pengukuran, bukan sebagai bukti bahwa siswa Indonesia atau siswa DKI memiliki tingkat keterlibatan tertentu.
 
-Keterlibatan belajar tidak disamakan dengan nilai akademik, motivasi, kehadiran, atau penyesuaian sekolah. Variabel-variabel tersebut dapat berkaitan, tetapi tetap memiliki makna yang berbeda.
+Keterlibatan belajar juga bukan konstruk yang sepenuhnya tetap. Tinjauan longitudinal Salmela-Aro et al. (2021) menunjukkan bahwa engagement selama masa remaja memiliki dinamika dari waktu ke waktu dan berkaitan dengan berbagai faktor pada tingkat individu maupun konteks. Karena itu, keterlibatan belajar dibedakan dari nilai akademik, kehadiran, motivasi, dan penyesuaian sekolah walaupun konstruk-konstruk tersebut dapat saling berhubungan.
 
 ## 2.3 Hubungan Antar Konstruk dan Penelitian Terdahulu
 
 ### 2.3.1 Mediasi Digital Orang Tua, Kompetensi Sosial-Emosional, dan Keterlibatan Belajar
 
-Bukti paling konsisten mengenai mediasi digital orang tua masih banyak berasal dari hasil yang berkaitan dengan penggunaan internet dan kemampuan regulasi. Chen dan Chng (2016) menemukan hubungan longitudinal antara beberapa bentuk mediasi orang tua dengan regulasi diri dan regulasi emosi. Temuan ini mendukung dugaan bahwa praktik orang tua yang membimbing penggunaan digital dapat berkaitan dengan aspek tertentu dari Kompetensi Sosial-Emosional.
+Hubungan antara Mediasi Digital Orang Tua dan keterlibatan belajar belum memiliki dasar empiris sekuat hubungan dukungan guru dengan engagement. Sebagian besar penelitian DPM masih berfokus pada penggunaan internet, perilaku digital, risiko daring, dan kemampuan regulasi. Chen dan Chng (2016), misalnya, menemukan hubungan longitudinal antara beberapa bentuk parental mediation dan self-regulation, emotion regulation, serta impulsivity pada pengukuran berikutnya. Temuan tersebut relevan karena regulasi diri dan emosi berdekatan dengan sebagian domain Kompetensi Sosial-Emosional, tetapi tidak cukup untuk menyatakan bahwa DPM telah terbukti meningkatkan SEC secara keseluruhan.
 
-Namun, hubungan langsung Mediasi Digital Orang Tua dengan Keterlibatan Belajar belum dapat diasumsikan selalu positif. Perbedaan strategi dan kemungkinan hubungan dua arah antara orang tua dan anak membuat penelitian ini mempertahankan analisis berdasarkan jenis strategi, bukan menggunakan satu skor umum.
+Bukti yang lebih luas juga meminta kehati-hatian. Lukavská et al. (2022), Huang et al. (2023), Vossen et al. (2024), dan Tong et al. (2024) menunjukkan bahwa hubungan parental mediation dengan outcome digital berbeda menurut strategi, konteks, dan arah hubungan. Sebagian strategi dapat berkaitan dengan hasil yang lebih adaptif, sementara strategi lain menunjukkan hubungan yang lemah, tidak konsisten, atau dipengaruhi oleh perilaku anak sebelumnya. Atas dasar ini, penelitian hanya memberikan arah hipotesis pada mediasi yang bersifat membantu atau membimbing, sementara strategi pembatasan dan pemantauan tetap diperlakukan secara eksploratif.
 
-### 2.3.2 Dukungan Guru, Pemenuhan Kebutuhan Psikologis, dan Keterlibatan Belajar
+Hubungan langsung DPM dengan Keterlibatan Belajar juga tetap diuji karena pendampingan digital dapat berkaitan dengan cara siswa mengatur penggunaan teknologi, mengelola perhatian, atau menjalankan tanggung jawab belajar. Namun, literatur saat ini belum cukup untuk menetapkan arah manfaat yang sama bagi semua strategi. Jalur DPM → SEC → Keterlibatan Belajar diperlakukan sebagai jalur yang masuk akal untuk diuji, bukan mekanisme yang sudah terbukti.
 
-Hubungan antara Dukungan Guru dan Keterlibatan Belajar memiliki dasar teori dan bukti empiris yang lebih kuat. Meta-analisis menunjukkan bahwa siswa yang merasakan dukungan guru lebih tinggi cenderung menunjukkan keterlibatan belajar yang lebih tinggi (Tao et al., 2022). SDT memberikan penjelasan bahwa dukungan tersebut dapat membantu siswa merasa mampu, memiliki pilihan, dan merasa terhubung di sekolah (Ryan & Deci, 2020).
+### 2.3.2 Dukungan Guru dan Keterlibatan Belajar
 
-Karena itu, jalur Dukungan Guru → Pemenuhan Kebutuhan Psikologis Dasar → Keterlibatan Belajar menjadi jalur teori yang paling langsung dalam penelitian ini. Jalur tersebut tidak dianggap pasti benar, tetapi memiliki dasar yang cukup kuat untuk dirumuskan sebagai hipotesis.
+Dibandingkan DPM, hubungan Dukungan Guru dengan Keterlibatan Belajar memiliki dukungan empiris yang lebih langsung. Tao et al. (2022) dan Vargas-Madriz et al. (2024) menunjukkan bahwa siswa yang melaporkan dukungan guru lebih tinggi cenderung menunjukkan keterlibatan yang lebih tinggi. Heterogenitas yang ditemukan dalam meta-analisis tetap penting karena menunjukkan bahwa jenis dukungan dan dimensi engagement memengaruhi kekuatan hubungan.
 
-### 2.3.3 Kompetensi Sosial-Emosional dan Keterlibatan Belajar
+Bukti longitudinal mengurangi, tetapi tidak menghilangkan, masalah urutan waktu. Martin et al. (2024) menunjukkan bahwa dukungan pengajaran berkaitan dengan pola motivasi dan engagement selama beberapa tahun masa remaja. Karena desain tersebut tetap observasional, hasilnya tidak dapat diperlakukan sebagai bukti sebab-akibat yang pasti. Bagi penelitian ini, temuan tersebut cukup untuk mendukung hipotesis hubungan prospektif Dukungan Guru dengan Keterlibatan Belajar setelah keterlibatan sebelumnya diperhitungkan.
 
-Santos et al. (2023) menunjukkan bahwa kompetensi sosial-emosional secara umum berkaitan positif dengan keterlibatan belajar. Siswa yang lebih mampu mengelola diri dan berhubungan dengan orang lain dapat lebih siap menghadapi kesulitan belajar, mengatur respons emosional, dan mempertahankan partisipasi dalam kegiatan sekolah.
+### 2.3.3 Dukungan Guru dan Kompetensi Sosial-Emosional
 
-Meskipun demikian, kompetensi sosial-emosional bukan satu-satunya proses yang mungkin menjelaskan keterlibatan belajar. Penelitian mengenai dukungan belajar juga telah menunjukkan peran regulasi diri, motivasi, dan proses psikologis lain (Jelas et al., 2016; An et al., 2022). Karena itu, penelitian ini membandingkan Kompetensi Sosial-Emosional dengan Pemenuhan Kebutuhan Psikologis Dasar, bukan menganggap salah satunya sebagai satu-satunya penjelasan.
+Dukungan guru juga dapat berkaitan dengan kemampuan sosial-emosional siswa, tetapi basis evidencenya lebih terbatas daripada hubungan Dukungan Guru dengan engagement. Collie (2022) menemukan bahwa dukungan instruksional berkaitan dengan persepsi kompetensi pada aspek regulasi emosi dan resolusi konflik. Temuan ini mendukung kemungkinan bahwa pengalaman suportif di sekolah berhubungan dengan sebagian aspek SEC, tetapi tidak cukup untuk menyatakan bahwa dukungan guru meningkatkan seluruh domain kompetensi sosial-emosional.
 
-### 2.3.4 Sintesis Penelitian Terdahulu
+Hubungan Dukungan Guru → SEC karena itu tetap dimasukkan dalam model sebagai jalur yang perlu diuji, tetapi tidak ditempatkan sebagai satu-satunya mekanisme sekolah. Motivasi, regulasi diri, kualitas hubungan guru-siswa, dan proses psikologis lain juga dapat menjadi penjelasan alternatif. An et al. (2022), misalnya, menunjukkan jalur melalui motivasi belajar dan penerimaan teknologi. Kehadiran mekanisme alternatif tersebut menjadi alasan untuk tidak menganggap SEC sebagai mediator yang sudah established.
 
-Secara umum, literatur mendukung tiga hal. Pertama, keluarga dan sekolah sama-sama merupakan konteks yang relevan bagi pengalaman belajar siswa. Kedua, Mediasi Digital Orang Tua harus dipahami berdasarkan jenis strategi karena dampaknya tidak seragam. Ketiga, Dukungan Guru mempunyai hubungan yang relatif konsisten dengan keterlibatan belajar dan secara teoritis dapat bekerja melalui pemenuhan kebutuhan psikologis dasar.
+### 2.3.4 Dukungan Guru, Pemenuhan Kebutuhan Psikologis Dasar, dan Keterlibatan Belajar
 
-Literatur juga menunjukkan bahwa Kompetensi Sosial-Emosional berkaitan dengan keterlibatan belajar, tetapi belum cukup untuk menganggapnya sebagai satu-satunya jalur penjelasan. Oleh sebab itu, penelitian ini membandingkan dua proses yang berbeda: Kompetensi Sosial-Emosional sebagai kemampuan siswa dan Pemenuhan Kebutuhan Psikologis Dasar sebagai pengalaman psikologis siswa di sekolah.
+Jalur paling kuat secara teoretis dalam model sekolah adalah Dukungan Guru → Pemenuhan Kebutuhan Psikologis Dasar → Keterlibatan Belajar. SDT menjelaskan bahwa dukungan yang memberi ruang pilihan, membantu siswa merasa mampu, dan membangun hubungan yang positif dapat berkaitan dengan terpenuhinya kebutuhan otonomi, kompetensi, dan keterhubungan (Ryan & Deci, 2020).
+
+Meta-analisis Bureau et al. (2022) menunjukkan hubungan antara dukungan otonomi guru, pemenuhan kebutuhan, dan motivasi siswa. Howard et al. (2025) juga menemukan bahwa perilaku yang mendukung kebutuhan berkaitan positif dengan engagement, performa, dan kesejahteraan, sedangkan perilaku yang menghambat kebutuhan menunjukkan pola yang berlawanan. Bukti tersebut tidak membuat jalur mediasi menjadi kausal secara otomatis, tetapi memberikan alasan teori dan evidence yang lebih kuat untuk merumuskan hubungan arah positif.
+
+Pemenuhan Kebutuhan Psikologis Dasar dipertahankan sebagai mekanisme tersendiri karena menjawab pertanyaan yang berbeda dari SEC. SEC menanyakan kemampuan apa yang dimiliki siswa, sedangkan BPNS menanyakan bagaimana siswa mengalami lingkungan sekolah. Perbedaan ini memungkinkan penelitian menilai apakah keterlibatan belajar lebih konsisten berkaitan dengan kemampuan siswa, kualitas pengalaman psikologis di sekolah, atau keduanya.
+
+### 2.3.5 Kompetensi Sosial-Emosional dan Keterlibatan Belajar
+
+Hubungan antara Kompetensi Sosial-Emosional dan Keterlibatan Belajar mendapat dukungan dari tinjauan sistematis Santos et al. (2023). Secara konseptual, siswa yang mampu mengelola emosi, mempertahankan kontrol diri, memahami orang lain, dan membangun hubungan yang adaptif memiliki sumber daya yang dapat membantu mereka tetap terlibat dalam proses belajar.
+
+Hubungan tersebut tetap harus dibaca secara hati-hati. Banyak studi dalam literatur SEC–engagement bersifat observasional, sehingga arah hubungan tidak sepenuhnya dapat dipastikan. Siswa yang lebih terlibat dalam kegiatan sekolah juga mungkin memperoleh lebih banyak kesempatan untuk mengembangkan kemampuan sosial dan emosional. Selain itu, regulasi diri dan motivasi dapat berperan sebagai proses alternatif yang beririsan tetapi tidak identik dengan SEC. Desain longitudinal penelitian digunakan untuk memperkuat urutan waktu, bukan untuk menghapus seluruh kemungkinan reverse causality atau omitted variables.
+
+### 2.3.6 Sintesis Penelitian Terdahulu
+
+Literatur menunjukkan pola yang tidak sepenuhnya simetris antara konteks keluarga digital dan sekolah. Pada konteks keluarga digital, bukti DPM paling konsisten menekankan pentingnya membedakan strategi dan menghindari asumsi bahwa seluruh mediasi orang tua selalu bermanfaat. Hubungan dengan kemampuan regulasi memberi dasar bagi jalur menuju SEC, tetapi hubungan dengan engagement sekolah masih lebih tidak langsung dan perlu diuji.
+
+Pada konteks sekolah, dukungan guru memiliki hubungan yang lebih konsisten dengan engagement. Dua proses dapat menjelaskan sebagian hubungan tersebut. Kompetensi Sosial-Emosional mewakili kemampuan siswa yang dapat berkembang dan digunakan dalam menghadapi tuntutan belajar, sedangkan Pemenuhan Kebutuhan Psikologis Dasar mewakili kualitas pengalaman psikologis siswa di sekolah. Jalur melalui BPNS mempunyai dasar teori yang lebih spesifik dari SDT, sementara jalur melalui SEC didukung oleh bukti yang lebih berdekatan dan tetap terbuka terhadap mekanisme alternatif.
+
+Literatur juga menunjukkan bahwa model yang menghubungkan dukungan keluarga atau sekolah, proses psikologis, dan engagement bukan gagasan yang sepenuhnya baru. Jelas et al. (2016) dan An et al. (2022), misalnya, telah menguji konfigurasi yang menghubungkan sumber dukungan dengan proses siswa dan hasil belajar. Persoalan yang tersisa bukan sekadar apakah variabel-variabel tersebut dapat digabung, melainkan jalur mana yang lebih konsisten ketika konteks keluarga digital dan sekolah dipertimbangkan bersama dan urutan waktu diperhatikan.
 
 ## 2.4 Model Penelitian
 
-Model penelitian dapat dijelaskan secara sederhana sebagai berikut:
+Berdasarkan landasan teori dan sintesis evidence, model penelitian disusun secara asimetris agar setiap jalur mengikuti dasar konseptual yang tersedia.
 
 **Konteks keluarga digital**
 
@@ -106,22 +120,24 @@ Dukungan Guru → Kompetensi Sosial-Emosional → Keterlibatan Belajar
 
 Dukungan Guru → Pemenuhan Kebutuhan Psikologis Dasar → Keterlibatan Belajar
 
-Selain jalur tidak langsung tersebut, hubungan langsung Mediasi Digital Orang Tua dan Dukungan Guru dengan Keterlibatan Belajar juga diuji. Keterlibatan belajar sebelumnya diperhitungkan agar hubungan pada waktu berikutnya tidak hanya mencerminkan perbedaan awal antar siswa.
+Hubungan langsung Mediasi Digital Orang Tua dan Dukungan Guru dengan Keterlibatan Belajar tetap diuji. Keterlibatan belajar sebelumnya diperhitungkan agar hubungan pada waktu berikutnya tidak hanya mencerminkan perbedaan awal antar siswa. Kondisi sebelumnya pada Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar juga diperhitungkan pada analisis yang relevan.
 
-Model ini sengaja dibatasi pada jalur yang mempunyai alasan teori dan bukti empiris yang cukup. Interaksi tambahan dan model yang lebih kompleks tidak menjadi fokus utama proposal.
+Model tersebut tidak memasukkan interaksi tambahan atau jalur yang tidak mempunyai dasar teori dan evidence yang cukup pada tahap proposal. Tujuannya adalah membandingkan penjelasan yang paling relevan tanpa membuat model menjadi kompleks hanya karena teknik statistik memungkinkan hal tersebut.
 
 ## 2.5 Hipotesis Penelitian
 
-Hipotesis dirumuskan hanya pada hubungan yang mempunyai arah teori dan bukti empiris yang cukup jelas.
+Hipotesis hanya dirumuskan untuk hubungan yang mempunyai arah teori dan bukti empiris yang cukup jelas.
 
 **H1.** Dukungan Guru yang Dipersepsikan Siswa berhubungan positif dengan Keterlibatan Belajar pada waktu berikutnya setelah Keterlibatan Belajar sebelumnya diperhitungkan.
 
 **H2.** Dukungan Guru yang Dipersepsikan Siswa berhubungan positif dengan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah pada waktu berikutnya.
 
-**H3.** Pemenuhan Kebutuhan Psikologis Dasar di Sekolah berhubungan positif dengan Keterlibatan Belajar pada waktu berikutnya.
+**H3.** Pemenuhan Kebutuhan Psikologis Dasar di Sekolah berhubungan positif dengan Keterlibatan Belajar pada waktu berikutnya setelah kondisi sebelumnya diperhitungkan.
 
-**H4.** Kompetensi Sosial-Emosional Siswa berhubungan positif dengan Keterlibatan Belajar pada waktu berikutnya.
+**H4.** Kompetensi Sosial-Emosional Siswa berhubungan positif dengan Keterlibatan Belajar pada waktu berikutnya setelah kondisi sebelumnya diperhitungkan.
 
-**H5.** Mediasi Digital Orang Tua yang bersifat membantu atau membimbing berhubungan positif dengan Kompetensi Sosial-Emosional pada waktu berikutnya.
+**H5.** Mediasi Digital Orang Tua yang bersifat membantu atau membimbing berhubungan positif dengan Kompetensi Sosial-Emosional pada waktu berikutnya setelah kondisi sebelumnya diperhitungkan.
 
-Untuk strategi Mediasi Digital Orang Tua yang bersifat membatasi dan memantau, arah hubungan tidak ditetapkan sejak awal karena bukti sebelumnya masih beragam. Hubungan tidak langsung melalui Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar akan dibandingkan sebagai bagian dari pertanyaan penelitian, bukan dipaksakan sebagai satu hipotesis tunggal.
+Hubungan Dukungan Guru dengan Kompetensi Sosial-Emosional tetap diuji karena memiliki dasar konseptual dan bukti yang relevan, tetapi belum dirumuskan sebagai hipotesis arah tersendiri mengingat evidence yang lebih terbatas dibandingkan jalur Dukungan Guru → BPNS. Strategi Mediasi Digital Orang Tua yang bersifat membatasi dan memantau juga tetap diuji tanpa menetapkan arah hubungan sejak awal karena hasil penelitian sebelumnya masih beragam.
+
+Peran tidak langsung Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar dianalisis sebagai bagian dari pertanyaan penelitian. Perbandingan kedua proses tersebut ditujukan untuk menilai pola penjelasan yang lebih konsisten, bukan untuk menetapkan sejak awal bahwa salah satu mekanisme pasti lebih kuat daripada yang lain.
