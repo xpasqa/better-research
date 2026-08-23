@@ -30,6 +30,8 @@ Ho, S., Lwin, M. O., Chen, L., & Chen, M. (2019). Development and validation of 
 
 Huang, S., Lai, X., Li, Y., Wang, W., Zhao, X., Dai, X., Wang, H., & Wang, Y. (2023). Does parental media mediation make a difference for adolescents? Evidence from an empirical cohort study of parent-adolescent dyads. *Heliyon, 9*(4), e14897. https://doi.org/10.1016/j.heliyon.2023.e14897
 
+Jabeen, T., & Maqsood, A. (2023). Cross-language validation and the factor structure of the Social-Emotional Competence Questionnaire for Pakistani adolescents. *Psychology in Russia: State of the Art, 16*(3), 189–205. https://doi.org/10.11621/pir.2023.0313
+
 Jelas, Z. M., Azman, N., Zulnaidi, H., & Ahmad, N. (2016). Learning support and academic achievement among Malaysian adolescents: The mediating role of student engagement. *Learning Environments Research, 19*, 221–240. https://doi.org/10.1007/s10984-015-9202-5
 
 Kuldas, S., Sargioti, A., Milosevic, T., & O’Higgins Norman, J. (2021). A review and content validation of 10 measurement scales for parental mediation of children’s internet use. *International Journal of Communication, 15*, 4062–4084. https://ijoc.org/index.php/ijoc/article/view/17265
@@ -62,6 +64,8 @@ Nu’man, M., Retnawati, H., Sugiman, & Jailani. (2021). Measuring self-regulate
 
 Panadero, E. (2017). A review of self-regulated learning: Six models and four directions for research. *Frontiers in Psychology, 8*, 422. https://doi.org/10.3389/fpsyg.2017.00422
 
+Portela-Pino, I., Domínguez-Alonso, J., & Alvariñas-Villaverde, M. (2024). Can we measure the level of socio-emotional competencies of adolescents? *Education Sciences, 14*(4), 395. https://doi.org/10.3390/educsci14040395
+
 Purboningsih, E. R., Massar, K., Hinduan, Z. R., Agustiani, H., Ruiter, R. A. C., & Verduyn, P. (2025). Parental mediation strategies for social media use: A thematic analysis of perspectives among Indonesian parents and adolescents. *Behaviour & Information Technology, 44*(12), 2838–2859. https://doi.org/10.1080/0144929X.2024.2413454
 
 Ren, W., & Zhu, X. (2022). Parental mediation and adolescents’ internet use: The moderating role of parenting style. *Journal of Youth and Adolescence, 51*, 1483–1496. https://doi.org/10.1007/s10964-022-01600-w
@@ -73,6 +77,8 @@ Ruzek, E. A., Aldrup, K., & Lüdtke, O. (2022). Assessing the effects of student
 Salmela-Aro, K., Tang, X., Symonds, J., & Upadyaya, K. (2021). Student engagement in adolescence: A scoping review of longitudinal studies 2010–2020. *Journal of Research on Adolescence, 31*(2), 256–272. https://doi.org/10.1111/jora.12619
 
 Santos, A. C., Simões, C., Melo, M. H. S., Santos, M. F., Freitas, I., Branquinho, C., Cefai, C., & Arriaga, P. (2023). A systematic review of the association between social and emotional competencies and student engagement in youth. *Educational Research Review, 39*, 100535. https://doi.org/10.1016/j.edurev.2023.100535
+
+Setiyorini, S. R., Isnaeni, W., & Ridlo, S. (2025). Psychometric evaluation of a social-emotional competence assessment instrument for high school students: Evidence of construct validity and reliability. *REID (Research and Evaluation in Education), 11*(2), 199–209. https://doi.org/10.21831/reid.v11i2.89685
 
 Symons, K., Ponnet, K., Emmery, K., Walrave, M., & Heirman, W. (2017). A factorial validation of parental mediation strategies with regard to internet use. *Psychologica Belgica, 57*(2), 93–111. https://doi.org/10.5334/pb.372
 
@@ -93,3 +99,5 @@ Wisniewski, B., Zierer, K., Dresel, M., & Daumiller, M. (2020). Obtaining second
 Wu, J., Yan, Z., Yang, Y., Zhu, J., Xiong, Y., & Chen, J. (2024). The perceived teacher support scale (PTSS) for students: Development and psychometric studies. *International Journal of Educational Research, 128*, 102487. https://doi.org/10.1016/j.ijer.2024.102487
 
 Yin, Z., Guo, W., & Wang, Y. (2023). The effect of psychological distress on adolescents’ academic engagement: The roles of social-emotional competence and teachers’ caring behavior. *Psychology Research and Behavior Management, 16*, 5011–5021. https://doi.org/10.2147/PRBM.S438998
+
+Zhou, M., & Ee, J. (2012). Development and validation of the Social Emotional Competence Questionnaire (SECQ). *International Journal of Emotional Education, 4*(2), 27–42.
