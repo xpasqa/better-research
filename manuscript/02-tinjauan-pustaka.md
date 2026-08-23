@@ -60,7 +60,7 @@ Secara teoretis, kualitas lingkungan digital dapat menyediakan resources melalui
 
 Dalam penelitian ini, **Keterikatan Personel** merujuk pada *work engagement*, bukan *organizational commitment* atau *employee engagement* dalam arti luas. Work engagement dipahami sebagai keadaan positif terkait pekerjaan yang ditandai oleh *vigor*, *dedication*, dan *absorption*.
 
-Schaufeli et al. (2002) dan pengembangan pengukuran selanjutnya menjadi basis awal untuk konstruksi konsep ini.
+Schaufeli et al. (2006) menyediakan basis pengukuran yang tervalidasi untuk konstruk work engagement melalui UWES-9 dan menjadi rujukan awal untuk definisi serta pengukuran pada penelitian ini.
 
 <!-- TODO: tetapkan sumber definisi final dan versi instrumen yang digunakan, misalnya UWES-9 apabila sesuai setelah verifikasi. -->
 
@@ -102,7 +102,7 @@ Argumen awal penelitian adalah bahwa Kepemimpinan Digital dapat berhubungan deng
 
 Lingkungan Kerja Digital yang mendukung akses informasi, koordinasi, dan penyelesaian tugas secara teoritis dapat berfungsi sebagai kondisi kerja yang memfasilitasi engagement. Namun, arah dan kekuatan hubungan perlu diuji secara empiris dan tidak boleh diasumsikan otomatis dari ketersediaan teknologi.
 
-<!-- TODO: sintesis studi Digital Workplace -> Work Engagement, termasuk Joo et al. (2021) bila construct match terkonfirmasi. -->
+<!-- TODO: sintesis studi Digital Workplace -> Work Engagement setelah construct match terkonfirmasi. -->
 
 ### 2.6.3 Kepemimpinan Digital dan Kinerja Personel
 

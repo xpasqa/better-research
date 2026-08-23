@@ -856,3 +856,136 @@ Jika repo sudah ada:
 5. Jelaskan perubahan yang dilakukan.
 ```
 
+## 23. Mandatory APA 7 + 07. References Workflow
+
+Bagian ini bersifat **mandatory** dan mengikat seluruh pekerjaan literature, citation, writing, review, dan export di repository ini.
+
+### 23.1 Citation Standard
+
+Standar resmi adalah **APA Style 7th Edition**.
+
+Aturan minimum:
+
+- in-text citation menggunakan author–year;
+- untuk tiga penulis atau lebih, gunakan `et al.` sejak sitasi pertama sesuai APA 7;
+- corporate/institutional author harus konsisten;
+- same-author/same-year harus menggunakan suffix `a`, `b`, `c`, dan seterusnya secara konsisten antara body dan daftar pustaka;
+- judul artikel menggunakan sentence case;
+- nama jurnal dan volume mengikuti format APA 7;
+- DOI ditulis sebagai URL `https://doi.org/...`;
+- URL digunakan untuk sumber resmi/regulasi jika DOI tidak tersedia;
+- hanging indent diterapkan pada export DOCX/PDF final;
+- jangan menambah metadata bibliografis yang belum diverifikasi.
+
+### 23.2 Dua File Referensi yang Wajib Sinkron
+
+Setiap sumber/literature yang digunakan harus masuk ke **dua file pada PR yang sama**:
+
+```text
+literature/references.bib
+manuscript/07-references.md
+```
+
+Fungsinya berbeda:
+
+- `literature/references.bib` = **canonical metadata/reference database** yang machine-readable dan menjadi basis rekonsiliasi metadata.
+- `manuscript/07-references.md` = **07. References / Draft Daftar Pustaka**, human-readable, berformat APA 7, dan disiapkan sebagai bagian manuscript.
+
+`manuscript/07-references.md` adalah **Draft Daftar Pustaka aktif**. Ia tidak menggantikan `references.bib`; keduanya harus sinkron.
+
+Jika ada mismatch, jangan menebak. Verifikasi metadata dan gunakan `literature/references.bib` sebagai basis rekonsiliasi, lalu perbarui `07-references.md`.
+
+### 23.3 Mandatory Literature Insertion Sequence
+
+Setiap kali agent memasukkan literature baru ke argumentasi, manuscript, literature review, research memo, atau hypothesis justification, lakukan urutan berikut:
+
+```text
+Search -> Fetch/Open Source -> Verify Metadata -> Assess Evidence Quality -> Add/Update references.bib -> Add/Update 07-references.md in APA 7 -> Update literature matrix if relevant -> Cite in manuscript -> Commit -> PR
+```
+
+Tidak boleh ada keadaan berikut:
+
+- sumber muncul di body manuscript tetapi tidak ada di `references.bib`;
+- sumber muncul di body manuscript tetapi tidak ada di `07-references.md`;
+- entry di `07-references.md` dibuat dari metadata tebakan;
+- DOI/URL dibuat atau diperkirakan tanpa verifikasi;
+- sumber institutional diperlakukan sebagai peer-reviewed causal evidence;
+- citation year di body berbeda dari reference entry tanpa alasan bibliografis yang terdokumentasi.
+
+Jika metadata belum lengkap/meragukan:
+
+```markdown
+<!-- TODO APA7-METADATA: verifikasi publisher/DOI/year/volume/issue/pages sebelum finalisasi -->
+```
+
+### 23.4 Literature Matrix Rule
+
+Jika sumber baru relevan untuk literature synthesis, theory, hypothesis, research gap, rival explanation, measurement, atau method justification, selain dua file referensi wajib di atas, sumber tersebut juga harus dimasukkan atau dipetakan ke:
+
+```text
+literature/matrix-literature-review.md
+```
+
+Matrix harus membedakan minimal:
+
+- theoretical claim;
+- empirical evidence;
+- design/method;
+- level of analysis;
+- key finding;
+- limitation;
+- relevance;
+- rival explanation/boundary condition bila ada.
+
+### 23.5 PR Checklist untuk Perubahan Literature
+
+Setiap PR yang menambah atau mengganti literature harus memeriksa:
+
+- [ ] sumber nyata dan traceable;
+- [ ] metadata author/year/title/source diverifikasi;
+- [ ] DOI/URL diverifikasi jika tersedia;
+- [ ] `literature/references.bib` diperbarui;
+- [ ] `manuscript/07-references.md` diperbarui dalam APA 7;
+- [ ] same-author/same-year suffix konsisten dengan in-text citation;
+- [ ] literature matrix diperbarui jika sumber relevan untuk synthesis;
+- [ ] evidence quality dan level of analysis tidak disalahartikan;
+- [ ] tidak ada fake citation, citation dumping, atau unsupported causal claim.
+
+Jika salah satu file wajib belum diperbarui, PR literature **belum memenuhi Definition of Done**.
+
+### 23.6 07. References sebagai Draft Daftar Pustaka
+
+File canonical draft:
+
+```text
+manuscript/07-references.md
+```
+
+Heading utamanya harus menyatakan bahwa file tersebut adalah **07. References — Draft Daftar Pustaka**.
+
+Aturan:
+
+- urut alfabetis menurut APA 7;
+- hanya memasukkan sumber yang benar-benar digunakan/ditetapkan sebagai working references;
+- metadata yang belum dapat diverifikasi diberi TODO, bukan difabrikasi;
+- source type harus dapat dibedakan antara peer-reviewed article, report, regulation, dan institutional webpage;
+- setiap literature baru wajib ditambahkan pada saat yang sama dengan perubahan manuscript/literature yang menggunakannya;
+- saat literature dihapus dari model/manuscript, evaluasi apakah reference entry masih digunakan sebelum menghapusnya dari Draft Daftar Pustaka.
+
+### 23.7 Export Rule
+
+Pada export final, APA 7 harus diterapkan konsisten dan daftar pustaka memakai hanging indent.
+
+Jika tool export merender bibliography secara otomatis dari `literature/references.bib`, jangan menghasilkan daftar pustaka ganda dengan merender `manuscript/07-references.md` sekaligus. Dalam kondisi tersebut, `07-references.md` tetap berfungsi sebagai Draft Daftar Pustaka untuk audit/sinkronisasi, sedangkan output final dapat dirender dari `references.bib` selama hasilnya identik secara substantif dan mengikuti APA 7.
+
+### 23.8 Definition of Done Tambahan untuk Literature/Citation Work
+
+Pekerjaan yang menyentuh literature/citation belum selesai sampai:
+
+- sumber telah diverifikasi;
+- `references.bib` sinkron;
+- `07-references.md` sinkron;
+- APA 7 diterapkan;
+- body citation sinkron dengan reference entry;
+- matrix diperbarui jika relevan;
+- uncertainty bibliografis yang tersisa ditandai eksplisit.
