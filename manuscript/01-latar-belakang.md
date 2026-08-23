@@ -64,17 +64,17 @@ Pada tingkat siswa, Santos et al. (2023) menunjukkan bahwa kompetensi sosial-emo
 
 Penelitian terdahulu telah banyak menguji dukungan keluarga, dukungan guru, regulasi diri, dan keterlibatan belajar secara terpisah maupun dalam model gabungan (Jelas et al., 2016). Hal yang masih perlu diperjelas bukan sekadar apakah variabel-variabel tersebut “berhubungan”, tetapi jalur mana yang lebih konsisten untuk menjelaskan keterlibatan belajar ketika konteks keluarga digital dan dukungan guru dipertimbangkan bersama serta urutan waktu diperhatikan.
 
-## 1.3 Masalah dan Pertanyaan Penelitian
+## 1.3 Rumusan Masalah
 
-Masalah penelitian dirumuskan sebagai berikut: **belum cukup jelas bagaimana mediasi digital orang tua dan dukungan guru yang dirasakan siswa berhubungan dengan keterlibatan belajar siswa SMP dari waktu ke waktu, serta apakah hubungan tersebut lebih konsisten dijelaskan melalui kompetensi sosial-emosional, pemenuhan kebutuhan psikologis dasar di sekolah, atau keduanya.**
+Berdasarkan latar belakang dan penelitian terdahulu, masalah utama penelitian ini bukan sekadar apakah keluarga, guru, dan kondisi psikologis siswa berhubungan dengan keterlibatan belajar. Masalah yang perlu dijelaskan adalah **bagaimana Mediasi Digital Orang Tua dan Dukungan Guru yang Dipersepsikan Siswa berkaitan dengan Keterlibatan Belajar dari waktu ke waktu, serta melalui proses apa hubungan tersebut lebih konsisten dijelaskan pada siswa SMP di DKI Jakarta**.
 
-Pertanyaan penelitian adalah:
+Rumusan masalah penelitian adalah:
 
-1. Bagaimana Mediasi Digital Orang Tua berhubungan dengan Keterlibatan Belajar siswa SMP pada waktu berikutnya setelah keterlibatan belajar sebelumnya diperhitungkan?
-2. Bagaimana Dukungan Guru yang Dipersepsikan Siswa berhubungan dengan Keterlibatan Belajar pada waktu berikutnya setelah keterlibatan belajar sebelumnya diperhitungkan?
-3. Bagaimana Mediasi Digital Orang Tua berhubungan dengan Kompetensi Sosial-Emosional, dan bagaimana Dukungan Guru berhubungan dengan Kompetensi Sosial-Emosional serta Pemenuhan Kebutuhan Psikologis Dasar di Sekolah?
-4. Bagaimana Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah berhubungan dengan Keterlibatan Belajar pada waktu berikutnya?
-5. Apakah hubungan Mediasi Digital Orang Tua dan Dukungan Guru dengan Keterlibatan Belajar lebih konsisten melalui Kompetensi Sosial-Emosional, Pemenuhan Kebutuhan Psikologis Dasar di Sekolah, atau keduanya?
+1. Bagaimana Mediasi Digital Orang Tua berhubungan dengan Keterlibatan Belajar siswa SMP pada waktu berikutnya setelah Keterlibatan Belajar sebelumnya diperhitungkan?
+2. Bagaimana Dukungan Guru yang Dipersepsikan Siswa berhubungan dengan Keterlibatan Belajar pada waktu berikutnya setelah Keterlibatan Belajar sebelumnya diperhitungkan?
+3. Bagaimana Mediasi Digital Orang Tua dan Dukungan Guru yang Dipersepsikan Siswa berkaitan dengan Kompetensi Sosial-Emosional, serta bagaimana Dukungan Guru berkaitan dengan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah?
+4. Bagaimana Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah berhubungan dengan Keterlibatan Belajar pada waktu berikutnya setelah kondisi sebelumnya diperhitungkan?
+5. Sejauh mana Kompetensi Sosial-Emosional menjelaskan hubungan Mediasi Digital Orang Tua dan Dukungan Guru dengan Keterlibatan Belajar, serta sejauh mana Pemenuhan Kebutuhan Psikologis Dasar di Sekolah menjelaskan hubungan Dukungan Guru dengan Keterlibatan Belajar?
 
 ## 1.4 Kesenjangan Penelitian
 
@@ -90,13 +90,29 @@ Kontribusi penelitian dengan demikian terletak pada upaya memberikan penjelasan 
 
 Penelitian ini bertujuan untuk:
 
-1. menganalisis hubungan Mediasi Digital Orang Tua dengan Keterlibatan Belajar siswa SMP pada waktu berikutnya;
-2. menganalisis hubungan Dukungan Guru yang Dipersepsikan Siswa dengan Keterlibatan Belajar pada waktu berikutnya;
-3. menganalisis hubungan Mediasi Digital Orang Tua dengan Kompetensi Sosial-Emosional serta hubungan Dukungan Guru dengan Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah;
-4. menganalisis hubungan Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah dengan Keterlibatan Belajar pada waktu berikutnya; dan
-5. membandingkan peran Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar dalam menjelaskan hubungan konteks keluarga digital dan dukungan guru dengan Keterlibatan Belajar.
+1. menganalisis hubungan Mediasi Digital Orang Tua dengan Keterlibatan Belajar siswa SMP pada waktu berikutnya setelah Keterlibatan Belajar sebelumnya diperhitungkan;
+2. menganalisis hubungan Dukungan Guru yang Dipersepsikan Siswa dengan Keterlibatan Belajar pada waktu berikutnya setelah Keterlibatan Belajar sebelumnya diperhitungkan;
+3. menganalisis hubungan Mediasi Digital Orang Tua dan Dukungan Guru yang Dipersepsikan Siswa dengan Kompetensi Sosial-Emosional, serta hubungan Dukungan Guru dengan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah;
+4. menganalisis hubungan Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah dengan Keterlibatan Belajar pada waktu berikutnya setelah kondisi sebelumnya diperhitungkan; dan
+5. menganalisis peran Kompetensi Sosial-Emosional dalam menjelaskan hubungan Mediasi Digital Orang Tua dan Dukungan Guru dengan Keterlibatan Belajar, serta peran Pemenuhan Kebutuhan Psikologis Dasar di Sekolah dalam menjelaskan hubungan Dukungan Guru dengan Keterlibatan Belajar.
 
-## 1.6 Ruang Lingkup Penelitian
+## 1.6 Manfaat Penelitian
+
+### 1.6.1 Manfaat Akademik
+
+Penelitian ini diharapkan memberikan bukti empiris mengenai hubungan antara konteks keluarga digital, dukungan guru, proses pada diri siswa, dan Keterlibatan Belajar pada siswa SMP. Secara khusus, penelitian ini dapat membantu memperjelas apakah Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah memberikan penjelasan yang berbeda terhadap hubungan konteks siswa dengan Keterlibatan Belajar. Desain longitudinal juga diharapkan memberikan informasi yang lebih baik mengenai urutan waktu hubungan antar konstruk dibandingkan penelitian satu waktu, tanpa mengubah hasilnya menjadi klaim sebab-akibat.
+
+Penelitian ini juga dapat memperluas bukti pada konteks pendidikan perkotaan Indonesia. Manfaat ini diposisikan sebagai penambahan dan pengujian keterterapan evidence pada konteks siswa SMP di DKI Jakarta, bukan sebagai klaim bahwa lokasi penelitian dengan sendirinya menghasilkan kebaruan teoritis.
+
+### 1.6.2 Manfaat Praktis
+
+Bagi orang tua, hasil penelitian dapat memberikan gambaran yang lebih terarah mengenai bentuk pendampingan penggunaan teknologi digital yang berkaitan dengan kondisi sosial-emosional dan keterlibatan belajar anak. Karena hubungan antar strategi Mediasi Digital Orang Tua belum selalu konsisten dalam literatur, implikasi praktis akan ditarik berdasarkan hasil penelitian dan tidak diasumsikan sejak awal.
+
+Bagi guru dan sekolah, hasil penelitian dapat memberikan informasi mengenai hubungan dukungan yang dirasakan siswa, kompetensi sosial-emosional, pemenuhan kebutuhan psikologis dasar, dan keterlibatan belajar. Informasi tersebut dapat digunakan sebagai bahan pertimbangan dalam memperbaiki pengalaman belajar dan dukungan kepada siswa, sepanjang didukung oleh hasil empiris penelitian.
+
+Bagi pengelola pendidikan dan pihak yang mendampingi perkembangan siswa, penelitian ini dapat menyediakan bukti pada tingkat individu siswa sebagai bahan pertimbangan untuk memahami keterlibatan belajar secara lebih utuh. Hasil penelitian tidak dimaksudkan sebagai dasar tunggal bagi kebijakan atau intervensi, tetapi sebagai salah satu sumber evidence yang dapat dipertimbangkan bersama informasi lain yang relevan.
+
+## 1.7 Ruang Lingkup Penelitian
 
 Penelitian difokuskan pada siswa kelas VII–IX SMP di DKI Jakarta yang masuk dalam kerangka sampel penelitian. Unit analisis utama adalah individu siswa, dengan tetap mencatat kelas dan sekolah karena siswa berada dalam kelompok yang sama.
 
