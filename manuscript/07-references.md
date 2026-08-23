@@ -32,6 +32,8 @@ Durlak, J., Mahoney, J. L., & Boyle, A. E. (2022). What we know, and what we nee
 
 Emslander, V., Holzberger, D., Ofstad, S., Fischbach, A., & Scherer, R. (2025). Teacher-student relationships and student outcomes: A systematic second-order meta-analytic review. *Psychological Bulletin, 151*(3), 365–397. https://doi.org/10.1037/bul0000461
 
+Hamaker, E. L., Kuiper, R. M., & Grasman, R. P. P. P. (2015). A critique of the cross-lagged panel model. *Psychological Methods, 20*(1), 102–116. https://doi.org/10.1037/a0038889
+
 Ho, S., Lwin, M. O., Chen, L., & Chen, M. (2019). Development and validation of a parental social media mediation scale across child and parent samples. *Internet Research, 30*(2), 677–694. https://doi.org/10.1108/INTR-02-2018-0061
 
 Howard, J. L., Slemp, G. R., & Wang, X. (2025). Need support and need thwarting: A meta-analysis of autonomy, competence, and relatedness supportive and thwarting behaviors in student populations. *Personality and Social Psychology Bulletin, 51*(9), 1552–1573. https://doi.org/10.1177/01461672231225364
@@ -64,6 +66,8 @@ Martinez-Yarza, N., Santibáñez, R., & Solabarrieta, J. (2023). A systematic re
 
 Martinez-Yarza, N., Solabarrieta-Eizaguirre, J., & Santibáñez-Gruber, R. (2024). The impact of family involvement on students’ social-emotional development: The mediational role of school engagement. *European Journal of Psychology of Education, 39*, 4297–4327. https://doi.org/10.1007/s10212-024-00862-1
 
+Maxwell, S. E., & Cole, D. A. (2007). Bias in cross-sectional analyses of longitudinal mediation. *Psychological Methods, 12*(1), 23–44. https://doi.org/10.1037/1082-989X.12.1.23
+
 Modecki, K., Goldberg, R. E., Wisniewski, P., & Orben, A. (2022). What is digital parenting? A systematic review of past measurement and blueprint for the future. *Perspectives on Psychological Science, 17*, 1673–1691. https://doi.org/10.1177/17456916211072458
 
 Navarro, J. L., & Tudge, J. R. H. (2023). Technologizing Bronfenbrenner: Neo-ecological theory. *Current Psychology, 42*(22), 19338–19354. https://doi.org/10.1007/s12144-022-02738-3
@@ -90,6 +94,8 @@ Salmela-Aro, K., Tang, X., Symonds, J., & Upadyaya, K. (2021). Student engagemen
 
 Santos, A. C., Simões, C., Melo, M. H. S., Santos, M. F., Freitas, I., Branquinho, C., Cefai, C., & Arriaga, P. (2023). A systematic review of the association between social and emotional competencies and student engagement in youth. *Educational Research Review, 39*, 100535. https://doi.org/10.1016/j.edurev.2023.100535
 
+Schoemann, A. M., Boulton, A. J., & Short, S. D. (2017). Determining power and sample size for simple and complex mediation models. *Social Psychological and Personality Science, 8*, 379–386. https://doi.org/10.1177/1948550617715068
+
 Setiyorini, S. R., Isnaeni, W., & Ridlo, S. (2025). Psychometric evaluation of a social-emotional competence assessment instrument for high school students: Evidence of construct validity and reliability. *REID (Research and Evaluation in Education), 11*(2), 199–209. https://doi.org/10.21831/reid.v11i2.89685
 
 Song, L., Ishak, N. A., & Wei, Y. (2026). The influence of teacher support and parent support on learning engagement of Chinese middle school students through self-regulation and self-efficacy. *Journal of Educational and Social Research*. https://doi.org/10.36941/jesr-2026-0347
@@ -99,6 +105,8 @@ Stroet, K., Opdenakker, M.-C., & Minnaert, A. (2013). Effects of need supportive
 Symons, K., Ponnet, K., Emmery, K., Walrave, M., & Heirman, W. (2017). A factorial validation of parental mediation strategies with regard to internet use. *Psychologica Belgica, 57*(2), 93–111. https://doi.org/10.5334/pb.372
 
 Tao, Y., Meng, Y., Gao, Z., & Yang, X. (2022). Perceived teacher support, student engagement, and academic achievement: A meta-analysis. *Educational Psychology, 42*, 401–420. https://doi.org/10.1080/01443410.2022.2033168
+
+Tian, L., Han, M., & Huebner, E. S. (2014). Preliminary development of the adolescent students’ basic psychological needs at school scale. *Journal of Adolescence, 37*(3), 257–267. https://doi.org/10.1016/j.adolescence.2014.01.005
 
 Tong, W., He, W., Wang, Y., Xie, C., Fang, L., Jia, J., & Fang, X. (2024). Associations between internet-specific parenting, general parenting, and adolescents’ online behaviors: A cross-lagged panel network analysis. *Journal of Youth and Adolescence, 53*, 1847–1860. https://doi.org/10.1007/s10964-024-01981-0
 
