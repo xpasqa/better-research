@@ -24,7 +24,13 @@ Durlak, J., Mahoney, J. L., & Boyle, A. E. (2022). What we know, and what we nee
 
 Emslander, V., Holzberger, D., Ofstad, S., Fischbach, A., & Scherer, R. (2025). Teacher-student relationships and student outcomes: A systematic second-order meta-analytic review. *Psychological Bulletin, 151*(3), 365–397. https://doi.org/10.1037/bul0000461
 
+Ho, S., Lwin, M. O., Chen, L., & Chen, M. (2019). Development and validation of a parental social media mediation scale across child and parent samples. *Internet Research, 30*(2), 677–694. https://doi.org/10.1108/INTR-02-2018-0061
+
+Huang, S., Lai, X., Li, Y., Wang, W., Zhao, X., Dai, X., Wang, H., & Wang, Y. (2023). Does parental media mediation make a difference for adolescents? Evidence from an empirical cohort study of parent-adolescent dyads. *Heliyon, 9*(4), e14897. https://doi.org/10.1016/j.heliyon.2023.e14897
+
 Jelas, Z. M., Azman, N., Zulnaidi, H., & Ahmad, N. (2016). Learning support and academic achievement among Malaysian adolescents: The mediating role of student engagement. *Learning Environments Research, 19*, 221–240. https://doi.org/10.1007/s10984-015-9202-5
+
+Kuldas, S., Sargioti, A., Milosevic, T., & O’Higgins Norman, J. (2021). A review and content validation of 10 measurement scales for parental mediation of children’s internet use. *International Journal of Communication, 15*, 4062–4084. https://ijoc.org/index.php/ijoc/article/view/17265
 
 Lam, S.-f., Jimerson, S., Wong, B. P. H., Kikas, E., Shin, H., Veiga, F. H., Cefai, C., Hatzichristou, C., Polychroni, F., Negovan, V., Stănculescu, E., Yang, H., Liu, Y., Basnett, J., Duck, R., Farrell, P., Nelson, B., & Zollneritsch, J. (2014). Understanding and measuring student engagement in school: The results of an international study from 12 countries. *School Psychology Quarterly, 29*(2), 213–232. https://doi.org/10.1037/spq0000057
 
@@ -50,15 +56,25 @@ Nu’man, M., Retnawati, H., Sugiman, & Jailani. (2021). Measuring self-regulate
 
 Panadero, E. (2017). A review of self-regulated learning: Six models and four directions for research. *Frontiers in Psychology, 8*, 422. https://doi.org/10.3389/fpsyg.2017.00422
 
+Purboningsih, E. R., Massar, K., Hinduan, Z. R., Agustiani, H., Ruiter, R. A. C., & Verduyn, P. (2025). Parental mediation strategies for social media use: A thematic analysis of perspectives among Indonesian parents and adolescents. *Behaviour & Information Technology, 44*(12), 2838–2859. https://doi.org/10.1080/0144929X.2024.2413454
+
+Ren, W., & Zhu, X. (2022). Parental mediation and adolescents’ internet use: The moderating role of parenting style. *Journal of Youth and Adolescence, 51*, 1483–1496. https://doi.org/10.1007/s10964-022-01600-w
+
 Rosa, E. M., & Tudge, J. (2013). Urie Bronfenbrenner’s theory of human development: Its evolution from ecology to bioecology. *Journal of Family Theory & Review, 5*, 243–258. https://doi.org/10.1111/jftr.12022
 
 Salmela-Aro, K., Tang, X., Symonds, J., & Upadyaya, K. (2021). Student engagement in adolescence: A scoping review of longitudinal studies 2010–2020. *Journal of Research on Adolescence, 31*(2), 256–272. https://doi.org/10.1111/jora.12619
 
 Santos, A. C., Simões, C., Melo, M. H. S., Santos, M. F., Freitas, I., Branquinho, C., Cefai, C., & Arriaga, P. (2023). A systematic review of the association between social and emotional competencies and student engagement in youth. *Educational Research Review, 39*, 100535. https://doi.org/10.1016/j.edurev.2023.100535
 
+Symons, K., Ponnet, K., Emmery, K., Walrave, M., & Heirman, W. (2017). A factorial validation of parental mediation strategies with regard to internet use. *Psychologica Belgica, 57*(2), 93–111. https://doi.org/10.5334/pb.372
+
 Tao, Y., Meng, Y., Gao, Z., & Yang, X. (2022). Perceived teacher support, student engagement, and academic achievement: A meta-analysis. *Educational Psychology, 42*, 401–420. https://doi.org/10.1080/01443410.2022.2033168
 
 Tong, W., He, W., Wang, Y., Xie, C., Fang, L., Jia, J., & Fang, X. (2024). Associations between internet-specific parenting, general parenting, and adolescents’ online behaviors: A cross-lagged panel network analysis. *Journal of Youth and Adolescence, 53*, 1847–1860. https://doi.org/10.1007/s10964-024-01981-0
+
+Ulfa, A., Kendhawati, L., & Moeliono, M. F. (2025). Adapting internet parental mediation survey: A pilot study. *Jurnal Ilmu Keluarga dan Konsumen, 18*(3), 275–286. https://doi.org/10.24156/jikk.2025.18.3.275
+
+Vossen, H. G. M., van den Eijnden, R. J. J. M., Visser, I., & Koning, I. M. (2024). Parenting and problematic social media use: A systematic review. *Current Addiction Reports, 11*, 511–527. https://doi.org/10.1007/s40429-024-00559-x
 
 Wang, Y., Xia, M., Guo, W., Xu, F., & Zhao, Y. (2023). Academic performance under COVID-19: The role of online learning readiness and emotional competence. *Current Psychology, 42*(34), 30562–30575. https://doi.org/10.1007/s12144-022-02699-7
 
