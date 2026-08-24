@@ -52,7 +52,7 @@ Literatur yang ada menunjukkan bahwa keluarga, guru, kompetensi sosial-emosional
 
 DKI Jakarta memberi konteks empiris untuk menguji apakah pola hubungan yang banyak dibahas dalam literatur internasional juga terlihat pada siswa SMP dalam pendidikan perkotaan Indonesia. Bukti Indonesia menunjukkan kelayakan pengukuran keterlibatan pada siswa sekolah menengah (Diniyah et al., 2025), sedangkan data BPS menyediakan gambaran institusional mengenai lingkungan pendidikan (Badan Pusat Statistik Provinsi DKI Jakarta, 2025). Bukti yang tersedia belum cukup untuk menyatakan bahwa DKI merupakan *theoretical boundary condition* yang mengubah hubungan antar konstruk. Posisi DKI dalam penelitian ini adalah konteks empiris dan batas transferabilitas, bukan sumber kebaruan dengan sendirinya.
 
-Masalah penelitian berangkat dari ketidakjelasan mengenai bagaimana pengalaman siswa dalam konteks keluarga digital dan dukungan guru berkaitan dengan Keterlibatan Belajar dari waktu ke waktu, serta apakah hubungan tersebut lebih konsisten dijelaskan melalui Kompetensi Sosial-Emosional, Pemenuhan Kebutuhan Psikologis Dasar di Sekolah, atau pola jalur yang berbeda bagi konteks keluarga dan sekolah. Persoalan ini akan ditelaah pada tingkat individu siswa SMP di DKI Jakarta melalui desain longitudinal tiga gelombang. Desain tersebut digunakan untuk memperkuat urutan waktu dan memperhitungkan kondisi sebelumnya, tetapi tetap bersifat observasional. Hasil penelitian karena itu akan ditafsirkan sebagai hubungan prospektif dan hubungan tidak langsung secara statistik, bukan sebagai bukti sebab-akibat yang pasti.
+Masalah penelitian berangkat dari ketidakjelasan mengenai bagaimana pengalaman siswa dalam konteks keluarga digital dan dukungan guru berkaitan dengan Keterlibatan Belajar dari waktu ke waktu, serta apakah hubungan tersebut lebih konsisten dijelaskan melalui Kompetensi Sosial-Emosional, Pemenuhan Kebutuhan Psikologis Dasar di Sekolah, atau pola jalur yang berbeda bagi konteks keluarga dan sekolah. Persoalan ini ditelaah pada tingkat individu siswa SMP di DKI Jakarta melalui desain **explanatory sequential mixed methods (QUAN → QUAL)**. Fase kuantitatif menggunakan longitudinal tiga gelombang untuk memperkuat urutan waktu dan memperhitungkan kondisi sebelumnya, sedangkan fase kualitatif digunakan untuk menjelaskan hasil kuantitatif terpilih yang tidak cukup dipahami melalui koefisien statistik. Seluruh desain tetap bersifat observasional, sehingga hasil penelitian tidak ditafsirkan sebagai bukti sebab-akibat yang pasti.
 
 ## 1.2 Penelitian Terdahulu
 
@@ -62,11 +62,11 @@ Pada konteks sekolah, hubungan dukungan guru dengan keterlibatan belajar memilik
 
 Pada tingkat siswa, Santos et al. (2023) menunjukkan bahwa kompetensi sosial-emosional secara umum berkaitan positif dengan keterlibatan belajar. SDT pada saat yang sama memberikan dasar teoretis yang jelas bagi hubungan antara dukungan sosial, pemenuhan kebutuhan psikologis dasar, dan keterlibatan belajar (Ryan & Deci, 2020; Bureau et al., 2022). Kedua proses tersebut sama-sama relevan, tetapi tidak mewakili hal yang sama.
 
-Penelitian terdahulu telah menelaah dukungan keluarga, dukungan guru, regulasi diri, dan keterlibatan belajar secara terpisah maupun dalam berbagai model gabungan (Jelas et al., 2016). Pertanyaan yang masih perlu diperjelas bukan sekadar apakah variabel-variabel tersebut saling berhubungan, melainkan jalur mana yang lebih konsisten untuk menjelaskan keterlibatan belajar ketika konteks keluarga digital dan dukungan guru dipertimbangkan bersama serta urutan waktu diperhatikan.
+Penelitian terdahulu telah menelaah dukungan keluarga, dukungan guru, regulasi diri, dan keterlibatan belajar secara terpisah maupun dalam berbagai model gabungan (Jelas et al., 2016). Pertanyaan yang masih perlu diperjelas bukan sekadar apakah variabel-variabel tersebut saling berhubungan, melainkan jalur mana yang lebih konsisten untuk menjelaskan keterlibatan belajar ketika konteks keluarga digital dan dukungan guru dipertimbangkan bersama serta urutan waktu diperhatikan. Selain itu, pola statistik yang tidak konsisten—terutama pada dimensi DPM atau kombinasi dukungan dan engagement yang tidak sesuai dugaan—masih memerlukan penjelasan kontekstual dari pengalaman siswa.
 
 ## 1.3 Rumusan Masalah
 
-Latar belakang dan penelitian terdahulu menunjukkan bahwa persoalan utama penelitian ini bukan sekadar ada atau tidaknya hubungan antara keluarga, guru, kondisi psikologis siswa, dan keterlibatan belajar. Fokus masalah terletak pada **bagaimana dimensi-dimensi Mediasi Digital Orang Tua dan Dukungan Guru yang Dipersepsikan Siswa berkaitan dengan Keterlibatan Belajar dari waktu ke waktu, serta melalui proses apa hubungan tersebut lebih konsisten dijelaskan pada siswa SMP di DKI Jakarta**.
+Latar belakang dan penelitian terdahulu menunjukkan bahwa persoalan utama penelitian ini bukan sekadar ada atau tidaknya hubungan antara keluarga, guru, kondisi psikologis siswa, dan keterlibatan belajar. Fokus masalah terletak pada **bagaimana dimensi-dimensi Mediasi Digital Orang Tua dan Dukungan Guru yang Dipersepsikan Siswa berkaitan dengan Keterlibatan Belajar dari waktu ke waktu, melalui proses apa hubungan tersebut lebih konsisten dijelaskan, dan bagaimana pengalaman siswa membantu menjelaskan pola kuantitatif yang memerlukan pendalaman pada siswa SMP di DKI Jakarta**.
 
 Rumusan masalah penelitian adalah:
 
@@ -75,6 +75,7 @@ Rumusan masalah penelitian adalah:
 3. Bagaimana dimensi-dimensi Mediasi Digital Orang Tua dan Dukungan Guru yang Dipersepsikan Siswa berkaitan dengan Kompetensi Sosial-Emosional, serta bagaimana Dukungan Guru berkaitan dengan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah?
 4. Bagaimana Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah berhubungan dengan Keterlibatan Belajar pada waktu berikutnya setelah kondisi sebelumnya diperhitungkan?
 5. Sejauh mana Kompetensi Sosial-Emosional menjelaskan hubungan dimensi-dimensi Mediasi Digital Orang Tua dan Dukungan Guru dengan Keterlibatan Belajar, serta sejauh mana Pemenuhan Kebutuhan Psikologis Dasar di Sekolah menjelaskan hubungan Dukungan Guru dengan Keterlibatan Belajar?
+6. Bagaimana pengalaman siswa mengenai pendampingan digital orang tua, dukungan guru, kondisi sosial-emosional, kebutuhan psikologis, dan proses belajar membantu menjelaskan hasil kuantitatif terpilih yang menunjukkan pola kuat, lemah, tidak konsisten, atau tidak sesuai dugaan?
 
 ## 1.4 Kesenjangan Penelitian
 
@@ -84,7 +85,9 @@ Ruang yang masih perlu dijelaskan terletak pada **jalur penjelasan**. Kompetensi
 
 Masalah lain menyangkut urutan waktu. Banyak penelitian menggunakan desain satu waktu sehingga sulit membedakan apakah kondisi tertentu mendahului perubahan pada keterlibatan atau hanya muncul bersamaan dengannya. Pengukuran tiga gelombang memungkinkan kondisi pada waktu sebelumnya diperhitungkan ketika menilai kondisi pada waktu berikutnya. Desain ini tidak membuktikan kausalitas, tetapi memberikan dasar yang lebih kuat untuk menilai urutan hubungan dibanding survei potong lintang.
 
-Kontribusi yang ditawarkan penelitian ini bersifat penjelasan: memperjelas bagaimana konteks keluarga digital, dukungan guru, proses pada diri siswa, dan keterlibatan belajar berkaitan dari waktu ke waktu pada siswa SMP di DKI Jakarta. DKI digunakan sebagai konteks empiris penelitian, bukan sebagai sumber kebaruan teoritis dengan sendirinya.
+Keterbatasan penjelasan juga muncul ketika hasil kuantitatif hanya berhenti pada besar koefisien. Hubungan yang lemah, tidak signifikan, atau berbeda antar dimensi dapat mencerminkan variasi makna pengalaman siswa, konteks keluarga dan sekolah, atau mekanisme alternatif yang tidak tertangkap langsung oleh model. Karena itu, fase kualitatif ditempatkan sebagai tindak lanjut untuk menjelaskan temuan kuantitatif terpilih, bukan sebagai bukti tambahan yang digunakan untuk memaksakan kausalitas.
+
+Kontribusi yang ditawarkan penelitian ini bersifat penjelasan: memperjelas bagaimana konteks keluarga digital, dukungan guru, proses pada diri siswa, dan keterlibatan belajar berkaitan dari waktu ke waktu pada siswa SMP di DKI Jakarta serta memperdalam interpretasi terhadap pola kuantitatif yang membutuhkan penjelasan kontekstual. DKI digunakan sebagai konteks empiris penelitian, bukan sebagai sumber kebaruan teoritis dengan sendirinya.
 
 ## 1.5 Tujuan Penelitian
 
@@ -93,14 +96,17 @@ Penelitian ini bertujuan untuk:
 1. menganalisis hubungan masing-masing dimensi Mediasi Digital Orang Tua dengan Keterlibatan Belajar siswa SMP pada waktu berikutnya setelah Keterlibatan Belajar sebelumnya diperhitungkan;
 2. menganalisis hubungan Dukungan Guru yang Dipersepsikan Siswa dengan Keterlibatan Belajar pada waktu berikutnya setelah Keterlibatan Belajar sebelumnya diperhitungkan;
 3. menganalisis hubungan dimensi-dimensi Mediasi Digital Orang Tua dan Dukungan Guru yang Dipersepsikan Siswa dengan Kompetensi Sosial-Emosional, serta hubungan Dukungan Guru dengan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah;
-4. menganalisis hubungan Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah dengan Keterlibatan Belajar pada waktu berikutnya setelah kondisi sebelumnya diperhitungkan; dan
-5. menganalisis peran Kompetensi Sosial-Emosional dalam menjelaskan hubungan dimensi-dimensi Mediasi Digital Orang Tua dan Dukungan Guru dengan Keterlibatan Belajar, serta peran Pemenuhan Kebutuhan Psikologis Dasar di Sekolah dalam menjelaskan hubungan Dukungan Guru dengan Keterlibatan Belajar.
+4. menganalisis hubungan Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah dengan Keterlibatan Belajar pada waktu berikutnya setelah kondisi sebelumnya diperhitungkan;
+5. menganalisis peran Kompetensi Sosial-Emosional dalam menjelaskan hubungan dimensi-dimensi Mediasi Digital Orang Tua dan Dukungan Guru dengan Keterlibatan Belajar, serta peran Pemenuhan Kebutuhan Psikologis Dasar di Sekolah dalam menjelaskan hubungan Dukungan Guru dengan Keterlibatan Belajar; dan
+6. menjelaskan secara kualitatif hasil kuantitatif terpilih melalui pengalaman siswa mengenai pendampingan digital orang tua, dukungan guru, kondisi sosial-emosional, kebutuhan psikologis, dan proses keterlibatan belajar.
 
 ## 1.6 Manfaat Penelitian
 
 ### 1.6.1 Manfaat Akademik
 
-Penelitian ini diharapkan menambah bukti empiris mengenai hubungan antara konteks keluarga digital, dukungan guru, proses pada diri siswa, dan Keterlibatan Belajar pada siswa SMP. Secara khusus, hasil penelitian dapat membantu memperjelas apakah Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah memberikan penjelasan yang berbeda terhadap hubungan konteks siswa dengan Keterlibatan Belajar. Desain longitudinal juga diharapkan memberikan informasi yang lebih baik mengenai urutan waktu hubungan antar konstruk dibandingkan penelitian satu waktu, tanpa mengubah hasilnya menjadi klaim sebab-akibat.
+Penelitian ini diharapkan menambah bukti empiris mengenai hubungan antara konteks keluarga digital, dukungan guru, proses pada diri siswa, dan Keterlibatan Belajar pada siswa SMP. Secara khusus, hasil penelitian dapat membantu memperjelas apakah Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar di Sekolah memberikan penjelasan yang berbeda terhadap hubungan konteks siswa dengan Keterlibatan Belajar. Desain longitudinal memberikan informasi yang lebih baik mengenai urutan waktu hubungan antar konstruk dibandingkan penelitian satu waktu, tanpa mengubah hasilnya menjadi klaim sebab-akibat.
+
+Fase kualitatif diharapkan menambah kedalaman interpretasi terhadap hasil kuantitatif terpilih, terutama ketika hubungan antar konstruk berbeda menurut dimensi, lebih lemah dari perkiraan, atau menunjukkan pola yang tidak mudah dijelaskan oleh model statistik. Nilai tambah ini diposisikan sebagai penguatan explanatory depth, bukan sebagai klaim bahwa mixed methods dengan sendirinya merupakan novelty metodologis.
 
 Penelitian ini juga dapat memperluas bukti pada konteks pendidikan perkotaan Indonesia. Manfaat tersebut diposisikan sebagai penambahan bukti dan pengujian keterterapannya pada siswa SMP di DKI Jakarta, bukan sebagai klaim bahwa lokasi penelitian dengan sendirinya menghasilkan kebaruan teoritis.
 
@@ -122,6 +128,6 @@ Konstruk utama penelitian terdiri atas:
 - **Dukungan Guru yang Dipersepsikan Siswa**, yaitu bantuan akademik dan emosional yang dirasakan siswa dari guru;
 - **Kompetensi Sosial-Emosional Siswa**, yaitu kemampuan memahami dan mengelola diri serta berhubungan dengan orang lain;
 - **Pemenuhan Kebutuhan Psikologis Dasar di Sekolah**, yaitu sejauh mana siswa merasa memiliki pilihan, merasa mampu, dan merasa terhubung di sekolah; dan
-- **Keterlibatan Belajar**, yaitu keterlibatan siswa secara perilaku, emosional, dan kognitif dalam proses belajar.
+- **Keterlibatan Belajar**, yaitu keterlibatan siswa secara agentik, perilaku, emosional, dan kognitif dalam proses belajar.
 
-Penelitian menggunakan pendekatan kuantitatif longitudinal tiga gelombang. Karena desainnya observasional, hasil penelitian dibatasi pada interpretasi hubungan dan pola urutan waktu, bukan klaim sebab-akibat yang pasti.
+Penelitian menggunakan **explanatory sequential mixed methods (QUAN → QUAL)**. Fase kuantitatif merupakan fase utama dan menggunakan longitudinal tiga gelombang pada siswa yang sama. Fase kualitatif dilakukan setelah analisis kuantitatif awal untuk menjelaskan hasil terpilih melalui wawancara pada sebagian responden fase kuantitatif. Karena keseluruhan desain bersifat observasional, hasil penelitian dibatasi pada interpretasi hubungan, pola urutan waktu, dan penjelasan pengalaman siswa; bukan klaim sebab-akibat yang pasti.
