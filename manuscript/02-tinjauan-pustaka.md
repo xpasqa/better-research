@@ -10,7 +10,7 @@ Perspektif bioekologis memandang perkembangan sebagai proses yang berlangsung me
 
 Perkembangan teknologi digital membuat batas antara pengalaman keluarga, sekolah, dan ruang virtual menjadi semakin tidak tegas. Perspektif neo-ekologis memperluas pembacaan bioekologis dengan menempatkan pengalaman virtual sebagai bagian dari konteks perkembangan, bukan sebagai lingkungan yang sepenuhnya terpisah dari kehidupan sehari-hari (Navarro & Tudge, 2023). Interaksi digital remaja tetap berlangsung di dalam relasi sosial yang lebih luas, termasuk hubungan dengan orang tua, teman sebaya, dan sekolah.
 
-Posisi Mediasi Digital Orang Tua dalam penelitian ini berangkat dari logika tersebut. Yang menjadi perhatian bukan seberapa banyak teknologi digunakan, melainkan bagaimana orang tua membimbing, membatasi, atau memantau penggunaan teknologi oleh anak. Dukungan Guru yang Dipersepsikan Siswa mewakili pengalaman siswa dalam konteks sekolah. Keduanya ditempatkan sebagai kondisi kontekstual yang dapat berkaitan dengan perkembangan siswa dan keterlibatan belajar, tetapi jalur hubungan dan kekuatannya tetap merupakan pertanyaan empiris.
+Posisi Mediasi Digital Orang Tua dalam penelitian ini berangkat dari logika tersebut. Yang menjadi perhatian bukan seberapa banyak teknologi digunakan, melainkan bagaimana orang tua mendampingi dan mengatur penggunaan teknologi melalui beragam praktik yang dapat dibedakan secara empiris. Dukungan Guru yang Dipersepsikan Siswa mewakili pengalaman siswa dalam konteks sekolah. Keduanya ditempatkan sebagai kondisi kontekstual yang dapat berkaitan dengan perkembangan siswa dan keterlibatan belajar, tetapi jalur hubungan dan kekuatannya tetap merupakan pertanyaan empiris.
 
 ### 2.1.2 Self-Determination Theory
 
@@ -24,11 +24,20 @@ SDT tidak digunakan untuk menjelaskan seluruh model. Secara khusus, teori ini me
 
 ### 2.2.1 Mediasi Digital Orang Tua
 
-Mediasi Digital Orang Tua (*Digital Parental Mediation*) merujuk pada praktik orang tua dalam mendampingi penggunaan internet dan media digital anak. Praktik tersebut dapat berbentuk diskusi dan bimbingan, penetapan aturan atau pembatasan, serta pengamatan atau pemantauan terhadap aktivitas digital. Konstruk ini berbeda dari pola pengasuhan secara umum, literasi digital orang tua, maupun keterlibatan orang tua dalam pendidikan.
+Mediasi Digital Orang Tua (*Digital Parental Mediation*) merujuk pada praktik orang tua dalam mendampingi dan mengatur penggunaan internet serta media digital anak. Konstruk ini berbeda dari pola pengasuhan secara umum, literasi digital orang tua, maupun keterlibatan orang tua dalam pendidikan. Literatur menggunakan beragam kategori untuk menggambarkan praktik tersebut, sehingga istilah seperti *active*, *restrictive*, *enabling*, atau *monitoring* tidak selalu mempunyai batas operasional yang sama antarstudi (Modecki et al., 2022; Kuldas et al., 2021).
 
-Literatur menunjukkan bahwa mediasi digital bukan konstruk tunggal yang dapat diperlakukan sebagai satu intensitas umum. Modecki et al. (2022) menemukan keragaman yang besar dalam definisi dan pengukuran *digital parenting*, sedangkan Kuldas et al. (2021) menunjukkan ketidakkonsistenan struktur pada berbagai skala parental mediation. Validasi yang dilakukan Symons et al. (2017) juga memperlihatkan bahwa beberapa strategi mediasi dapat dibedakan secara empiris. Atas dasar ini, penelitian tidak mengasumsikan bahwa skor mediasi digital yang lebih tinggi selalu berarti pendampingan yang lebih baik.
+Agar konseptualisasi Bab 2 konsisten dengan operasionalisasi penelitian, struktur DPM mengikuti validasi Symons et al. (2017). Analisis terhadap 17 praktik mediasi pada laporan remaja, ibu, dan ayah menghasilkan solusi enam faktor yang sama pada ketiga informan. Enam dimensi tersebut adalah:
 
-Perbedaan strategi penting karena konsekuensi yang dilaporkan dalam literatur tidak seragam. Meta-analisis Lukavská et al. (2022) menunjukkan bahwa hubungan antara praktik pengasuhan dan penggunaan internet bermasalah pada remaja cenderung kecil dan heterogen. Studi longitudinal Huang et al. (2023) juga tidak menemukan manfaat yang seragam dari seluruh bentuk parental media mediation terhadap penggunaan smartphone berikutnya. Di sisi lain, Tong et al. (2024) menunjukkan adanya kemungkinan *child effects*, ketika perilaku digital remaja diikuti perubahan respons orang tua. Temuan-temuan tersebut mendukung perlakuan strategi DPM secara terpisah dan penggunaan bahasa hubungan, bukan kausalitas.
+1. **Pembatasan interaksi (*interaction restrictions*)**, yaitu aturan mengenai perilaku dalam jejaring sosial, termasuk dengan siapa anak dapat berinteraksi serta informasi atau konten apa yang boleh dibagikan;
+2. **Pemantauan penggunaan jejaring sosial (*monitoring social-network use*)**, yaitu praktik orang tua memeriksa atau memperoleh informasi mengenai aktivitas anak pada jejaring sosial;
+3. **Pembatasan akses (*access restrictions*)**, yaitu aturan mengenai kapan, berapa lama, dan di mana anak dapat menggunakan internet;
+4. **Supervisi dan penggunaan bersama (*supervision/co-use*)**, yaitu keberadaan, bantuan, atau penggunaan internet bersama ketika anak sedang daring;
+5. **Mediasi teknis (*technical mediation*)**, yaitu penggunaan perangkat lunak atau fitur teknis untuk membatasi waktu akses atau memblokir situs tertentu; dan
+6. **Mediasi interpretatif (*interpretative mediation*)**, yaitu diskusi orang tua dengan anak mengenai isi internet, kebenaran informasi, dan potensi risiko daring.
+
+Struktur enam faktor tersebut diperlakukan sebagai arsitektur operasional DPM dalam penelitian ini. Kategori yang lebih luas dalam literature review tetap berguna untuk memahami perkembangan konsep, tetapi tidak dipakai sebagai pengganti enam dimensi instrumen. Keenam dimensi juga tidak dijumlahkan menjadi satu skor umum, karena intensitas yang lebih tinggi pada satu bentuk mediasi tidak dapat diasumsikan mempunyai makna atau konsekuensi yang sama dengan bentuk lainnya.
+
+Perbedaan dimensi penting karena konsekuensi yang dilaporkan dalam literatur tidak seragam. Meta-analisis Lukavská et al. (2022) menunjukkan bahwa hubungan antara praktik pengasuhan dan penggunaan internet bermasalah pada remaja cenderung kecil dan heterogen. Studi longitudinal Huang et al. (2023) juga tidak menemukan manfaat yang seragam dari seluruh bentuk *parental media mediation* terhadap penggunaan smartphone berikutnya. Di sisi lain, Tong et al. (2024) menunjukkan adanya kemungkinan *child effects*, ketika perilaku digital remaja diikuti perubahan respons orang tua. Temuan-temuan tersebut mendukung analisis DPM secara dimensi-spesifik dan penggunaan bahasa hubungan, bukan kausalitas.
 
 ### 2.2.2 Dukungan Guru yang Dipersepsikan Siswa
 
@@ -66,11 +75,11 @@ Keterlibatan belajar juga bukan konstruk yang sepenuhnya tetap. Tinjauan longitu
 
 ### 2.3.1 Mediasi Digital Orang Tua, Kompetensi Sosial-Emosional, dan Keterlibatan Belajar
 
-Hubungan antara Mediasi Digital Orang Tua dan keterlibatan belajar belum memiliki dasar empiris sekuat hubungan dukungan guru dengan engagement. Sebagian besar penelitian DPM masih berfokus pada penggunaan internet, perilaku digital, risiko daring, dan kemampuan regulasi. Chen dan Chng (2016), misalnya, menemukan hubungan longitudinal antara beberapa bentuk parental mediation dan self-regulation, emotion regulation, serta impulsivity pada pengukuran berikutnya. Temuan tersebut relevan karena regulasi diri dan emosi berdekatan dengan sebagian domain Kompetensi Sosial-Emosional, tetapi tidak cukup untuk menyatakan bahwa DPM telah terbukti meningkatkan SEC secara keseluruhan.
+Hubungan antara Mediasi Digital Orang Tua dan keterlibatan belajar belum memiliki dasar empiris sekuat hubungan dukungan guru dengan engagement. Sebagian besar penelitian DPM masih berfokus pada penggunaan internet, perilaku digital, risiko daring, dan kemampuan regulasi. Chen dan Chng (2016), misalnya, menemukan hubungan longitudinal antara *active* dan *restrictive parental mediation* dengan *self-regulation*, *emotion regulation*, serta impulsivity pada pengukuran berikutnya. Temuan tersebut relevan karena regulasi diri dan emosi berdekatan dengan sebagian domain Kompetensi Sosial-Emosional, tetapi tidak cukup untuk menyatakan bahwa DPM telah terbukti meningkatkan SEC secara keseluruhan.
 
-Bukti yang lebih luas juga meminta kehati-hatian. Lukavská et al. (2022), Huang et al. (2023), Vossen et al. (2024), dan Tong et al. (2024) menunjukkan bahwa hubungan parental mediation dengan outcome digital berbeda menurut strategi, konteks, dan arah hubungan. Sebagian strategi dapat berkaitan dengan hasil yang lebih adaptif, sementara strategi lain menunjukkan hubungan yang lemah, tidak konsisten, atau dipengaruhi oleh perilaku anak sebelumnya. Atas dasar ini, penelitian hanya memberikan arah hipotesis pada mediasi yang bersifat membantu atau membimbing, sementara strategi pembatasan dan pemantauan tetap diperlakukan secara eksploratif.
+Istilah *active* dan *restrictive mediation* pada Chen dan Chng (2016) tidak identik dengan enam faktor Symons et al. (2017). Karena itu, hasil studi tersebut digunakan sebagai bukti kedekatan mekanisme, bukan sebagai dasar untuk menetapkan bahwa dimensi tertentu pada instrumen Symons pasti mempunyai arah hubungan yang sama. Bukti lain dari Lukavská et al. (2022), Huang et al. (2023), Vossen et al. (2024), dan Tong et al. (2024) juga menunjukkan bahwa hubungan parental mediation dengan hasil digital berbeda menurut strategi, konteks, dan arah hubungan. Pada tahap proposal, keenam dimensi DPM karena itu diuji tanpa hipotesis arah yang dipaksakan.
 
-Hubungan langsung DPM dengan Keterlibatan Belajar juga tetap diuji karena pendampingan digital dapat berkaitan dengan cara siswa mengatur penggunaan teknologi, mengelola perhatian, atau menjalankan tanggung jawab belajar. Namun, literatur saat ini belum cukup untuk menetapkan arah manfaat yang sama bagi semua strategi. Jalur DPM → SEC → Keterlibatan Belajar diperlakukan sebagai jalur yang masuk akal untuk diuji, bukan mekanisme yang sudah terbukti.
+Hubungan langsung setiap dimensi DPM dengan Keterlibatan Belajar tetap diuji karena praktik pendampingan digital dapat berkaitan dengan cara siswa mengatur penggunaan teknologi, mengelola perhatian, atau menjalankan tanggung jawab belajar. Literatur saat ini belum cukup untuk menetapkan arah manfaat yang sama, bahkan untuk dimensi yang secara intuitif tampak lebih suportif. Jalur dimensi DPM → SEC → Keterlibatan Belajar diperlakukan sebagai jalur yang layak diuji, bukan mekanisme yang sudah terbukti.
 
 ### 2.3.2 Dukungan Guru dan Keterlibatan Belajar
 
@@ -100,7 +109,7 @@ Hubungan tersebut tetap harus dibaca secara hati-hati. Banyak studi dalam litera
 
 ### 2.3.6 Sintesis Penelitian Terdahulu
 
-Literatur menunjukkan pola yang tidak sepenuhnya simetris antara konteks keluarga digital dan sekolah. Pada konteks keluarga digital, bukti DPM paling konsisten menekankan pentingnya membedakan strategi dan menghindari asumsi bahwa seluruh mediasi orang tua selalu bermanfaat. Hubungan dengan kemampuan regulasi memberi dasar bagi jalur menuju SEC, tetapi hubungan dengan engagement sekolah masih lebih tidak langsung dan perlu diuji.
+Literatur menunjukkan pola yang tidak sepenuhnya simetris antara konteks keluarga digital dan sekolah. Pada konteks keluarga digital, bukti DPM paling konsisten menunjukkan bahwa praktik mediasi bersifat multidimensional dan bahwa kategori antarstudi tidak selalu dapat dipertukarkan. Dalam penelitian ini, enam dimensi Symons et al. (2017) dipertahankan sebagai unit operasional yang terpisah. Hubungan DPM dengan kemampuan regulasi memberi dasar bagi pengujian jalur menuju SEC, tetapi arah dimensi-spesifik dan hubungannya dengan engagement sekolah masih perlu diuji.
 
 Pada konteks sekolah, dukungan guru memiliki hubungan yang lebih konsisten dengan engagement. Dua proses dapat menjelaskan sebagian hubungan tersebut. Kompetensi Sosial-Emosional mewakili kemampuan siswa yang dapat berkembang dan digunakan dalam menghadapi tuntutan belajar, sedangkan Pemenuhan Kebutuhan Psikologis Dasar mewakili kualitas pengalaman psikologis siswa di sekolah. Jalur melalui BPNS mempunyai dasar teori yang lebih spesifik dari SDT, sementara jalur melalui SEC didukung oleh bukti yang lebih berdekatan dan tetap terbuka terhadap mekanisme alternatif.
 
@@ -112,7 +121,7 @@ Berdasarkan landasan teori dan sintesis evidence, model penelitian disusun secar
 
 **Konteks keluarga digital**
 
-Mediasi Digital Orang Tua → Kompetensi Sosial-Emosional → Keterlibatan Belajar
+Enam dimensi Mediasi Digital Orang Tua → Kompetensi Sosial-Emosional → Keterlibatan Belajar
 
 **Konteks sekolah**
 
@@ -120,7 +129,7 @@ Dukungan Guru → Kompetensi Sosial-Emosional → Keterlibatan Belajar
 
 Dukungan Guru → Pemenuhan Kebutuhan Psikologis Dasar → Keterlibatan Belajar
 
-Hubungan langsung Mediasi Digital Orang Tua dan Dukungan Guru dengan Keterlibatan Belajar tetap diuji. Keterlibatan belajar sebelumnya diperhitungkan agar hubungan pada waktu berikutnya tidak hanya mencerminkan perbedaan awal antar siswa. Kondisi sebelumnya pada Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar juga diperhitungkan pada analisis yang relevan.
+Enam dimensi DPM—*interaction restrictions*, *monitoring social-network use*, *access restrictions*, *supervision/co-use*, *technical mediation*, dan *interpretative mediation*—dimasukkan sebagai prediktor yang dibedakan secara operasional. Hubungan langsung masing-masing dimensi DPM dan Dukungan Guru dengan Keterlibatan Belajar tetap diuji. DPM tidak direpresentasikan oleh satu skor global. Keterlibatan belajar sebelumnya diperhitungkan agar hubungan pada waktu berikutnya tidak hanya mencerminkan perbedaan awal antar siswa. Kondisi sebelumnya pada Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar juga diperhitungkan pada analisis yang relevan.
 
 Model tersebut tidak memasukkan interaksi tambahan atau jalur yang tidak mempunyai dasar teori dan evidence yang cukup pada tahap proposal. Tujuannya adalah membandingkan penjelasan yang paling relevan tanpa membuat model menjadi kompleks hanya karena teknik statistik memungkinkan hal tersebut.
 
@@ -136,8 +145,8 @@ Hipotesis hanya dirumuskan untuk hubungan yang mempunyai arah teori dan bukti em
 
 **H4.** Kompetensi Sosial-Emosional Siswa berhubungan positif dengan Keterlibatan Belajar pada waktu berikutnya setelah kondisi sebelumnya diperhitungkan.
 
-**H5.** Mediasi Digital Orang Tua yang bersifat membantu atau membimbing berhubungan positif dengan Kompetensi Sosial-Emosional pada waktu berikutnya setelah kondisi sebelumnya diperhitungkan.
+Hubungan enam dimensi Mediasi Digital Orang Tua dengan Kompetensi Sosial-Emosional dan Keterlibatan Belajar tetap diuji, tetapi tidak diberi hipotesis arah pada tahap proposal. Keputusan ini didasarkan pada tiga pertimbangan: hasil penelitian DPM masih heterogen; kategori DPM yang digunakan dalam studi terdahulu tidak selalu identik dengan enam faktor Symons et al. (2017); dan kemungkinan hubungan dua arah antara perilaku remaja dan respons orang tua belum dapat diabaikan. Hubungan tersebut karena itu ditempatkan sebagai pertanyaan penelitian yang diuji secara dimensi-spesifik.
 
-Hubungan Dukungan Guru dengan Kompetensi Sosial-Emosional tetap diuji karena memiliki dasar konseptual dan bukti yang relevan, tetapi belum dirumuskan sebagai hipotesis arah tersendiri mengingat evidence yang lebih terbatas dibandingkan jalur Dukungan Guru → BPNS. Strategi Mediasi Digital Orang Tua yang bersifat membatasi dan memantau juga tetap diuji tanpa menetapkan arah hubungan sejak awal karena hasil penelitian sebelumnya masih beragam.
+Hubungan Dukungan Guru dengan Kompetensi Sosial-Emosional juga tetap diuji karena memiliki dasar konseptual dan bukti yang relevan, tetapi belum dirumuskan sebagai hipotesis arah tersendiri mengingat evidence yang lebih terbatas dibandingkan jalur Dukungan Guru → BPNS.
 
 Peran tidak langsung Kompetensi Sosial-Emosional dan Pemenuhan Kebutuhan Psikologis Dasar dianalisis sebagai bagian dari pertanyaan penelitian. Perbandingan kedua proses tersebut ditujukan untuk menilai pola penjelasan yang lebih konsisten, bukan untuk menetapkan sejak awal bahwa salah satu mekanisme pasti lebih kuat daripada yang lain.
