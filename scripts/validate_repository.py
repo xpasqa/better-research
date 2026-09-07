@@ -20,6 +20,7 @@ TEXT_SUFFIXES = {
 
 STALE_EXCLUDE = {
     "CHANGELOG.md",
+    "scripts/validate_repository.py",
 }
 STALE_EXCLUDE_PREFIXES = (
     "docs/migrations/",
