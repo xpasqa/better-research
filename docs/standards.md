@@ -1,33 +1,33 @@
-# Register dasar akademik
+# Academic Standards Register
 
-Diperiksa untuk penyusunan boilerplate pada 7 September 2026. Daftar ini adalah sumber panduan, bukan daftar referensi substantif disertasi. Verifikasi versi dan relevansinya lagi ketika desain dipilih.
+Reviewed for builder preparation on 7 September 2026. This is a register of guidance sources, not the substantive bibliography of any research project. Verify versions and relevance again when a specific design is selected.
 
-| Sumber primer/pengelola | Ruang lingkup | Penggunaan dalam boilerplate |
+| Primary source / steward | Scope | Use in this builder |
 |---|---|---|
-| [ALLEA European Code of Conduct, edisi 2023](https://allea.org/code-of-conduct/) | Kerangka integritas penelitian lintas disiplin | Rujukan prinsip keandalan, kejujuran, penghormatan, dan akuntabilitas; bukan klaim bahwa ketentuan pendanaan Eropa mengikat proyek ini |
-| [PRISMA 2020](https://www.prisma-statement.org/prisma-2020) | Pelaporan review sistematis, terutama evaluasi intervensi | Pilih pedoman sesuai jenis review; bukan kewajiban semua disertasi |
-| [PRISMA-S](https://www.prisma-statement.org/prisma-search) | Pelaporan strategi penelusuran | Dasar pencatatan sumber pencarian dan kueri yang dapat diulang |
-| [PRISMA-ScR](https://www.prisma-statement.org/scoping) | Pelaporan scoping review | Dipertimbangkan jika tujuan pemetaan cocok |
-| [Pernyataan PRISMA 2020](https://www.bmj.com/content/372/bmj.n71) | Penjelasan batas pedoman | Checklist pelaporan bukan penilaian mutu metode |
-| [JBI Critical Appraisal Tools](https://jbi.global/critical-appraisal-tools) | Penilaian kritis menurut desain dan jenis bukti | Pilih alat serta versi yang cocok; catat alasan dan dukungan untuk setiap penilaian |
-| [SRQR melalui EQUATOR](https://www.equator-network.org/reporting-guidelines/srqr/) | Pelaporan penelitian kualitatif | Transparansi pendekatan, posisi peneliti, proses, serta interpretasi |
-| [APA JARS](https://www.apa.org/pubs/journals/resources/apa-style-jars.html) | Pelaporan kuantitatif, kualitatif, dan mixed methods dalam psikologi | Rujukan sesuai kecocokan disiplin; tidak menetapkan estimator |
-| [Center for Open Science: Preregistration](https://www.cos.io/initiatives/prereg) | Rencana bertanggal dan pembedaan analisis yang direncanakan dari eksplorasi | Catat waktu, hasil yang sudah diketahui, dan perubahan rencana |
+| [ALLEA European Code of Conduct, 2023 edition](https://allea.org/code-of-conduct/) | Cross-disciplinary research integrity | Reference for reliability, honesty, respect, and accountability; not a claim that European funding rules automatically bind a project |
+| [PRISMA 2020](https://www.prisma-statement.org/prisma-2020) | Reporting systematic reviews, especially intervention evaluations | Select guidance according to review type; not mandatory for every dissertation or study |
+| [PRISMA-S](https://www.prisma-statement.org/prisma-search) | Reporting search strategies | Basis for transparent search-source and query documentation |
+| [PRISMA-ScR](https://www.prisma-statement.org/scoping) | Reporting scoping reviews | Consider when the mapping objective fits a scoping-review design |
+| [PRISMA 2020 Statement](https://www.bmj.com/content/372/bmj.n71) | Explanation and scope of the guideline | Reporting checklist is not a method-quality score |
+| [JBI Critical Appraisal Tools](https://jbi.global/critical-appraisal-tools) | Design-specific critical appraisal | Choose a suitable tool/version and record evidence for each judgment |
+| [SRQR via EQUATOR](https://www.equator-network.org/reporting-guidelines/srqr/) | Reporting qualitative research | Transparency in approach, researcher position, process, and interpretation |
+| [APA JARS](https://www.apa.org/pubs/journals/resources/apa-style-jars.html) | Reporting quantitative, qualitative, and mixed-methods research in psychology | Use only when discipline and design fit; does not prescribe an estimator |
+| [Center for Open Science: Preregistration](https://www.cos.io/initiatives/prereg) | Time-stamped planning and distinction between planned and exploratory analysis | Record timing, results already known, and later plan changes |
 
-## Klasifikasi aturan
+## Rule classification
 
-**Integritas inti proyek:** tidak memalsukan, mengatribusikan sumber, melaporkan keterbatasan, menjaga data, serta tidak mengaku melakukan kegiatan yang belum terjadi.
+**Core integrity rules:** do not fabricate; attribute sources; report limitations; protect data; do not claim activities that did not occur.
 
-**Standar kondisional:** PRISMA, JBI, SRQR, JARS dan preregistrasi dipilih berdasarkan tujuan, desain, dan ketentuan institusi. Tidak semuanya wajib dipakai sekaligus. Tidak ada klaim bahwa daftar ini mencakup semua disiplin.
+**Conditional standards:** PRISMA, JBI, SRQR, JARS, preregistration, and other frameworks are selected according to purpose, design, discipline, and institutional requirements. They are not all required simultaneously.
 
-**Konvensi lokal:** nama folder, ID catatan, gate G0–G7, workflow Git, dan formulir Markdown merupakan rancangan boilerplate ini, bukan peraturan lembaga akademik.
+**Local conventions:** folder names, traceability IDs, gates G0–G7, Git workflow, and Markdown templates are Better Research design choices, not academic regulations.
 
-**Perlu diverifikasi pada setiap proyek penelitian:** pedoman disertasi kampus, aturan etik/akses data, kebijakan AI/kepengarangan, gaya sitasi final, dan standar bidang. Isikan sumber resmi, versi, tanggal, serta keputusan penerapan di project brief. APA 7 hanya pilihan kerja sementara.
+**Project-specific requirements that must be verified:** institutional dissertation/thesis rules, ethics/data-access requirements, AI/authorship policy, final citation style, discipline-specific reporting standards, and output language. Record the official source, version, date, scope, and adoption decision in the project brief.
 
-## Cara mengadopsi standar
+## Adopting a standard
 
-Catat nama/versi, sumber, cakupan, alasan relevansi, bagian yang dipakai, dan adaptasi. Jangan mengubah checklist menjadi skor total atau ambang kelulusan tanpa dasar metode. Checklist lengkap tidak menjamin kebenaran temuan atau kontribusi doktoral.
+Record the standard name/version, official source, scope, reason for relevance, sections actually used, and any adaptation. Do not convert a checklist into a total quality score or pass threshold without methodological justification. Completing a checklist does not prove the findings or contribution are valid.
 
-## Dasar teknis skill
+## Technical basis for local skills
 
-[Dokumentasi resmi Codex](https://learn.chatgpt.com/docs/build-skills) menjelaskan skill sebagai folder berisi SKILL.md dan mendukung lokasi proyek `.agents/skills`. Ketersediaan fitur bergantung pada lingkungan; indeks lokal tetap menyediakan jalur pembacaan eksplisit.
+The [official Codex skill documentation](https://learn.chatgpt.com/docs/build-skills) describes skills as folders containing `SKILL.md` and supports project-local placement under `.agents/skills`. Availability depends on the environment; the local skill index provides an explicit fallback path.
