@@ -1,41 +1,41 @@
-# Melanjutkan pekerjaan ketika konteks AI terbatas
+# Continuing Work When AI Context Is Limited
 
-Percakapan tidak menjadi satu-satunya penyimpan keadaan. Gunakan tiga lapis: snapshot issue yang singkat, komentar checkpoint sebagai riwayat, dan berkas/commit sebagai bukti.
+Conversation history must not be the only place where project state is stored. Use three layers: a concise Issue snapshot, checkpoint comments as history, and files/commits as evidence.
 
-Panduan ini untuk mode RESEARCH. Pemeliharaan TEMPLATE atas instruksi langsung pengguna dapat dilanjutkan dari berkas dan riwayat Git tanpa issue, sesuai [workflow Git](git-workflow.md).
+This guide applies to RESEARCH mode. User-authorized upstream TEMPLATE maintenance may continue from files and Git history without a research Issue, according to the [Git workflow](git-workflow.md).
 
-## Memulai atau melanjutkan sesi
+## Starting or continuing a session
 
-1. Baca AGENTS.md, brief, status, dan owner/repo aktif. Periksa checkout agar tidak berpindah ke repositori sumber.
-2. Baca issue aktif: snapshot, scope, checklist, checkpoint terakhir, dependency, dan keputusan yang masih berlaku.
-3. Baca PR tertaut, perubahan setelah checkpoint, review terbuka, serta branch/commit aktual. Fetch/status diperlukan untuk melihat perubahan dari sesi lain; jangan checkout/menimpa pekerjaan lokal secara paksa.
-4. Buka hanya bukti dan skill yang diperlukan. Issue panjang dibaca bertahap; ambil komentar lebih lama bila snapshot/tautan belum menjawab kebutuhan.
-5. Ringkas posisi saat ini dan langkah berikutnya. Jika body, komentar, dan Git berbeda, periksa timestamp dan bukti aktual, rekonsiliasi di issue, lalu lanjutkan. Jangan memilih versi yang paling nyaman.
-6. Jalankan tugas dalam scope dan simpan checkpoint pada titik penting.
+1. Read `AGENTS.md`, the project brief, research status, and the active owner/repo. Inspect the checkout so work does not drift into the upstream repository.
+2. Read the active Issue: snapshot, scope, checklist/success criteria, latest checkpoint, dependencies, and decisions that remain in force.
+3. Read linked PRs, changes after the checkpoint, open review findings, and the actual branch/commit state. Fetch/status may be needed to detect changes made by another session; do not force-checkout over local user work.
+4. Open only the evidence and skills required for the active task. Read long Issues incrementally; retrieve older comments only when the snapshot and links are insufficient.
+5. Summarize the current position and next step. If Issue body, comments, and Git disagree, compare timestamps and actual evidence, reconcile the Issue, then continue. Do not choose the version that is merely most convenient.
+6. Execute the task within scope and save a checkpoint at meaningful transition points.
 
-## Isi checkpoint
+## Checkpoint content
 
-Gunakan [template checkpoint](../templates/session-checkpoint.md). Cantumkan:
+Use the [checkpoint template](../templates/session-checkpoint.md). Include:
 
-- Waktu, issue, repo, branch, HEAD, dan PR.
-- Apa yang selesai sejak checkpoint sebelumnya serta artefak/commit.
-- Keputusan, alasan, dan opsi yang ditolak.
-- Pemeriksaan aktual, keterbatasan, serta review yang belum dijawab.
-- Perubahan lokal belum commit/push beserta lokasi penyimpanan aman.
-- Blocker/dependency dan siapa atau apa yang dibutuhkan.
-- Langkah berikutnya yang dapat langsung dikerjakan.
-- Batas otorisasi yang relevan; jangan menyimpan rahasia.
+- Time, Issue, repo, branch, HEAD, and PR.
+- What was completed since the previous checkpoint and the related artifact/commit.
+- Decisions, reasons, and alternatives rejected.
+- Actual checks, limitations, and unresolved review findings.
+- Uncommitted/unpushed local changes and their safe location.
+- Blockers/dependencies and what or who is required.
+- A concrete next action that a new session can execute immediately.
+- Relevant authorization limits; never store secrets.
 
-Usahakan ringkasan mudah dibaca dalam satu layar; rincian panjang ditautkan. Ini pedoman keterbacaan, bukan alasan membuang keputusan atau bukti penting.
+Prefer a summary that can be scanned quickly. Link to detail rather than duplicating long evidence. Readability is a goal, not permission to discard important decisions or evidence.
 
-## Sinkronisasi
+## Synchronization
 
-Issue menyimpan status delivery dan koordinasi. research/status.md menyimpan tahap serta gate akademik, dengan tautan issue aktif bila relevan. Jangan membuat dua daftar status delivery manual yang saling bersaing; setelah merge, bukti penutupan ada di issue/PR.
+The Issue stores delivery state and coordination. `research/status.md` stores research-stage and academic-gate state, with links to active Issues when relevant. Do not maintain competing manual delivery-status lists.
 
-Keputusan ilmiah tetap berada di decision/deviation log dan ditautkan dari issue. Bibliografi, claim ledger, naskah dan analisis tetap kanonik di berkas, bukan disalin seluruhnya ke komentar.
+Scientific decisions remain in the decision/deviation logs and are linked from the Issue. Bibliography, claim ledger, manuscript, and analysis remain canonical in files rather than being copied wholesale into comments.
 
-Jika GitHub sedang gagal, simpan checkpoint sementara pada berkas lokal yang aman dan jelas lokasinya; sinkronkan ke issue ketika pulih sebelum melanjutkan pekerjaan substantif baru. Jangan menyatakan checkpoint sudah tersimpan jarak jauh hanya karena berkas lokal dibuat.
+If GitHub is unavailable, save a temporary checkpoint in a safe, clearly identified local file and synchronize it to the Issue once GitHub is available, before beginning unrelated substantive work. Do not claim remote persistence merely because a local file exists.
 
-## Handoff selesai bila
+## Handoff is complete when
 
-Sesi baru dapat menjawab: apa tujuan, apa yang sudah dilakukan, apa dasar keputusannya, versi mana yang aktif, apa yang belum selesai, dan tindakan berikutnya. Uji dengan membaca issue dan berkas tertaut tanpa mengandalkan percakapan.
+A new session can answer: what is the objective, what has been done, what evidence supports the decisions, which version is current, what remains incomplete, and what action comes next—using the Issue and linked files rather than relying on conversation memory.
