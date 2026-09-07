@@ -1,6 +1,7 @@
 # Project brief
 
-Status: BELUM DIISI. Nama workspace: Disertasi Anif.
+Status: BELUM DIISI. Builder: Publion Disertasi Builder.
+Nama proyek penelitian: BELUM DIISI.
 Jangan menebak jawaban. Isi hanya informasi dari pengguna atau sumber yang dapat diverifikasi.
 
 | Aspek | Isi | Sumber/keputusan |

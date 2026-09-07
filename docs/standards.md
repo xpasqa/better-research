@@ -22,7 +22,7 @@ Diperiksa untuk penyusunan boilerplate pada 7 September 2026. Daftar ini adalah 
 
 **Konvensi lokal:** nama folder, ID catatan, gate G0–G7, workflow Git, dan formulir Markdown merupakan rancangan boilerplate ini, bukan peraturan lembaga akademik.
 
-**Belum diverifikasi untuk Anif:** pedoman disertasi kampus, aturan etik/akses data, kebijakan AI/kepengarangan, gaya sitasi final, dan standar bidang. Isikan sumber resmi, versi, tanggal, serta keputusan penerapan di project brief. APA 7 hanya pilihan kerja sementara.
+**Perlu diverifikasi pada setiap proyek penelitian:** pedoman disertasi kampus, aturan etik/akses data, kebijakan AI/kepengarangan, gaya sitasi final, dan standar bidang. Isikan sumber resmi, versi, tanggal, serta keputusan penerapan di project brief. APA 7 hanya pilihan kerja sementara.
 
 ## Cara mengadopsi standar
 
