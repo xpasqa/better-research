@@ -628,7 +628,6 @@ GitHub Actions performs mechanical checks on Pull Requests and pushes to `main`:
 - stale legacy skill identifiers;
 - basic `references.bib` structure and duplicate citation keys;
 - prohibited sensitive/private paths;
-- legacy Indonesian scaffolding markers after the global-English migration.
 
 Run locally:
 
