@@ -1,50 +1,50 @@
 ---
-name: Tugas proyek atau penelitian
-about: Bounded context untuk satu unit kerja: tujuan, status epistemik, bukti, scope, acceptance criteria, verification, keputusan, dan checkpoint.
+name: Research task
+about: Bounded context for one unit of work: objective, epistemic state, evidence, scope, acceptance criteria, verification, decisions, and checkpoints.
 title: ''
 labels: ''
 assignees: ''
 ---
 
-## Snapshot terkini
+## Current snapshot
 
-- Status kerja: DRAFT
+- Work status: DRAFT
 - Owner/repo:
 - Branch / HEAD / PR:
-- Gate/tahap terkait:
-- Checkpoint terakhir:
+- Related gate/stage:
+- Latest checkpoint:
 - Blocker:
-- Langkah berikutnya:
+- Next step:
 
 ## Objective
 
-Nyatakan keadaan akhir yang ingin dicapai. Hindari instruksi luas seperti “perbaiki bab” atau “lanjutkan riset”.
+State the end condition this task should achieve. Avoid vague instructions such as “improve the chapter” or “continue the research.”
 
 ## Epistemic state
 
 ### KNOWN
-Fakta atau informasi yang benar-benar diberikan, diamati, atau sudah tercatat.
+Facts or information actually provided, observed, or already recorded.
 
 ### SUPPORTED
-Klaim yang sudah mempunyai dukungan dari sumber/bukti yang diperiksa. Tautkan SRC/STUDY/CLM atau lokasi bukti.
+Claims currently supported by evidence that has been inspected. Link SRC/STUDY/CLM IDs or the evidence location.
 
 ### INFERRED
-Inferensi peneliti/agent yang ditarik dari bukti. Jelaskan logika dan batasnya.
+Researcher/agent inferences drawn from evidence. State the reasoning and limits.
 
 ### ASSUMED
-Asumsi kerja yang belum diverifikasi tetapi sementara diperlukan.
+Working assumptions that remain unverified.
 
 ### UNKNOWN
-Informasi yang belum diketahui atau belum tersedia.
+Information not yet known or available.
 
 ### DECISION NEEDED
-Keputusan yang memerlukan peneliti, bukti tambahan, atau otorisasi pihak lain.
+Choices requiring researcher judgment, additional evidence, or external authorization.
 
 ## Evidence required
 
-Daftar bukti minimum yang harus tersedia sebelum keputusan/klaim dapat dianggap terverifikasi.
+List the minimum evidence required before the claim or decision can be treated as verified.
 
-| Evidence/ID | Mengapa diperlukan | Lokasi/sumber | Status akses/verifikasi |
+| Evidence/ID | Why it is required | Location/source | Access/verification status |
 |---|---|---|---|
 
 ## Scope
@@ -55,16 +55,16 @@ Daftar bukti minimum yang harus tersedia sebelum keputusan/klaim dapat dianggap 
 ### Out of scope
 - 
 
-Perubahan di luar scope memerlukan alasan eksplisit dan, bila substantif, keputusan/perluasan issue.
+Changes outside scope require an explicit reason and, when substantive, a recorded scope decision or a separate Issue.
 
 ## Outputs and canonical locations
 
-| Output/keputusan | Berkas/lokasi final | ID terkait | Bukti penerimaan |
+| Output/decision | Canonical file/location | Related ID | Acceptance evidence |
 |---|---|---|---|
 
 ## Success criteria
 
-Tulis kondisi spesifik yang dapat diperiksa. Jangan hanya memakai checklist generik.
+Write task-specific, inspectable conditions. Do not rely only on a generic checklist.
 
 - [ ] 
 - [ ] 
@@ -72,7 +72,7 @@ Tulis kondisi spesifik yang dapat diperiksa. Jangan hanya memakai checklist gene
 
 ## Verification plan
 
-Jelaskan cara memeriksa setiap success criterion dan batas pemeriksaannya.
+Explain how each success criterion will be checked and what the limits of that verification are.
 
 | Criterion | Verification method | Expected evidence | Status |
 |---|---|---|---|
@@ -81,43 +81,43 @@ Status: PENDING / PASS / FAIL / BLOCKED.
 
 ## Falsification / alternatives
 
-Untuk klaim atau keputusan substantif:
+For substantive claims or decisions:
 
-- Bukti apa yang dapat membantah kandidat klaim?
-- Penjelasan alternatif apa yang perlu diperiksa?
-- Boundary conditions apa yang dapat membatasi kesimpulan?
+- What evidence could falsify the candidate claim?
+- Which alternative explanations should be inspected?
+- Which boundary conditions could limit the conclusion?
 
-Isi TIDAK BERLAKU dengan alasan jika bagian ini memang tidak relevan.
+Use NOT APPLICABLE with a reason when this section genuinely does not apply.
 
 ## Dependencies and authorization
 
-- Parent/child issue:
+- Parent/child Issue:
 - Dependency:
-- Approval/authorization yang benar-benar diperlukan:
-- Reviewer/penanggung jawab jika diketahui:
+- Approval/authorization actually required:
+- Reviewer/responsible person if known:
 
-Jangan mengarang status izin, review manusia, atau persetujuan institusi.
+Do not fabricate permission status, human review, or institutional approval.
 
 ## Decisions and scope changes
 
-| DEC ID | Tanggal | Keputusan/status | Dasar bukti | Dampak | Supersedes |
+| DEC ID | Date | Decision/status | Evidence basis | Impact | Supersedes |
 |---|---|---|---|---|---|
 
-Pertahankan sejarah keputusan; jangan menulis ulang keputusan lama agar tampak konsisten.
+Preserve decision history; do not rewrite old decisions merely to make the project appear internally consistent.
 
 ## Checkpoints
 
-Tambahkan komentar memakai `templates/session-checkpoint.md` pada akhir sesi, perubahan keputusan, blocker, atau transisi review. Perbarui snapshot di bagian atas agar sesi baru dapat memulihkan keadaan tanpa membaca seluruh percakapan.
+Add a comment using `templates/session-checkpoint.md` at the end of a session, after a major decision change, when blocked, or during review transitions. Update the snapshot above so a new session can recover the state without reading the full conversation history.
 
 ## Closure conditions
 
-Issue keluaran berkas dapat ditutup hanya jika:
+An Issue that produces project files may be closed only when:
 
-- [ ] success criteria yang berlaku berstatus PASS;
-- [ ] keputusan dan batas bukti sudah dicatat;
-- [ ] output kanonik tersedia pada lokasi final;
-- [ ] PR final direview dan merged ke `main`;
-- [ ] commit di `main` dan status issue telah diverifikasi;
-- [ ] checkpoint penutupan mencerminkan keadaan aktual.
+- [ ] applicable success criteria are PASS;
+- [ ] decisions and evidence limits are recorded;
+- [ ] canonical outputs exist at their final locations;
+- [ ] the final PR has been reviewed and merged into `main`;
+- [ ] the resulting `main` commit and Issue state have been verified;
+- [ ] the closing checkpoint reflects the actual final state.
 
-Issue koordinasi tanpa perubahan berkas ditutup dengan alasan dan bukti, tanpa PR kosong.
+A coordination-only Issue with no file change may be closed with a reason and evidence; do not create an empty PR merely to satisfy process.
