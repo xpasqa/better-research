@@ -1,39 +1,37 @@
 ---
 name: research-workflow
-description: Kelola issue wajib, checkpoint lintas sesi, branch, PR, review, dan penutupan output proyek penelitian agar konteks dapat dipulihkan.
+description: Manage required Issues, cross-session checkpoints, branches, PRs, reviews, and closure so research context remains recoverable.
 ---
 
-# Koordinasi pekerjaan dan konteks
+# Work and Context Coordination
 
-Gunakan ketika mulai/melanjutkan pekerjaan proyek, menyimpan handoff, atau menyiapkan output untuk merge. Baca [workflow Git](../../../docs/git-workflow.md) dan panduan yang relevan: [issue](../../../docs/issues.md), [sesi](../../../docs/session-continuity.md), atau [PR](../../../docs/pull-requests.md).
+Use this skill when starting or continuing project work, saving a handoff, or preparing an output for integration. Read the [Git workflow](../../../docs/git-workflow.md) and the relevant guidance for [Issues](../../../docs/issues.md), [session continuity](../../../docs/session-continuity.md), or [Pull Requests](../../../docs/pull-requests.md).
 
-Periksa mode pada project brief terlebih dahulu. Pemeliharaan repositori induk TEMPLATE yang diminta pengguna boleh langsung diperbaiki dan disimpan tanpa issue/PR, setelah pemeriksaan. Untuk proyek hasil salinan, tetapkan RESEARCH saat provisioning; semua ketentuan issue/PR di bawah berlaku. Jangan mengganti mode untuk melewati alur penelitian.
+Check the workspace mode in the project brief first. User-authorized maintenance of the upstream TEMPLATE repository may be inspected and saved directly without an Issue/PR. For a copied project, switch to RESEARCH during provisioning; all Issue/PR requirements below then apply. Do not change modes to bypass the research workflow.
 
-## Invarian
+## Invariants
 
-- Pilih/buat issue sebelum pekerjaan substantif. Jangan membuat issue duplikat untuk kelanjutan tugas yang sama.
-- Verifikasi origin dan nama kanonik GitHub; gunakan owner/repo eksplisit untuk operasi eksternal, jangan mengikuti upstream sumber.
-- Semua perubahan berkas menuju main melalui branch dan PR; tidak ada bypass untuk dokumentasi atau bootstrap lanjutan.
-- Issue menyimpan konteks delivery; artefak tetap kanonik di berkas. Ringkas informasi terbaru dan tautkan rincian agar issue panjang tidak menghabiskan seluruh konteks.
-- Review/merge harus benar-benar terjadi dan mengikuti otorisasi serta proteksi yang berlaku. Jangan menyatakan output final terintegrasi hanya karena branch sudah di-push.
+- Select or create an Issue before substantive work. Do not create duplicate Issues for continuation of the same task.
+- Verify the Git origin and canonical GitHub repository name; use explicit owner/repo identifiers for external operations and do not accidentally write to the upstream builder.
+- All file changes entering `main` in RESEARCH mode go through a branch and PR.
+- The Issue preserves delivery context; canonical artifacts remain in files. Keep the current state concise and link to detailed artifacts so a long Issue does not consume the entire context window.
+- Review and merge must actually occur under the applicable authorization and repository protections. Do not claim final integration merely because a branch was pushed.
 
-## Langkah kerja
+## Workflow
 
-1. Baca issue, checkpoint terakhir, keputusan, PR/review dan keadaan Git; rekonsiliasi bila berbeda.
-2. Tentukan scope, penerimaan, dependency, branch dan skill akademik yang diperlukan. Ketidakjelasan dicatat sebelum mengambil keputusan yang bergantung padanya.
-3. Kerjakan bagian yang diotorisasi; simpan [checkpoint](../../../templates/session-checkpoint.md) pada akhir sesi, perubahan keputusan, blocker, dan transisi review.
-4. Siapkan draft PR dengan bukti dan batas. Gunakan Refs untuk pekerjaan parsial; Closes hanya bila seluruh issue terpenuhi.
-5. Periksa output dan temuan review; lanjutkan merge hanya dalam otorisasi yang berlaku.
-6. Verifikasi PR merged, commit main, status issue dan komentar penutupan. Bedakan delivery selesai dari gate akademik.
+1. Read the Issue, latest checkpoint, decisions, linked PR/review, and actual Git state; reconcile discrepancies before continuing.
+2. Define scope, acceptance criteria, dependencies, branch, and the academic skill required. Record uncertainty before making a decision that depends on it.
+3. Perform the authorized work; save a [checkpoint](../../../templates/session-checkpoint.md) at the end of the session, after a major decision change, when blocked, and during review transitions.
+4. Prepare a draft PR with evidence and limitations. Use `Refs` for partial work; use `Closes` only when the entire Issue is satisfied.
+5. Inspect outputs and review findings; merge only within the authorization that actually applies.
+6. Verify that the PR is merged, the resulting commit is in `main`, and the Issue state/closure comment matches reality. Keep delivery completion separate from academic readiness.
 
-Jika GitHub tidak tersedia, simpan draft/checkpoint lokal BELUM TERSINKRON dan laporkan batasnya. Jangan berpura-pura mempunyai issue atau PR. Pertanyaan klarifikasi/status masuk issue aktif; tugas baca yang menghasilkan keputusan proyek memiliki issue dan memo yang diintegrasikan melalui PR.
+If GitHub is unavailable, store a local checkpoint marked **NOT YET SYNCED** and report the limitation. Do not pretend that an Issue or PR exists. Clarifying/status questions belong to the active Issue; reading/review tasks that produce project decisions should create an integrated memo through the normal workflow.
 
+## Execution discipline
 
-## Disiplin eksekusi
+Apply the cross-skill principles in `research-rigor`: do not silently resolve uncertainty, use the minimum sufficient complexity, keep changes within task scope, and verify outcomes against explicit acceptance criteria. For high-impact claims or decisions, inspect counterevidence and alternative explanations before strengthening the conclusion.
 
-Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.
+## Provenance and versioning
 
-
-## Provenance dan versioning
-
-Untuk pekerjaan yang mengubah klaim atau keputusan, gunakan [model provenance](../../../docs/provenance.md). Project RESEARCH mempertahankan builder version pada brief; upgrade aturan/skill/template hanya melalui migration Issue + PR, bukan sinkronisasi otomatis dari builder.
+For work that changes claims or decisions, use the [provenance model](../../../docs/provenance.md). A RESEARCH project pins its builder version in the project brief; upgrade rules, skills, or templates only through an explicit migration Issue + PR, never through silent upstream synchronization.
