@@ -1,21 +1,21 @@
-# Provenance model
+# Provenance Model
 
-Better Research menggunakan ID lokal untuk menjaga jalur **source → study → claim → decision → change/review** tetap dapat ditelusuri. Model ini adalah konvensi workspace, bukan standar bibliografi eksternal.
+Better Research uses local identifiers to keep the path **source → study → claim → decision → change/review** traceable. This model is a workspace convention, not an external bibliographic standard.
 
-## Unit dan ID
+## Units and identifiers
 
-| ID | Unit | Makna |
+| ID | Unit | Meaning |
 |---|---|---|
-| `SRC-###` | Source/report | Satu report atau manifestasi yang benar-benar dapat dibaca: artikel, preprint, bab, dokumen, dataset documentation, dan sebagainya |
-| `STUDY-###` | Study | Penelitian/analisis yang mendasari satu atau lebih report |
-| `CLM-###` | Claim | Pernyataan yang dipakai atau diuji dalam proyek |
-| `DEC-###` | Decision | Keputusan substantif proyek |
-| `REV-###` | Review finding | Temuan audit/review yang memerlukan respons |
-| `RQ-###` | Research question | Pertanyaan penelitian yang telah diberi identitas stabil |
+| `SRC-###` | Source/report | One readable manifestation: article, preprint, chapter, document, dataset documentation, and so on |
+| `STUDY-###` | Study | The underlying research/analysis represented by one or more reports |
+| `CLM-###` | Claim | A statement used or tested in the project |
+| `DEC-###` | Decision | A substantive project decision |
+| `REV-###` | Review finding | An audit/review finding requiring a response |
+| `RQ-###` | Research question | A research question with a stable identifier |
 
-Nomor dibuat ketika unit nyata masuk ke workspace. Jangan membuat ID hanya untuk mengisi contoh.
+Create an ID when a real unit enters the workspace. Do not create IDs merely to populate examples.
 
-## Relasi minimum
+## Minimum relations
 
 ```text
 SRC ──reports/derives-from──> STUDY
@@ -25,39 +25,39 @@ REV ──challenges/requires-change──> CLM / DEC / artifact
 DEC ──changes──> RQ / protocol / design / manuscript / gate
 ```
 
-Setiap relasi substantif harus mempunyai locator atau alasan yang dapat diperiksa.
+Every substantive relation should have a locator or an inspectable rationale.
 
-## Status claim
+## Claim status
 
-Gunakan salah satu status berikut pada claim ledger:
+Use one of these statuses in the claim ledger:
 
-- `DRAFT` — kandidat klaim; belum cukup diperiksa.
-- `UNVERIFIED` — sumber/dukungan yang diperlukan belum berhasil diverifikasi.
-- `SUPPORTED` — dukungan yang relevan telah diperiksa dan batasnya tercatat.
-- `MIXED` — terdapat dukungan dan bukti tandingan/heterogenitas yang material.
-- `CONTRADICTED` — bukti yang diperiksa secara material bertentangan dengan klaim sebagaimana dirumuskan.
-- `RETRACTED` — klaim proyek ditarik dan tidak boleh dipakai sebagai premis aktif.
+- `DRAFT` — candidate claim; insufficiently checked.
+- `UNVERIFIED` — required source/support has not yet been verified.
+- `SUPPORTED` — relevant support has been inspected and limits are recorded.
+- `MIXED` — materially mixed support and counterevidence/heterogeneity.
+- `CONTRADICTED` — inspected evidence materially contradicts the claim as currently stated.
+- `RETRACTED` — the project has withdrawn the claim; it must not remain an active premise.
 
-Status bukan skor kebenaran universal. Status menyatakan keadaan bukti **dalam scope dan corpus yang benar-benar diperiksa**.
+These statuses are not universal truth scores. They describe the evidence state **within the scope and corpus actually inspected**.
 
-## Tipe hubungan evidence
+## Evidence-relation types
 
-Untuk setiap hubungan SRC/STUDY → CLM, catat:
+For every SRC/STUDY → CLM relation, use:
 
 - `SUPPORTS`
 - `CONTRADICTS`
 - `LIMITS`
 - `CONTEXTUALIZES`
 
-Jangan memakai banyaknya baris SUPPORTS sebagai pengganti appraisal kualitas, kompatibilitas desain, atau kekuatan inferensi.
+Do not treat the number of SUPPORTS rows as a substitute for appraisal quality, design compatibility, or inferential strength.
 
-## Directness dan access status
+## Directness and access status
 
 **Directness**
 
-- `DIRECT` — bukti/hasil yang dirujuk secara langsung relevan dengan claim.
-- `INDIRECT` — relevansi melalui konstruk, konteks, atau inferensi antara.
-- `SECONDARY` — informasi diperoleh melalui sumber sekunder.
+- `DIRECT` — the referenced evidence/result directly bears on the claim.
+- `INDIRECT` — relevance depends on an intermediate construct, context, or inference.
+- `SECONDARY` — information is obtained through a secondary source.
 
 **Access**
 
@@ -67,11 +67,11 @@ Jangan memakai banyaknya baris SUPPORTS sebagai pengganti appraisal kualitas, ko
 - `METADATA_ONLY`
 - `UNAVAILABLE`
 
-Jangan meningkatkan directness hanya karena hasil sesuai harapan.
+Do not upgrade directness because the result happens to support the preferred argument.
 
 ## Report versus study
 
-Satu study dapat mempunyai beberapa report:
+One STUDY may have several reports:
 
 ```text
 STUDY-012
@@ -80,65 +80,65 @@ STUDY-012
 └── SRC-063 correction
 ```
 
-Jangan menghitung ketiganya sebagai tiga penelitian independen. Jika dua report ternyata berasal dari study yang sama, pertahankan kedua SRC tetapi tautkan ke STUDY yang sama dan koreksi sintesis yang terpengaruh.
+Do not count these as three independent studies. If two reports are discovered to represent the same study, keep both SRC records, link them to the same STUDY, and correct any synthesis affected by prior double counting.
 
-## Versi, correction, dan retraction
+## Version, correction, and retraction
 
-Setiap source note mencatat:
+Each source note records:
 
-- versi yang dibaca;
-- DOI/URL atau identifier yang diverifikasi;
-- tanggal akses bila relevan;
-- hubungan dengan preprint/published version/report lain;
-- correction, expression of concern, atau retraction yang diketahui.
+- the version actually read;
+- verified DOI/URL or identifier;
+- access date when relevant;
+- relationship to preprint/published version/related report;
+- known correction, expression of concern, or retraction status.
 
-Versi baru tidak menghapus provenance versi lama. Catat report yang menggantikan atau memperbaiki report sebelumnya.
+A new version does not erase the provenance of the old one. Record which report supersedes or corrects another.
 
 ## Citation identity
 
-`literature/references.bib` adalah basis metadata bibliografis kanonik. Konvensi citation key default:
+`literature/references.bib` is the canonical bibliographic metadata store. Default citation-key convention:
 
 ```text
 authorYYYYshorttitle
 ```
 
-Gunakan huruf kecil ASCII tanpa spasi; tambahkan suffix `a`, `b`, dan seterusnya hanya jika collision tidak dapat diselesaikan dengan short title yang lebih jelas.
+Use lowercase ASCII without spaces. Add suffixes such as `a`, `b`, and so on only when a collision cannot be resolved through a clearer short title.
 
-Contoh bentuk (bukan referensi nyata):
+Example format only, not a real reference:
 
 ```text
 santoso2025institutionaltrust
 ```
 
-Aturan identitas:
+Identity rules:
 
-1. DOI dinormalisasi tanpa `https://doi.org/` dan dibandingkan case-insensitively.
-2. Citation key tidak menjadi bukti identitas; DOI, title, author, year, dan provenance tetap diperiksa.
-3. Preprint dan artikel terbit dapat memiliki citation key/SRC berbeda tetapi STUDY sama.
-4. Correction/retraction dicatat sebagai SRC tersendiri dan ditautkan.
-5. Metadata tidak ditambahkan ke `references.bib` sebelum diverifikasi dari sumber yang benar-benar diakses.
+1. Normalize DOI values without the `https://doi.org/` prefix and compare them case-insensitively.
+2. A citation key is not proof of identity; DOI, title, author, year, and provenance still require verification.
+3. A preprint and published article may have different citation keys/SRC records while mapping to the same STUDY.
+4. A correction/retraction receives its own SRC record and relationship.
+5. Metadata is not added to `references.bib` before it is verified from a source that was actually accessed.
 
 ## Decision provenance
 
-Keputusan substantif mencatat minimal:
+A substantive decision records at least:
 
-- masalah;
-- alternatif;
-- keputusan/status;
-- SRC/STUDY/CLM/REV yang menjadi dasar;
-- asumsi/unknown yang masih ada;
-- artefak dan quality gate yang terdampak;
-- DEC yang digantikan, bila ada.
+- the problem;
+- alternatives;
+- decision/status;
+- supporting SRC/STUDY/CLM/REV identifiers;
+- remaining assumptions/unknowns;
+- affected artifacts and quality gates;
+- the DEC it supersedes, if any.
 
-Keputusan baru **supersedes**, bukan menghapus, keputusan lama.
+A new decision **supersedes** an earlier decision; it does not erase it.
 
 ## Review provenance
 
-Review finding menggunakan `REV-###` dan memuat lokasi, evidence, dampak, tindakan, serta cara memeriksa penyelesaian. Menutup REV berarti masalah yang didefinisikan telah diperiksa ulang; bukan berarti seluruh naskah atau gate otomatis SIAP.
+A review finding uses `REV-###` and records location, evidence, impact, action, and closure verification. Closing a REV means that defined finding has been rechecked; it does not imply that the entire manuscript or gate is READY.
 
-## Aturan penggunaan
+## Rules of use
 
-- Jangan membuat relasi evidence tanpa membuka bukti yang sesuai dengan access status yang diklaim.
-- Jangan mengubah `UNVERIFIED` menjadi `SUPPORTED` karena ringkasan AI atau metadata bibliografis.
-- Jika claim berubah secara material, pertahankan CLM yang sama hanya bila identitas intelektualnya masih sama; jika tidak, buat CLM baru dan tandai hubungan supersedes/replaces.
-- Perubahan provenance yang memengaruhi argumen, desain, atau inferensi harus dipantulkan pada decision log dan gate terkait.
+- Do not create an evidence relation without opening evidence consistent with the access status claimed.
+- Do not change `UNVERIFIED` to `SUPPORTED` based only on an AI summary or bibliographic metadata.
+- If a claim changes materially, retain the same CLM only when its intellectual identity is still the same; otherwise create a new CLM and record the supersedes/replaces relationship.
+- Provenance changes that affect the argument, design, or inference must be reflected in the decision log and affected gates.
