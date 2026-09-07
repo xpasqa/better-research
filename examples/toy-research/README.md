@@ -1,10 +1,10 @@
 # Golden example — synthetic research cycle
 
-> **CONTOH SINTETIS.** Seluruh organisasi, temuan, source, dan keputusan di folder ini dibuat untuk menunjukkan workflow Better Research. Jangan mengutip atau memperlakukannya sebagai bukti empiris.
+> **SYNTHETIC EXAMPLE.** Every organization, finding, source, and decision in this folder is fabricated solely to demonstrate the Better Research workflow. Do not cite it or treat it as empirical evidence.
 
-Contoh ini menunjukkan satu siklus kecil: review menemukan klaim terlalu kuat → issue membatasi tugas → source note dan claim ledger diperiksa → decision dicatat → paragraf direvisi → gate tetap tidak otomatis SIAP.
+This example shows one small cycle: a review identifies an overstrong claim → an Issue bounds the task → the source note and claim ledger are checked → a decision is recorded → one paragraph is revised → the academic gate does not automatically become READY.
 
-Urutan baca:
+Read in this order:
 
 1. [Issue example](issue-example.md)
 2. [Synthetic source note](source-note-SRC-SYN-001.md)
@@ -33,4 +33,4 @@ verification
 gate remains separately assessed
 ```
 
-Contoh sengaja kecil. Tujuannya bukan menunjukkan “riset yang bagus”, tetapi menunjukkan bagaimana konteks, evidence, keputusan, dan perubahan dapat dipulihkan lintas sesi.
+The example is intentionally small. Its purpose is not to demonstrate “good research,” but to show how context, evidence, decisions, and changes can be recovered across sessions.
