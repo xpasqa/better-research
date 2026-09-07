@@ -1,12 +1,12 @@
-# Matriks pertanyaan, bukti, dan desain
+# Research Question, Evidence, and Design Matrix
 
-Status: BELUM DIISI. Paradigma/desain belum ditetapkan.
+Status: NOT YET FILLED. Paradigm/design: NOT YET DECIDED.
 
-| RQ ID | Pertanyaan | Jenis klaim/target estimasi bila relevan | Unit/kasus/populasi | Bukti dan cara memperoleh | Analisis | Asumsi | Alternatif yang dibandingkan | Batas kesimpulan |
+| RQ ID | Question | Claim type / target estimand when relevant | Unit/case/population | Evidence and how it will be obtained | Analysis | Assumptions | Alternatives compared | Limits of conclusion |
 |---|---|---|---|---|---|---|---|---|
 
-## Keputusan desain
+## Design decisions
 
-Alternatif, alasan pilihan, kapasitas, akses, pengukuran/corpus, sampling/kecukupan, dan syarat etik: BELUM DIISI.
+Alternatives considered, rationale for selection, capacity, access, measurement/corpus, sampling/adequacy, and ethics requirements: NOT YET FILLED.
 
-Untuk mixed methods tambahkan hubungan sampel, urutan/prioritas, titik integrasi, dan aturan menangani hasil bertentangan. Untuk studi konseptual/arsip, jelaskan pemilihan serta kritik corpus.
+For mixed methods, add sample relationships, sequence/priority, integration points, and rules for handling discrepant results. For conceptual/archival studies, explain corpus selection and critique.
