@@ -1,6 +1,8 @@
 # Project brief
 
 Status: BELUM DIISI. Builder: Publion Disertasi Builder.
+Mode workspace: TEMPLATE.
+Saat membuat proyek disertasi dari builder, ubah menjadi RESEARCH sebelum kustomisasi. Mode TEMPLATE hanya untuk memelihara repositori induk sesuai instruksi pengguna; tidak boleh dipakai untuk melewati issue/PR dalam penelitian.
 Nama proyek penelitian: BELUM DIISI.
 Jangan menebak jawaban. Isi hanya informasi dari pengguna atau sumber yang dapat diverifikasi.
 

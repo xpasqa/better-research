@@ -2,6 +2,8 @@
 
 Alur ini merupakan konvensi kerja proyek. Tahap dapat diulang ketika bukti mengubah keputusan. Lihat [quality gates](quality-gates.md). Draf dan memo boleh dibuat sepanjang proses tanpa mengubah status kesiapan ilmiah.
 
+Pada proyek disertasi (mode RESEARCH), setiap pekerjaan pada tahap di bawah dimulai dari issue aktif dan mengikuti [workflow Git](git-workflow.md). Hasil berkas masuk ke main melalui PR, review, dan merge. Pada akhir sesi simpan checkpoint issue; issue induk memetakan child issue bila satu tahap terdiri atas beberapa keluaran. Pemeliharaan repositori induk TEMPLATE bukan pelaksanaan tahap penelitian ini.
+
 | Tahap | Pertanyaan keputusan | Artefak kerja | Skill |
 |---|---|---|---|
 | 0. Konteks | Apa mandat, batas, dan kelayakan penelitian? | Project brief dan daftar ketidakpastian | framing |

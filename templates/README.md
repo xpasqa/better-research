@@ -4,6 +4,7 @@ Salin formulir ke lokasi kerja ketika tahapnya dimulai. Ganti BELUM DIISI berdas
 
 | Formulir | Lokasi kerja yang disarankan |
 |---|---|
+| [Session checkpoint](session-checkpoint.md) | Komentar issue dan snapshot body; berkas lokal sementara bila GitHub gagal |
 | [Problem memo](problem-memo.md) | research/problem-memo.md |
 | [Review protocol](review-protocol.md) | research/review-protocol.md |
 | [Search log](search-log.md) | literature/searches/ |

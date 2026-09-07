@@ -2,12 +2,20 @@
 
 ## Ruang lingkup
 
+Ini satu-satunya berkas aturan masuk untuk agent. Baca mode workspace pada project brief: TEMPLATE untuk repositori induk; RESEARCH untuk proyek disertasi hasil salinan. Dokumen dalam docs/ merinci aturan, bukan pintu masuk alternatif.
+
+Pada mode TEMPLATE, pemeliharaan builder atas instruksi langsung pengguna boleh diperiksa, di-commit, dan di-push langsung tanpa issue/PR. Pada mode RESEARCH, issue dan PR wajib mengikuti aturan di bawah. Mengganti mode untuk menghindari alur penelitian tidak diperbolehkan.
+
+Jangan menganggap salinan tetap TEMPLATE hanya karena mewarisi nilai brief. Ketika pengguna mulai penelitian pada workspace hasil salinan, tetapkan RESEARCH sebagai bagian inisialisasi dan buat issue sebelum kustomisasi substantif. Jika mode belum tercatat, gunakan alur RESEARCH; pengecualian TEMPLATE memerlukan konteks jelas bahwa tugas adalah pemeliharaan builder induk.
+
 Repositori ini adalah workspace akademik. Mulai dari [project brief](research/project-brief.md), [status](research/status.md), dan [integritas akademik](docs/academic-integrity.md). Jangan membawa topik, variabel, sampel, teori, atau identitas dari proyek lain.
 
 Instruksi pengguna menentukan cakupan tugas. Ketentuan kampus, etik, dan standar disiplin yang sudah diverifikasi dicatat dalam brief. Jika terjadi pertentangan yang berdampak akademik, jelaskan dampaknya dan selesaikan keputusan secara terbuka; jangan mengklaim kepatuhan yang tidak terbukti.
 
 ## Aturan inti
 
+- Pada mode RESEARCH, setiap pekerjaan wajib memiliki issue aktif sebelum kerja substantif; lanjutkan issue yang sesuai dan jangan menduplikasi tugas. Semua perubahan berkas ke main wajib melalui branch dan PR yang diperiksa.
+- Issue menyimpan konteks lintas sesi: tujuan, scope, penerimaan, keputusan, bukti, checkpoint, blocker, dan langkah berikutnya. Percakapan tidak menjadi satu-satunya memori kerja.
 - Dilarang mengarang data, sumber, kutipan, nomor halaman, hasil analisis, izin, persetujuan, atau kegiatan yang belum dilakukan.
 - Bedakan informasi dari sumber, inferensi peneliti, hipotesis, contoh sintetis, dan hal yang belum diketahui.
 - Klaim empiris penting harus memiliki jalur ke bukti dan batas interpretasi. Sumber yang ada belum tentu mendukung klaim.
@@ -20,6 +28,8 @@ Instruksi pengguna menentukan cakupan tugas. Ketentuan kampus, etik, dan standar
 ## Pemilihan skill
 
 Baca hanya SKILL.md yang sesuai tugas melalui [indeks skill](docs/skills.md):
+
+- Koordinasi issue, sesi, dan PR: dissertation-workflow; gunakan saat mulai/melanjutkan pekerjaan atau menyerahkan output.
 - Perumusan masalah: dissertation-framing.
 - Penelusuran, seleksi, ekstraksi, dan appraisal: dissertation-evidence.
 - Sintesis teori dan uji kontribusi: dissertation-theory.
@@ -31,11 +41,14 @@ Skill yang tercantum adalah panduan kerja lokal, bukan bukti bahwa pekerjaan sud
 
 ## Cara bekerja
 
-1. Periksa keadaan Git dan keluaran yang diminta; lindungi perubahan pengguna.
-2. Tentukan tahap dan ketergantungan yang relevan, lalu baca aturan/skill terkait.
-3. Jalankan pekerjaan yang telah diotorisasi; catat asumsi, sumber, keputusan, dan keterbatasan.
-4. Periksa hasil berdasarkan bukti, kemudian perbarui status dan catatan perubahan yang relevan.
-5. Laporkan hasil aktual, pemeriksaan yang dilakukan, dan masalah yang tersisa.
+Urutan berikut untuk mode RESEARCH. Untuk pemeliharaan TEMPLATE yang diminta pengguna, periksa konteks dan perubahan, lakukan perbaikan langsung, validasi hasil, lalu simpan sesuai instruksi tanpa membuat issue/PR.
+
+1. Verifikasi origin dan nama kanonik GitHub; gunakan owner/repo eksplisit agar operasi tidak masuk upstream sumber. Lindungi perubahan lokal pengguna.
+2. Temukan/buat issue. Baca snapshot, checkpoint terakhir, keputusan, dependency, serta PR/review tertaut sebelum melanjutkan.
+3. Tentukan scope, kriteria penerimaan, tahap, dan skill terkait. Kerjakan perubahan pada branch issue.
+4. Catat keputusan/bukti dan simpan checkpoint pada akhir sesi, perubahan penting, blocker, serta transisi review. Perbarui issue sebelum konteks hilang.
+5. Siapkan draft PR, periksa output aktual, revisi temuan, lalu merge melalui PR dalam otorisasi yang berlaku. Jangan push langsung ke main.
+6. Verifikasi commit main dan penutupan issue; laporkan hasil aktual serta batas pemeriksaan. Status delivery tidak menggantikan gate akademik.
 
 Ikuti [workflow Git](docs/git-workflow.md). Jangan menambahkan prosedur persetujuan untuk tugas baca, draf, atau pemeriksaan rutin. Kontak peserta, pengajuan etik, publikasi data, dan pengiriman pesan eksternal memerlukan otorisasi yang sesuai. Status persetujuan tidak boleh diasumsikan.
 

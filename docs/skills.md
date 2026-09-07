@@ -4,6 +4,7 @@ Buka repositori ini sebagai proyek Codex. Skill disimpan bersama boilerplate, ta
 
 | Skill | Gunakan ketika | Keluaran |
 |---|---|---|
+| [dissertation-workflow](../.agents/skills/dissertation-workflow/SKILL.md) | Memulai/melanjutkan issue, menyimpan konteks, menyiapkan PR dan penutupan | Issue, checkpoint, branch/PR dan jejak integrasi |
 | [dissertation-framing](../.agents/skills/dissertation-framing/SKILL.md) | Memperjelas masalah, pertanyaan, cakupan, kelayakan | Brief/problem memo dengan keputusan terbuka |
 | [dissertation-evidence](../.agents/skills/dissertation-evidence/SKILL.md) | Merancang atau menjalankan penelusuran, seleksi, ekstraksi, appraisal | Protokol, log, source note, claim ledger |
 | [dissertation-theory](../.agents/skills/dissertation-theory/SKILL.md) | Mensintesis perdebatan dan menguji kontribusi | Peta argumen, penjelasan alternatif, audit novelty |
@@ -15,7 +16,7 @@ Skill dapat dipanggil dengan nama, misalnya `$dissertation-evidence`. Skill ini 
 
 ## Kombinasi dan batas
 
-Pilih skill utama sesuai keluaran; baca skill tambahan hanya untuk kebutuhan nyata. Alur umum: framing → evidence → theory → design → writing → audit, dengan iterasi bila bukti mengubah keputusan.
+Gunakan workflow untuk koordinasi dan pilih skill akademik sesuai keluaran. Alur akademik: framing → evidence → theory → design → writing → audit, dengan iterasi bila bukti mengubah keputusan. Jangan memuat semua skill sekaligus; baca hanya tahap yang diperlukan.
 
 Skill dokumen/PDF/spreadsheet dari lingkungan boleh digunakan untuk artefak yang memerlukannya. Skill deep-research atau konektor ilmiah, jika tersedia dan sesuai permintaan, melengkapi akses; hasilnya tetap melalui verifikasi dan appraisal proyek.
 

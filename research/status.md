@@ -4,6 +4,10 @@ Tahap aktif: persiapan workspace.
 Status boilerplate: SIAP DIGUNAKAN.
 Status penelitian: BELUM DIMULAI.
 
+## Menemukan pekerjaan aktif
+
+Gunakan daftar issue pada repositori proyek yang sudah diverifikasi, lalu baca snapshot/checkpoint dan PR tertaut. Status delivery ada pada issue; file ini mencatat keadaan akademik. Pada proyek baru, tautkan issue inisialisasi brief dan issue tahap aktif di bagian ini bila sudah dibuat. Jangan menyalin nomor issue dari repositori builder ke proyek penelitian baru.
+
 | Gate | Status | Tautan audit/bukti |
 |---|---|---|
 | G0 Konteks | BELUM DINILAI | |

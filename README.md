@@ -2,7 +2,11 @@
 
 **Boilerplate untuk merancang, menjalankan, menulis, dan meninjau riset tingkat doktoral dengan bantuan AI.**
 
-Builder ini menyediakan aturan akademik, enam skill, 13 formulir kerja, dan pemeriksaan kesiapan riset. Peneliti menggunakannya untuk menjaga hubungan antara masalah, literatur, teori, metode, bukti, dan kontribusi disertasi.
+Builder ini menyediakan aturan akademik, tujuh skill, 14 formulir kerja, dan pemeriksaan kesiapan riset. Peneliti menggunakannya untuk menjaga hubungan antara masalah, literatur, teori, metode, bukti, dan kontribusi disertasi.
+
+**Untuk proyek disertasi: Issue → Branch → Draft PR → Review → Merge → Penutupan issue.** Issue menyimpan konteks lintas sesi AI; semua keluaran berkas masuk ke main melalui PR yang diperiksa.
+
+Repositori ini adalah template induk. Pemeliharaan template atas instruksi langsung pengguna boleh dilakukan tanpa issue/PR. Saat membuat proyek disertasi, tetapkan mode RESEARCH pada project brief; alur issue/PR wajib berlaku sejak kustomisasi proyek. Aturan agent hanya mempunyai satu pintu masuk: [AGENTS.md](AGENTS.md).
 
 Status: **builder siap digunakan; penelitian belum dimulai**. Topik, kampus, paradigma, metode, dan data ditetapkan pada masing-masing proyek. Keputusan akademik dan pertanggungjawaban naskah tetap berada pada peneliti.
 
@@ -25,7 +29,7 @@ Gunakan satu repositori terpisah untuk setiap disertasi. Salin **isi versi aktif
 
 Contoh instruksi kepada agent:
 
-> Buat repositori private baru bernama [nama-proyek] di akun saya, menggunakan isi versi aktif Publion Disertasi Builder. Sertakan folder tersembunyi .agents dan .github. Mulai riwayat Git baru, atur origin ke repositori baru, dan jangan mengubah repositori builder. Biarkan topik dan metode kosong sampai saya memberikan informasi.
+> Buat repositori private baru bernama [nama-proyek] di akun saya, menggunakan isi versi aktif Publion Disertasi Builder. Sertakan folder tersembunyi .agents dan .github. Mulai riwayat Git baru dan tetapkan mode RESEARCH pada project brief sebagai bagian provisioning. Atur origin ke repositori baru dan jangan mengubah repositori builder. Setelah repositori tersedia, buat issue inisialisasi brief sebelum kustomisasi; semua perubahan selanjutnya melalui branch dan PR. Biarkan topik dan metode kosong sampai saya memberikan informasi.
 
 Ganti `[nama-proyek]` dengan nama yang diinginkan. Instruksi ini baru dijalankan saat diberikan kepada agent; README tidak membuat repositori otomatis.
 
@@ -34,8 +38,8 @@ Ganti `[nama-proyek]` dengan nama yang diinginkan. Instruksi ini baru dijalankan
 Clone repositori ini, lalu buka folder hasil clone sebagai proyek Codex:
 
 ```sh
-git clone https://github.com/xpasqa/publion-disertasi-builder.git
-cd publion-disertasi-builder
+git clone https://github.com/xpasqa/better-research.git
+cd better-research
 ```
 
 Repositori memerlukan hak akses GitHub yang sesuai. Clone mempertahankan riwayat Git; gunakan salinan isi versi aktif dengan riwayat baru jika menyiapkan proyek penelitian yang independen.
@@ -46,7 +50,7 @@ Di lingkungan agent lain, arahkan agent untuk membaca [AGENTS.md](AGENTS.md) dan
 
 Berikan instruksi berikut di workspace penelitian:
 
-> Baca AGENTS.md, research/project-brief.md, dan research/status.md. Gunakan dissertation-framing untuk membantu saya mengisi brief. Mulai dari masalah dan informasi yang saya miliki. Jangan menebak pedoman kampus, memilih metode, atau mengklaim novelty sebelum ada dasar. Catat keputusan dan informasi yang masih dibutuhkan.
+> Baca AGENTS.md, research/project-brief.md, dan research/status.md. Verifikasi repositori tujuan. Gunakan dissertation-workflow untuk mencari atau membuat issue inisialisasi brief, lalu dissertation-framing untuk membantu saya mengisinya. Mulai dari masalah dan informasi yang saya miliki. Jangan menebak pedoman kampus, memilih metode, atau mengklaim novelty sebelum ada dasar. Catat keputusan dan checkpoint di issue, lalu siapkan hasil berkas melalui PR.
 
 Isi [project brief](research/project-brief.md) bersama agent. Tetapkan tahap aktif di [status penelitian](research/status.md). Untuk mulai menulis bagian tertentu, jelaskan keluaran yang diminta dan bahan yang tersedia.
 
@@ -69,6 +73,7 @@ Tahap boleh diulang ketika bukti mengubah keputusan. Draf dapat ditulis sepanjan
 
 | Skill | Kapan digunakan | Contoh instruksi |
 |---|---|---|
+| `dissertation-workflow` | Memulai/melanjutkan pekerjaan dan mengintegrasikan hasil | “Lanjutkan issue aktif dari checkpoint terakhir; simpan progres dan siapkan PR dengan bukti pemeriksaan.” |
 | `dissertation-framing` | Masalah dan pertanyaan belum tajam | “Perjelas masalah dari brief; bandingkan alternatif dan kelayakannya.” |
 | `dissertation-evidence` | Menyiapkan atau menjalankan review literatur | “Susun protokol review dahulu. Catat batas akses; jangan mulai pencarian sebelum protokol dibahas.” |
 | `dissertation-theory` | Mensintesis teori dan menilai kontribusi | “Uji kandidat novelty terhadap studi terdekat dan bukti yang dapat membantahnya.” |
@@ -98,14 +103,29 @@ Baca [aturan agent](AGENTS.md), [integritas akademik](docs/academic-integrity.md
 
 Salin formulir dari [templates/](templates/README.md) ke lokasi kerja saat diperlukan. Isi dengan informasi nyata; tabel kosong tidak perlu diisi dengan data contoh.
 
-Di akhir setiap pekerjaan, minta agent:
+### Issue wajib sebelum pekerjaan
 
-- Menunjukkan berkas yang berubah, sumber yang diperiksa, dan batas pemeriksaan.
-- Mencatat keputusan substantif serta perubahan protokol jika ada.
-- Memperbarui status berdasarkan bukti kegiatan aktual.
-- Memeriksa perubahan dan menyimpannya ke Git dalam cakupan yang sudah diotorisasi.
+Bagian ini berlaku pada workspace penelitian berstatus RESEARCH, bukan pemeliharaan template induk.
 
-Gunakan [workflow Git](docs/git-workflow.md) untuk branch, commit, dan review. Untuk revisi substantif yang memerlukan peninjauan, siapkan PR dengan alasan perubahan dan bukti yang diperiksa.
+Cari issue yang sudah mencakup tugas. Jika belum ada, buat menggunakan template tugas proyek. Issue wajib menjelaskan masalah, konteks/keputusan sebelumnya, scope, keluaran, sumber, dependency, dan checklist penerimaan. Bagian atasnya memuat snapshot status, branch, commit, PR, blocker, serta langkah berikutnya.
+
+Untuk pekerjaan besar, gunakan issue induk dan child issue dengan keluaran yang dapat ditinjau sendiri. Pertanyaan status atau klarifikasi masuk issue aktif; tidak perlu issue baru untuk setiap pesan. Hasil analisis/review yang menjadi keluaran proyek disimpan sebagai memo dan diintegrasikan melalui PR.
+
+### Menyimpan memori kerja
+
+Pada akhir sesi, keputusan penting, blocker, dan perpindahan ke review, kirim komentar [checkpoint](templates/session-checkpoint.md) dan perbarui snapshot issue. Isinya: yang selesai, bukti/commit, keputusan dan alasan, yang belum diperiksa, pekerjaan tersisa, serta langkah berikutnya. Rincian panjang ditautkan ke berkas; seluruh percakapan tidak perlu disalin.
+
+### Mengintegrasikan output final
+
+Kerjakan berkas pada branch `issue-<nomor>-<ringkasan>`; cantumkan nomor issue pada commit. Buka draft PR setelah ada perubahan bermakna. Deskripsi PR memetakan kriteria issue ke hasil, pemeriksaan, dan batas bukti. Tanggapi review sebelum menyatakan siap merge.
+
+PR parsial memakai `Refs #nomor` dan issue tetap terbuka. PR final memakai `Closes #nomor` hanya ketika semua kriteria issue terpenuhi. Merge melalui PR dalam otorisasi pengguna yang berlaku; jangan push langsung ke main atau melewati proteksi. Setelah merge, periksa commit main, status PR/issue, dan tulis ringkasan penutupan. Jangan membuat PR kosong untuk issue yang murni koordinasi tanpa perubahan berkas.
+
+Panduan lengkap: [aturan issue](docs/issues.md), [kesinambungan sesi](docs/session-continuity.md), [PR dan merge](docs/pull-requests.md), serta [workflow Git](docs/git-workflow.md).
+
+### Kesiapan akademik tetap dinilai terpisah
+
+Issue selesai dan PR merged menunjukkan output terintegrasi. Keduanya tidak membuktikan penelitian atau persetujuan institusi selesai.
 
 | Gate | Yang dinilai |
 |---|---|
@@ -124,11 +144,11 @@ Statusnya: `BELUM DINILAI`, `PERLU REVISI`, `SIAP`, atau `TIDAK BERLAKU` dengan 
 
 | Lokasi | Fungsi |
 |---|---|
-| [AGENTS.md](AGENTS.md) | Aturan utama; AGENT.md hanya pengarah kompatibilitas |
+| [AGENTS.md](AGENTS.md) | Satu-satunya pintu masuk aturan agent |
 | [docs/](docs/research-workflow.md) | Panduan proses, integritas, standar, skill, dan Git |
-| [.agents/skills/](docs/skills.md) | Enam skill lokal |
+| [.agents/skills/](docs/skills.md) | Tujuh skill lokal |
 | [research/](research/project-brief.md) | Brief, status, keputusan, deviasi, dan catatan penggunaan AI |
-| [templates/](templates/README.md) | 13 formulir kerja |
+| [templates/](templates/README.md) | 14 formulir kerja |
 | [literature/](literature/README.md) | Metadata terverifikasi, catatan sumber, dan jejak bukti |
 | [manuscript/](manuscript/README.md) | Naskah Markdown kanonik |
 | [data/](data/README.md) | Dokumentasi tata kelola data |
@@ -138,7 +158,7 @@ Statusnya: `BELUM DINILAI`, `PERLU REVISI`, `SIAP`, atau `TIDAK BERLAKU` dengan 
 
 ## 9. Melanjutkan pekerjaan pada sesi berikutnya
 
-> Baca AGENTS.md, project brief, status penelitian, serta keputusan terakhir yang relevan. Ringkas pekerjaan yang sudah selesai dan bukti yang masih kurang. Lanjutkan tugas [sebutkan tugas] dengan skill yang sesuai. Jangan mengulang tahap yang sudah selesai tanpa alasan baru.
+> Baca AGENTS.md dan lanjutkan issue #[nomor] pada repositori [owner/repo]. Periksa snapshot, checkpoint terakhir, keputusan, dependency, serta PR dan komentar review. Cocokkan dengan branch/commit aktual dan brief/status akademik. Ringkas posisi terakhir, lalu lanjutkan langkah berikutnya dengan skill yang sesuai. Simpan checkpoint sebelum mengakhiri sesi. Jangan mengulang pekerjaan selesai tanpa alasan baru.
 
 Ganti bagian dalam kurung siku dengan tugas konkret. Untuk masalah yang belum terselesaikan, jelaskan informasi atau bukti yang diperlukan agar pekerjaan dapat dilanjutkan.
 
