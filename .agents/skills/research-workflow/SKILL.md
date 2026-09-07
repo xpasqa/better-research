@@ -32,3 +32,8 @@ Jika GitHub tidak tersedia, simpan draft/checkpoint lokal BELUM TERSINKRON dan l
 ## Disiplin eksekusi
 
 Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.
+
+
+## Provenance dan versioning
+
+Untuk pekerjaan yang mengubah klaim atau keputusan, gunakan [model provenance](../../../docs/provenance.md). Project RESEARCH mempertahankan builder version pada brief; upgrade aturan/skill/template hanya melalui migration Issue + PR, bukan sinkronisasi otomatis dari builder.
