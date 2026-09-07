@@ -1,6 +1,6 @@
 # Project Brief
 
-Status: NOT YET FILLED. Builder: Better Research. Builder version: 0.1.0.
+Status: NOT YET FILLED. Builder: Better Research. Builder version: 0.1.1.
 Workspace mode: TEMPLATE.
 
 When creating an actual research project from this builder, switch to RESEARCH before substantive customization. TEMPLATE mode is reserved for maintaining the upstream builder and must not be used to bypass the Issue/PR workflow. A copied project pins its builder version until an explicit migration is performed.
