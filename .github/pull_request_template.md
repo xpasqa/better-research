@@ -1,43 +1,121 @@
-## Hasil dan masalah yang diselesaikan
+## Result
 
-Jelaskan hasil akhir untuk reviewer yang belum membaca percakapan. Sertakan sebelum/sesudah bila membantu.
+Ringkas hasil akhir untuk reviewer yang belum membaca percakapan. Jelaskan masalah yang diselesaikan dan perubahan yang benar-benar dibuat.
 
-## Issue dan scope
+## Issue and scope
 
 - Owner/repo:
 - Issue utama:
 - Parent/child atau dependency:
-- Scope final dan perubahan dari rencana:
+- Base / head:
+- Scope final:
+- Perubahan scope dari rencana:
 
-Gunakan `Refs #nomor` untuk PR parsial. Ganti dengan `Closes #nomor` pada deskripsi PR final hanya jika seluruh kriteria issue dipenuhi; jangan menutup parent yang masih memiliki pekerjaan.
+Gunakan `Refs #nomor` untuk PR parsial. Gunakan `Closes #nomor` hanya pada PR final ketika seluruh closure conditions issue terpenuhi.
 
-## Keluaran dan bukti penerimaan
+## Epistemic delta
 
-| Kriteria issue | Berkas/permalink/commit | Bukti aktual | Status |
+Jelaskan perubahan pengetahuan/keputusan yang dihasilkan PR ini, bukan hanya perubahan teks.
+
+| Item/ID | Sebelum | Sesudah | Dasar bukti | Confidence/status |
+|---|---|---|---|---|
+
+Contoh status: SUPPORTED / INFERRED / ASSUMED / UNKNOWN / RETRACTED / MIXED.
+
+### Unknowns that remain
+
+- 
+
+### Assumptions that remain
+
+- 
+
+### Decisions made or superseded
+
+| DEC ID | Keputusan | Evidence/claim IDs | Supersedes | Dampak |
+|---|---|---|---|---|
+
+## Outputs and acceptance evidence
+
+| Success criterion issue | Berkas/permalink/commit | Bukti aktual | Status |
 |---|---|---|---|
 
-## Keputusan, sumber, dan batas klaim
+Status: PASS / FAIL / BLOCKED / NOT APPLICABLE.
 
-Tautkan decision/deviation log, sumber/claim ID yang relevan, dan informasi yang belum diverifikasi. Jangan menyatakan kegiatan lapangan selesai hanya karena protokol tersedia.
+## Evidence and provenance
 
-## Pemeriksaan aktual
+Tautkan ID yang relevan.
 
-| Pemeriksaan | Versi/HEAD yang diperiksa | Hasil | Batas |
-|---|---|---|---|
+- Sources/reports (SRC):
+- Studies (STUDY):
+- Claims (CLM):
+- Decisions (DEC):
+- Reviews/findings (REV):
+- Protocol/deviation IDs:
+- Evidence yang tidak dapat diakses/diverifikasi:
 
-## Review dan tindakan koreksi
+Jangan menyatakan “source supports claim” hanya karena sumber tercantum. Hubungan dukungan harus terlihat pada source note/claim ledger.
 
-Reviewer/peran (agent/mandiri/manusia), versi, temuan, respons, serta hal yang belum diselesaikan. Review agent bukan persetujuan promotor atau etik.
+## Falsification and alternatives
 
-## Kesiapan integrasi
+Untuk perubahan klaim/teori/metode yang substantif:
 
-- [ ] Target owner/repo, base main/default branch, dan head benar.
-- [ ] Kriteria scope PR terpenuhi; tidak ada output wajib yang diam-diam ditunda.
-- [ ] Tidak ada data sensitif, sumber/hasil fiktif, atau pelemahan aturan akademik.
-- [ ] Pemeriksaan sesuai perubahan selesai dan temuan wajib ditangani.
-- [ ] Snapshot/checkpoint issue sesuai keadaan terakhir.
-- [ ] Status draft/ready, otorisasi merge, dan persyaratan proteksi telah diperiksa.
+- Bukti tandingan yang diperiksa:
+- Penjelasan alternatif yang diperiksa:
+- Boundary conditions:
+- Apa yang masih dapat membatalkan keputusan ini:
 
-## Penutupan yang direncanakan
+Isi TIDAK BERLAKU dengan alasan untuk perubahan mekanis yang tidak menyentuh klaim akademik.
 
-Issue yang boleh ditutup, pekerjaan yang tetap terbuka, serta cara memverifikasi hasil di main. Commit merge dan status MERGED dicatat setelah benar-benar terjadi; jangan menuliskan hasil masa depan sebagai fakta.
+## Verification performed
+
+| Check | Version/HEAD checked | Method | Result | Limitation |
+|---|---|---|---|---|
+
+Pisahkan:
+
+- **mechanical verification** — link, schema, syntax, path, build/check otomatis;
+- **epistemic verification** — kecocokan klaim–bukti, counterevidence, inference boundary;
+- **academic judgement** — quality gate/review manusia atau agent sesuai scope.
+
+Jangan mengubah PASS mekanis menjadi klaim bahwa riset valid secara akademik.
+
+## Surgical-change check
+
+- [ ] Setiap perubahan substantif dapat ditelusuri ke issue, bukti, DEC, REV, atau acceptance criterion.
+- [ ] Tidak ada drive-by refactor/rewrite di luar scope.
+- [ ] Perubahan ini hanya membersihkan orphan/inconsistency yang dibuat oleh perubahan sendiri, kecuali scope diperluas secara eksplisit.
+
+## Data, ethics, and integrity
+
+- [ ] Tidak ada data sensitif, credentials, consent bertanda tangan, atau raw participant data.
+- [ ] Tidak ada sumber, hasil, kutipan, locator, review manusia, izin, atau aktivitas yang diklaim tanpa bukti.
+- [ ] Status etik/izin tidak diasumsikan.
+- [ ] Materi berlisensi tidak ditambahkan tanpa dasar izin.
+
+## Review and corrective actions
+
+Reviewer/peran (agent/mandiri/manusia), versi, temuan, respons, dan unresolved items:
+
+| REV ID | Reviewer/peran | Finding | Action | Status |
+|---|---|---|---|---|
+
+Review agent bukan persetujuan promotor, reviewer jurnal, atau komite etik.
+
+## Integration readiness
+
+- [ ] Target owner/repo, base, dan head benar.
+- [ ] Success criteria yang akan ditutup berstatus PASS.
+- [ ] Verification sesuai perubahan selesai dan batasnya dicatat.
+- [ ] Issue snapshot/checkpoint sesuai keadaan terbaru.
+- [ ] Quality gate tidak dinaikkan hanya karena PR siap merge.
+- [ ] Otorisasi merge dan branch protection telah diperiksa.
+
+## Planned closure
+
+- Issue yang ditutup:
+- Issue/pekerjaan yang tetap terbuka:
+- Gate yang terdampak/reopen:
+- Cara memverifikasi hasil di `main` setelah merge:
+
+Commit merge dan status MERGED dicatat setelah benar-benar terjadi; jangan menuliskan hasil masa depan sebagai fakta.

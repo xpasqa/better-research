@@ -33,3 +33,8 @@ Nyatakan cakupan yang benar-benar dicapai, sumber tidak tersedia, keputusan terb
 ## Disiplin eksekusi
 
 Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.
+
+
+## Provenance evidence
+
+Gunakan [model provenance](../../../docs/provenance.md) untuk membedakan report/source (SRC), underlying study (STUDY), claim (CLM), decision (DEC), dan review finding (REV). Satu report tidak sama dengan satu study; setiap hubungan evidence–claim mencatat relation, directness, access status, locator, dan batas penggunaan.

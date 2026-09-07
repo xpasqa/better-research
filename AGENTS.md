@@ -27,7 +27,9 @@ Prinsip berikut berlaku lintas skill dan wajib diterapkan secara proporsional. U
 ## Aturan inti
 
 - Pada mode RESEARCH, setiap pekerjaan wajib memiliki issue aktif sebelum kerja substantif; lanjutkan issue yang sesuai dan jangan menduplikasi tugas. Semua perubahan berkas ke main wajib melalui branch dan PR yang diperiksa.
-- Issue menyimpan konteks lintas sesi: tujuan, scope, penerimaan, keputusan, bukti, checkpoint, blocker, dan langkah berikutnya. Percakapan tidak menjadi satu-satunya memori kerja.
+- Issue menyimpan konteks lintas sesi: objective, epistemic state, scope, evidence required, success criteria, verification, keputusan, checkpoint, blocker, dan langkah berikutnya. Percakapan tidak menjadi satu-satunya memori kerja.
+- Gunakan model provenance di [docs/provenance.md](docs/provenance.md): SRC → STUDY → CLM → DEC/REV → artefak/gate. Hubungan claim–evidence harus mempunyai locator dan status akses yang nyata.
+- Builder version pada project brief dipin. Jangan menyinkronkan aturan/skill/template dari builder terbaru ke proyek RESEARCH tanpa migration Issue + PR yang eksplisit; lihat [docs/migrations/](docs/migrations/README.md).
 - Dilarang mengarang data, sumber, kutipan, nomor halaman, hasil analisis, izin, persetujuan, atau kegiatan yang belum dilakukan.
 - Bedakan informasi dari sumber, inferensi peneliti, hipotesis, contoh sintetis, dan hal yang belum diketahui.
 - Klaim empiris penting harus memiliki jalur ke bukti dan batas interpretasi. Sumber yang ada belum tentu mendukung klaim.

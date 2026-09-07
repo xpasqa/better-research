@@ -1,6 +1,6 @@
 ---
 name: Tugas proyek atau penelitian
-about: Wajib untuk pekerjaan proyek; simpan konteks, keputusan, bukti, checkpoint, dan kriteria integrasi.
+about: Bounded context untuk satu unit kerja: tujuan, status epistemik, bukti, scope, acceptance criteria, verification, keputusan, dan checkpoint.
 title: ''
 labels: ''
 assignees: ''
@@ -11,53 +11,113 @@ assignees: ''
 - Status kerja: DRAFT
 - Owner/repo:
 - Branch / HEAD / PR:
+- Gate/tahap terkait:
 - Checkpoint terakhir:
 - Blocker:
 - Langkah berikutnya:
 
-## Masalah dan alasan
+## Objective
 
-Apa yang perlu diubah/dijawab, mengapa penting, dan kaitannya dengan RQ/gate atau pemeliharaan builder?
+Nyatakan keadaan akhir yang ingin dicapai. Hindari instruksi luas seperti “perbaiki bab” atau “lanjutkan riset”.
 
-## Konteks untuk sesi baru
+## Epistemic state
 
-Keputusan sebelumnya, batas metode, sumber/artefak yang wajib dibaca, serta hal yang belum diketahui. Jangan mengandalkan percakapan lama.
+### KNOWN
+Fakta atau informasi yang benar-benar diberikan, diamati, atau sudah tercatat.
+
+### SUPPORTED
+Klaim yang sudah mempunyai dukungan dari sumber/bukti yang diperiksa. Tautkan SRC/STUDY/CLM atau lokasi bukti.
+
+### INFERRED
+Inferensi peneliti/agent yang ditarik dari bukti. Jelaskan logika dan batasnya.
+
+### ASSUMED
+Asumsi kerja yang belum diverifikasi tetapi sementara diperlukan.
+
+### UNKNOWN
+Informasi yang belum diketahui atau belum tersedia.
+
+### DECISION NEEDED
+Keputusan yang memerlukan peneliti, bukti tambahan, atau otorisasi pihak lain.
+
+## Evidence required
+
+Daftar bukti minimum yang harus tersedia sebelum keputusan/klaim dapat dianggap terverifikasi.
+
+| Evidence/ID | Mengapa diperlukan | Lokasi/sumber | Status akses/verifikasi |
+|---|---|---|---|
 
 ## Scope
 
-- Termasuk:
-- Di luar scope:
+### Included
+- 
 
-## Keluaran dan lokasi final
+### Out of scope
+- 
 
-| Keluaran/keputusan | Berkas/lokasi | Bukti penerimaan |
-|---|---|---|
+Perubahan di luar scope memerlukan alasan eksplisit dan, bila substantif, keputusan/perluasan issue.
 
-## Kriteria penerimaan
+## Outputs and canonical locations
 
-Tulis kriteria spesifik tugas di bawah; jangan hanya memakai checklist generik.
+| Output/keputusan | Berkas/lokasi final | ID terkait | Bukti penerimaan |
+|---|---|---|---|
 
-- [ ] Keluaran yang disepakati tersedia dan bukti penerimaannya diperiksa.
-- [ ] Keputusan, sumber/batas bukti, dan perubahan protokol dicatat bila relevan.
-- [ ] PR final direview dan merged ke main untuk setiap keluaran berkas.
-- [ ] Status akhir dan checkpoint penutupan cocok dengan bukti aktual.
+## Success criteria
 
-## Rencana dan ketergantungan
+Tulis kondisi spesifik yang dapat diperiksa. Jangan hanya memakai checklist generik.
 
-- Langkah kerja:
+- [ ] 
+- [ ] 
+- [ ] 
+
+## Verification plan
+
+Jelaskan cara memeriksa setiap success criterion dan batas pemeriksaannya.
+
+| Criterion | Verification method | Expected evidence | Status |
+|---|---|---|---|
+
+Status: PENDING / PASS / FAIL / BLOCKED.
+
+## Falsification / alternatives
+
+Untuk klaim atau keputusan substantif:
+
+- Bukti apa yang dapat membantah kandidat klaim?
+- Penjelasan alternatif apa yang perlu diperiksa?
+- Boundary conditions apa yang dapat membatasi kesimpulan?
+
+Isi TIDAK BERLAKU dengan alasan jika bagian ini memang tidak relevan.
+
+## Dependencies and authorization
+
 - Parent/child issue:
-- Dependency dan kondisi untuk melanjutkan:
-- Penanggung jawab/reviewer jika diketahui:
+- Dependency:
+- Approval/authorization yang benar-benar diperlukan:
+- Reviewer/penanggung jawab jika diketahui:
 
-## Sumber dan batas akses
+Jangan mengarang status izin, review manusia, atau persetujuan institusi.
 
-Tautkan source ID, claim ID, protokol, atau permalink artefak. Jangan memasukkan data sensitif.
+## Decisions and scope changes
 
-## Keputusan dan perubahan scope
+| DEC ID | Tanggal | Keputusan/status | Dasar bukti | Dampak | Supersedes |
+|---|---|---|---|---|---|
 
-Ringkas keputusan yang berlaku; tautkan komentar/decision log. Pertahankan sejarah keputusan yang diganti.
+Pertahankan sejarah keputusan; jangan menulis ulang keputusan lama agar tampak konsisten.
 
-## Checkpoint dan penutupan
+## Checkpoints
 
-Tambahkan komentar memakai templates/session-checkpoint.md dan perbarui snapshot body pada titik penting.
-Issue keluaran berkas ditutup setelah seluruh penerimaan terpenuhi dan PR final merged; issue koordinasi tanpa perubahan berkas ditutup dengan alasan dan bukti, tanpa PR kosong.
+Tambahkan komentar memakai `templates/session-checkpoint.md` pada akhir sesi, perubahan keputusan, blocker, atau transisi review. Perbarui snapshot di bagian atas agar sesi baru dapat memulihkan keadaan tanpa membaca seluruh percakapan.
+
+## Closure conditions
+
+Issue keluaran berkas dapat ditutup hanya jika:
+
+- [ ] success criteria yang berlaku berstatus PASS;
+- [ ] keputusan dan batas bukti sudah dicatat;
+- [ ] output kanonik tersedia pada lokasi final;
+- [ ] PR final direview dan merged ke `main`;
+- [ ] commit di `main` dan status issue telah diverifikasi;
+- [ ] checkpoint penutupan mencerminkan keadaan aktual.
+
+Issue koordinasi tanpa perubahan berkas ditutup dengan alasan dan bukti, tanpa PR kosong.
