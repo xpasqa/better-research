@@ -1,11 +1,11 @@
-# Tata kelola data
+# Data governance
 
-Belum ada data penelitian. Lengkapi [ethics/data plan](../templates/ethics-data-plan.md) sebelum memasukkan data.
+No research data has been added yet. Complete the [ethics/data plan](../templates/ethics-data-plan.md) before introducing data into the project.
 
-Default boilerplate: data mentah, data olahan peserta, consent, dan linkage key tidak dilacak Git. Gunakan penyimpanan institusi yang disetujui; catat hanya dokumentasi non-sensitif dan ID versi aman di repositori.
+Default policy: raw data, processed participant-level data, consent records, and linkage keys are not tracked in Git. Use approved institutional storage and keep only non-sensitive documentation and safe version identifiers in the repository.
 
-Data publik/non-sensitif boleh dilacak hanya setelah hak penggunaan, risiko identifikasi, dan kebutuhan versioning diperiksa. Perubahan pengecualian harus dicatat dalam decision log.
+Public or non-sensitive data may be tracked only after usage rights, re-identification risk, and versioning requirements have been reviewed. Any exception to the default policy must be recorded in the decision log.
 
-Jangan menimpa data mentah. Dokumentasikan transformasi, codebook, unit, missing value, akses, dan provenance. Data sintetis untuk latihan harus diberi label dan disimpan terpisah dari data empiris.
+Never overwrite raw data. Document transformations, codebooks, units, missing-value conventions, access conditions, and provenance. Synthetic data used for training or demonstration must be clearly labeled and stored separately from empirical data.
 
-.gitignore tidak menghapus data yang telanjur masuk riwayat; pemeriksaan sebelum commit tetap diperlukan.
+A `.gitignore` rule does not remove data that has already entered Git history; pre-commit review is still required.
