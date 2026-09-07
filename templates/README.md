@@ -1,6 +1,6 @@
 # Working templates
 
-Copy a template into the appropriate working location only when that stage begins. Replace `BELUM DIISI` (“not yet filled”) with real information supported by evidence. Empty tables intentionally contain no example data. Source notes, claim ledgers, decisions, and reviews follow the [provenance model](../docs/provenance.md).
+Copy a template into the appropriate working location only when that stage begins. Replace `NOT YET FILLED` with real information supported by evidence. Empty tables intentionally contain no example data. Source notes, claim ledgers, decisions, and reviews follow the [provenance model](../docs/provenance.md).
 
 | Template | Suggested working location |
 |---|---|
