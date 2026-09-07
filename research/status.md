@@ -1,23 +1,24 @@
-# Status penelitian
+# Research Status
 
-Tahap aktif: persiapan workspace.
-Status boilerplate: SIAP DIGUNAKAN.
-Status penelitian: BELUM DIMULAI.
+Active stage: workspace preparation.
+Builder status: READY TO USE.
+Research status: NOT STARTED.
 
-## Menemukan pekerjaan aktif
+## Finding active work
 
-Gunakan daftar issue pada repositori proyek yang sudah diverifikasi, lalu baca snapshot/checkpoint dan PR tertaut. Status delivery ada pada issue; file ini mencatat keadaan akademik. Pada proyek baru, tautkan issue inisialisasi brief dan issue tahap aktif di bagian ini bila sudah dibuat. Jangan menyalin nomor issue dari repositori builder ke proyek penelitian baru.
+Use the Issue list in the verified project repository, then read the active snapshot/checkpoint and linked PR. Delivery status belongs in the Issue; this file records academic/research-stage state. In a new project, link the initialization Issue and active stage Issue here once they exist. Do not copy Issue numbers from the upstream builder into a new research repository.
 
-| Gate | Status | Tautan audit/bukti |
+| Gate | Status | Audit/evidence link |
 |---|---|---|
-| G0 Konteks | BELUM DINILAI | |
-| G1 Masalah | BELUM DINILAI | |
-| G2 Protokol dan bukti | BELUM DINILAI | |
-| G3 Teori/kontribusi | BELUM DINILAI | |
-| G4 Desain | BELUM DINILAI | |
-| G5 Pelaksanaan | BELUM DINILAI | |
-| G6 Hasil/interpretasi | BELUM DINILAI | |
-| G7 Naskah/ujian | BELUM DINILAI | |
+| G0 Context | NOT ASSESSED | |
+| G1 Problem | NOT ASSESSED | |
+| G2 Protocol & evidence | NOT ASSESSED | |
+| G3 Theory & contribution | NOT ASSESSED | |
+| G4 Design | NOT ASSESSED | |
+| G5 Execution readiness | NOT ASSESSED | |
+| G6 Results & interpretation | NOT ASSESSED | |
+| G7 Manuscript & examination/review | NOT ASSESSED | |
 
-Langkah berikutnya: isi project brief berdasarkan topik dan ketentuan institusi.
-Pembuatan template tidak menghasilkan persetujuan etik, data, literature review, atau kelulusan gate.
+Next step: complete the project brief from the actual topic and institutional requirements.
+
+Creating or translating templates does not produce ethics approval, data, a literature review, empirical results, or a passed quality gate.
