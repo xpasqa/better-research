@@ -1,10 +1,34 @@
 # Daftar klaim dan bukti
 
-Satu klaim dapat memiliki banyak sumber. Pisahkan bukti pendukung dari penyangkal. Sumber yang nyata belum tentu mendukung klaim.
+Satu baris merepresentasikan **satu hubungan evidence → claim**, bukan satu claim secara keseluruhan. Satu CLM dapat memiliki banyak baris dan banyak sumber. Lihat [model provenance](../docs/provenance.md).
 
-| CLM ID | Klaim persis | Jenis klaim | SRC/Study ID | Locator | Mendukung/menyangkal/membatasi | Kualitas dan batas bukti | Status akses/verifikasi | Lokasi naskah | Tindakan |
-|---|---|---|---|---|---|---|---|---|---|
+## Claim registry
+
+| CLM ID | Klaim persis | Jenis | Status claim | Lokasi naskah | Supersedes/replaced by | Catatan |
+|---|---|---|---|---|---|---|
+
+Status claim: DRAFT / UNVERIFIED / SUPPORTED / MIXED / CONTRADICTED / RETRACTED.
 
 Jenis: empiris, teoretis, konseptual, normatif, atau inferensi peneliti.
-Tindakan: pertahankan, kualifikasi, cari bukti, atau hapus.
-Jangan mengartikan banyaknya sumber sebagai ukuran otomatis kekuatan bukti.
+
+## Evidence relations
+
+| CLM ID | SRC ID | STUDY ID | Relation | Directness | Access | Locator | Appraisal/kualitas & batas | Versi/status source | Tindakan |
+|---|---|---|---|---|---|---|---|---|---|
+
+Relation: SUPPORTS / CONTRADICTS / LIMITS / CONTEXTUALIZES.
+
+Directness: DIRECT / INDIRECT / SECONDARY.
+
+Access: FULL_TEXT / PARTIAL / ABSTRACT_ONLY / METADATA_ONLY / UNAVAILABLE.
+
+Tindakan: pertahankan, kualifikasi, cari bukti, pisahkan claim, atau tarik.
+
+## Claim-level synthesis
+
+Untuk claim substantif, ringkas setelah evidence relations diperiksa:
+
+| CLM ID | Supporting pattern | Counterevidence | Alternative explanation | Boundary conditions | Remaining unknown | Decision/DEC |
+|---|---|---|---|---|---|---|
+
+Jangan mengartikan jumlah sumber sebagai ukuran otomatis kekuatan bukti. Source yang nyata belum tentu mendukung claim; report yang berbeda juga dapat berasal dari STUDY yang sama.
