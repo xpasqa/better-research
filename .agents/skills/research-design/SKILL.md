@@ -1,34 +1,33 @@
 ---
 name: research-design
-description: Selaraskan pertanyaan penelitian dengan desain, bukti, analisis, etika, dan kesiapan pelaksanaan secara netral terhadap metode.
+description: Align research questions with design, evidence, analysis, ethics, and execution readiness without privileging a particular method.
 ---
 
-# Desain dan pelaksanaan penelitian
+# Research Design and Execution
 
-Baca brief, [integritas](../../../docs/academic-integrity.md), dan G4–G6 pada [quality gates](../../../docs/quality-gates.md). Gunakan [design matrix](../../../templates/design-matrix.md), [analysis plan](../../../templates/analysis-plan.md), serta [ethics and data plan](../../../templates/ethics-data-plan.md).
+Read the project brief, [academic integrity rules](../../../docs/academic-integrity.md), and G4–G6 in the [quality gates](../../../docs/quality-gates.md). Use the [design matrix](../../../templates/design-matrix.md), [analysis plan](../../../templates/analysis-plan.md), and [ethics and data plan](../../../templates/ethics-data-plan.md).
 
-## Keputusan dasar
+## Foundational decisions
 
-Mulai dari jenis klaim: deskriptif, interpretif, eksplanatori, kausal, prediktif, evaluatif, atau konseptual. Bandingkan desain yang layak dan jelaskan tradeoff. Paradigma harus sesuai pertanyaan dan praktik analisis; jangan menambahkan label tanpa konsekuensi metode.
+Start from the type of claim: descriptive, interpretive, explanatory, causal, predictive, evaluative, or conceptual. Compare feasible designs and explain the tradeoffs. A paradigm should fit the question and analytic practice; do not add philosophical labels that have no methodological consequences.
 
-## Terapkan hanya bagian yang relevan
+## Apply only what is relevant
 
-- Kuantitatif: definisikan target estimasi/populasi, sampling, operasionalisasi, validitas/reliabilitas, ukuran sampel berbasis presisi/power/simulasi yang cocok, missingness, clustering, weights, confounding, dan asumsi model. Ambang statistik harus memiliki dasar, bukan satu angka universal.
-- SEM: bedakan model pengukuran dan struktural, reflektif/formatif jika relevan, identifikasi, kelayakan ukuran sampel, dan alasan estimator. Model fit atau indirect effect signifikan tidak membuktikan kausalitas.
-- Kualitatif: nyatakan tradisi, logika pemilihan kasus, posisi dan refleksivitas peneliti, proses pembentukan interpretasi, konteks, kecukupan corpus, dan tanggapan terhadap kasus/pembacaan tandingan. Jangan memaksakan saturation, inter-rater reliability, atau member checking bila tidak sesuai tradisi.
-- Mixed methods: jelaskan mengapa satu pendekatan tidak cukup, urutan/prioritas, hubungan sampel, titik integrasi, joint display bila berguna, dan penanganan hasil yang bertentangan.
-- Konseptual/arsip: justifikasi corpus, provenance, autentisitas, konteks historis, aturan pembacaan, batas akses, serta alternatif argumen.
-- Review: selaraskan pertanyaan, seleksi/appraisal, dan metode sintesis; bedakan sumber primer/sekunder dan hindari penghitungan studi ganda.
+- Quantitative: define the target estimand/population, sampling, operationalization, validity/reliability, sample size based on suitable precision/power/simulation logic, missingness, clustering, weights, confounding, and model assumptions. Statistical thresholds require justification; do not treat one number as universal.
+- SEM: distinguish measurement and structural models, reflective/formative specification when relevant, identification, sample adequacy, and estimator choice. Good fit or a significant indirect effect does not establish causality.
+- Qualitative: state the tradition, case-selection logic, researcher position and reflexivity, process of interpretation, context, corpus adequacy, and handling of negative/deviant cases or alternative readings. Do not impose saturation, inter-rater reliability, or member checking when they are not appropriate to the tradition.
+- Mixed methods: explain why one approach is insufficient, sequence/priority, sample relationship, integration points, joint displays when useful, and how conflicting results will be handled.
+- Conceptual/archival: justify the corpus, provenance, authenticity, historical context, rules of interpretation, access limitations, and alternative arguments.
+- Review-based studies: align the question, selection/appraisal process, and synthesis method; distinguish primary from secondary sources and avoid double-counting studies.
 
-## Sebelum pelaksanaan dan interpretasi
+## Before execution and interpretation
 
-Catat izin instrumen, adaptasi, pilot, consent, akses, serta status etik sesuai kebutuhan nyata. Tidak ada pengumpulan data yang dianggap diizinkan hanya karena template sudah diisi.
+Record instrument permissions, adaptations, pilots, consent, access, and ethics status according to the actual project. No data collection is authorized merely because a template has been completed.
 
-Untuk analisis yang direncanakan, tetapkan keluaran utama, aturan eksklusi, sensitivitas, dan penanganan kegagalan sebelum melihat hasil yang relevan. Jika data sudah pernah dilihat, nyatakan keadaan tersebut. Preregistrasi tidak mengubah analisis retrospektif menjadi prospektif.
+For planned analysis, define primary outputs, exclusion rules, sensitivity checks, and failure handling before inspecting relevant results. If the data have already been seen, state that explicitly. Preregistration does not turn retrospective analysis into prospective analysis.
 
-Saat menjalankan analisis, simpan versi data aman, transformasi, kode/perangkat lunak, parameter, dan jejak output. Jangan membuat hasil ketika data belum ada. Catat penyimpangan dan ubah status inferensi bila perlu. Batas kesimpulan mengikuti desain dan asumsi, bukan kecanggihan alat.
+During analysis, preserve safe data-version identifiers, transformations, code/software, parameters, and output trails. Do not invent results when data do not exist. Record deviations and adjust inferential status when needed. Conclusions must follow the design and assumptions, not the sophistication of the tool.
 
+## Execution discipline
 
-## Disiplin eksekusi
-
-Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.
+Apply the cross-skill principles in `research-rigor`: do not silently resolve uncertainty, use the minimum sufficient complexity, keep changes within task scope, and verify outcomes against explicit acceptance criteria. For high-impact claims or decisions, inspect counterevidence and alternative explanations before strengthening the conclusion.
