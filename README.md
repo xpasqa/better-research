@@ -1,5 +1,7 @@
 # Better Research
 
+Builder version: **0.1.0** · [Changelog](CHANGELOG.md) · [Migration policy](docs/migrations/README.md) · [MIT License](LICENSE)
+
 > **Jangan meminta AI mengingat seluruh riset Anda. Bangun sistem yang membuat konteks riset selalu dapat dipulihkan.**
 
 **Better Research** adalah workspace berbasis Git untuk merancang, menjalankan, menulis, dan mengaudit penelitian dengan bantuan AI tanpa menjadikan percakapan AI sebagai satu-satunya memori kerja.
@@ -141,20 +143,27 @@ Better Research tidak menggantikan kemampuan metodologis, penilaian akademik, pr
 
 Jangan menjalankan beberapa penelitian substantif dalam satu workspace.
 
-Untuk membuat proyek independen dari builder ini:
+Untuk membuat proyek independen dari builder ini, gunakan salah satu jalur berikut.
+
+**Opsi A — GitHub Template.** Jika tombol **Use this template** tersedia pada repository, gunakan tombol tersebut untuk membuat repository private baru. Setelah itu ubah project brief ke mode RESEARCH.
+
+**Opsi B — bootstrap lintas platform.** Dari clone Better Research:
 
 ```bash
-git clone https://github.com/xpasqa/better-research.git my-research
-cd my-research
-
-rm -rf .git
-git init
-git add .
-git commit -m "chore: initialize research workspace"
-git branch -M main
-git remote add origin <URL-REPOSITORY-PRIVATE-ANDA>
-git push -u origin main
+python scripts/init_research.py ../my-research --name "My Research Project"
 ```
+
+Opsional, tambahkan remote saat bootstrap:
+
+```bash
+python scripts/init_research.py ../my-research \
+  --name "My Research Project" \
+  --remote git@github.com:OWNER/REPO.git
+```
+
+Script menyalin builder tanpa history `.git/`, mengubah workspace hasil salinan menjadi RESEARCH, mencatat nama proyek, dan menginisialisasi repository Git baru. Script tidak melakukan push otomatis.
+
+Detail: [creating a research repository](docs/template-repository.md).
 
 Gunakan repository private bila proyek memerlukan privasi. Namun **repository private bukan izin untuk menyimpan data peserta atau data sensitif di Git**.
 
@@ -531,6 +540,30 @@ Panduan: [`literature/README.md`](literature/README.md) dan [`manuscript/README.
 
 ---
 
+# Provenance: source → claim → decision
+
+Better Research menggunakan ID stabil untuk menjaga jalur argumentasi dapat ditelusuri:
+
+```text
+SRC (report/source)
+   ↓ reports / derives from
+STUDY
+   ↓ supports / contradicts / limits
+CLM (claim)
+   ↓ informs / challenges
+DEC (decision)
+   ↓ changes
+RQ / protocol / design / manuscript / gate
+
+REV (review finding) dapat menantang CLM, DEC, atau artefak.
+```
+
+Claim mempunyai status `DRAFT`, `UNVERIFIED`, `SUPPORTED`, `MIXED`, `CONTRADICTED`, atau `RETRACTED`. Evidence relation membedakan `SUPPORTS`, `CONTRADICTS`, `LIMITS`, dan `CONTEXTUALIZES`, serta mencatat directness, access status, locator, dan batas penggunaan.
+
+Model lengkap: [`docs/provenance.md`](docs/provenance.md).
+
+---
+
 # Markdown sebagai sumber kanonik
 
 Better Research sengaja memprioritaskan Markdown.
@@ -548,6 +581,28 @@ Output Word, PDF, LaTeX, atau format kampus dapat menjadi hasil ekspor. Namun su
 
 ---
 
+# Automated repository checks
+
+GitHub Actions menjalankan pemeriksaan mekanis pada Pull Request dan push ke `main`:
+
+- relative Markdown links;
+- frontmatter dan nama skill;
+- stale `dissertation-*` skill references;
+- struktur dasar `references.bib` dan duplicate citation keys;
+- file pada path yang seharusnya tidak di-commit, seperti raw participant data atau secret files.
+
+Validator lokal:
+
+```bash
+python scripts/validate_repository.py
+```
+
+PASS dari validator berarti **mechanical repository integrity**, bukan bahwa claim valid, metode tepat, atau quality gate SIAP.
+
+Workflow: [`.github/workflows/repository-integrity.yml`](.github/workflows/repository-integrity.yml).
+
+---
+
 # Peta repository
 
 ```text
@@ -557,7 +612,14 @@ Output Word, PDF, LaTeX, atau format kampus dapat menjadi hasil ekspor. Namun su
 │   └── skills/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
+│   ├── workflows/
 │   └── pull_request_template.md
+├── .cursor/
+├── CLAUDE.md
+├── VERSION
+├── CHANGELOG.md
+├── scripts/
+├── examples/
 ├── research/
 ├── literature/
 ├── analysis/
@@ -581,7 +643,11 @@ Output Word, PDF, LaTeX, atau format kampus dapat menjadi hasil ekspor. Namun su
 | [`reviews/`](reviews/README.md) | Audit, review, dan respons |
 | [`exports/`](exports/README.md) | Hasil ekspor dan pemeriksaan |
 | [`templates/`](templates/README.md) | Formulir kerja |
-| [`docs/`](docs/research-workflow.md) | Dokumentasi workflow, integritas, standar, skill, Issue, PR, dan Git |
+| [`docs/`](docs/research-workflow.md) | Dokumentasi workflow, provenance, integritas, standar, skill, Issue, PR, Git, dan migrations |
+| [`scripts/`](scripts/) | Bootstrap workspace dan mechanical validation |
+| [`examples/`](examples/toy-research/) | Golden example sintetis |
+| [`VERSION`](VERSION) / [`CHANGELOG.md`](CHANGELOG.md) | Versi builder dan perubahan |
+| [`LICENSE`](LICENSE) / [`NOTICE.md`](NOTICE.md) | Lisensi dan atribusi |
 
 ---
 
@@ -607,6 +673,55 @@ Better Research menyediakan formulir untuk:
 Lihat [`templates/README.md`](templates/README.md).
 
 Template tidak perlu diisi sekaligus. Buat hanya ketika tahap penelitian membutuhkannya.
+
+---
+
+# Versioning dan migration
+
+Setiap research repository **mem-pin builder version** yang digunakan saat dibuat. Project tidak otomatis mengikuti perubahan pada Better Research upstream.
+
+Aturannya:
+
+```text
+research project v0.1.0
+        ↓
+upstream builder berubah
+        ↓
+TIDAK auto-sync
+        ↓
+baca migration notes
+        ↓
+migration Issue
+        ↓
+branch + verification + PR
+        ↓
+builder version project diperbarui
+```
+
+Ini mencegah aturan penelitian, quality gate, atau skill berubah diam-diam di tengah proyek.
+
+Lihat [`VERSION`](VERSION), [`CHANGELOG.md`](CHANGELOG.md), dan [migration policy](docs/migrations/README.md).
+
+---
+
+# Portability antar-agent
+
+`AGENTS.md` tetap menjadi **satu-satunya sumber aturan kanonik**. Adapter tipis tersedia untuk environment yang mengenali file berbeda:
+
+- `CLAUDE.md` untuk Claude Code;
+- `.cursor/rules/better-research.mdc` untuk Cursor;
+- `.github/copilot-instructions.md` untuk GitHub Copilot;
+- environment yang mendukung `AGENTS.md` membaca file kanonik secara langsung.
+
+Adapter tidak menggandakan aturan. Jika adapter berbeda dengan `AGENTS.md`, `AGENTS.md` yang berlaku.
+
+---
+
+# Golden example
+
+[`examples/toy-research/`](examples/toy-research/) menunjukkan satu siklus sintetis end-to-end: Issue → source provenance → claim ledger → decision → surgical manuscript change → gate review.
+
+Seluruh isinya diberi label **CONTOH SINTETIS** dan tidak boleh diperlakukan sebagai evidence akademik.
 
 ---
 
@@ -786,4 +901,8 @@ Better Research membuat penelitian dapat dipulihkan, diperiksa, dan dilanjutkan.
 - [Integritas akademik](docs/academic-integrity.md)
 - [Indeks skill](docs/skills.md)
 - [Register standar](docs/standards.md)
+- [Provenance model](docs/provenance.md)
+- [Migration policy](docs/migrations/README.md)
+- [Golden example](examples/toy-research/)
+- [Attribution and notices](NOTICE.md)
 
