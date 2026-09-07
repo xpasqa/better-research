@@ -1,9 +1,10 @@
-# Tanggapan review
+# Review Response
 
-Reviewer/peran, tanggal, versi sumber: BELUM DIISI.
+Reviewer/role, date, source version: NOT YET FILLED.
 
-| REV ID | Komentar aktual | Respons/alasan | Lokasi perubahan | Bukti perbaikan | Status dan verifikasi |
+| REV ID | Actual comment | Response/rationale | Change location | Evidence of correction | Status and verification |
 |---|---|---|---|---|---|
 
-Status: TERBUKA, DIPERBAIKI BELUM DIVERIFIKASI, SELESAI, atau TIDAK DITERAPKAN DENGAN ALASAN.
-Jangan mengubah substansi komentar agar tampak sudah dijawab. Jangan menutup kritik hanya karena kalimat dipoles.
+Status: OPEN / REVISED NOT YET VERIFIED / CLOSED / NOT IMPLEMENTED WITH REASON.
+
+Do not rewrite the substance of a reviewer comment to make it easier to answer. Do not close a criticism merely because the wording was polished.
