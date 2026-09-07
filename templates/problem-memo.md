@@ -1,21 +1,21 @@
-# Problem memo
+# Problem Memo
 
-Status: BELUM DIISI.
-Versi/tanggal/penyusun: BELUM DIISI.
+Status: NOT YET FILLED.
+Version/date/author: NOT YET FILLED.
 
-## Fenomena dan masalah pengetahuan
+## Phenomenon and knowledge problem
 
-Apa yang diketahui, apa yang belum dijelaskan, dan bukti awalnya? Pisahkan urgensi praktis dari kebutuhan kontribusi ilmiah.
+What is known, what remains unexplained, and what initial evidence supports that statement? Separate practical urgency from the need for a scholarly contribution.
 
-## Pertanyaan dan batas
+## Questions and boundaries
 
-Pertanyaan utama/subpertanyaan; unit analisis; konteks; konsep; periode; apa yang berada di luar scope.
+Main question/subquestions; unit of analysis; context; concepts; period; and what is explicitly outside scope.
 
-## Alternatif yang dipertimbangkan
+## Alternatives considered
 
-| Kandidat masalah | Nilai ilmiah | Bukti yang mungkin diperoleh | Kelayakan/risiko | Keputusan dan alasan |
+| Candidate problem | Scholarly value | Evidence that could realistically be obtained | Feasibility/risk | Decision and rationale |
 |---|---|---|---|---|
 
-## Posisi awal dan langkah berikutnya
+## Initial position and next steps
 
-Kandidat kontribusi, studi yang perlu diperiksa, asumsi, informasi yang masih diperlukan, serta gate yang akan dinilai. Gap belum teruji tetap disebut kandidat.
+Candidate contribution, studies that need to be checked, assumptions, information still required, and gates that may later be assessed. An untested gap remains a candidate gap.
