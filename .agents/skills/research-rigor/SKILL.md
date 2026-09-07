@@ -1,111 +1,110 @@
 ---
 name: research-rigor
-description: Guardrail lintas-skill untuk mengurangi kegagalan agent dalam riset: asumsi tersembunyi, kompleksitas berlebih, perubahan di luar scope, klaim tanpa verifikasi, dan konfirmasi sepihak.
+description: Cross-skill guardrails for reducing hidden assumptions, unnecessary complexity, scope drift, unverified claims, and one-sided confirmation in AI-assisted research.
 license: MIT
 ---
 
 # Research Rigor
 
-Meta-skill ini mengatur cara agent bekerja pada seluruh tahap riset. Ia mengadaptasi empat prinsip eksekusi dari [Karpathy Guidelines](https://github.com/multica-ai/andrej-karpathy-skills) ke konteks penelitian: berpikir sebelum mengklaim, memilih kompleksitas minimum yang cukup, membuat perubahan secara surgical, dan bekerja menuju kriteria keberhasilan yang dapat diverifikasi.
+This meta-skill governs how an agent works across all research stages. It adapts four execution principles from [Karpathy Guidelines](https://github.com/multica-ai/andrej-karpathy-skills) to research: think before claiming, prefer minimum sufficient complexity, make surgical changes, and work toward verifiable success criteria.
 
-Gunakan prinsip ini bersama skill akademik yang relevan. Untuk tugas rutin yang jelas, terapkan secara proporsional; untuk keputusan substantif, ambigu, sulit dibalik, atau berdampak pada inferensi, terapkan secara penuh.
+Apply these principles alongside the relevant academic skill. Use them proportionally for routine tasks; apply them fully for substantive, ambiguous, difficult-to-reverse, or inference-sensitive decisions.
 
 ## 1. Think Before Claiming
 
-Jangan menyelesaikan ketidakpastian epistemik secara diam-diam.
+Do not silently resolve epistemic uncertainty.
 
-Sebelum klaim atau keputusan substantif, bedakan:
+Before making a substantive claim or decision, distinguish:
 
-- **KNOWN** — informasi yang benar-benar diberikan atau diamati.
-- **SUPPORTED** — klaim yang didukung bukti yang telah diperiksa.
-- **INFERRED** — kesimpulan yang ditarik dari bukti, dengan logika dan batasnya.
-- **ASSUMED** — asumsi kerja yang belum diverifikasi.
-- **UNKNOWN** — informasi yang belum diketahui atau belum dapat diakses.
-- **DECISION NEEDED** — pilihan yang memerlukan keputusan peneliti atau bukti tambahan.
+- **KNOWN** — information actually provided or observed.
+- **SUPPORTED** — a claim supported by evidence that has been inspected.
+- **INFERRED** — a conclusion drawn from evidence, with its reasoning and limits.
+- **ASSUMED** — a working assumption that remains unverified.
+- **UNKNOWN** — information not yet known or accessible.
+- **DECISION NEEDED** — a choice requiring researcher judgment or additional evidence.
 
-Jika beberapa interpretasi masuk akal dan pilihan tersebut memengaruhi hasil, tampilkan alternatifnya. Jangan mengubah ketiadaan hasil pencarian menjadi research gap, korelasi menjadi sebab-akibat, keberadaan sitasi menjadi dukungan klaim, atau model yang tampak masuk akal menjadi teori yang telah teruji.
+If several interpretations are plausible and the choice affects the result, surface the alternatives. Do not convert a lack of search results into a research gap, correlation into causation, a citation into support for a claim, or a plausible model into a tested theory.
 
 ## 2. Parsimony First
 
-Gunakan kompleksitas konseptual dan metodologis minimum yang cukup untuk menjawab pertanyaan penelitian.
+Use the minimum conceptual and methodological complexity required to answer the research question.
 
-Jangan menambah teori, konstruk, variabel, mediator, moderator, metode, robustness check, atau lapisan abstraksi hanya agar studi terlihat lebih canggih. Setiap elemen harus mempunyai fungsi yang dapat dijelaskan.
+Do not add theories, constructs, variables, mediators, moderators, methods, robustness checks, or abstraction layers merely to make the study appear sophisticated. Every element must have an explainable function.
 
-Untuk elemen baru, tanyakan:
+For every new element, ask:
 
-1. Apakah elemen ini diperlukan untuk menjawab pertanyaan penelitian?
-2. Apakah ia menambah daya jelas, validitas, atau kemampuan membedakan penjelasan alternatif?
-3. Apakah bukti dan sumber daya yang tersedia cukup untuk mendukungnya?
-4. Apakah desain yang lebih sederhana dapat menghasilkan inferensi yang sama atau lebih defensible?
+1. Is this necessary to answer the research question?
+2. Does it improve explanatory power, validity, or the ability to distinguish alternative explanations?
+3. Are the available evidence and resources sufficient to support it?
+4. Could a simpler design yield the same or a more defensible inference?
 
-Kompleksitas diperbolehkan ketika diperlukan oleh pertanyaan dan bukti, bukan sebagai indikator mutu doktoral.
+Complexity is justified when required by the question and evidence, not as a signal of doctoral quality.
 
 ## 3. Surgical Research Changes
 
-Sentuh hanya bagian yang diperlukan untuk memenuhi tujuan tugas. Jangan melakukan perbaikan samping yang tidak diminta.
+Change only what is required to meet the task objective. Do not perform unrelated “while we are here” improvements.
 
-Setiap perubahan substantif harus dapat ditelusuri ke setidaknya satu dari berikut:
+Every substantive change must be traceable to at least one of:
 
-- tujuan atau acceptance criterion pada issue;
-- bukti baru yang diverifikasi;
-- keputusan penelitian yang dicatat;
-- temuan review/audit;
-- inkonsistensi yang secara langsung menghalangi tugas.
+- the Issue objective or acceptance criterion;
+- newly verified evidence;
+- a recorded research decision;
+- a review/audit finding;
+- an inconsistency that directly blocks the task.
 
-Jangan mengubah pertanyaan, teori, metode, definisi konstruk, sampel, atau klaim lain hanya karena agent melihat peluang untuk "memperbaiki" bagian berdekatan. Jika perubahan yang diminta menciptakan artefak yatim atau inkonsistensi langsung, perbaiki hanya konsekuensi yang dibuat oleh perubahan tersebut.
+Do not change research questions, theories, methods, construct definitions, samples, or other claims merely because an adjacent improvement seems attractive. If the requested change creates an orphan artifact or direct inconsistency, fix only the consequences introduced by that change.
 
-Uji sederhana: setiap perubahan penting harus mempunyai alasan yang dapat ditunjukkan pada diff, issue, decision log, atau bukti.
+Simple test: every important change should have a reason visible in the diff, Issue, decision log, review finding, or evidence trail.
 
 ## 4. Goal-Driven Research
 
-Ubah instruksi luas menjadi tujuan yang dapat diperiksa sebelum mengerjakan perubahan.
+Convert broad instructions into testable goals before making changes.
 
-Untuk tugas nontrivial, tetapkan secara ringkas:
+For nontrivial work, define:
 
-1. **Objective** — keadaan akhir yang ingin dicapai.
-2. **Scope** — bagian yang boleh dan tidak boleh diubah.
-3. **Evidence required** — bukti minimum yang diperlukan.
-4. **Success criteria** — kondisi yang dapat diperiksa.
-5. **Verification** — cara memastikan kondisi tersebut benar-benar terpenuhi.
+1. **Objective** — the desired end state.
+2. **Scope** — what may and may not change.
+3. **Evidence required** — the minimum evidence needed.
+4. **Success criteria** — inspectable conditions for completion.
+5. **Verification** — how those conditions will be checked.
 
-Contoh:
+Example:
 
-```
+```text
 Objective:
-Menentukan apakah kandidat kontribusi teoretis dapat dipertahankan.
+Determine whether the candidate theoretical contribution
+can be defended.
 
 Success criteria:
-[ ] Konstruk utama didefinisikan dari sumber terverifikasi.
-[ ] Studi terdekat telah dibandingkan.
-[ ] Bukti yang bertentangan dicatat.
-[ ] Penjelasan alternatif diperiksa.
-[ ] Keputusan retain / narrow / defer / reject dicatat.
+[ ] Core constructs are defined from verified sources.
+[ ] Closest prior studies are compared.
+[ ] Contradictory evidence is recorded.
+[ ] Alternative explanations are inspected.
+[ ] Retain / narrow / defer / reject decision is recorded.
 ```
 
-Jika kriteria tidak dapat dipenuhi karena data, sumber, izin, atau keputusan peneliti belum tersedia, nyatakan **BLOCKED** atau **BELUM DIVERIFIKASI**. Jangan mengisi kekosongan dengan asumsi.
+If the criteria cannot be satisfied because data, sources, permissions, or researcher decisions are unavailable, mark the task **BLOCKED** or **UNVERIFIED**. Do not fill the gap with assumptions.
 
 ## 5. Falsification Before Affirmation
 
-Untuk klaim penting, jangan hanya mencari dukungan.
+For important claims, do not search only for support.
 
-Urutan default:
+Default sequence:
 
-1. rumuskan kandidat klaim secara terbatas;
-2. cari bukti yang mendukung;
-3. cari secara sengaja bukti tandingan;
-4. periksa penjelasan alternatif;
-5. identifikasi boundary conditions dan batas inferensi;
-6. baru tentukan kekuatan klaim.
+1. formulate the candidate claim narrowly;
+2. search for supporting evidence;
+3. deliberately search for counterevidence;
+4. inspect alternative explanations;
+5. identify boundary conditions and inferential limits;
+6. only then decide the strength of the claim.
 
-Ketiadaan falsifikasi bukan bukti bahwa klaim benar. Bila bukti tandingan belum dicari atau akses literatur terbatas, turunkan tingkat kepastian.
+Failure to falsify a claim is not proof that the claim is true. If counterevidence has not been searched or literature access is limited, reduce the level of confidence.
 
 ## 6. Verification Loop
 
-Agent boleh mengulang pekerjaan sampai kriteria keberhasilan terpenuhi, tetapi tidak boleh memperluas scope diam-diam.
+An agent may iterate until the success criteria are satisfied, but must not silently expand the scope.
 
-Loop:
-
-```
+```text
 inspect
   ↓
 identify failure
@@ -119,15 +118,13 @@ pass / blocked
 checkpoint
 ```
 
-Verification lokal berbeda dari quality gate. Sebuah PR dapat memenuhi acceptance criteria tetapi tahap akademik tetap `PERLU REVISI` atau `BELUM DINILAI`.
+Local verification is different from an academic quality gate. A PR may satisfy its acceptance criteria while the research stage still remains REVISION REQUIRED or NOT ASSESSED.
 
-## 7. Kontrak dengan workflow Git
+## 7. Contract with the Git workflow
 
-Pada mode RESEARCH, issue adalah bounded context untuk satu unit pekerjaan. Issue sebaiknya menyimpan objective, known/unknown, scope, evidence required, success criteria, keputusan, blocker, dan checkpoint.
+In RESEARCH mode, an Issue is the bounded context for one unit of work. It should preserve the objective, known/unknown state, scope, evidence required, success criteria, decisions, blockers, and checkpoints.
 
-Hubungan kerja:
-
-```
+```text
 Issue objective
     ↓
 Assumptions / unknowns
@@ -142,11 +139,11 @@ Checkpoint
     ↓
 PR
     ↓
-Quality gate tetap dinilai terpisah
+Academic quality gate remains separately assessed
 ```
 
-Jangan menggunakan percakapan sebagai satu-satunya memori kerja. Jangan mengklaim bahwa merge PR membuktikan mutu ilmiah, validitas inferensi, atau persetujuan institusi.
+Do not use conversation history as the only working memory. Do not claim that merging a PR proves scientific quality, inferential validity, or institutional approval.
 
-## Atribusi
+## Attribution
 
-Prinsip eksekusi awal diadaptasi dari `multica-ai/andrej-karpathy-skills`, khususnya gagasan Think Before Coding, Simplicity First, Surgical Changes, dan Goal-Driven Execution. Implementasi di sini ditulis ulang untuk workflow penelitian dan menambahkan disiplin epistemik, falsifikasi, evidence traceability, serta pemisahan acceptance criteria dari academic quality gates.
+The initial execution principles are adapted from `multica-ai/andrej-karpathy-skills`, especially Think Before Coding, Simplicity First, Surgical Changes, and Goal-Driven Execution. This implementation rewrites those ideas for research and adds epistemic discipline, falsification, evidence traceability, and separation between task acceptance criteria and academic quality gates.
