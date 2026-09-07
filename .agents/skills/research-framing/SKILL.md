@@ -1,9 +1,9 @@
 ---
-name: dissertation-framing
-description: Rumuskan masalah, pertanyaan, cakupan, dan kelayakan disertasi sebelum menetapkan teori atau metode.
+name: research-framing
+description: Rumuskan masalah, pertanyaan, cakupan, dan kelayakan penelitian sebelum menetapkan teori atau metode.
 ---
 
-# Perumusan masalah disertasi
+# Perumusan masalah penelitian
 
 Baca [project brief](../../../research/project-brief.md), [integritas](../../../docs/academic-integrity.md), dan gate G0–G1 di [quality gates](../../../docs/quality-gates.md). Gunakan [problem memo](../../../templates/problem-memo.md).
 
@@ -19,3 +19,8 @@ Baca [project brief](../../../research/project-brief.md), [integritas](../../../
 ## Keluaran dan pemeriksaan
 
 Problem memo harus memuat pertanyaan, dasar bukti awal, alternatif, alasan batas studi, serta keputusan berikutnya. Jika literatur belum ditelusuri, beri status gap sebagai kandidat. Jangan menyatakan G1 SIAP hanya karena rumusan terdengar akademik.
+
+
+## Disiplin eksekusi
+
+Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.

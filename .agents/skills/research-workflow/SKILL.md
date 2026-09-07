@@ -1,6 +1,6 @@
 ---
-name: dissertation-workflow
-description: Kelola issue wajib, checkpoint lintas sesi, branch, PR, review, dan penutupan output proyek disertasi agar konteks dapat dipulihkan.
+name: research-workflow
+description: Kelola issue wajib, checkpoint lintas sesi, branch, PR, review, dan penutupan output proyek penelitian agar konteks dapat dipulihkan.
 ---
 
 # Koordinasi pekerjaan dan konteks
@@ -27,3 +27,8 @@ Periksa mode pada project brief terlebih dahulu. Pemeliharaan repositori induk T
 6. Verifikasi PR merged, commit main, status issue dan komentar penutupan. Bedakan delivery selesai dari gate akademik.
 
 Jika GitHub tidak tersedia, simpan draft/checkpoint lokal BELUM TERSINKRON dan laporkan batasnya. Jangan berpura-pura mempunyai issue atau PR. Pertanyaan klarifikasi/status masuk issue aktif; tugas baca yang menghasilkan keputusan proyek memiliki issue dan memo yang diintegrasikan melalui PR.
+
+
+## Disiplin eksekusi
+
+Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.

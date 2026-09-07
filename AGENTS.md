@@ -1,8 +1,8 @@
-# Aturan Agent — Workspace Disertasi
+# Aturan Agent — Workspace Riset
 
 ## Ruang lingkup
 
-Ini satu-satunya berkas aturan masuk untuk agent. Baca mode workspace pada project brief: TEMPLATE untuk repositori induk; RESEARCH untuk proyek disertasi hasil salinan. Dokumen dalam docs/ merinci aturan, bukan pintu masuk alternatif.
+Ini satu-satunya berkas aturan masuk untuk agent. Baca mode workspace pada project brief: TEMPLATE untuk repositori induk; RESEARCH untuk proyek riset hasil salinan. Dokumen dalam docs/ merinci aturan, bukan pintu masuk alternatif.
 
 Pada mode TEMPLATE, pemeliharaan builder atas instruksi langsung pengguna boleh diperiksa, di-commit, dan di-push langsung tanpa issue/PR. Pada mode RESEARCH, issue dan PR wajib mengikuti aturan di bawah. Mengganti mode untuk menghindari alur penelitian tidak diperbolehkan.
 
@@ -11,6 +11,18 @@ Jangan menganggap salinan tetap TEMPLATE hanya karena mewarisi nilai brief. Keti
 Repositori ini adalah workspace akademik. Mulai dari [project brief](research/project-brief.md), [status](research/status.md), dan [integritas akademik](docs/academic-integrity.md). Jangan membawa topik, variabel, sampel, teori, atau identitas dari proyek lain.
 
 Instruksi pengguna menentukan cakupan tugas. Ketentuan kampus, etik, dan standar disiplin yang sudah diverifikasi dicatat dalam brief. Jika terjadi pertentangan yang berdampak akademik, jelaskan dampaknya dan selesaikan keputusan secara terbuka; jangan mengklaim kepatuhan yang tidak terbukti.
+
+## Disiplin eksekusi riset
+
+Prinsip berikut berlaku lintas skill dan wajib diterapkan secara proporsional. Untuk protokol lengkap, gunakan `research-rigor`.
+
+- **Think Before Claiming:** bedakan KNOWN, SUPPORTED, INFERRED, ASSUMED, UNKNOWN, dan DECISION NEEDED. Jangan menyelesaikan ketidakpastian epistemik secara diam-diam.
+- **Parsimony First:** gunakan kompleksitas konseptual dan metodologis minimum yang cukup untuk menjawab pertanyaan; kompleksitas bukan indikator mutu.
+- **Surgical Changes:** setiap perubahan substantif harus dapat ditelusuri ke scope issue, bukti, keputusan, atau temuan review. Jangan melakukan drive-by improvement.
+- **Goal-Driven Research:** untuk tugas nontrivial, tetapkan objective, scope, evidence required, success criteria, dan verification sebelum perubahan.
+- **Falsification Before Affirmation:** untuk klaim penting, cari bukti tandingan, penjelasan alternatif, dan boundary conditions sebelum memperkuat kesimpulan.
+- Jika success criteria tidak dapat dipenuhi, nyatakan BLOCKED atau BELUM DIVERIFIKASI; jangan menutup kekosongan dengan asumsi.
+- Verification lokal/PR tidak sama dengan academic quality gate.
 
 ## Aturan inti
 
@@ -29,13 +41,14 @@ Instruksi pengguna menentukan cakupan tugas. Ketentuan kampus, etik, dan standar
 
 Baca hanya SKILL.md yang sesuai tugas melalui [indeks skill](docs/skills.md):
 
-- Koordinasi issue, sesi, dan PR: dissertation-workflow; gunakan saat mulai/melanjutkan pekerjaan atau menyerahkan output.
-- Perumusan masalah: dissertation-framing.
-- Penelusuran, seleksi, ekstraksi, dan appraisal: dissertation-evidence.
-- Sintesis teori dan uji kontribusi: dissertation-theory.
-- Desain, analisis, dan kesiapan lapangan: dissertation-design.
-- Penyusunan naskah dan sitasi: dissertation-writing.
-- Pemeriksaan mutu dan persiapan ujian: dissertation-audit.
+- Koordinasi issue, sesi, dan PR: research-workflow; gunakan saat mulai/melanjutkan pekerjaan atau menyerahkan output.
+- Meta-skill lintas tahap: research-rigor; gunakan penuh untuk tugas ambigu, substantif, sulit dibalik, atau berdampak pada inferensi.
+- Perumusan masalah: research-framing.
+- Penelusuran, seleksi, ekstraksi, dan appraisal: research-evidence.
+- Sintesis teori dan uji kontribusi: research-theory.
+- Desain, analisis, dan kesiapan lapangan: research-design.
+- Penyusunan naskah dan sitasi: research-writing.
+- Pemeriksaan mutu dan persiapan ujian: research-audit.
 
 Skill yang tercantum adalah panduan kerja lokal, bukan bukti bahwa pekerjaan sudah dijalankan. Jangan memuat seluruh skill atau memakai subagent tanpa kebutuhan dan otorisasi yang berlaku. Skill pribadi boleh melengkapi kemampuan, tetapi konteks proyek pribadi tidak boleh diwariskan.
 

@@ -1,6 +1,6 @@
 ---
-name: dissertation-design
-description: Selaraskan pertanyaan disertasi dengan desain, bukti, analisis, etika, dan kesiapan pelaksanaan secara netral terhadap metode.
+name: research-design
+description: Selaraskan pertanyaan penelitian dengan desain, bukti, analisis, etika, dan kesiapan pelaksanaan secara netral terhadap metode.
 ---
 
 # Desain dan pelaksanaan penelitian
@@ -27,3 +27,8 @@ Catat izin instrumen, adaptasi, pilot, consent, akses, serta status etik sesuai 
 Untuk analisis yang direncanakan, tetapkan keluaran utama, aturan eksklusi, sensitivitas, dan penanganan kegagalan sebelum melihat hasil yang relevan. Jika data sudah pernah dilihat, nyatakan keadaan tersebut. Preregistrasi tidak mengubah analisis retrospektif menjadi prospektif.
 
 Saat menjalankan analisis, simpan versi data aman, transformasi, kode/perangkat lunak, parameter, dan jejak output. Jangan membuat hasil ketika data belum ada. Catat penyimpangan dan ubah status inferensi bila perlu. Batas kesimpulan mengikuti desain dan asumsi, bukan kecanggihan alat.
+
+
+## Disiplin eksekusi
+
+Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.

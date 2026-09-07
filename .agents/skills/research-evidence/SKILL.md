@@ -1,5 +1,5 @@
 ---
-name: dissertation-evidence
+name: research-evidence
 description: Rancang atau jalankan review literatur yang transparan melalui pencarian, seleksi, ekstraksi, appraisal, dan pelacakan klaim.
 ---
 
@@ -28,3 +28,8 @@ Gunakan [review protocol](../../../templates/review-protocol.md). Cocokkan bentu
 Kelompokkan studi menurut perdebatan, konsep, desain, konteks, dan batas inferensi. Jangan melakukan vote counting berdasarkan banyaknya hasil signifikan. Meta-analisis memerlukan kompatibilitas pertanyaan, efek dan desain serta penanganan ketergantungan; jangan otomatis menggabungkan semua angka.
 
 Nyatakan cakupan yang benar-benar dicapai, sumber tidak tersedia, keputusan terbuka, dan alasan berhenti/pemutakhiran. Bukti yang berlawanan tidak dikeluarkan karena merusak model. Keluaran AI diperiksa terhadap sumber; jangan menyebut dua proses AI sebagai dua reviewer manusia independen.
+
+
+## Disiplin eksekusi
+
+Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.

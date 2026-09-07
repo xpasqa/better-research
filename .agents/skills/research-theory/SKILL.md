@@ -1,6 +1,6 @@
 ---
-name: dissertation-theory
-description: Sintesis perdebatan teori dan uji kandidat kontribusi disertasi terhadap studi terdekat serta penjelasan alternatif.
+name: research-theory
+description: Sintesis perdebatan teori dan uji kandidat kontribusi penelitian terhadap studi terdekat serta penjelasan alternatif.
 ---
 
 # Sintesis teori dan kontribusi
@@ -19,3 +19,8 @@ Baca [integritas](../../../docs/academic-integrity.md), brief, serta source note
 ## Keluaran
 
 Memo harus menghubungkan kontribusi yang diusulkan dengan perdebatan, pembanding terdekat, bukti yang diperlukan, dan batas generalisasi/transferabilitas. Jangan menyatakan “pertama” atau “belum pernah diteliti” hanya dari ketiadaan hasil pencarian. Setelah hasil tersedia, pisahkan kontribusi yang direncanakan dari yang benar-benar didukung.
+
+
+## Disiplin eksekusi
+
+Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.

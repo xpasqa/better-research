@@ -1,6 +1,6 @@
 ---
-name: dissertation-audit
-description: Audit mutu, kesiapan tahap riset, konsistensi naskah, dan kemampuan mempertahankan kontribusi disertasi dengan bukti konkret.
+name: research-audit
+description: Audit mutu, kesiapan tahap riset, konsistensi naskah, dan kemampuan mempertahankan kontribusi penelitian dengan bukti konkret.
 ---
 
 # Audit akademik dan persiapan ujian
@@ -22,3 +22,8 @@ Baca [quality gates](../../../docs/quality-gates.md), [integritas](../../../docs
 Susun pertanyaan penguji berdasarkan titik lemah nyata: signifikansi masalah, pembanding kontribusi, alternatif teori, kesesuaian metode, dasar inferensi, hasil yang bertentangan, dan batas penerapan. Jawaban latihan mengacu pada lokasi bukti; kekosongan harus diakui.
 
 Review oleh agent tidak disebut review promotor, independent human review, atau persetujuan etik. Untuk tugas draf rutin, laporkan koreksi yang diperlukan tanpa membuat prosedur persetujuan baru.
+
+
+## Disiplin eksekusi
+
+Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.

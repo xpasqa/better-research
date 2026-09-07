@@ -1,6 +1,6 @@
 ---
-name: dissertation-writing
-description: Tulis atau revisi naskah disertasi berbasis bukti dengan argumentasi, sitasi, konsistensi antarbab, dan batas klaim yang jelas.
+name: research-writing
+description: Tulis atau revisi naskah penelitian berbasis bukti dengan argumentasi, sitasi, konsistensi antarbab, dan batas klaim yang jelas.
 ---
 
 # Penulisan akademik berbasis bukti
@@ -22,3 +22,8 @@ Baca [integritas](../../../docs/academic-integrity.md), brief, [panduan naskah](
 Markdown adalah sumber kanonik. Bibliografi manusia yang dihasilkan dari references.bib tidak menjadi basis metadata kedua. Saat ekspor tersedia, cek sitasi yang tidak terurai, urutan referensi, duplikasi daftar pustaka, penomoran, layout, dan versi sumber. Jangan mengaku melakukan pemeriksaan visual tanpa membuka hasil render.
 
 Laporkan apakah pekerjaan hanya bahasa atau juga substansi, bukti yang diperiksa, dan pertanyaan yang belum terselesaikan. Naskah hasil yang belum mempunyai data harus tetap berupa kerangka, bukan narasi temuan hipotetis yang tampak aktual.
+
+
+## Disiplin eksekusi
+
+Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.
