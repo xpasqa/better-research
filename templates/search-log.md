@@ -1,15 +1,15 @@
-# Log penelusuran
+# Search Log
 
-Catat setiap eksekusi, termasuk pencarian gagal. Jangan menaksir angka. Simpan kueri panjang secara verbatim dalam blok kode di bawah tabel dengan ID yang sama.
+Record every search execution, including failed searches. Never estimate counts. Store long queries verbatim in code blocks below using the same run ID.
 
-| ID run | Tanggal/waktu | Platform dan basis data | Kueri persis atau lokasi blok kueri | Filter dan alasan | Jumlah ditampilkan | Jumlah diekspor | Berkas ekspor | Batas akses/catatan |
+| Run ID | Date/time | Platform and database | Exact query or query-block location | Filters and rationale | Results displayed | Results exported | Export file | Access limits/notes |
 |---|---|---|---|---|---|---|---|---|
 
-## Kueri verbatim
+## Verbatim queries
 
-Belum ada pencarian.
+No searches have been run yet.
 
-## Penelusuran sitasi dan update
+## Citation chasing and updates
 
-| ID run | Sumber awal | Arah backward/forward | Platform/tanggal | Record diperoleh | Catatan |
+| Run ID | Starting source | Backward/forward direction | Platform/date | Records obtained | Notes |
 |---|---|---|---|---|---|
