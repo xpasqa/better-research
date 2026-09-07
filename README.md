@@ -587,7 +587,7 @@ GitHub Actions menjalankan pemeriksaan mekanis pada Pull Request dan push ke `ma
 
 - relative Markdown links;
 - frontmatter dan nama skill;
-- stale `dissertation-*` skill references;
+- stale legacy skill identifiers;
 - struktur dasar `references.bib` dan duplicate citation keys;
 - file pada path yang seharusnya tidak di-commit, seperti raw participant data atau secret files.
 
