@@ -1,10 +1,10 @@
-# Formulir kerja
+# Working templates
 
-Salin formulir ke lokasi kerja ketika tahapnya dimulai. Ganti BELUM DIISI berdasarkan bukti nyata. Tabel kosong sengaja tidak berisi contoh data. Source note, claim ledger, decision, dan review mengikuti [model provenance](../docs/provenance.md).
+Copy a template into the appropriate working location only when that stage begins. Replace `BELUM DIISI` (“not yet filled”) with real information supported by evidence. Empty tables intentionally contain no example data. Source notes, claim ledgers, decisions, and reviews follow the [provenance model](../docs/provenance.md).
 
-| Formulir | Lokasi kerja yang disarankan |
+| Template | Suggested working location |
 |---|---|
-| [Session checkpoint](session-checkpoint.md) | Komentar issue dan snapshot body; berkas lokal sementara bila GitHub gagal |
+| [Session checkpoint](session-checkpoint.md) | Issue comment and body snapshot; temporary local file if GitHub is unavailable |
 | [Problem memo](problem-memo.md) | research/problem-memo.md |
 | [Review protocol](review-protocol.md) | research/review-protocol.md |
 | [Search log](search-log.md) | literature/searches/ |
@@ -19,4 +19,4 @@ Salin formulir ke lokasi kerja ketika tahapnya dimulai. Ganti BELUM DIISI berdas
 | [Gate review](gate-review.md) | reviews/ |
 | [Review response](review-response.md) | reviews/ |
 
-ID SRC, STUDY, CLM, RQ, DEC, dan REV adalah konvensi lokal untuk keterlacakan, bukan standar akademik eksternal.
+The SRC, STUDY, CLM, RQ, DEC, and REV identifiers are local traceability conventions, not external academic standards.
