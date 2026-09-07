@@ -27,3 +27,8 @@ Review oleh agent tidak disebut review promotor, independent human review, atau 
 ## Disiplin eksekusi
 
 Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.
+
+
+## Gate diagnostics
+
+Saat menilai gate, gunakan critical failure dan reopen trigger pada [quality gates](../../../docs/quality-gates.md). Gate yang pernah SIAP dibuka kembali bila basis keputusannya berubah; jangan menimpa assessment lama.
