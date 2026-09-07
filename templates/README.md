@@ -1,6 +1,6 @@
 # Formulir kerja
 
-Salin formulir ke lokasi kerja ketika tahapnya dimulai. Ganti BELUM DIISI berdasarkan bukti nyata. Tabel kosong sengaja tidak berisi contoh data.
+Salin formulir ke lokasi kerja ketika tahapnya dimulai. Ganti BELUM DIISI berdasarkan bukti nyata. Tabel kosong sengaja tidak berisi contoh data. Source note, claim ledger, decision, dan review mengikuti [model provenance](../docs/provenance.md).
 
 | Formulir | Lokasi kerja yang disarankan |
 |---|---|
