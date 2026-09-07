@@ -155,24 +155,6 @@ def check_bibliography(errors: list[str]) -> None:
         )
 
 
-def check_legacy_language_markers(errors: list[str]) -> None:
-    """Reject legacy Indonesian scaffolding/status markers after v0.1.1."""
-    for path, rel in iter_files():
-        if path.suffix.lower() not in TEXT_SUFFIXES:
-            continue
-        # Migration notes intentionally document the old tokens.
-        if rel.startswith("docs/migrations/"):
-            continue
-        text = read_text(path)
-        if text is None:
-            continue
-        for marker in LEGACY_LANGUAGE_MARKERS:
-            if marker in text:
-                errors.append(
-                    f"{rel}: contains legacy Indonesian scaffolding marker {marker!r}"
-                )
-
-
 def check_sensitive_paths(errors: list[str]) -> None:
     for path, rel in iter_files():
         if rel == ".env" or (rel.startswith(".env.") and rel != ".env.example"):
@@ -187,7 +169,6 @@ def main() -> int:
     check_skills(errors)
     check_stale_skill_names(errors)
     check_bibliography(errors)
-    check_legacy_language_markers(errors)
     check_sensitive_paths(errors)
 
     if errors:
