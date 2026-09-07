@@ -13,7 +13,6 @@ Global-English documentation and multilingual research-output policy.
 - The project brief now treats research-output language as a project-level decision rather than assuming Indonesian.
 - `research-writing` and manuscript guidance explicitly support Indonesian, English, bilingual, and multilingual research outputs.
 - The bootstrap script now targets the English project-brief schema.
-- Repository integrity checks detect legacy Indonesian scaffolding markers.
 
 ### Migration
 
