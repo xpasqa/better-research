@@ -1,81 +1,89 @@
-# Synthetic Issue — qualify causal wording in CLM-SYN-001
+# Synthetic Issue — Qualify Causal Wording in CLM-SYN-001
 
-> CONTOH SINTETIS; bukan GitHub Issue aktif dan bukan bukti penelitian nyata.
+> **SYNTHETIC EXAMPLE.** This is not an active GitHub Issue and is not evidence of real research.
 
-## Snapshot terkini
+## Current snapshot
 
-- Status kerja: READY FOR REVIEW
+- Work status: READY FOR REVIEW
 - Owner/repo: synthetic/example
 - Branch / HEAD / PR: issue-12-qualify-role-clarity / synthetic
-- Gate/tahap terkait: G3 dan G7
-- Checkpoint terakhir: setelah verification
+- Related gate/stage: G3 and G7
+- Latest checkpoint: after verification
 - Blocker: none
-- Langkah berikutnya: review diff lalu merge
+- Next step: review the diff, then merge
 
 ## Objective
 
-Menentukan apakah wording kausal pada CLM-SYN-001 dapat dipertahankan. Jika tidak, turunkan klaim ke bentuk yang sesuai dengan evidence sintetis yang tersedia.
+Determine whether the causal wording in CLM-SYN-001 can be defended. If not, reduce the claim to a form supported by the available synthetic evidence.
 
 ## Epistemic state
 
 ### KNOWN
-- Naskah menggunakan kalimat “coordination routine meningkatkan role clarity”.
-- SRC-SYN-001 melaporkan hubungan observasional sintetis.
+
+- The manuscript says “coordination routines increase role clarity.”
+- SRC-SYN-001 represents a synthetic observational study.
 
 ### SUPPORTED
-- SRC-SYN-001 hanya mendukung asosiasi dalam contoh ini.
+
+- SRC-SYN-001 supports only an association in this example.
 
 ### INFERRED
-- Wording kausal melampaui desain observasional sintetis.
+
+- The causal wording exceeds what the synthetic observational design can identify.
 
 ### ASSUMED
-- Tidak ada eksperimen atau identifikasi kausal lain di corpus contoh.
+
+- No experiment or other causal-identification design exists elsewhere in the synthetic corpus.
 
 ### UNKNOWN
-- Apakah mekanisme kausal benar dalam dunia nyata.
+
+- Whether the causal mechanism is true in the real world.
 
 ### DECISION NEEDED
-- Retain causal wording atau qualify menjadi associational wording.
+
+- Retain the causal wording or qualify it to associational wording.
 
 ## Evidence required
 
-| Evidence/ID | Mengapa diperlukan | Lokasi/sumber | Status |
+| Evidence/ID | Why required | Location/source | Status |
 |---|---|---|---|
-| SRC-SYN-001 | Memeriksa desain dan temuan | source-note-SRC-SYN-001.md | FULL_TEXT synthetic |
-| CLM-SYN-001 | Memeriksa hubungan evidence–claim | claim-ledger.md | VERIFIED synthetic |
+| SRC-SYN-001 | Inspect design and findings | source-note-SRC-SYN-001.md | FULL_TEXT synthetic |
+| CLM-SYN-001 | Inspect evidence–claim relationship | claim-ledger.md | VERIFIED synthetic |
 
 ## Scope
 
 ### Included
+
 - CLM-SYN-001
-- satu paragraf manuscript
-- decision record terkait
+- one manuscript paragraph
+- the related decision record
 
 ### Out of scope
-- menambah konstruk
-- redesign studi
-- menulis ulang seluruh bab
+
+- adding constructs
+- redesigning the study
+- rewriting the entire chapter
 
 ## Success criteria
 
-- [x] Desain SRC-SYN-001 diperiksa.
-- [x] Bukti tandingan terhadap wording kausal dicatat.
-- [x] Keputusan claim dicatat.
-- [x] Hanya paragraf terdampak yang direvisi.
-- [x] Gate tidak dinaikkan otomatis.
+- [x] Design represented in SRC-SYN-001 inspected.
+- [x] Counterevidence to the causal wording recorded.
+- [x] Claim decision recorded.
+- [x] Only the affected paragraph revised.
+- [x] Academic gate not upgraded automatically.
 
 ## Verification plan
 
 | Criterion | Method | Expected evidence | Status |
 |---|---|---|---|
-| Wording sesuai desain | Compare source note ↔ claim | causal claim removed | PASS |
-| Scope surgical | Inspect changed artifact | one paragraph + ledger/decision | PASS |
-| Gate separation | Inspect gate review | G3 remains PERLU REVISI | PASS |
+| Wording matches design | Compare source note ↔ claim | causal claim removed | PASS |
+| Scope remains surgical | Inspect changed artifacts | one paragraph + ledger/decision | PASS |
+| Gate remains separate | Inspect gate review | G3 remains REVISION REQUIRED | PASS |
 
 ## Falsification / alternatives
 
-Wording kausal dapat dipertahankan hanya jika tersedia evidence tambahan yang benar-benar mengidentifikasi causal effect. Evidence tersebut tidak tersedia dalam contoh.
+The causal wording could be retained only if additional evidence actually identified a causal effect. That evidence does not exist in this synthetic example.
 
 ## Closure
 
-Delivery dapat selesai setelah PR synthetic merged. Academic readiness tetap dinilai terpisah.
+Delivery can be completed after the synthetic PR is merged. Academic readiness remains a separate assessment.
