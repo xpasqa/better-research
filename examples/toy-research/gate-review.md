@@ -1,15 +1,15 @@
-# Synthetic gate review
+# Synthetic Gate Review
 
-> CONTOH SINTETIS. PASS pada verification lokal tidak berarti quality gate SIAP.
+> **SYNTHETIC EXAMPLE.** A local verification PASS does not mean an academic quality gate is READY.
 
-| Gate | Status | Bukti | Kekurangan | Syarat penyelesaian |
+| Gate | Status | Evidence | Weakness | Closure condition |
 |---|---|---|---|---|
-| G3 Teori/kontribusi | PERLU REVISI | CLM-SYN-002 lebih sesuai dengan evidence | mekanisme dan studi pembanding belum tersedia | evaluasi teori + counterevidence lebih luas |
-| G7 Naskah/ujian | BELUM DINILAI | satu paragraf telah diperbaiki | naskah penuh tidak diperiksa | audit full-scope diperlukan |
+| G3 Theory & contribution | REVISION REQUIRED | CLM-SYN-002 now matches the available evidence better | mechanism and closest-study comparison are still unavailable | conduct a broader theory and counterevidence assessment |
+| G7 Manuscript & examination/review | NOT ASSESSED | one paragraph was corrected | the full manuscript was not inspected | full-scope audit required |
 
 ## REV-SYN-001
 
-- Finding: causal wording exceeded observational evidence.
-- Status: CLOSED untuk finding lokal.
-- Verification: claim ledger dan manuscript excerpt konsisten.
-- Batas: penutupan REV-SYN-001 tidak membuktikan G3 atau G7 SIAP.
+- Finding: causal wording exceeded the observational evidence.
+- Status: CLOSED for this local finding.
+- Verification: claim ledger and manuscript excerpt are consistent.
+- Limit: closing REV-SYN-001 does not make G3 or G7 READY.
