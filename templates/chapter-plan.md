@@ -1,10 +1,10 @@
-# Rencana bagian naskah
+# Manuscript Section Plan
 
-Bagian/versi/status: BELUM DIISI.
-Fungsi dalam argumen disertasi: BELUM DIISI.
+Section/version/status: NOT YET FILLED.
+Function in the overall argument: NOT YET FILLED.
 
-| Subbagian | Pertanyaan yang dijawab | Klaim utama | Claim/SRC ID | Alasan penghubung bukti ke klaim | Batas/alternatif | Hubungan ke bagian lain |
+| Subsection | Question answered | Main claim | CLM/SRC ID | Reasoning linking evidence to claim | Limits/alternatives | Relationship to other sections |
 |---|---|---|---|---|---|---|
 
-Kesenjangan bukti dan istilah yang perlu diselaraskan: BELUM DIISI.
-Ketentuan kampus/style: BELUM DIVERIFIKASI.
+Evidence gaps and terminology requiring alignment: NOT YET FILLED.
+Institutional/style requirements: NOT YET VERIFIED.
