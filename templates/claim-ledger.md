@@ -1,19 +1,19 @@
-# Daftar klaim dan bukti
+# Claim and Evidence Ledger
 
-Satu baris merepresentasikan **satu hubungan evidence → claim**, bukan satu claim secara keseluruhan. Satu CLM dapat memiliki banyak baris dan banyak sumber. Lihat [model provenance](../docs/provenance.md).
+One row in the evidence-relations table represents **one evidence → claim relationship**, not an entire claim. A single CLM may have many evidence rows and many sources. See the [provenance model](../docs/provenance.md).
 
 ## Claim registry
 
-| CLM ID | Klaim persis | Jenis | Status claim | Lokasi naskah | Supersedes/replaced by | Catatan |
+| CLM ID | Exact claim | Claim type | Claim status | Manuscript location | Supersedes/replaced by | Notes |
 |---|---|---|---|---|---|---|
 
-Status claim: DRAFT / UNVERIFIED / SUPPORTED / MIXED / CONTRADICTED / RETRACTED.
+Claim status: DRAFT / UNVERIFIED / SUPPORTED / MIXED / CONTRADICTED / RETRACTED.
 
-Jenis: empiris, teoretis, konseptual, normatif, atau inferensi peneliti.
+Claim type: empirical, theoretical, conceptual, normative, or researcher inference.
 
 ## Evidence relations
 
-| CLM ID | SRC ID | STUDY ID | Relation | Directness | Access | Locator | Appraisal/kualitas & batas | Versi/status source | Tindakan |
+| CLM ID | SRC ID | STUDY ID | Relation | Directness | Access | Locator | Appraisal / evidence quality & limits | Source version/status | Action |
 |---|---|---|---|---|---|---|---|---|---|
 
 Relation: SUPPORTS / CONTRADICTS / LIMITS / CONTEXTUALIZES.
@@ -22,13 +22,13 @@ Directness: DIRECT / INDIRECT / SECONDARY.
 
 Access: FULL_TEXT / PARTIAL / ABSTRACT_ONLY / METADATA_ONLY / UNAVAILABLE.
 
-Tindakan: pertahankan, kualifikasi, cari bukti, pisahkan claim, atau tarik.
+Action: retain, qualify, seek more evidence, split the claim, or retract.
 
 ## Claim-level synthesis
 
-Untuk claim substantif, ringkas setelah evidence relations diperiksa:
+For a substantive claim, summarize after inspecting the evidence relations:
 
 | CLM ID | Supporting pattern | Counterevidence | Alternative explanation | Boundary conditions | Remaining unknown | Decision/DEC |
 |---|---|---|---|---|---|---|
 
-Jangan mengartikan jumlah sumber sebagai ukuran otomatis kekuatan bukti. Source yang nyata belum tentu mendukung claim; report yang berbeda juga dapat berasal dari STUDY yang sama.
+Do not treat the number of sources as an automatic measure of evidence strength. A real source may still fail to support the claim, and several reports may belong to the same STUDY.
