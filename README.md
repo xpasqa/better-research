@@ -1,159 +1,199 @@
 # Better Research
 
-Builder version: **0.1.0** · [Changelog](CHANGELOG.md) · [Migration policy](docs/migrations/README.md) · [MIT License](LICENSE)
+Builder version: **0.1.1** · [Changelog](CHANGELOG.md) · [Migration policy](docs/migrations/README.md) · [MIT License](LICENSE)
 
-> **Jangan meminta AI mengingat seluruh riset Anda. Bangun sistem yang membuat konteks riset selalu dapat dipulihkan.**
+> **Do not ask AI to remember your entire research project. Build a system that makes research context recoverable.**
 
-**Better Research** adalah workspace berbasis Git untuk merancang, menjalankan, menulis, dan mengaudit penelitian dengan bantuan AI tanpa menjadikan percakapan AI sebagai satu-satunya memori kerja.
+**Better Research** is a Git-based research workspace for designing, conducting, writing, and auditing research with AI without treating chat history as the project’s memory.
 
-AI dapat membaca banyak dokumen, tetapi context window tetap terbatas. Penelitian berlangsung berbulan-bulan atau bertahun-tahun, melibatkan banyak sumber, keputusan, revisi, data, kritik, dan perubahan arah. Jika seluruh konteks hanya hidup di chat, cepat atau lambat sebagian konteks akan hilang, tercampur, atau direkonstruksi secara keliru.
+AI context is finite. Serious research is not. A research project can span months or years and accumulate hundreds of sources, decisions, revisions, analyses, reviews, and changes of direction. If that state lives only inside conversations, some of it will eventually be lost, mixed together, or reconstructed incorrectly.
 
-Better Research mengubah masalah itu menjadi workflow yang dapat diaudit:
+Better Research externalizes research memory into an auditable workflow:
 
 ```text
-Pertanyaan / masalah
+Research question / problem
         ↓
 GitHub Issue
-(bounded context + acceptance criteria)
+(bounded context + success criteria)
         ↓
 Branch
-(perubahan terbatas pada satu tugas)
+(one scoped unit of work)
         ↓
 Evidence / analysis / writing
         ↓
 Pull Request
 (diff + verification + review)
         ↓
-Merge ke main
+Merge into main
         ↓
-Checkpoint + quality gate
+Checkpoint + academic quality gate
 ```
 
-**Chat bersifat sementara. Issue menyimpan konteks kerja. File menyimpan pengetahuan. Git menyimpan perubahan. PR mengintegrasikan hasil.**
+**Chat is temporary. Issues preserve working context. Files preserve research knowledge. Git preserves change. Pull Requests integrate results.**
 
-Repositori ini adalah **builder/template induk**. Status awalnya: **siap digunakan; penelitian belum dimulai**.
-
----
-
-## Mengapa Better Research ada?
-
-Masalah utama penggunaan AI dalam riset bukan hanya "hallucination". Masalah yang lebih sistemik adalah **context drift**.
-
-Dalam proyek besar, AI dapat:
-
-- lupa keputusan dari sesi sebelumnya;
-- membaca sumber yang berbeda pada waktu berbeda lalu mencampur konteks;
-- mengubah teori, variabel, metode, atau terminologi tanpa menyadari konsekuensinya;
-- memperkuat klaim hanya karena terdengar masuk akal;
-- menambah kompleksitas yang tidak diperlukan;
-- menulis ulang banyak bagian ketika sebenarnya hanya satu argumen yang perlu diperbaiki;
-- menyatakan pekerjaan "selesai" meskipun bukti, review, atau gate akademiknya belum terpenuhi.
-
-Better Research tidak mencoba mengatasi semua itu dengan prompt yang semakin panjang.
-
-Ia mengubah **arsitektur kerja**.
-
-Satu tugas mempunyai konteks lokal yang jelas. Satu perubahan mempunyai alasan. Satu klaim mempunyai jalur ke bukti. Satu keputusan mempunyai riwayat. Satu output masuk ke `main` hanya setelah dapat diperiksa.
+This repository is the reusable **builder/template**. Initial state: **ready to use; no substantive research has started**.
 
 ---
 
-## Prinsip inti
+## Why Better Research exists
 
-### 1. Issue adalah bounded context
+The main failure mode of AI-assisted research is not only hallucination. A more systemic risk is **context drift**.
 
-Setiap pekerjaan substantif pada workspace **RESEARCH** dimulai dari GitHub Issue.
+Across a long project, an AI agent may:
 
-Issue menyimpan:
+- forget decisions from earlier sessions;
+- mix evidence from different sources or versions;
+- change theories, variables, methods, or terminology without tracking consequences;
+- strengthen a claim because it sounds plausible rather than because evidence supports it;
+- add unnecessary conceptual or methodological complexity;
+- rewrite large sections when only one argument needs revision;
+- declare work “complete” when evidence, review, ethics, or academic readiness remain unresolved.
+
+Better Research does not try to fix this with an endlessly growing prompt.
+
+It changes the **architecture of the work**.
+
+One task has one bounded context. One substantive change has one reason. One claim has a traceable evidence path. One decision has a history. One output enters `main` only after it can be inspected.
+
+---
+
+# Language policy
+
+The **repository itself is written in English** so researchers and AI systems globally can use the same builder.
+
+The **research output does not have to be in English**.
+
+A project may produce:
+
+- an Indonesian dissertation or thesis;
+- an English journal article;
+- bilingual reports;
+- multilingual source notes or field materials;
+- different languages for different audiences or outputs.
+
+Record the project’s language requirements in [`research/project-brief.md`](research/project-brief.md).
+
+Translation must preserve:
+
+- claim strength;
+- uncertainty;
+- technical meaning;
+- quotations;
+- attribution;
+- the distinction between source content and researcher interpretation.
+
+Repository language and research-output language are separate decisions.
+
+---
+
+# Core principles
+
+## 1. An Issue is a bounded context
+
+Every substantive task in a **RESEARCH** workspace starts from a GitHub Issue.
+
+A good Issue preserves:
 
 - objective;
-- konteks yang diperlukan untuk sesi baru;
-- apa yang sudah diketahui dan belum diketahui;
-- scope dan out-of-scope;
-- bukti yang harus diperiksa;
-- acceptance criteria;
-- keputusan;
-- blocker;
-- checkpoint;
-- branch, commit, dan PR terkait.
+- current epistemic state;
+- scope and out-of-scope boundaries;
+- evidence required;
+- success criteria;
+- verification plan;
+- decisions;
+- blockers and dependencies;
+- checkpoints;
+- related branch, commit, and PR.
 
-Agent tidak perlu memuat seluruh penelitian ke dalam context window. Ia cukup membaca konteks yang relevan untuk issue aktif, kemudian membuka artefak yang diperlukan.
+The agent should not load the entire project into one context window. It should load the active Issue and only the artifacts required for that unit of work.
 
-### 2. File adalah sumber pengetahuan kanonik
+## 2. Files are the canonical research record
 
-Penelitian tidak disimpan di chat.
+Research does not live in chat.
 
-Artefak utama ditulis sebagai file:
+Canonical artifacts live in files:
 
-- brief dan keputusan di `research/`;
-- jejak literatur dan bukti di `literature/`;
-- analisis di `analysis/`;
-- naskah di `manuscript/`;
-- review di `reviews/`.
+- framing, decisions, and project state in `research/`;
+- literature and evidence trails in `literature/`;
+- analysis in `analysis/`;
+- manuscript source in `manuscript/`;
+- audits and reviews in `reviews/`.
 
-Markdown digunakan sebagai sumber utama agar mudah dibaca manusia, AI, Git diff, dan tool lain.
+Markdown is preferred because it is readable by humans and AI, diff-friendly, portable, and easy to transform into Word, PDF, LaTeX, or other formats.
 
-### 3. PR adalah mekanisme integrasi
+## 3. Pull Requests are the integration mechanism
 
-Perubahan tidak langsung "ditelan" oleh dokumen final.
+Changes should not disappear directly into a final document.
 
-Agent mengerjakan perubahan pada branch, lalu membuat Pull Request. PR menunjukkan:
+Work happens on a branch and is integrated through a Pull Request. The PR records:
 
-- apa yang berubah;
-- mengapa berubah;
-- issue mana yang diselesaikan;
-- bukti apa yang diperiksa;
-- acceptance criteria mana yang terpenuhi;
-- apa yang masih belum terverifikasi.
+- what changed;
+- why it changed;
+- which Issue it addresses;
+- which evidence was inspected;
+- what epistemic state changed;
+- which success criteria passed;
+- what remains unknown or blocked;
+- what verification was actually performed.
 
-Dengan begitu, perubahan kecil dapat diintegrasikan tanpa kehilangan coherence keseluruhan.
+This keeps changes small, reviewable, and coherent.
 
-### 4. Evidence lebih penting daripada kelancaran bahasa
+## 4. Evidence outranks fluent prose
 
-Kalimat akademik yang terdengar meyakinkan bukan bukti.
+A polished academic sentence is not evidence.
 
-Better Research memaksa pemisahan antara:
+Better Research distinguishes:
 
-- **KNOWN** — diketahui/diberikan;
-- **SUPPORTED** — didukung bukti yang diperiksa;
-- **INFERRED** — inferensi dengan alasan;
-- **ASSUMED** — asumsi kerja;
-- **UNKNOWN** — belum diketahui;
-- **DECISION NEEDED** — membutuhkan keputusan atau bukti tambahan.
+- **KNOWN** — actually provided or observed;
+- **SUPPORTED** — supported by evidence that was inspected;
+- **INFERRED** — concluded from evidence, with reasoning and limits;
+- **ASSUMED** — temporarily assumed but not verified;
+- **UNKNOWN** — not yet known or accessible;
+- **DECISION NEEDED** — requires researcher judgment, more evidence, or authorization.
 
-Jika bukti tidak cukup, status yang benar adalah `BELUM DIVERIFIKASI` atau `BLOCKED`, bukan paragraf yang lebih percaya diri.
+When evidence is insufficient, the correct state is `UNVERIFIED` or `BLOCKED`, not more confident prose.
 
 ---
 
 # Quick Start
 
-## Prasyarat
+## Prerequisites
 
-Minimal Anda perlu memahami:
+You should understand at least:
 
-- dasar Git dan GitHub;
-- branch, commit, Issue, dan Pull Request;
+- basic Git and GitHub;
+- branches, commits, Issues, and Pull Requests;
 - Markdown;
-- cara memeriksa sumber akademik secara mandiri.
+- how to verify academic sources independently.
 
-Better Research tidak menggantikan kemampuan metodologis, penilaian akademik, promotor, atau komite etik.
+Better Research does not replace methodological expertise, researcher judgment, supervisors, peer reviewers, ethics committees, or institutional rules.
 
 ---
 
-## 1. Buat satu repository untuk satu proyek penelitian
+## 1. Create one repository per research project
 
-Jangan menjalankan beberapa penelitian substantif dalam satu workspace.
+Do not run multiple substantive projects in one workspace.
 
-Untuk membuat proyek independen dari builder ini, gunakan salah satu jalur berikut.
+### Option A — GitHub Template
 
-**Opsi A — GitHub Template.** Jika tombol **Use this template** tersedia pada repository, gunakan tombol tersebut untuk membuat repository private baru. Setelah itu ubah project brief ke mode RESEARCH.
+If this repository is configured as a GitHub Template Repository, select **Use this template** and create a new private repository.
 
-**Opsi B — bootstrap lintas platform.** Dari clone Better Research:
+Then:
+
+1. confirm `.agents/` and `.github/` were copied;
+2. switch the project brief to RESEARCH mode;
+3. preserve the builder version;
+4. create the initialization Issue before substantive customization.
+
+### Option B — cross-platform bootstrap
+
+From a local clone of Better Research:
 
 ```bash
 python scripts/init_research.py ../my-research --name "My Research Project"
 ```
 
-Opsional, tambahkan remote saat bootstrap:
+Optionally configure the remote:
 
 ```bash
 python scripts/init_research.py ../my-research \
@@ -161,261 +201,259 @@ python scripts/init_research.py ../my-research \
   --remote git@github.com:OWNER/REPO.git
 ```
 
-Script menyalin builder tanpa history `.git/`, mengubah workspace hasil salinan menjadi RESEARCH, mencatat nama proyek, dan menginisialisasi repository Git baru. Script tidak melakukan push otomatis.
+The script:
 
-Detail: [creating a research repository](docs/template-repository.md).
+- copies the builder without upstream `.git/` history;
+- switches the copied workspace to RESEARCH mode;
+- records the project name;
+- initializes a fresh Git repository;
+- does not push automatically.
 
-Gunakan repository private bila proyek memerlukan privasi. Namun **repository private bukan izin untuk menyimpan data peserta atau data sensitif di Git**.
+See [creating a research repository](docs/template-repository.md).
 
-Pastikan folder tersembunyi `.agents/` dan `.github/` ikut tersalin.
+A private repository does **not** make participant data, identity keys, signed consent forms, or restricted materials safe to store in Git.
 
 ---
 
-## 2. Ubah workspace menjadi mode RESEARCH
+## 2. Switch to RESEARCH mode
 
-Buka [`research/project-brief.md`](research/project-brief.md).
+Open [`research/project-brief.md`](research/project-brief.md).
 
-Ubah:
-
-```text
-Mode workspace: TEMPLATE
-```
-
-menjadi:
+Change:
 
 ```text
-Mode workspace: RESEARCH
+Workspace mode: TEMPLATE
 ```
 
-Mode mempunyai fungsi penting:
+to:
 
-| Mode | Digunakan untuk | Aturan Git |
+```text
+Workspace mode: RESEARCH
+```
+
+| Mode | Purpose | Workflow rule |
 |---|---|---|
-| `TEMPLATE` | Memelihara builder Better Research | Maintenance dapat dilakukan langsung sesuai instruksi pengguna |
-| `RESEARCH` | Menjalankan proyek penelitian nyata | Issue + Branch + PR wajib untuk pekerjaan substantif |
+| `TEMPLATE` | Maintain the upstream Better Research builder | Direct maintenance is allowed when explicitly authorized |
+| `RESEARCH` | Conduct an actual research project | Issue + Branch + PR are required for substantive work |
 
-Jangan mengganti mode untuk menghindari workflow penelitian.
+Do not switch modes merely to bypass the research workflow.
 
 ---
 
-## 3. Mulai sesi pertama
+## 3. Start the first AI session
 
-Berikan instruksi ini kepada agent:
+Give the agent:
 
-> Baca AGENTS.md, research/project-brief.md, research/status.md, dan docs/skills.md. Verifikasi owner/repository yang sedang digunakan dan pastikan mode workspace RESEARCH. Gunakan research-workflow untuk mencari atau membuat issue inisialisasi project brief, lalu gunakan research-framing. Mulai hanya dari informasi dan sumber yang benar-benar tersedia. Jangan memilih metode, teori, variabel, atau mengklaim novelty tanpa dasar. Catat unknown, keputusan, acceptance criteria, dan checkpoint pada issue. Semua perubahan file masuk melalui branch dan Pull Request.
+> Read AGENTS.md, research/project-brief.md, research/status.md, and docs/skills.md. Verify the owner/repository and confirm the workspace is in RESEARCH mode. Use research-workflow to find or create the project-brief initialization Issue, then use research-framing. Start only from information and sources that are actually available. Do not choose a method, theory, variable, or novelty claim without evidence. Record unknowns, decisions, evidence requirements, success criteria, verification, and checkpoints in the Issue. Route every file change through a branch and Pull Request.
 
-Kemudian isi [project brief](research/project-brief.md) secara bertahap.
+Then complete the project brief incrementally.
 
-Anda **tidak perlu** sudah mempunyai judul final, metode final, atau model konseptual final.
+You do **not** need a final title, final method, final theoretical model, or final manuscript language before starting.
 
-Yang belum diketahui boleh tetap:
+Leave unresolved fields as:
 
 ```text
-BELUM DIISI
-BELUM DITETAPKAN
-BELUM DIVERIFIKASI
+NOT YET FILLED
+NOT YET DECIDED
+NOT YET VERIFIED
 ```
 
-Itu lebih baik daripada keputusan prematur.
+Visible uncertainty is better than premature certainty.
 
 ---
 
-# Cara bekerja sehari-hari
+# Day-to-day workflow
 
-## Mental model sederhana
+Do not start with:
 
-Setiap kali ingin mengerjakan sesuatu, jangan mulai dari:
+> “AI, continue my dissertation.”
 
-> "AI, lanjutkan disertasi saya."
+Start with a reviewable research task:
 
-Mulailah dari unit kerja yang dapat diperiksa:
+> “Does the theoretical-gap argument in section X actually follow from the sources we have inspected?”
 
-> "Apakah argumen theoretical gap pada bagian X benar-benar didukung sumber yang sudah dibaca?"
-
-Kemudian jalankan:
+Then use:
 
 ```text
-1. Temukan / buat Issue
-2. Tentukan objective
-3. Tentukan scope
-4. Tentukan bukti yang diperlukan
-5. Tentukan success criteria
-6. Buat / lanjutkan branch
-7. Kerjakan perubahan minimum
-8. Verifikasi
-9. Simpan checkpoint
-10. Buka / perbarui PR
-11. Review
-12. Merge
-13. Verifikasi main
-14. Tutup issue bila seluruh acceptance criteria terpenuhi
+1. Find or create the Issue
+2. Define the objective
+3. Record the epistemic state
+4. Define scope
+5. Define evidence required
+6. Define success criteria
+7. Define verification
+8. Create or continue the branch
+9. Make the minimum justified change
+10. Verify
+11. Save a checkpoint
+12. Open or update the PR
+13. Review
+14. Merge
+15. Verify main
+16. Close the Issue only when closure conditions are satisfied
 ```
 
-Panduan lengkap: [Git workflow](docs/git-workflow.md).
+See the full [Git workflow](docs/git-workflow.md).
 
 ---
 
-## Contoh Issue yang baik
-
-Misalnya Anda ingin menguji apakah sebuah moderator benar-benar diperlukan.
+# Example of a bounded research Issue
 
 ```markdown
 ## Objective
 
-Menentukan apakah institutional trust layak dipertahankan
-sebagai moderator hubungan X → Y.
+Determine whether institutional trust should remain
+as a moderator of the X → Y relationship.
 
-## Known
+## Epistemic state
 
-- RQ2 saat ini memuat moderation.
-- Tiga sumber membahas institutional trust.
+### KNOWN
+- RQ2 currently specifies moderation.
+- Three sources discuss institutional trust.
 
-## Unknown
+### SUPPORTED
+- No moderation mechanism has yet been verified.
 
-- Apakah studi terdekat sudah menguji mekanisme yang sama.
-- Apakah moderation diperlukan secara teoretis.
-- Apakah desain/data mampu mengidentifikasi moderation.
+### UNKNOWN
+- Whether the closest prior studies already test the same mechanism.
+- Whether moderation is theoretically necessary.
+- Whether the design can identify moderation.
 
 ## Scope
 
-Termasuk:
+Included:
 - theory memo;
-- source notes terkait;
+- relevant source notes;
 - claim ledger;
-- paragraf teori yang langsung terdampak.
+- directly affected manuscript paragraphs.
 
-Di luar scope:
-- redesign seluruh metodologi;
-- penambahan konstruk baru;
-- rewrite bab lain.
+Out of scope:
+- redesigning the entire methodology;
+- adding unrelated constructs;
+- rewriting other chapters.
 
 ## Success criteria
 
-- [ ] Definisi konstruk diverifikasi.
-- [ ] Studi terdekat dibandingkan.
-- [ ] Bukti tandingan diperiksa.
-- [ ] Penjelasan alternatif diperiksa.
-- [ ] Keputusan retain / narrow / defer / reject dicatat.
+- [ ] Construct definition verified.
+- [ ] Closest prior studies compared.
+- [ ] Counterevidence inspected.
+- [ ] Alternative explanations inspected.
+- [ ] Retain / narrow / defer / reject decision recorded.
 ```
 
-Issue seperti ini memberi agent konteks yang cukup tanpa harus memasukkan seluruh penelitian ke satu percakapan.
-
-Template resmi tersedia di [`.github/ISSUE_TEMPLATE/research-task.md`](.github/ISSUE_TEMPLATE/research-task.md).
+The canonical Issue template is [`.github/ISSUE_TEMPLATE/research-task.md`](.github/ISSUE_TEMPLATE/research-task.md).
 
 ---
 
-# Delapan skill
+# Eight local skills
 
-Skill berada di [`.agents/skills/`](.agents/skills/) dan indeks lengkapnya ada di [`docs/skills.md`](docs/skills.md).
+Skills live under [`.agents/skills/`](.agents/skills/) and are indexed in [`docs/skills.md`](docs/skills.md).
 
-| Skill | Fungsi |
+| Skill | Purpose |
 |---|---|
-| `research-workflow` | Mengelola Issue, checkpoint, branch, PR, review, dan handoff lintas sesi |
-| `research-rigor` | Guardrail lintas tahap: asumsi, parsimoni, scope, falsifikasi, dan verification |
-| `research-framing` | Memperjelas masalah, pertanyaan penelitian, batas, dan kelayakan |
-| `research-evidence` | Pencarian, screening, extraction, appraisal, source notes, dan claim tracking |
-| `research-theory` | Sintesis teori, mekanisme, studi terdekat, penjelasan alternatif, dan kontribusi |
-| `research-design` | Menyelaraskan pertanyaan, data, desain, analisis, etika, dan inferensi |
-| `research-writing` | Menulis/revisi naskah berbasis bukti dan menjaga konsistensi antarbab |
-| `research-audit` | Mengaudit kualitas, readiness, konsistensi, dan persiapan ujian |
+| `research-workflow` | Issues, checkpoints, branches, PRs, review, merge, and cross-session recovery |
+| `research-rigor` | Cross-stage guardrails for uncertainty, parsimony, scope, falsification, and verification |
+| `research-framing` | Problem framing, research questions, boundaries, and feasibility |
+| `research-evidence` | Search, screening, extraction, appraisal, source notes, and claim evidence |
+| `research-theory` | Theory synthesis, mechanisms, closest studies, alternatives, and contribution testing |
+| `research-design` | Alignment of questions, data, design, analysis, ethics, and inference |
+| `research-writing` | Evidence-based drafting/revision and manuscript consistency |
+| `research-audit` | Quality-gate audit, consistency checks, and examination/review preparation |
 
-Contoh pemanggilan:
+Example:
 
 ```text
-Gunakan research-evidence untuk memeriksa apakah claim CLM-014
-benar-benar didukung oleh source notes yang tersedia.
+Use research-evidence to verify whether CLM-014 is actually
+supported by the available source notes.
 ```
 
-atau, pada environment yang mendukung skill invocation:
+In environments that support direct skill invocation:
 
 ```text
 $research-evidence
 ```
 
-Jangan memuat semua skill sekaligus. Gunakan skill yang sesuai dengan keluaran yang sedang dikerjakan.
+Do not load every skill at once. Use only what the active task requires.
 
 ---
 
-# Research Rigor: agar AI tidak "terlihat pintar" tetapi salah arah
+# Research Rigor: preventing confident failure
 
-`research-rigor` diadaptasi dari prinsip eksekusi pada [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills), lalu ditulis ulang untuk konteks penelitian.
+`research-rigor` adapts execution ideas from [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) to research.
 
-Lima prinsip utamanya:
+## Think Before Claiming
 
-### Think Before Claiming
-
-Jangan mengubah ketidakpastian menjadi kepastian secara diam-diam.
-
-Contoh kegagalan:
+Do not silently convert uncertainty into certainty.
 
 ```text
-sedikit hasil pencarian
+few search results
         ↓
-"ini research gap"
+"This is the research gap"
 ```
 
-Yang benar:
+is not valid reasoning.
+
+A defensible process is:
 
 ```text
-sedikit hasil pencarian
+few search results
         ↓
-cek query, database, sinonim, literatur berdekatan,
-citation chasing, dan batas akses
+check query design, databases, synonyms,
+adjacent literature, citation chasing,
+and access limitations
         ↓
-baru tentukan apa yang dapat diklaim
+decide what can actually be claimed
 ```
 
-### Parsimony First
+## Parsimony First
 
-Kompleksitas bukan kualitas.
+Complexity is not quality.
 
-Jangan otomatis membuat:
+Do not automatically build:
 
 ```text
-3 teori + 8 konstruk + 4 mediator + 2 moderator + SEM
+3 theories + 8 constructs + 4 mediators + 2 moderators + SEM
 ```
 
-jika pertanyaan dapat dijawab dengan desain yang lebih sederhana dan lebih defensible.
+when a simpler model or design can answer the question more defensibly.
 
-### Surgical Changes
+## Surgical Changes
 
-Setiap perubahan substantif harus mempunyai alasan yang dapat ditelusuri ke:
+Every substantive change should trace to:
 
-- issue;
-- bukti;
-- keputusan;
-- review finding;
-- acceptance criterion.
+- the Issue;
+- evidence;
+- a decision;
+- a review finding;
+- a success criterion.
 
-Jika issue hanya meminta memperbaiki mekanisme antara A dan B, agent tidak boleh diam-diam mengganti sampel, metode, RQ, dan teori lain.
+Do not rewrite unrelated sections merely because an agent sees an opportunity to “improve” them.
 
-### Goal-Driven Research
+## Goal-Driven Research
 
-Instruksi seperti:
+Replace vague instructions such as:
 
-> "Perbaiki literature review saya."
+> “Improve the literature review.”
 
-terlalu lemah.
-
-Ubah menjadi tujuan yang dapat diperiksa:
+with inspectable goals:
 
 ```text
-Goal:
-Menentukan apakah literature review membangun
-unresolved theoretical problem yang defensible.
+Objective:
+Determine whether the literature review establishes
+a defensible unresolved theoretical problem.
 
 Success criteria:
-[ ] Konstruk utama didefinisikan.
-[ ] Studi terdekat dibandingkan.
-[ ] Bukti tandingan dimasukkan.
-[ ] Klaim utama dapat dilacak ke sumber.
-[ ] Unsupported claims dihapus atau ditandai.
-[ ] Gap dinyatakan tanpa novelty inflation.
+[ ] Core constructs are defined.
+[ ] Closest prior studies are compared.
+[ ] Counterevidence is represented.
+[ ] Major claims are traceable to sources.
+[ ] Unsupported claims are removed or flagged.
+[ ] The gap is stated without novelty inflation.
 ```
 
-### Falsification Before Affirmation
+## Falsification Before Affirmation
 
-Untuk klaim penting:
+For important claims:
 
 ```text
 candidate claim
@@ -431,82 +469,78 @@ boundary conditions
 claim strength
 ```
 
-Agent tidak hanya mencari bukti yang mengonfirmasi model yang sudah disukai.
+Do not search only for confirmation.
 
 ---
 
-# Workflow akademik
+# Academic workflow
 
-Better Research tidak memaksa satu metode atau paradigma.
+Better Research does not impose one method, paradigm, or dissertation structure.
 
-Urutan berikut adalah workflow keputusan, bukan struktur bab wajib:
-
-| Tahap | Pertanyaan utama | Artefak |
+| Stage | Main decision question | Typical artifact |
 |---|---|---|
-| Konteks | Apa mandat, batas, sumber daya, dan ketidakpastian? | Project brief |
-| Framing | Apa masalah pengetahuan yang benar-benar dapat diteliti? | Problem memo, RQ |
-| Mapping | Konsep dan perdebatan apa yang relevan? | Literature map |
-| Protocol | Bagaimana bukti akan dicari dan dinilai? | Review protocol |
-| Evidence | Apa yang benar-benar dilaporkan sumber? | Search log, screening, source notes, claim ledger |
-| Theory | Penjelasan mana yang bertahan terhadap pembanding dan bukti tandingan? | Theory/contribution memo |
-| Design | Bukti apa yang diperlukan untuk menjawab RQ? | Design matrix, analysis plan, ethics/data plan |
-| Execution | Apakah kegiatan benar-benar dilakukan sesuai izin dan rencana? | Execution/analysis trail, deviation log |
-| Interpretation | Apa arti hasil dan apa batas inferensinya? | Result synthesis |
-| Writing & Audit | Apakah argumen dapat ditelusuri dan dipertahankan? | Manuscript, review, export |
+| Context | What are the mandate, constraints, resources, and uncertainties? | Project brief |
+| Framing | What knowledge problem is actually researchable? | Problem memo, RQ |
+| Mapping | Which concepts and debates matter? | Literature map |
+| Protocol | How will evidence be searched and evaluated transparently? | Review protocol |
+| Evidence | What do inspected sources actually report? | Search log, screening, source notes, claim ledger |
+| Theory | Which explanations survive comparison and counterevidence? | Theory/contribution memo |
+| Design | What evidence is required to answer the RQ? | Design matrix, analysis plan, ethics/data plan |
+| Execution | Were authorized activities actually carried out as planned? | Execution/analysis trail, deviation log |
+| Interpretation | What do results mean, and what are the inferential limits? | Result synthesis |
+| Writing & Audit | Can the argument be traced and defended? | Manuscript, review, export |
 
-Detail: [`docs/research-workflow.md`](docs/research-workflow.md).
+See [`docs/research-workflow.md`](docs/research-workflow.md).
 
-Tahap boleh diulang. Bukti baru boleh mengubah teori, desain, atau pertanyaan—asal perubahan dicatat.
+Stages may repeat when evidence changes an earlier decision.
 
 ---
 
 # Quality Gates G0–G7
 
-File lengkap tidak berarti penelitian siap.
-
-Better Research memisahkan dua hal:
+A complete set of files does not mean the research is academically ready.
 
 ```text
 Delivery status
-Issue / PR selesai
+Issue / PR complete
         ≠
 Academic readiness
-Quality gate SIAP
+Quality gate READY
 ```
 
-| Gate | Menilai |
+| Gate | Assesses |
 |---|---|
-| G0 | Konteks dan mandat penelitian |
-| G1 | Masalah dan pertanyaan |
-| G2 | Protokol dan bukti literatur |
-| G3 | Teori dan kontribusi |
-| G4 | Desain penelitian |
-| G5 | Kesiapan pelaksanaan |
-| G6 | Hasil dan interpretasi |
-| G7 | Naskah dan kesiapan ujian |
+| G0 | Context and research mandate |
+| G1 | Problem and research questions |
+| G2 | Literature protocol and evidence |
+| G3 | Theory and contribution |
+| G4 | Research design |
+| G5 | Execution readiness |
+| G6 | Results and interpretation |
+| G7 | Manuscript and examination/review readiness |
 
-Status:
+Statuses:
 
-- `BELUM DINILAI`
-- `PERLU REVISI`
-- `SIAP`
-- `TIDAK BERLAKU` — harus disertai alasan
+- `NOT ASSESSED`
+- `REVISION REQUIRED`
+- `READY`
+- `NOT APPLICABLE`
 
-Kriteria lengkap: [`docs/quality-gates.md`](docs/quality-gates.md).
+Full criteria: [`docs/quality-gates.md`](docs/quality-gates.md).
 
-Penilaian agent bukan persetujuan promotor, komite etik, reviewer jurnal, atau institusi.
+An agent’s assessment is not supervisor approval, ethics approval, peer review, or institutional approval.
 
 ---
 
-# Literatur, sitasi, dan reference manager
+# Literature, citations, and reference managers
 
-Metadata bibliografis kanonik disimpan di:
+Canonical bibliographic metadata lives in:
 
 [`literature/references.bib`](literature/references.bib)
 
-File ini sengaja dimulai kosong agar builder tidak membawa referensi fiktif.
+The file starts empty so the builder does not ship fictional references.
 
-Workflow yang disarankan:
+Recommended flow:
 
 ```text
 Search
@@ -526,23 +560,23 @@ Claim ledger
 Manuscript citation
 ```
 
-Naskah Markdown dapat menggunakan citation key seperti:
+Markdown manuscripts may use citation keys such as:
 
 ```markdown
-... sebagaimana dibahas dalam literatur sebelumnya [@citation-key].
+... as discussed in prior literature [@citation-key].
 ```
 
-`references.bib` dapat dipakai sebagai basis pertukaran BibTeX dengan reference manager seperti Zotero atau Mendeley. Hindari memelihara metadata yang sama secara manual di banyak tempat.
+`references.bib` can be exchanged with reference managers such as Zotero or Mendeley. Avoid manually maintaining the same bibliographic metadata in several places.
 
-PDF berlisensi sebaiknya disimpan lokal atau pada storage institusi sesuai izin. Jangan commit PDF berhak cipta atau data sensitif hanya karena repository bersifat private.
+Licensed PDFs should remain in approved local/institutional storage. Do not commit copyrighted PDFs or sensitive data merely because the repository is private.
 
-Panduan: [`literature/README.md`](literature/README.md) dan [`manuscript/README.md`](manuscript/README.md).
+See [`literature/README.md`](literature/README.md) and [`manuscript/README.md`](manuscript/README.md).
 
 ---
 
-# Provenance: source → claim → decision
+# Provenance: source → study → claim → decision
 
-Better Research menggunakan ID stabil untuk menjaga jalur argumentasi dapat ditelusuri:
+Better Research uses stable local identifiers:
 
 ```text
 SRC (report/source)
@@ -555,55 +589,59 @@ DEC (decision)
    ↓ changes
 RQ / protocol / design / manuscript / gate
 
-REV (review finding) dapat menantang CLM, DEC, atau artefak.
+REV (review finding) can challenge a CLM, DEC, or artifact.
 ```
 
-Claim mempunyai status `DRAFT`, `UNVERIFIED`, `SUPPORTED`, `MIXED`, `CONTRADICTED`, atau `RETRACTED`. Evidence relation membedakan `SUPPORTS`, `CONTRADICTS`, `LIMITS`, dan `CONTEXTUALIZES`, serta mencatat directness, access status, locator, dan batas penggunaan.
+Claims can be:
 
-Model lengkap: [`docs/provenance.md`](docs/provenance.md).
+`DRAFT` / `UNVERIFIED` / `SUPPORTED` / `MIXED` / `CONTRADICTED` / `RETRACTED`.
+
+Evidence relations can be:
+
+`SUPPORTS` / `CONTRADICTS` / `LIMITS` / `CONTEXTUALIZES`.
+
+See [`docs/provenance.md`](docs/provenance.md).
 
 ---
 
-# Markdown sebagai sumber kanonik
+# Markdown as the canonical source
 
-Better Research sengaja memprioritaskan Markdown.
+Better Research prioritizes Markdown because it is:
 
-Alasannya:
+- readable by humans and AI;
+- easy to review with Git diff;
+- suitable for surgical paragraph-level changes;
+- independent of one application;
+- easy to convert into other formats;
+- easy to connect to evidence and provenance.
 
-- mudah dibaca manusia dan AI;
-- diff Git tetap jelas;
-- perubahan beberapa paragraf dapat direview secara surgical;
-- tidak bergantung pada satu aplikasi;
-- mudah dikonversi ke format lain;
-- referensi dan artefak dapat ditautkan secara eksplisit.
-
-Output Word, PDF, LaTeX, atau format kampus dapat menjadi hasil ekspor. Namun sumber kerja sebaiknya tetap dapat ditelusuri ke Markdown dan `references.bib`.
+Word, PDF, LaTeX, or institution-specific documents should be treated as exports unless the project explicitly decides otherwise.
 
 ---
 
 # Automated repository checks
 
-GitHub Actions menjalankan pemeriksaan mekanis pada Pull Request dan push ke `main`:
+GitHub Actions performs mechanical checks on Pull Requests and pushes to `main`:
 
 - relative Markdown links;
-- frontmatter dan nama skill;
+- skill frontmatter and names;
 - stale legacy skill identifiers;
-- struktur dasar `references.bib` dan duplicate citation keys;
-- file pada path yang seharusnya tidak di-commit, seperti raw participant data atau secret files.
+- basic `references.bib` structure and duplicate citation keys;
+- prohibited sensitive/private paths;
 
-Validator lokal:
+Run locally:
 
 ```bash
 python scripts/validate_repository.py
 ```
 
-PASS dari validator berarti **mechanical repository integrity**, bukan bahwa claim valid, metode tepat, atau quality gate SIAP.
+A PASS means **mechanical repository integrity**. It does not mean the claims are valid, the method is appropriate, or an academic quality gate is READY.
 
 Workflow: [`.github/workflows/repository-integrity.yml`](.github/workflows/repository-integrity.yml).
 
 ---
 
-# Peta repository
+# Repository map
 
 ```text
 .
@@ -631,29 +669,29 @@ Workflow: [`.github/workflows/repository-integrity.yml`](.github/workflows/repos
 └── docs/
 ```
 
-| Lokasi | Fungsi |
+| Location | Purpose |
 |---|---|
-| [`AGENTS.md`](AGENTS.md) | Satu-satunya pintu masuk aturan agent |
-| [`.agents/skills/`](.agents/skills/) | Delapan skill lokal |
-| [`research/`](research/project-brief.md) | Brief, status, keputusan, deviation, dan AI-use log |
-| [`literature/`](literature/README.md) | Search trail, screening, source notes, claim ledger, dan references.bib |
-| [`analysis/`](analysis/README.md) | Analysis plan dan jejak analisis |
-| [`manuscript/`](manuscript/README.md) | Naskah Markdown kanonik |
-| [`data/`](data/README.md) | Dokumentasi tata kelola data |
-| [`reviews/`](reviews/README.md) | Audit, review, dan respons |
-| [`exports/`](exports/README.md) | Hasil ekspor dan pemeriksaan |
-| [`templates/`](templates/README.md) | Formulir kerja |
-| [`docs/`](docs/research-workflow.md) | Dokumentasi workflow, provenance, integritas, standar, skill, Issue, PR, Git, dan migrations |
-| [`scripts/`](scripts/) | Bootstrap workspace dan mechanical validation |
-| [`examples/`](examples/toy-research/) | Golden example sintetis |
-| [`VERSION`](VERSION) / [`CHANGELOG.md`](CHANGELOG.md) | Versi builder dan perubahan |
-| [`LICENSE`](LICENSE) / [`NOTICE.md`](NOTICE.md) | Lisensi dan atribusi |
+| [`AGENTS.md`](AGENTS.md) | Canonical agent rules |
+| [`.agents/skills/`](.agents/skills/) | Eight research skills |
+| [`research/`](research/project-brief.md) | Project brief, status, decisions, deviations, and AI-use log |
+| [`literature/`](literature/README.md) | Search trail, screening, source notes, claim ledger, and bibliography |
+| [`analysis/`](analysis/README.md) | Analysis plan and analysis trail |
+| [`manuscript/`](manuscript/README.md) | Canonical manuscript guidance |
+| [`data/`](data/README.md) | Data-governance guidance |
+| [`reviews/`](reviews/README.md) | Audits, reviews, and responses |
+| [`exports/`](exports/README.md) | Export outputs and checks |
+| [`templates/`](templates/README.md) | Working research forms |
+| [`docs/`](docs/research-workflow.md) | Workflow, provenance, standards, integrity, Git, Issues, PRs, and migrations |
+| [`scripts/`](scripts/) | Bootstrap and mechanical validation |
+| [`examples/`](examples/toy-research/) | Synthetic end-to-end example |
+| [`VERSION`](VERSION) / [`CHANGELOG.md`](CHANGELOG.md) | Builder version and history |
+| [`LICENSE`](LICENSE) / [`NOTICE.md`](NOTICE.md) | License and attribution |
 
 ---
 
-# Template yang tersedia
+# Available templates
 
-Better Research menyediakan formulir untuk:
+Better Research includes:
 
 - session checkpoint;
 - problem memo;
@@ -662,247 +700,224 @@ Better Research menyediakan formulir untuk:
 - screening log;
 - source note;
 - claim ledger;
-- theory & contribution;
+- theory/contribution audit;
 - design matrix;
 - analysis plan;
-- ethics & data plan;
-- chapter plan;
+- ethics/data plan;
+- chapter/section plan;
 - gate review;
 - review response.
 
-Lihat [`templates/README.md`](templates/README.md).
+See [`templates/README.md`](templates/README.md).
 
-Template tidak perlu diisi sekaligus. Buat hanya ketika tahap penelitian membutuhkannya.
+Create a working template only when the project reaches the stage that needs it.
 
 ---
 
-# Versioning dan migration
+# Versioning and migration
 
-Setiap research repository **mem-pin builder version** yang digunakan saat dibuat. Project tidak otomatis mengikuti perubahan pada Better Research upstream.
+Every research repository **pins the builder version** from which it was created.
 
-Aturannya:
+A research project does not silently inherit later Better Research changes.
 
 ```text
-research project v0.1.0
+research project vX
         ↓
-upstream builder berubah
+upstream builder changes
         ↓
-TIDAK auto-sync
+NO automatic sync
         ↓
-baca migration notes
+read migration notes
         ↓
 migration Issue
         ↓
 branch + verification + PR
         ↓
-builder version project diperbarui
+project builder version updated
 ```
 
-Ini mencegah aturan penelitian, quality gate, atau skill berubah diam-diam di tengah proyek.
+This protects reproducibility: research rules, skill behavior, provenance schema, and quality gates should not change invisibly in the middle of a project.
 
-Lihat [`VERSION`](VERSION), [`CHANGELOG.md`](CHANGELOG.md), dan [migration policy](docs/migrations/README.md).
+See [`VERSION`](VERSION), [`CHANGELOG.md`](CHANGELOG.md), and [migration policy](docs/migrations/README.md).
 
 ---
 
-# Portability antar-agent
+# Portability across AI agents
 
-`AGENTS.md` tetap menjadi **satu-satunya sumber aturan kanonik**. Adapter tipis tersedia untuk environment yang mengenali file berbeda:
+`AGENTS.md` is the **single canonical instruction source**.
 
-- `CLAUDE.md` untuk Claude Code;
-- `.cursor/rules/better-research.mdc` untuk Cursor;
-- `.github/copilot-instructions.md` untuk GitHub Copilot;
-- environment yang mendukung `AGENTS.md` membaca file kanonik secara langsung.
+Thin adapters exist for environments that recognize different files:
 
-Adapter tidak menggandakan aturan. Jika adapter berbeda dengan `AGENTS.md`, `AGENTS.md` yang berlaku.
+- `CLAUDE.md` — Claude Code;
+- `.cursor/rules/better-research.mdc` — Cursor;
+- `.github/copilot-instructions.md` — GitHub Copilot;
+- environments supporting `AGENTS.md` read it directly.
+
+Adapters must not become independent copies of the research rules.
 
 ---
 
 # Golden example
 
-[`examples/toy-research/`](examples/toy-research/) menunjukkan satu siklus sintetis end-to-end: Issue → source provenance → claim ledger → decision → surgical manuscript change → gate review.
-
-Seluruh isinya diberi label **CONTOH SINTETIS** dan tidak boleh diperlakukan sebagai evidence akademik.
-
----
-
-# Melanjutkan pekerjaan pada sesi AI berikutnya
-
-Inilah inti dari desain Better Research.
-
-Anda tidak perlu mengatakan:
-
-> "Ingat pembicaraan kita minggu lalu?"
-
-Gunakan Issue.
-
-Contoh instruksi:
-
-> Baca AGENTS.md dan lanjutkan issue #[nomor] pada repository [owner/repo]. Baca snapshot, checkpoint terakhir, keputusan, dependency, source/claim yang ditautkan, serta PR dan review terkait. Cocokkan dengan branch dan commit aktual. Ringkas posisi terakhir, nyatakan unknown atau blocker yang masih berlaku, lalu lanjutkan hanya pekerjaan yang belum memenuhi acceptance criteria. Simpan checkpoint sebelum sesi berakhir.
-
-Agent dapat merekonstruksi konteks dari repository, bukan mengandalkan memori percakapan.
-
----
-
-# Kapan membuat Issue baru?
-
-Buat Issue baru bila ada **unit keputusan atau output yang dapat direview secara mandiri**.
-
-Contoh:
+[`examples/toy-research/`](examples/toy-research/) demonstrates a fully synthetic cycle:
 
 ```text
-Baik:
+Issue
+  ↓
+source provenance
+  ↓
+claim ledger
+  ↓
+decision
+  ↓
+surgical manuscript change
+  ↓
+verification
+  ↓
+gate review
+```
+
+Everything in the example is labeled **SYNTHETIC EXAMPLE** and must not be treated as academic evidence.
+
+---
+
+# Continuing in a future AI session
+
+You should not need to ask:
+
+> “Do you remember what we discussed last week?”
+
+Use the Issue.
+
+Example continuation instruction:
+
+> Read AGENTS.md and continue Issue #[number] in [owner/repo]. Read the current snapshot, latest checkpoint, decisions, dependencies, linked SRC/CLM records, PRs, and open review findings. Reconcile them with the actual branch/commit state. Summarize the current position, state remaining unknowns or blockers, and continue only work that has not yet satisfied the success criteria. Save a checkpoint before the session ends.
+
+The project should be recoverable from the repository, not from chat memory.
+
+---
+
+# When to create a new Issue
+
+Create a new Issue when there is an **independently reviewable decision or output**.
+
+Good:
+
+```text
 #31 Verify theoretical mechanism for RQ2
 #32 Audit measurement validity for construct X
 #33 Revise discussion against contradictory findings
 ```
 
-Hindari:
+Bad:
 
 ```text
-Buruk:
-#31 Kerjakan disertasi
-#32 Lanjutkan riset
-#33 Bikin lebih bagus
+#31 Do my dissertation
+#32 Continue the research
+#33 Make it better
 ```
 
-Pertanyaan klarifikasi yang masih bagian dari Issue aktif tidak memerlukan Issue baru.
+Clarifying questions within an active task remain on the active Issue.
 
-Untuk pekerjaan besar, gunakan parent issue + child issues.
+Large stages can use a parent Issue plus child Issues.
 
 ---
 
-# Definisi selesai
+# Definition of done
 
-Sebuah output file dianggap selesai secara **delivery** ketika:
+A file-producing task is complete for **delivery** when:
 
-- acceptance criteria Issue terpenuhi;
-- perubahan ada pada branch yang benar;
-- pemeriksaan aktual tercatat;
-- PR direview;
-- PR merged ke `main`;
-- commit di `main` diverifikasi;
-- Issue ditutup dengan status yang sesuai.
+- applicable Issue success criteria are PASS;
+- changes exist on the correct branch;
+- actual checks are recorded;
+- the PR was reviewed;
+- the PR is merged into `main`;
+- the resulting `main` commit was verified;
+- the Issue closure matches the evidence.
 
-Tetapi:
+But:
 
 ```text
 MERGED ≠ scientifically valid
-MERGED ≠ ethical approval
+MERGED ≠ ethics approval
 MERGED ≠ supervisor approval
 MERGED ≠ research completed
 ```
 
-Mutu akademik tetap dinilai melalui evidence, metode, review, dan quality gates.
+Academic quality remains an evidence, method, review, and quality-gate decision.
 
 ---
 
-# Aturan yang tidak boleh dinegosiasikan
+# Non-negotiable rules
 
-1. Jangan mengarang sumber, DOI, kutipan, halaman, data, hasil, izin, atau aktivitas penelitian.
-2. Jangan menyatakan sumber mendukung klaim sebelum dukungannya diperiksa.
-3. Jangan memilih metode hanya karena populer atau terlihat canggih.
-4. Jangan menyembunyikan contradictory evidence.
-5. Jangan menyebut dua agent AI sebagai dua reviewer manusia independen.
-6. Jangan menyimpan data peserta sensitif di Git.
-7. Jangan mengklaim ethical approval, pilot, fieldwork, analysis, atau human review yang belum benar-benar terjadi.
-8. Jangan menjadikan banyaknya sitasi, panjang naskah, signifikansi statistik, atau rendahnya similarity score sebagai bukti mutu penelitian.
-9. Jangan mengubah banyak bagian hanya karena agent "sekalian memperbaiki".
-10. Jangan menggunakan chat history sebagai satu-satunya sumber keputusan proyek.
+1. Do not fabricate sources, DOI values, quotations, pages, data, results, permissions, approvals, or research activities.
+2. Do not state that a source supports a claim before checking the support.
+3. Do not select a method merely because it is popular or sophisticated.
+4. Do not hide contradictory evidence.
+5. Do not describe two AI agents/runs as two independent human reviewers.
+6. Do not store sensitive participant data in Git.
+7. Do not claim ethics approval, pilot work, fieldwork, analysis, or human review that did not occur.
+8. Do not treat citation count, manuscript length, statistical significance, or low text similarity as proof of quality.
+9. Do not perform broad unrelated rewrites when only a narrow change is required.
+10. Do not use chat history as the only source of project decisions.
 
-Rincian: [`docs/academic-integrity.md`](docs/academic-integrity.md).
+See [`docs/academic-integrity.md`](docs/academic-integrity.md).
 
 ---
 
-# Contoh satu siklus kerja
+# What Better Research does not do
 
-Misalnya review menemukan satu klaim teori terlalu kuat.
+Better Research is a **research operating system**, not a truth machine.
+
+It does not automatically:
+
+- provide access to Scopus, Web of Science, ProQuest, or paid databases;
+- read sources that were not provided or accessible;
+- turn AI into a human reviewer;
+- issue ethics approval;
+- choose the correct design without project information;
+- prove novelty from a short search;
+- run valid statistical analysis without suitable data and assumptions;
+- guarantee journal acceptance or examination success;
+- replace researcher, supervisor, reviewer, or institutional judgment.
+
+A strong workflow reduces avoidable failure. It does not remove the need for research judgment.
+
+---
+
+# Philosophy
+
+Large research projects should not depend on one AI session remembering everything.
+
+Build a system where:
 
 ```text
-Review finding
-    ↓
-Issue #47
-"Narrow causal claim in theoretical mechanism"
-    ↓
-Read source notes SRC-021, SRC-044, SRC-052
-    ↓
-Check contradictory evidence
-    ↓
-Decision:
-causal → associational / conditional claim
-    ↓
-Edit 3 relevant paragraphs only
-    ↓
-Update claim ledger
-    ↓
-PR
-    ↓
-Review diff
-    ↓
-Merge
-    ↓
-Checkpoint
+every important claim has evidence,
+every decision has a reason,
+every change has a diff,
+every task has a scope,
+every session has a checkpoint,
+and every contribution can be defended.
 ```
 
-Tidak perlu meminta agent membaca seluruh corpus dan menulis ulang seluruh bab.
-
-Itulah tujuan bounded-context research.
-
----
-
-# Batas Better Research
-
-Better Research adalah **research operating system**, bukan mesin kebenaran.
-
-Ia tidak otomatis:
-
-- menyediakan akses Scopus, Web of Science, ProQuest, atau database berbayar;
-- membaca sumber yang tidak diberikan atau tidak dapat diakses;
-- menjadikan AI sebagai reviewer manusia;
-- memberikan ethical approval;
-- memilih desain penelitian yang benar tanpa informasi;
-- membuktikan novelty hanya dari pencarian singkat;
-- melakukan statistical analysis tanpa data dan asumsi yang sesuai;
-- menjamin naskah diterima jurnal atau lulus ujian;
-- menggantikan penilaian peneliti, promotor, reviewer, atau institusi.
-
-Workflow yang baik mengurangi kegagalan. Ia tidak menghapus kebutuhan akan judgement.
+**Better Research does not try to make AI remember the entire project.  
+It makes the project recoverable, inspectable, and continuable.**
 
 ---
 
-# Filosofi
+## Key documentation
 
-Penelitian besar tidak seharusnya bergantung pada kemampuan satu sesi AI untuk "mengingat semuanya".
-
-Lebih baik membangun sistem di mana:
-
-```text
-setiap klaim memiliki bukti,
-setiap keputusan memiliki alasan,
-setiap perubahan memiliki diff,
-setiap tugas memiliki scope,
-setiap sesi memiliki checkpoint,
-dan setiap kontribusi dapat dipertahankan.
-```
-
-**Better Research tidak mencoba membuat AI mengingat seluruh penelitian.  
-Better Research membuat penelitian dapat dipulihkan, diperiksa, dan dilanjutkan.**
-
----
-
-## Dokumentasi penting
-
-- [Aturan agent](AGENTS.md)
-- [Workflow penelitian](docs/research-workflow.md)
-- [Workflow Git](docs/git-workflow.md)
-- [Aturan Issue](docs/issues.md)
-- [Kesinambungan sesi](docs/session-continuity.md)
-- [Pull Request dan merge](docs/pull-requests.md)
+- [Agent rules](AGENTS.md)
+- [Research workflow](docs/research-workflow.md)
+- [Git workflow](docs/git-workflow.md)
+- [Issue guidance](docs/issues.md)
+- [Session continuity](docs/session-continuity.md)
+- [Pull Requests and merge](docs/pull-requests.md)
 - [Quality gates](docs/quality-gates.md)
-- [Integritas akademik](docs/academic-integrity.md)
-- [Indeks skill](docs/skills.md)
-- [Register standar](docs/standards.md)
+- [Academic integrity](docs/academic-integrity.md)
+- [Skill index](docs/skills.md)
+- [Standards register](docs/standards.md)
 - [Provenance model](docs/provenance.md)
 - [Migration policy](docs/migrations/README.md)
 - [Golden example](examples/toy-research/)
 - [Attribution and notices](NOTICE.md)
-

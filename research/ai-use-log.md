@@ -1,17 +1,25 @@
-# Penggunaan AI
+# AI Use Log
 
-Catat penggunaan substantif tanpa memasukkan data sensitif. Log membantu peneliti menyusun disclosure sesuai kebijakan institusi; bukan pengganti kebijakan tersebut.
+Record substantive AI use without including sensitive data. This log helps researchers prepare disclosures according to institutional or publisher policy; it does not replace those policies.
 
-| Tanggal | Alat/model | Tugas | Input aman | Keluaran | Verifikasi aktual | Penanggung jawab manusia |
+| Date | Tool/model | Task | Safe inputs | Outputs | Actual verification | Human responsible |
 |---|---|---|---|---|---|---|
-| 2026-09-07 | Codex; identitas model tidak dicatat | Menyiapkan boilerplate dan skill | Instruksi pengguna, struktur template terdahulu, sumber standar publik | Aturan, skill, dan formulir proyek | Pemeriksaan struktur/tautan/frontmatter dilakukan agent sebelum commit; review akademik manusia belum dilakukan | BELUM DITETAPKAN |
+| 2026-09-07 | Codex; exact model identity not recorded | Prepared the initial builder and skills | User instructions, prior template structure, public standards sources | Project rules, skills, and working templates | Agent checked structure/links/frontmatter before commit; no human academic review was performed | NOT YET DESIGNATED |
 
-Untuk entri berikutnya, tambahkan koreksi, batas penggunaan, serta lokasi pemeriksaan manusia ketika benar-benar dilakukan. Jangan mengklaim penggunaan AI telah disetujui kampus sebelum kebijakannya diketahui.
+For later entries, add corrections, limits of use, and the location of human verification when it actually occurs. Do not claim that AI use has institutional approval until the applicable policy has been verified.
 
-## Pemutakhiran identitas builder — 7 September 2026
+## Builder identity update — 7 September 2026
 
-Codex membantu mengganti nama repositori dan menulis panduan penggunaan README berdasarkan instruksi pengguna. Identitas pada brief dan register standar dibuat netral untuk proyek baru. Agent memeriksa tautan lokal, konsistensi nama, remote, dan status sinkronisasi Git; tidak melakukan review akademik manusia atau penelitian substantif.
+Codex assisted with renaming the repository and drafting README usage guidance from user instructions. The project brief and standards register were made reusable for new projects. The agent checked local links, naming consistency, the remote repository, and Git synchronization state. No human academic review or substantive research was performed.
 
-## Perincian workflow dan satu pintu aturan — 7 September 2026
+## Workflow and canonical-instruction update — 7 September 2026
 
-Codex menyusun panduan issue wajib, checkpoint lintas sesi, dan PR untuk proyek disertasi. Pengguna mengklarifikasi bahwa pemeliharaan template dilakukan langsung; issue yang sempat dibuat dibatalkan. Mode TEMPLATE/RESEARCH membedakan kedua alur. Berkas aturan pengarah duplikat dihapus sehingga hanya AGENTS.md menjadi pintu masuk. Pemeriksaan bersifat dokumentasi dan format skill, bukan review promotor atau uji penelitian nyata.
+Codex prepared the required-Issue workflow, cross-session checkpoints, and PR integration rules. The user clarified that upstream template maintenance may be performed directly, while copied RESEARCH projects require Issue/PR workflow. A duplicate instruction entrypoint was removed so `AGENTS.md` remains canonical. These checks concerned documentation and skill format, not supervisor review or empirical research.
+
+## Research-infrastructure update — 7 September 2026
+
+Codex added epistemic Issue/PR schemas, repository-integrity checks, provenance rules, versioning/migrations, a synthetic golden example, diagnostic quality gates, and multi-agent adapters. GitHub Actions mechanical validation passed before merge. This was repository engineering, not academic validation of a real study.
+
+## Global-English documentation update — 7 September 2026
+
+Codex translated repository documentation, templates, skills, examples, and project scaffolding to English for global portability. The language policy remains project-configurable: research outputs may be Indonesian, English, bilingual, or multilingual. Translation of repository instructions does not change the epistemic status of any research claim.

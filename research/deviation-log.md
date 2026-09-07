@@ -1,7 +1,8 @@
-# Penyimpangan dan perubahan protokol
+# Protocol Deviations and Changes
 
-Tidak ada perubahan protokol penelitian yang tercatat karena penelitian belum dimulai.
-Catat perubahan meskipun secara akademik beralasan; perubahan transparan bukan otomatis pelanggaran.
+No research-protocol deviations are recorded because substantive research has not started.
 
-| ID | Tanggal | Protokol/versi asal | Yang berubah | Alasan | Apakah hasil terkait sudah dilihat? | Dampak confirmatory/exploratory | Tindakan/versi baru |
+Record a change even when it is academically justified; transparent change is not automatically misconduct.
+
+| ID | Date | Original protocol/version | What changed | Reason | Were related results already seen? | Confirmatory/exploratory impact | Action/new version |
 |---|---|---|---|---|---|---|---|

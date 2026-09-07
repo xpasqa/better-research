@@ -36,7 +36,7 @@ The builder formalizes:
 Existing source notes and claim ledgers may remain until touched. When migrated, preserve old IDs and history.
 
 ### Quality gates
-Gate reviews add evidence scope, critical-failure logic, and reopen triggers. Do not automatically convert prior `SIAP` assessments. Reassess only when the migration changes relevant evidence or criteria.
+Gate reviews add evidence scope, critical-failure logic, and reopen triggers. Do not automatically convert prior READY assessments. Reassess only when the migration changes relevant evidence or criteria.
 
 ### Mechanical checks
 GitHub Actions validate internal links, skill frontmatter, stale `dissertation-*` skill references, basic BibTeX structure, and prohibited sensitive paths. A mechanical PASS is not an academic PASS.

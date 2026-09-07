@@ -1,26 +1,26 @@
-# Rencana analisis
+# Analysis Plan
 
-Status/versi/tanggal: BELUM DIISI.
-Data/hasil yang sudah diketahui pada saat menyusun rencana: BELUM DIISI.
-Tujuan: direncanakan sebelum hasil / eksploratori / analisis sekunder (jelaskan).
+Status/version/date: NOT YET FILLED.
+Data/results already known when this plan was written: NOT YET FILLED.
+Purpose: planned before results / exploratory / secondary analysis (explain).
 
-## Pertanyaan dan keluaran
+## Questions and outputs
 
-| RQ/hipotesis | Prioritas utama/sekunder/eksploratori | Bukti/input | Prosedur analisis | Keluaran | Asumsi dan batas |
+| RQ/hypothesis | Primary/secondary/exploratory priority | Evidence/input | Analysis procedure | Output | Assumptions and limits |
 |---|---|---|---|---|---|
 
-## Cabang yang relevan
+## Relevant branch of analysis
 
-- Kuantitatif: target estimasi, scoring, eksklusi, missingness, clustering, bobot, estimator, uncertainty/effect size, multiplicity bila relevan, diagnostik, sensitivitas, dan fallback beralasan.
-- Kualitatif: tradisi analisis, unit bahan, coding/interpretasi, peran peneliti, refleksivitas, jejak keputusan dan kecukupan sesuai pendekatan.
-- Mixed methods: kapan dan bagaimana integrasi dilakukan, joint display jika berguna, serta penanganan ketidaksejalanan.
-- Konseptual/review: aturan analisis/sintesis argumen, kualitas sumber, konteks, dan pembacaan alternatif.
+- Quantitative: target estimand, scoring, exclusions, missingness, clustering, weights, estimator, uncertainty/effect size, multiplicity when relevant, diagnostics, sensitivity checks, and justified fallback procedures.
+- Qualitative: analytic tradition, unit of material, coding/interpretation, researcher role, reflexivity, decision trail, and adequacy according to the approach.
+- Mixed methods: when and how integration occurs, joint display when useful, and handling of discrepant findings.
+- Conceptual/review: rules for argument analysis/synthesis, source quality, context, and alternative readings.
 
-Bagian tidak relevan diberi alasan, bukan diisi prosedur kosmetik.
+Mark non-applicable elements with a reason rather than adding cosmetic procedures.
 
-## Jejak eksekusi
+## Execution trail
 
-| Run ID/tanggal | Versi data/corpus aman | Kode/prosedur dan software/versi | Parameter/seed bila relevan | Output | Pemeriksaan | Deviasi |
+| Run ID/date | Safe data/corpus version | Code/procedure and software/version | Parameters/seed when relevant | Output | Check | Deviation |
 |---|---|---|---|---|---|---|
 
-Registrasi bila dipilih: BELUM ADA. Tautan/timestamp diisi setelah registrasi aktual.
+Registration, if chosen: NONE YET. Add URL/timestamp only after an actual registration exists.

@@ -1,57 +1,75 @@
-# Menulis issue sebagai memori proyek
+# Using Issues as Project Memory
 
-Pada proyek disertasi (mode RESEARCH), GitHub Issue wajib dibuat/dipilih sebelum kerja substantif. Tujuannya agar peneliti dan sesi AI baru dapat memahami serta melanjutkan pekerjaan tanpa membaca seluruh percakapan lama. Pemeliharaan repositori induk TEMPLATE mengikuti pengecualian pada [workflow Git](git-workflow.md).
+In a RESEARCH project, a GitHub Issue must be selected or created before substantive work. The purpose is to let the researcher and a future AI session understand and continue the task without reading the full previous conversation. Upstream TEMPLATE maintenance follows the exception defined in the [Git workflow](git-workflow.md).
 
-## Ukuran pekerjaan
+## Unit of work
 
-Satu issue memuat satu keluaran atau keputusan yang dapat dinilai. Contoh judul: “Verifikasi dukungan sumber untuk klaim utama latar belakang” atau “Tetapkan protokol review berdasarkan pertanyaan penelitian”.
+One Issue should represent one independently reviewable output or decision.
 
-Untuk tahap besar, buat issue induk dengan tujuan dan daftar child issue. Setiap child memiliki scope, dependency, serta kriteria sendiri. Tautkan dua arah. Issue induk tetap terbuka sampai seluruh keluaran yang dibutuhkan terintegrasi; merge satu child tidak menutup induknya.
+Examples:
 
-Jangan membuat issue baru untuk setiap pertanyaan kecil dalam tugas yang sama. Pecah issue bila scope berubah menjadi beberapa keluaran yang dapat ditinjau sendiri atau konteksnya sulit dimuat dalam satu ringkasan kerja.
+- “Verify source support for the central background claim.”
+- “Specify the review protocol from the research question.”
+- “Evaluate whether the proposed moderator is theoretically necessary.”
 
-## Isi wajib body
+For a large stage, create a parent Issue with the overall objective and child Issues for independently reviewable outputs. Each child has its own scope, dependencies, and acceptance criteria. Link them in both directions. The parent remains open until all required outputs are integrated.
 
-Gunakan [template tugas](../.github/ISSUE_TEMPLATE/research-task.md).
+Do not create a new Issue for every small question inside the same task. Split an Issue when the scope has become multiple independently reviewable outputs or when the bounded context can no longer be summarized reliably.
 
-1. **Snapshot terkini:** status, repositori, branch, commit/checkpoint, PR, blocker, dan satu langkah berikutnya.
-2. **Masalah dan alasan:** mengapa tugas diperlukan serta kaitannya dengan RQ/gate atau pemeliharaan builder.
-3. **Konteks yang cukup:** keputusan sebelumnya, batas desain, asumsi, dan tautan sumber yang harus dibaca.
-4. **Scope dan pengecualian:** bagian yang dikerjakan dan yang di luar cakupan.
-5. **Keluaran:** berkas yang diharapkan, isi yang harus tersedia, dan letak hasil final.
-6. **Kriteria penerimaan:** checklist yang dapat diperiksa melalui bukti; bedakan protokol dirancang dari kegiatan terlaksana.
-7. **Rencana dan dependency:** urutan kerja, parent/child, pekerjaan lain yang menghalangi, serta penanggung jawab jika diketahui.
-8. **Referensi/batas akses:** source ID/claim ID, dokumen, locator relevan, serta apa yang belum tersedia.
-9. **Riwayat keputusan:** ringkasan dan tautan komentar/decision log; pembatalan keputusan lama tetap terlihat.
-10. **Kriteria penutupan:** PR final atau alasan issue koordinasi tanpa perubahan berkas.
+## Required body content
 
-Tautan GitHub antarberkas sebaiknya menggunakan permalink commit untuk bukti versi yang direview, serta link branch untuk pekerjaan aktif. Jangan menganggap nomor halaman atau hasil pencarian terverifikasi hanya karena tertulis dalam issue.
+Use the [research task template](../.github/ISSUE_TEMPLATE/research-task.md).
 
-## Status kerja
+A strong Issue includes:
 
-GitHub mempunyai status open/closed; status kerja berikut dicatat dalam snapshot body, dengan label sebagai cermin opsional:
+1. **Current snapshot:** work status, repository, branch, commit/checkpoint, PR, blocker, and one concrete next step.
+2. **Objective:** the end state to achieve and why it matters.
+3. **Epistemic state:** KNOWN, SUPPORTED, INFERRED, ASSUMED, UNKNOWN, and DECISION NEEDED.
+4. **Evidence required:** source/claim IDs, documents, locators, and access limits that must be checked.
+5. **Scope:** what is included and what is explicitly outside the task.
+6. **Outputs:** expected files/decisions and their canonical locations.
+7. **Success criteria:** inspectable conditions that distinguish a designed protocol from an activity that was actually executed.
+8. **Verification plan:** how each success criterion will be checked and what the limits of that check are.
+9. **Falsification/alternatives:** when relevant, what could contradict the candidate claim or decision.
+10. **Dependencies/authorization:** parent/child Issues, blockers, reviewer roles, and approvals actually required.
+11. **Decision history:** DEC links and superseding decisions.
+12. **Closure conditions:** final PR or an explicit reason for coordination-only closure without a file change.
 
-| Status kerja | Arti |
+For reviewed evidence, prefer commit permalinks when a specific version matters and branch links for active work. Never treat a page number, search count, or access status as verified merely because it was written in an Issue.
+
+## Work status
+
+GitHub has open/closed state. Use the following project work statuses in the Issue snapshot, with labels as an optional mirror:
+
+| Work status | Meaning |
 |---|---|
-| DRAFT | Konteks/kriteria belum cukup untuk mulai |
-| READY | Tugas jelas dan dependency awal terpenuhi |
-| IN_PROGRESS | Pekerjaan berlangsung; branch/checkpoint tercatat |
-| BLOCKED | Ada dependency nyata; tulis kebutuhan pemulihan |
-| IN_REVIEW | Draft/final PR sedang diperiksa |
-| READY_TO_MERGE | Pemeriksaan selesai; syarat otorisasi/proteksi dievaluasi |
-| DONE | Output terintegrasi dan penutupan diverifikasi |
-| CANCELLED | Dibatalkan dengan alasan; bukan selesai akademik |
+| DRAFT | Context or success criteria are insufficient to begin |
+| READY | Task is clear and initial dependencies are satisfied |
+| IN_PROGRESS | Work is active; branch/checkpoint is recorded |
+| BLOCKED | A real dependency prevents progress; record what is needed |
+| IN_REVIEW | Draft/final PR is being reviewed |
+| READY_TO_MERGE | Verification is complete and merge authorization/protection has been checked |
+| DONE | Output is integrated and closure is verified |
+| CANCELLED | Task was cancelled with a reason; this is not academic completion |
 
-Jangan menandai DONE ketika hanya selesai menulis, push branch, atau membuka PR. Label bukan bukti pelaksanaan. GitHub issue yang ditutup karena dibatalkan tidak disebut hasil penelitian selesai.
+Do not mark DONE after drafting, pushing a branch, or opening a PR. A label is not evidence that an activity occurred.
 
-## Pembaruan yang tahan pergantian sesi
+## Session-resistant updates
 
-Perbarui snapshot body dengan keadaan terbaru dan tambahkan komentar [checkpoint](../templates/session-checkpoint.md) pada akhir sesi, sebelum compaction yang diketahui, setelah keputusan besar, saat blocker, dan sebelum/selepas review atau merge. Simpan progres sebelum batas konteks terasa kritis; jangan mengandalkan agent akan selalu menerima peringatan.
+Update the snapshot in the Issue body and add a [checkpoint](../templates/session-checkpoint.md) comment:
 
-Komentar mencatat perubahan sejak checkpoint sebelumnya, keputusan dan alasannya, bukti/commit, apa yang belum diperiksa, dan langkah lanjutan. Jangan membanjiri issue dengan log setiap tool.
+- at the end of a session;
+- before a known context compaction/transition;
+- after a major decision;
+- when blocked;
+- before and after review/merge transitions.
 
-## Menutup dan membuka kembali
+Save progress before the context window feels critical; do not assume an agent will always receive a warning.
 
-Untuk issue keluaran, gunakan closing keyword hanya pada PR yang benar-benar memenuhi seluruh kriteria. Jika masih ada pekerjaan wajib dalam scope, issue tetap terbuka. Memindahkannya ke child issue tidak otomatis membuat scope lama selesai; jelaskan dan sepakati perubahan scope.
+A checkpoint records what changed since the previous checkpoint, decisions and reasons, evidence/commits, what remains unchecked, and the next action. Do not flood the Issue with raw tool logs.
 
-Bila kesalahan ditemukan setelah penutupan, buka kembali issue atau buat issue koreksi yang tertaut, dengan bukti serta dampak terhadap gate/naskah. Jangan menghapus komentar kritik.
+## Closing and reopening
+
+For an output-producing Issue, use a closing keyword only in a PR that actually satisfies the full closure conditions. If required work remains inside the Issue scope, keep it open. Moving work to a child Issue does not automatically make the old scope complete; document the scope change explicitly.
+
+If an error is found after closure, reopen the Issue or create a linked corrective Issue with evidence and the impact on gates/manuscript. Do not delete critical comments or rewrite history.

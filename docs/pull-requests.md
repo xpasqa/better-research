@@ -1,45 +1,45 @@
-# PR, review, dan integrasi output final
+# Pull Requests, Review, and Final Integration
 
-Pada proyek disertasi (mode RESEARCH), setiap perubahan berkas menuju main wajib melalui Pull Request. PR adalah paket keluaran yang dapat ditinjau; issue menyimpan kebutuhan dan konteks. Jangan menganggap push branch sudah mengintegrasikan hasil final. Pemeliharaan repositori induk TEMPLATE mengikuti pengecualian pada [workflow Git](git-workflow.md).
+In a RESEARCH project, every file change entering `main` must go through a Pull Request. The PR is the reviewable integration package; the Issue stores the requirement and bounded context. A pushed branch is not the same as an integrated result. Upstream TEMPLATE maintenance follows the exception in the [Git workflow](git-workflow.md).
 
-## Membuat PR
+## Creating a PR
 
-- Buat branch `issue-<nomor>-<ringkasan>` dan commit yang menyebut issue. Verifikasi owner/repo dan base/head sebelum membuka PR.
-- Buka draft PR setelah ada perubahan bermakna. Gunakan [template PR](../.github/pull_request_template.md).
-- Cantumkan masalah, perilaku/hasil sebelum–sesudah, scope final, file kanonik, bukti, perubahan keputusan, pemeriksaan aktual, keterbatasan, dan checklist penerimaan.
-- Satu PR dapat menyelesaikan satu bagian dari issue; gunakan `Refs #<nomor>` bila belum menyelesaikan keseluruhan.
-- Gunakan `Closes #<nomor>` hanya pada PR final yang menyelesaikan semua kriteria issue terkait. Jangan memasukkannya untuk parent issue yang masih memiliki pekerjaan.
-- Base akhir adalah main (atau default branch proyek yang sudah diverifikasi). Jangan menaruh closing keyword hanya di komentar lalu mengasumsikan issue akan tertutup otomatis.
+- Create a branch named `issue-<number>-<summary>` and use commits that reference the Issue. Verify owner/repo and base/head before opening the PR.
+- Open a draft PR once there is meaningful, reviewable work. Use the [PR template](../.github/pull_request_template.md).
+- Include the problem, before/after state, final scope, canonical files, evidence, decision changes, actual checks, limitations, and acceptance evidence.
+- One PR may complete only part of an Issue. Use `Refs #<number>` when the entire Issue is not yet complete.
+- Use `Closes #<number>` only in the final PR that satisfies all closure conditions of the related Issue. Do not close a parent Issue that still has required child work.
+- The final base is `main` or another explicitly verified default branch. Do not put a closing keyword only in a comment and assume the Issue will close automatically.
 
-GitHub menafsirkan closing keyword pada deskripsi PR yang menargetkan default branch; merge ke default branch dapat menutup issue terkait. Tetap periksa keadaan aktual sesudah merge. Lihat [dokumentasi GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).
+GitHub interprets closing keywords in a PR description targeting the default branch; merging that PR may close the linked Issue. Always verify the actual state after merge. See the [GitHub documentation](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).
 
-## Review sebelum merge
+## Review before merge
 
-1. Cocokkan output dengan issue dan checklist. Jika scope berubah, perbarui issue dan deskripsi PR secara terbuka.
-2. Periksa isi perubahan, sumber/batas klaim, konsistensi naskah, data rahasia, dan aturan yang terdampak.
-3. Jalankan pemeriksaan sesuai perubahan: tautan/frontmatter untuk dokumentasi dan skill; audit sitasi untuk literatur; pemeriksaan analisis untuk hasil; render untuk ekspor.
-4. Catat reviewer/peran, versi HEAD yang diperiksa, temuan, dan tindakan koreksi. Review mandiri/agent tidak diklaim sebagai review manusia independen atau promotor.
-5. Selesaikan temuan yang memengaruhi validitas, integritas, scope, atau keamanan. Perubahan baru setelah review harus diperiksa sesuai dampaknya.
-6. Ubah draft menjadi ready hanya ketika tidak ada pekerjaan wajib yang belum selesai. Catat checkpoint READY_TO_MERGE.
+1. Compare the output with the Issue and its success criteria. If scope changed, update both Issue and PR description explicitly.
+2. Inspect the changed content, source/claim limits, manuscript consistency, sensitive-data risk, and affected rules.
+3. Run checks appropriate to the change: links/frontmatter for docs and skills; citation audit for literature; analytic validation for results; rendering for exports.
+4. Record reviewer/role, the HEAD version inspected, findings, and corrective actions. Self/agent review must not be represented as independent human or supervisor review.
+5. Resolve findings that affect validity, integrity, scope, or security. New substantive changes after review require review proportional to their impact.
+6. Mark a draft PR ready only when no required work remains. Save a READY_TO_MERGE checkpoint.
 
-## Merge dan otorisasi
+## Merge and authorization
 
-Merge dilakukan hanya setelah review aktual, kriteria penerimaan terpenuhi, dan dalam otorisasi pengguna yang berlaku. Penyelesaian tugas hingga main yang diotorisasi pengguna memakai jalur PR ini; jangan meminta izin ulang jika otorisasi merge sudah jelas. Bila pengguna meminta berhenti pada draf, menunggu promotor, atau memberi persetujuan khusus, patuhi batas itu.
+Merge only after actual review, satisfied acceptance criteria, and within the authorization that applies. If the user authorized completion through `main`, use the PR path and do not repeatedly ask for permission after every routine step. If the user requested a draft only, asked to wait for a supervisor, or imposed a special approval boundary, respect it.
 
-Skill atau checkbox tidak dapat memberi izin baru. Jangan menganggap persetujuan etik atau promotor tersedia dari label PR. Jangan menggunakan admin bypass untuk melewati review/proteksi wajib.
+A skill or checkbox cannot create new authorization. Do not infer ethics or supervisor approval from a PR label. Do not use admin bypass to evade required review/protection.
 
-Pilih metode merge yang diizinkan repositori. Catat commit hasil aktual; jangan mengandalkan commit branch sama dengan commit hasil squash. Jika konflik muncul, selesaikan di branch dan ulangi pemeriksaan yang terdampak.
+Use a merge method permitted by the repository. Record the actual resulting commit; do not assume the branch commit SHA equals the squash-merge commit. Resolve conflicts on the branch and rerun checks affected by the conflict resolution.
 
-## Setelah merge
+## After merge
 
-- Periksa PR berstatus MERGED dan commit hasil ada pada main.
-- Pastikan issue final tertutup hanya bila semua kriteria terpenuhi; periksa child/parent dan tugas lanjutan.
-- Tambahkan komentar penutupan: ringkasan hasil, PR/merge commit, validasi, batas, dan tautan tindak lanjut.
-- Sinkronkan checkout secara aman. Jangan menandai gate akademik SIAP hanya karena PR merged.
-- Issue yang memiliki PR parsial tetap terbuka sampai semua output yang disepakati selesai.
+- Confirm the PR state is MERGED and the resulting commit exists on `main`.
+- Confirm the final Issue is closed only if its closure conditions are actually satisfied; inspect parent/child Issues and follow-up tasks.
+- Add a closing comment summarizing the outcome, PR/merge commit, validation, limitations, and follow-up links.
+- Synchronize local checkouts safely. Do not mark an academic gate READY merely because the PR merged.
+- An Issue with a partial PR remains open until all agreed outputs are complete.
 
-## Aturan tertulis dan enforcement server
+## Written rules versus server enforcement
 
-Markdown menjelaskan kewajiban agent; tidak memblokir push di server dengan sendirinya. Branch protection/ruleset adalah lapisan enforcement terpisah, bergantung pada pengaturan dan fitur akun. Catat keadaan yang benar-benar diperiksa dan jangan mengklaim proteksi aktif hanya karena aturan ini ada.
+Markdown rules guide agent behavior; they do not block a push by themselves. Branch protection/rulesets are a separate enforcement layer and depend on repository settings and account features. Record only protections that were actually inspected; do not claim protection is active merely because this file says it should be.
 
-Jika proteksi sudah ada, patuhi serta jangan melemahkannya. Konfigurasi baru harus mempertahankan aturan lama dan memperhitungkan reviewer yang tersedia; jangan mensyaratkan persetujuan diri sendiri sebagai review independen.
+If protection exists, follow it and do not weaken it. New protection settings should preserve existing rules and reflect the reviewers actually available; self-approval should not be represented as independent review.

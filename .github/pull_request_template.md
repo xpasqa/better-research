@@ -1,26 +1,26 @@
 ## Result
 
-Ringkas hasil akhir untuk reviewer yang belum membaca percakapan. Jelaskan masalah yang diselesaikan dan perubahan yang benar-benar dibuat.
+Summarize the final outcome for a reviewer who has not read the conversation history. Explain the problem addressed and the changes actually made.
 
 ## Issue and scope
 
 - Owner/repo:
-- Issue utama:
-- Parent/child atau dependency:
+- Primary Issue:
+- Parent/child Issue or dependency:
 - Base / head:
-- Scope final:
-- Perubahan scope dari rencana:
+- Final scope:
+- Scope changes from the original plan:
 
-Gunakan `Refs #nomor` untuk PR parsial. Gunakan `Closes #nomor` hanya pada PR final ketika seluruh closure conditions issue terpenuhi.
+Use `Refs #<number>` for partial work. Use `Closes #<number>` only in the final PR when all closure conditions of that Issue are satisfied.
 
 ## Epistemic delta
 
-Jelaskan perubahan pengetahuan/keputusan yang dihasilkan PR ini, bukan hanya perubahan teks.
+Describe how the knowledge/decision state changed because of this PR, not only how the text changed.
 
-| Item/ID | Sebelum | Sesudah | Dasar bukti | Confidence/status |
+| Item/ID | Before | After | Evidence basis | Confidence/status |
 |---|---|---|---|---|
 
-Contoh status: SUPPORTED / INFERRED / ASSUMED / UNKNOWN / RETRACTED / MIXED.
+Example statuses: SUPPORTED / INFERRED / ASSUMED / UNKNOWN / RETRACTED / MIXED.
 
 ### Unknowns that remain
 
@@ -32,19 +32,19 @@ Contoh status: SUPPORTED / INFERRED / ASSUMED / UNKNOWN / RETRACTED / MIXED.
 
 ### Decisions made or superseded
 
-| DEC ID | Keputusan | Evidence/claim IDs | Supersedes | Dampak |
+| DEC ID | Decision | Evidence/claim IDs | Supersedes | Impact |
 |---|---|---|---|---|
 
 ## Outputs and acceptance evidence
 
-| Success criterion issue | Berkas/permalink/commit | Bukti aktual | Status |
+| Issue success criterion | File/permalink/commit | Actual evidence | Status |
 |---|---|---|---|
 
 Status: PASS / FAIL / BLOCKED / NOT APPLICABLE.
 
 ## Evidence and provenance
 
-Tautkan ID yang relevan.
+Link relevant identifiers.
 
 - Sources/reports (SRC):
 - Studies (STUDY):
@@ -52,70 +52,70 @@ Tautkan ID yang relevan.
 - Decisions (DEC):
 - Reviews/findings (REV):
 - Protocol/deviation IDs:
-- Evidence yang tidak dapat diakses/diverifikasi:
+- Evidence unavailable or not verified:
 
-Jangan menyatakan “source supports claim” hanya karena sumber tercantum. Hubungan dukungan harus terlihat pada source note/claim ledger.
+Do not state “source supports claim” merely because a source is listed. The support relationship should be visible in the source note/claim ledger.
 
 ## Falsification and alternatives
 
-Untuk perubahan klaim/teori/metode yang substantif:
+For substantive changes to claims, theory, or method:
 
-- Bukti tandingan yang diperiksa:
-- Penjelasan alternatif yang diperiksa:
+- Counterevidence inspected:
+- Alternative explanations inspected:
 - Boundary conditions:
-- Apa yang masih dapat membatalkan keputusan ini:
+- What could still overturn this decision:
 
-Isi TIDAK BERLAKU dengan alasan untuk perubahan mekanis yang tidak menyentuh klaim akademik.
+Use NOT APPLICABLE with a reason for purely mechanical changes that do not affect academic claims.
 
 ## Verification performed
 
 | Check | Version/HEAD checked | Method | Result | Limitation |
 |---|---|---|---|---|
 
-Pisahkan:
+Separate:
 
-- **mechanical verification** — link, schema, syntax, path, build/check otomatis;
-- **epistemic verification** — kecocokan klaim–bukti, counterevidence, inference boundary;
-- **academic judgement** — quality gate/review manusia atau agent sesuai scope.
+- **mechanical verification** — links, schema, syntax, paths, build/automated checks;
+- **epistemic verification** — claim–evidence fit, counterevidence, inferential boundaries;
+- **academic judgment** — quality-gate or human/agent review within a defined scope.
 
-Jangan mengubah PASS mekanis menjadi klaim bahwa riset valid secara akademik.
+Do not convert a mechanical PASS into a claim that the research is academically valid.
 
 ## Surgical-change check
 
-- [ ] Setiap perubahan substantif dapat ditelusuri ke issue, bukti, DEC, REV, atau acceptance criterion.
-- [ ] Tidak ada drive-by refactor/rewrite di luar scope.
-- [ ] Perubahan ini hanya membersihkan orphan/inconsistency yang dibuat oleh perubahan sendiri, kecuali scope diperluas secara eksplisit.
+- [ ] Every substantive change is traceable to the Issue, evidence, DEC, REV, or an acceptance criterion.
+- [ ] No unrelated drive-by refactor/rewrite was performed.
+- [ ] Any cleanup beyond the direct task is limited to orphan/inconsistency consequences created by the change itself, unless scope was explicitly expanded.
 
 ## Data, ethics, and integrity
 
-- [ ] Tidak ada data sensitif, credentials, consent bertanda tangan, atau raw participant data.
-- [ ] Tidak ada sumber, hasil, kutipan, locator, review manusia, izin, atau aktivitas yang diklaim tanpa bukti.
-- [ ] Status etik/izin tidak diasumsikan.
-- [ ] Materi berlisensi tidak ditambahkan tanpa dasar izin.
+- [ ] No sensitive data, credentials, signed consent forms, or raw participant data were added.
+- [ ] No source, result, quotation, locator, human review, permission, or activity is claimed without evidence.
+- [ ] Ethics/permission status is not assumed.
+- [ ] Licensed material was not added without an appropriate basis.
 
 ## Review and corrective actions
 
-Reviewer/peran (agent/mandiri/manusia), versi, temuan, respons, dan unresolved items:
+Record reviewer/role (agent/self/human), version reviewed, findings, responses, and unresolved items:
 
-| REV ID | Reviewer/peran | Finding | Action | Status |
+| REV ID | Reviewer/role | Finding | Action | Status |
 |---|---|---|---|---|
 
-Review agent bukan persetujuan promotor, reviewer jurnal, atau komite etik.
+Agent review is not supervisor approval, journal peer review, or ethics-committee approval.
 
 ## Integration readiness
 
-- [ ] Target owner/repo, base, dan head benar.
-- [ ] Success criteria yang akan ditutup berstatus PASS.
-- [ ] Verification sesuai perubahan selesai dan batasnya dicatat.
-- [ ] Issue snapshot/checkpoint sesuai keadaan terbaru.
-- [ ] Quality gate tidak dinaikkan hanya karena PR siap merge.
-- [ ] Otorisasi merge dan branch protection telah diperiksa.
+- [ ] Target owner/repo, base, and head are correct.
+- [ ] Success criteria being closed are PASS.
+- [ ] Verification appropriate to the change is complete and its limits are recorded.
+- [ ] Issue snapshot/checkpoint reflects the current state.
+- [ ] No academic quality gate was upgraded merely because the PR is ready to merge.
+- [ ] Merge authorization and branch protection/rulesets were checked.
 
 ## Planned closure
 
-- Issue yang ditutup:
-- Issue/pekerjaan yang tetap terbuka:
-- Gate yang terdampak/reopen:
-- Cara memverifikasi hasil di `main` setelah merge:
+- Issue(s) to close:
+- Issue(s)/work remaining open:
+- Gate(s) affected or reopened:
+- How the result will be verified on `main` after merge:
 
-Commit merge dan status MERGED dicatat setelah benar-benar terjadi; jangan menuliskan hasil masa depan sebagai fakta.
+Record the merge commit and MERGED status only after they actually exist; do not write future outcomes as facts.

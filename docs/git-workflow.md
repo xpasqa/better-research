@@ -1,45 +1,47 @@
 # Issue → Branch → PR → Review → Merge
 
-**Pada proyek disertasi (mode RESEARCH), setiap pekerjaan wajib memiliki GitHub Issue dan setiap perubahan berkas ke main wajib melalui PR yang diperiksa.** Ini mencakup riset, penulisan, review, dokumentasi, skill, dan perbaikan kecil dalam proyek penelitian.
+**In a RESEARCH project, every substantive task requires a GitHub Issue and every file change entering `main` must go through an inspected Pull Request.** This includes research, writing, review, documentation, skills, and small fixes inside the research project.
 
-**Pada repositori induk (mode TEMPLATE), pemeliharaan builder yang diminta langsung pengguna boleh dikerjakan, diperiksa, di-commit, dan di-push tanpa issue/PR.** Mode tercatat dalam project brief. Pengecualian ini tidak berlaku pada hasil salinan yang digunakan untuk disertasi; jangan mengubah mode untuk melewati aturan penelitian. Bagian selanjutnya menjelaskan alur mode RESEARCH.
+**In the upstream TEMPLATE repository, builder maintenance explicitly requested by the user may be performed, inspected, committed, and pushed without a research Issue/PR.** The mode is recorded in the project brief. This exception does not apply to copied repositories being used for actual research. Do not change modes to bypass the research rules.
 
-## Fungsi setiap tempat
+The remainder of this document describes the RESEARCH workflow.
 
-| Tempat | Sumber utama untuk |
+## What each layer is for
+
+| Layer | Canonical purpose |
 |---|---|
-| Issue | Tujuan, konteks, kriteria penerimaan, keputusan, ketergantungan, checkpoint, dan langkah berikutnya |
-| Branch/commit | Versi pekerjaan yang dapat dipulihkan |
-| PR | Perubahan final, bukti pemeriksaan, komentar review, dan integrasi ke main |
-| Berkas proyek | Naskah, bukti terstruktur, protokol, dan catatan penelitian kanonik |
-| Percakapan AI | Interaksi sementara; keputusan penting dipindahkan ke issue/berkas |
+| Issue | Objective, bounded context, acceptance criteria, decisions, dependencies, checkpoints, and next steps |
+| Branch/commit | Recoverable versions of work in progress |
+| PR | Final change set, verification evidence, review discussion, and integration into `main` |
+| Project files | Canonical manuscript, structured evidence, protocols, decisions, and research records |
+| AI conversation | Temporary interaction; important decisions must be transferred into Issues/files |
 
-Issue adalah memori kerja lintas sesi, bukan tempat menyimpan seluruh PDF, data pribadi, atau transkrip percakapan. Ringkas keadaan terbaru di bagian atas issue, pertahankan riwayat keputusan di komentar, dan tautkan artefak yang tepat.
+An Issue is cross-session working memory. It is not a place to store entire PDFs, participant data, or full conversation transcripts. Keep the latest state near the top, preserve decision history through comments/logs, and link to the relevant artifacts.
 
-## Urutan wajib
+## Required sequence
 
-1. **Pastikan repositori benar.** Periksa origin dan nama kanonik GitHub. Jangan memilih upstream sumber. Pada operasi GitHub, gunakan owner/repo eksplisit; setelah rename, periksa redirect dan tujuan aktual sebelum menulis.
-2. **Temukan atau buat issue.** Baca body, checkpoint terakhir, komentar relevan, serta PR tertaut. Jangan menduplikasi pekerjaan yang sudah tercakup. Isi scope dan kriteria penerimaan sebelum mulai kerja substantif.
-3. **Buat/lanjutkan branch dari main mutakhir:** `issue-<nomor>-<ringkasan>`. Untuk dependensi branch lain, jelaskan base sementara dan ubah target final ke main saat siap.
-4. **Kerjakan dalam scope.** Cantumkan `Refs #<nomor>` dalam commit. Simpan checkpoint pada perubahan keputusan, akhir sesi, blocker, atau sebelum pergantian konteks.
-5. **Buka draft PR setelah ada perubahan yang dapat ditinjau.** Tautkan issue dan perbarui deskripsi agar mewakili hasil terkini. PR kosong tidak diperlukan.
-6. **Periksa dan revisi.** Lengkapi kriteria penerimaan, pemeriksaan akademik yang relevan, tautan, dan keamanan data. Bedakan review agent, review manusia, serta persetujuan institusi.
-7. **Merge melalui PR dalam otorisasi pengguna.** Otorisasi menyelesaikan pekerjaan hingga main mencakup merge melalui PR setelah pemeriksaan; permintaan draf saja atau permintaan menunggu review tidak mencakup merge. Hormati persetujuan khusus yang diminta pengguna dan proteksi server; jangan melewati keduanya.
-8. **Verifikasi hasil aktual.** Periksa PR benar-benar MERGED, commit tersedia di main, dan status issue sesuai penerimaan. Catat ringkasan penutupan di issue; sinkronkan checkout tanpa menimpa perubahan lokal.
+1. **Confirm the repository.** Inspect the Git origin and canonical GitHub owner/repo. Do not write to the upstream builder by mistake. For GitHub operations, use an explicit owner/repo. After a rename, verify redirects and the actual target before writing.
+2. **Find or create the Issue.** Read the body, latest checkpoint, relevant comments, and linked PRs. Do not duplicate work already covered. Define scope and acceptance criteria before substantive execution.
+3. **Create or continue a branch from current `main`:** `issue-<number>-<summary>`. If temporary work depends on another branch, document the temporary base and retarget the final integration to `main`.
+4. **Work within scope.** Include `Refs #<number>` in commits when appropriate. Save checkpoints after major decisions, at the end of a session, when blocked, and before a context transition.
+5. **Open a draft PR once there is reviewable work.** Link the Issue and keep the PR description synchronized with the actual state. Empty PRs are unnecessary.
+6. **Inspect and revise.** Verify acceptance criteria, relevant academic checks, links, and data safety. Distinguish agent review, human review, and institutional approval.
+7. **Merge through the PR within the user’s authorization.** Authorization to complete the work through `main` includes merging after verification; a request for a draft only or a request to wait for review does not. Respect user-specified approval boundaries and server-side protections.
+8. **Verify the actual result.** Confirm the PR is MERGED, the resulting commit exists on `main`, and the Issue state matches the acceptance criteria. Add a closing summary to the Issue and synchronize local checkouts without overwriting user changes.
 
-Penyusunan issue, checkpoint, dan draft PR merupakan bagian pekerjaan yang telah diminta; jangan meminta izin ulang untuk setiap langkah tersebut. Menghubungi peserta atau mengirim pesan ke pihak lain tetap mengikuti otorisasi yang sesuai.
+Creating Issues, checkpoints, and draft PRs is part of the requested workflow; do not ask for repeated permission at every step. Participant contact, external messages, and institution-facing actions still require the appropriate authorization.
 
-## Batas dan kondisi khusus
+## Boundaries and special cases
 
-- Pertanyaan klarifikasi/status dalam pekerjaan berjalan ditautkan ke issue aktif, tidak memerlukan issue baru. Tugas baru yang menghasilkan keputusan/analisis proyek tetap memerlukan issue.
-- Hasil pekerjaan baca/review yang menjadi keluaran proyek disimpan sebagai memo lalu masuk melalui PR. Jika issue hanya koordinasi dan tidak menghasilkan perubahan berkas, tutup dengan alasan serta tautan bukti; tidak boleh digunakan untuk menyelundupkan perubahan ke main.
-- Jika GitHub tidak tersedia, simpan draft/checkpoint lokal berstatus BELUM TERSINKRON. Jangan mengaku issue sudah dibuat, melakukan pekerjaan substantif baru tanpa issue, atau melewati PR. Boleh menjaga hasil yang sedang berjalan, memeriksa keadaan, dan menyiapkan informasi untuk pemulihan.
-- Jangan menulis ulang keputusan lama agar sejarah tampak konsisten. Catat keputusan pengganti, alasan, dan dampaknya.
-- Membuat repositori baru boleh menyalin snapshot awal builder sesuai permintaan pengguna dan menetapkan mode RESEARCH sebagai bagian provisioning. Setelah itu, kustomisasi brief dan hasil penelitian mengikuti issue/PR wajib.
-- Jangan force-push, menghapus riwayat, atau memakai admin bypass untuk melewati pemeriksaan.
+- Clarifying/status questions within ongoing work stay on the active Issue and do not require a new Issue. A genuinely new project decision or independently reviewable output should have its own Issue.
+- Reading/review work that produces a project artifact should be saved as a memo or other canonical file and integrated through a PR. If an Issue is coordination-only and produces no file change, close it with evidence and a reason; do not create a fake PR.
+- If GitHub is unavailable, keep a safe local checkpoint marked **NOT YET SYNCED**. Do not claim that an Issue or PR exists, do not begin unrelated substantive work without the required Issue, and do not bypass PR integration.
+- Do not rewrite old decisions merely to make project history appear consistent. Record a superseding decision, its reason, and its impact.
+- Creating a new research repository may copy the builder snapshot and set RESEARCH mode during provisioning. After provisioning, project customization and research outputs follow the required Issue/PR workflow.
+- Do not force-push, erase history, or use admin bypass to evade required review.
 
-Panduan rinci: [issue](issues.md), [kesinambungan sesi](session-continuity.md), [PR dan merge](pull-requests.md).
+Detailed guides: [Issues](issues.md), [session continuity](session-continuity.md), [PRs and merge](pull-requests.md).
 
-## Definisi selesai
+## Definition of done
 
-Untuk keluaran berkas: kriteria issue terpenuhi, review aktual dicatat, PR merged ke main, hasil diverifikasi, dan penutupan issue memiliki bukti. Selesai secara delivery tidak berarti gate akademik lulus atau penelitian lapangan sudah dilakukan.
+For a file-producing task: Issue acceptance criteria are satisfied, actual review is recorded, the PR is merged into `main`, the result is verified, and the Issue closure contains evidence. Delivery completion does not mean an academic gate has passed or that fieldwork/analysis has occurred.

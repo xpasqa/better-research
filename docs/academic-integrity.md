@@ -1,34 +1,34 @@
-# Integritas akademik dan penggunaan AI
+# Academic Integrity and AI Use
 
-Aturan operasional proyek ini dirancang untuk menjaga keterlacakan, kejujuran, dan batas inferensi. Dasar eksternal serta ruang berlakunya ada di [register standar](standards.md); aturan ini tidak menggantikan kebijakan kampus.
+These operational rules are designed to preserve traceability, honesty, and inferential limits. External standards and their scope are recorded in the [standards register](standards.md); these rules do not replace institutional policy.
 
-## Bukti, kutipan, dan kepengarangan
+## Evidence, quotation, and authorship
 
-- Verifikasi penulis, tahun, judul, jenis sumber, dan DOI/URL melalui sumber yang benar-benar diakses. Jangan melengkapi metadata dengan tebakan.
-- Nyatakan akses sebagai metadata saja, abstrak, sebagian teks, atau teks penuh. Appraisal atas metode tidak boleh dianggap lengkap bila informasi yang dibutuhkan tidak tersedia.
-- Catat halaman, bagian, paragraf, atau tabel yang mendukung klaim penting. Nomor halaman tidak boleh diperkirakan.
-- Gunakan kutipan langsung dengan penanda kutip dan locator; parafrasa mempertahankan makna sekaligus menggunakan susunan sendiri dan atribusi. Terjemahan kutipan diberi keterangan.
-- Jika hanya membaca sumber sekunder, nyatakan hubungan sekunder sesuai gaya sitasi; jangan mengaku membaca sumber asli.
-- Periksa koreksi, pencabutan, dan versi sumber saat dipakai sebagai bukti utama. Sumber yang dicabut tidak digunakan sebagai dukungan biasa tanpa menjelaskan status dan tujuan analisisnya.
-- Bedakan temuan penulis sumber dari interpretasi peneliti. Jangan mengutip ringkasan AI sebagai pengganti sumber ilmiah.
-- Laporkan kontribusi nyata setiap penulis dan bantuan AI sesuai kebijakan kampus/penerbit. Peneliti manusia bertanggung jawab atas naskah dan keputusan.
+- Verify author, year, title, source type, and DOI/URL from a source that was actually accessed. Do not complete metadata by guessing.
+- Record access as metadata only, abstract only, partial text, or full text. Methodological appraisal must not be treated as complete when the required information is unavailable.
+- Record the page, section, paragraph, table, figure, or other locator that supports an important claim. Never estimate page numbers.
+- Use quotation marks and locators for verbatim quotations. Paraphrases must preserve meaning while using genuinely new wording and attribution. Mark translated quotations as translations.
+- If only a secondary source was read, represent the secondary relationship according to the applicable citation style; do not claim to have read the original source.
+- Check corrections, expressions of concern, retractions, and source versions when a source is important to the argument. A retracted source must not be used as ordinary support without explicitly explaining its status and analytical purpose.
+- Distinguish what the source authors report from the researcher’s interpretation. Do not cite an AI summary as a substitute for the scholarly source.
+- Report actual author contributions and AI assistance according to institutional or publisher policy. Human researchers remain accountable for the manuscript and decisions.
 
-## Ketidakpastian dan pelaporan
+## Uncertainty and reporting
 
-Gunakan label `BELUM DIVERIFIKASI`, `AKSES TERBATAS`, `INFERENSI`, atau `CONTOH SINTETIS` sesuai keadaan. Contoh sintetis harus terpisah dari data dan hasil empiris.
+Use labels such as `UNVERIFIED`, `LIMITED ACCESS`, `INFERENCE`, or `SYNTHETIC EXAMPLE` when appropriate. Synthetic examples must remain separate from empirical data and results.
 
-Temuan nol, negatif, bertentangan, dan kegagalan model tetap dilaporkan sesuai relevansi. Jangan memilih sumber atau analisis hanya karena mendukung model. Perubahan setelah melihat hasil dicatat; jangan menulis ulang hipotesis seolah-olah ditetapkan sebelumnya.
+Null, negative, contradictory, and failed-model results should be reported when relevant. Do not select sources or analyses only because they support the preferred model. Record changes made after results were seen; do not rewrite a post hoc hypothesis as if it had been specified in advance.
 
-## Privasi dan etika
+## Privacy and ethics
 
-Sebelum kegiatan dengan peserta atau data terbatas, pastikan status etik, izin akses, consent/assent bila berlaku, dan penggunaan sekunder data sesuai otorisasi institusi. Agent tidak dapat menerbitkan persetujuan etik.
+Before activities involving participants or restricted data, verify the actual ethics status, access permissions, consent/assent requirements when applicable, and conditions for secondary data use. An agent cannot issue ethics approval.
 
-Rencana tata kelola mencakup minimisasi data, akses berbasis peran, lokasi penyimpanan, pemisahan kunci identitas, retensi/pemusnahan, dan risiko identifikasi melalui kutipan. Pseudonimisasi tidak otomatis membuat data anonim.
+A data-governance plan should address data minimization, role-based access, storage location, separation of identity keys, retention/destruction, and re-identification risk through quotations or linked attributes. Pseudonymization does not automatically make data anonymous.
 
-Jangan mengunggah materi sensitif atau berlisensi ke AI/layanan eksternal tanpa dasar izin yang sesuai. Jangan memasukkan kata sandi, identitas peserta, consent bertanda tangan, atau transkrip mentah ke repositori.
+Do not upload sensitive or licensed material to AI or external services without an appropriate basis for doing so. Do not place passwords, participant identities, signed consent forms, or raw transcripts in the repository.
 
-## Jejak penggunaan AI
+## AI-use trail
 
-Catat pemakaian substantif dalam [AI log](../research/ai-use-log.md): tanggal, alat/model jika tersedia, tugas, input yang aman, berkas keluaran, pemeriksaan manusia, dan koreksi. Jangan menyimpan rahasia atau data pribadi dalam log.
+Record substantive AI use in the [AI-use log](../research/ai-use-log.md): date, tool/model when available, task, safe inputs, output files, human verification, and corrections. Do not store secrets or personal data in the log.
 
-AI boleh membantu merumuskan pencarian, mengekstraksi, mengkritik, dan menyusun draf. Verifikasi substantif tetap diperlukan. Dua keluaran AI tidak setara dengan dua reviewer manusia independen. Jangan mengklaim peninjauan manusia atau independensi yang tidak terjadi.
+AI may assist with search formulation, extraction, critique, synthesis, and drafting. Substantive verification is still required. Two AI outputs are not equivalent to two independent human reviewers. Do not claim human review or independence that did not occur.

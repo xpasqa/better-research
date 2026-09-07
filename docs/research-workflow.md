@@ -1,41 +1,40 @@
-# Alur riset doktoral
+# Research Workflow
 
-Alur ini merupakan konvensi kerja proyek. Tahap dapat diulang ketika bukti mengubah keputusan. Lihat [quality gates](quality-gates.md). Draf dan memo boleh dibuat sepanjang proses tanpa mengubah status kesiapan ilmiah.
+This workflow is a project convention. Stages may repeat when evidence changes a decision. See the [quality gates](quality-gates.md). Drafts and memos may be created throughout the process without changing academic readiness by themselves.
 
-Pada proyek disertasi (mode RESEARCH), setiap pekerjaan pada tahap di bawah dimulai dari issue aktif dan mengikuti [workflow Git](git-workflow.md). Hasil berkas masuk ke main melalui PR, review, dan merge. Pada akhir sesi simpan checkpoint issue; issue induk memetakan child issue bila satu tahap terdiri atas beberapa keluaran. Pemeliharaan repositori induk TEMPLATE bukan pelaksanaan tahap penelitian ini.
+In a RESEARCH project, every substantive task begins from an active Issue and follows the [Git workflow](git-workflow.md). File outputs enter `main` through PR, review, and merge. Save an Issue checkpoint at the end of a session; use parent/child Issues when one stage contains several independently reviewable outputs. Upstream TEMPLATE maintenance is not a research stage.
 
-| Tahap | Pertanyaan keputusan | Artefak kerja | Skill |
+| Stage | Decision question | Typical artifact | Skill |
 |---|---|---|---|
-| 0. Konteks | Apa mandat, batas, dan kelayakan penelitian? | Project brief dan daftar ketidakpastian | framing |
-| 1. Masalah | Apa yang belum dijelaskan dan mengapa penting? | Problem memo dan pertanyaan penelitian | framing |
-| 2. Pemetaan | Perdebatan dan konsep apa yang relevan? | Peta awal literatur dan istilah | evidence, theory |
-| 3. Protokol | Bagaimana bukti dikumpulkan secara transparan? | Review protocol, rencana seleksi/appraisal | evidence |
-| 4. Bukti | Apa isi dan keterbatasan studi yang benar-benar dibaca? | Search log, screening, source notes, claim ledger | evidence |
-| 5. Sintesis | Penjelasan mana yang bertahan terhadap bukti tandingan? | Debate map dan contribution audit | theory |
-| 6. Desain | Bukti apa yang dapat menjawab pertanyaan secara layak? | Design matrix, analysis plan, ethics/data plan | design |
-| 7. Pelaksanaan | Apakah syarat operasional terpenuhi dan rencana dijalankan? | Catatan lapangan/pilot, deviations, hasil analisis | design |
-| 8. Interpretasi | Bagaimana hasil mengubah pemahaman? | Sintesis hasil, integrasi, batas kontribusi | theory, writing |
-| 9. Naskah/ujian | Apakah argumen dapat ditelusuri dan dipertahankan? | Naskah, audit, tanggapan reviewer, ekspor | writing, audit |
+| 0. Context | What are the mandate, constraints, and feasibility? | Project brief and uncertainty list | framing |
+| 1. Problem | What remains unexplained and why does it matter? | Problem memo and research questions | framing |
+| 2. Mapping | Which debates and concepts are relevant? | Initial literature map and terminology | evidence, theory |
+| 3. Protocol | How will evidence be gathered transparently? | Review protocol, selection/appraisal plan | evidence |
+| 4. Evidence | What do the sources actually report, and what are their limits? | Search log, screening, source notes, claim ledger | evidence |
+| 5. Synthesis | Which explanations survive counterevidence? | Debate map and contribution audit | theory |
+| 6. Design | What evidence can answer the question defensibly? | Design matrix, analysis plan, ethics/data plan | design |
+| 7. Execution | Are operational conditions satisfied and was the plan actually carried out? | Field/pilot records, deviations, analysis outputs | design |
+| 8. Interpretation | How do the results change understanding? | Result synthesis, integration, contribution limits | theory, writing |
+| 9. Manuscript/examination | Can the argument be traced and defended? | Manuscript, audit, reviewer response, export | writing, audit |
 
-Nama skill lengkap dan tautan ada di [indeks](skills.md). Salin [template](../templates/README.md) hanya ketika dibutuhkan. Gunakan [model provenance](provenance.md) agar source/report, study, claim, decision, dan review finding dapat ditelusuri.
+The full skill names are in the [skill index](skills.md). Copy a [template](../templates/README.md) only when needed. Use the [provenance model](provenance.md) so report/source, study, claim, decision, and review finding remain traceable.
 
-## Penelusuran dan akses
+## Searching and access
 
-Pemetaan eksploratif boleh mendahului protokol. Jangan menyebutnya review sistematis secara retrospektif tanpa proses yang memenuhi klaim tersebut. Catat batas akses ke basis data; pencarian web atau rekomendasi AI tidak membuktikan cakupan menyeluruh.
+Exploratory mapping may occur before a formal protocol. Do not retrospectively call an exploratory search “systematic” unless the process actually satisfies that claim. Record access limitations to databases; web search or AI recommendations do not prove comprehensive coverage.
 
-Pilih sumber berdasarkan pertanyaan dan disiplin: artikel, monograf, arsip, dokumen kebijakan, dataset, disertasi, atau sumber primer lain dapat mempunyai fungsi berbeda. Bukan semua bukti harus berupa artikel jurnal.
+Choose source types according to the question and discipline. Articles, monographs, archives, policy documents, datasets, dissertations/theses, and other primary sources can serve different functions. Not all evidence must be journal articles.
 
-Untuk review terstruktur, tetapkan sebelumnya cara deduplikasi, seleksi, pemeriksaan, penyelesaian perbedaan, appraisal, dan sintesis. Jika keterbatasan personel memengaruhi pemeriksaan independen, laporkan praktik aktual dan dampaknya.
+For a structured review, specify deduplication, selection, extraction, disagreement resolution, appraisal, and synthesis procedures before relying on them. If staffing limits independent review, report the practice actually used and its consequence.
 
-## Kapan berhenti mencari?
+## When to stop searching
 
-Tetapkan kriteria sesuai pendekatan: jalankan seluruh pencarian yang direncanakan, selesaikan seleksi, tangani sumber dekat dan bukti tandingan, serta jelaskan keterbatasan akses dan jadwal pemutakhiran. Pada pencarian iteratif, dokumentasikan alasan kecukupan konseptual. Tidak ada jumlah artikel universal yang membuktikan kedalaman.
+Use stopping logic appropriate to the review design: complete planned searches, complete selection, address close prior work and counterevidence, record access limits, and define an update schedule. For iterative searching, document the basis for conceptual sufficiency. There is no universal article count that proves depth.
 
-## Perubahan arah
+## Changes of direction
 
-Perubahan konsep, metode, atau pertanyaan dicatat dalam [decision log](../research/decision-log.md). Perubahan terhadap protokol yang sudah ditetapkan dicatat pula dalam [deviation log](../research/deviation-log.md), termasuk apakah hasil sudah dilihat. Buka kembali gate yang terdampak.
+Record changes to concepts, methods, or research questions in the [decision log](../research/decision-log.md). Record deviations from an already specified protocol in the [deviation log](../research/deviation-log.md), including whether related results had already been seen. Reopen affected gates.
 
+## Gates and changing decision bases
 
-## Gate dan perubahan basis keputusan
-
-Setiap tahap dinilai dengan [quality gates](quality-gates.md) pada scope dan commit tertentu. Jika bukti baru, correction/retraction, perubahan RQ, perubahan desain, atau temuan lain mengubah basis keputusan, buka kembali gate yang terdampak dan buat assessment baru. Jangan menimpa assessment lama.
+Each stage is assessed through the [quality gates](quality-gates.md) at a particular scope and commit. If new evidence, a correction/retraction, an RQ change, a design change, or another material finding changes the basis of an earlier decision, reopen the affected gate and create a new assessment. Do not overwrite the old assessment.

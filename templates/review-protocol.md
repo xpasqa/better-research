@@ -1,33 +1,33 @@
-# Protokol review
+# Review Protocol
 
-Status: BELUM DIISI. Versi/tanggal/penyusun: BELUM DIISI.
-Apakah pencarian atau hasil relevan sudah dilihat? BELUM DIISI.
+Status: NOT YET FILLED. Version/date/author: NOT YET FILLED.
+Have relevant searches or results already been seen? NOT YET FILLED.
 
-## Tujuan dan pendekatan
+## Purpose and approach
 
-Pertanyaan review; fungsi dalam disertasi; jenis review dan alasan; standar/versi yang dipilih; batas klaim cakupan.
+Review question; role within the research project; review type and rationale; selected standard/version; limits of the coverage claim.
 
-## Strategi pencarian
+## Search strategy
 
-| Konsep | Sinonim/istilah lokal | Controlled vocabulary bila tersedia | Alasan |
+| Concept | Synonyms/local-language terms | Controlled vocabulary when available | Rationale |
 |---|---|---|---|
 
-Platform/basis data, arsip/sumber lain, akses, kueri per platform, rentang waktu/bahasa dan alasan, grey literature, forward/backward citation search, serta cara pemutakhiran: BELUM DIISI.
+Platforms/databases, archives/other sources, access conditions, platform-specific queries, time/language limits and reasons, grey literature, forward/backward citation searching, and update strategy: NOT YET FILLED.
 
-## Kelayakan dan seleksi
+## Eligibility and selection
 
-Populasi/corpus, fenomena/intervensi, konteks, desain, keluaran, jenis sumber, inklusi/eksklusi dan alasannya: BELUM DIISI.
+Population/corpus, phenomenon/intervention, context, design, outcomes, source types, inclusion/exclusion criteria and rationale: NOT YET FILLED.
 
-Deduplikasi; hubungan record–report–study; pilot seleksi; reviewer aktual; independensi; penyelesaian perbedaan; alasan eksklusi full text; penanganan sumber tidak diperoleh: BELUM DIISI.
+Deduplication; record–report–study relationships; screening pilot; actual reviewers; independence; disagreement resolution; full-text exclusion reasons; handling of unavailable sources: NOT YET FILLED.
 
-## Ekstraksi, appraisal, dan sintesis
+## Extraction, appraisal, and synthesis
 
-Field ekstraksi; uji formulir; pemeriksaan ekstraksi; alat appraisal per desain dan versi; aturan pengaruh appraisal terhadap sintesis; pendekatan sintesis; heterogenitas; bias publikasi bila relevan: BELUM DIISI.
+Extraction fields; form piloting; extraction checks; appraisal tool by design and version; how appraisal affects synthesis; synthesis approach; heterogeneity; publication bias when relevant: NOT YET FILLED.
 
-Rencana penggunaan AI dan verifikasi manusia; keterbatasan sumber daya: BELUM DIISI.
+Planned AI use and human verification; resource limitations: NOT YET FILLED.
 
-## Kriteria selesai dan perubahan
+## Completion criteria and changes
 
-Pencarian yang harus dijalankan, alasan kecukupan untuk review iteratif, jadwal update, keputusan yang belum selesai: BELUM DIISI.
+Searches that must be run, sufficiency logic for iterative review, update schedule, and unresolved decisions: NOT YET FILLED.
 
-Registrasi bila relevan: belum ditentukan. URL/timestamp hanya diisi setelah benar-benar tersedia. Perubahan masuk deviation log.
+Registration, when relevant: NOT YET DECIDED. Add URL/timestamp only after a real registration exists. Record protocol changes in the deviation log.

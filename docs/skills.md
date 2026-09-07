@@ -1,24 +1,26 @@
-# Indeks skill lokal
+# Local Skill Index
 
-Buka repositori ini sebagai proyek Codex. Skill disimpan bersama boilerplate, tanpa instalasi global atau ketergantungan plugin. Jika penemuan otomatis belum tersedia, baca SKILL.md melalui tautan berikut dan jalankan panduannya.
+Open this repository in an AI development/research environment that can read project files. Skills are stored with the builder; no global installation is required. If automatic skill discovery is unavailable, open the linked SKILL.md manually and follow it.
 
-| Skill | Gunakan ketika | Keluaran |
+| Skill | Use when | Typical output |
 |---|---|---|
-| [research-workflow](../.agents/skills/research-workflow/SKILL.md) | Memulai/melanjutkan issue, menyimpan konteks, menyiapkan PR dan penutupan | Issue, checkpoint, branch/PR dan jejak integrasi |
-| [research-rigor](../.agents/skills/research-rigor/SKILL.md) | Menetapkan guardrail lintas tahap untuk asumsi, parsimoni, scope, falsifikasi, dan verification | Success criteria, batas scope, status pass/blocked, jejak keputusan |
-| [research-framing](../.agents/skills/research-framing/SKILL.md) | Memperjelas masalah, pertanyaan, cakupan, kelayakan | Brief/problem memo dengan keputusan terbuka |
-| [research-evidence](../.agents/skills/research-evidence/SKILL.md) | Merancang atau menjalankan penelusuran, seleksi, ekstraksi, appraisal | Protokol, log, source note, claim ledger |
-| [research-theory](../.agents/skills/research-theory/SKILL.md) | Mensintesis perdebatan dan menguji kontribusi | Peta argumen, penjelasan alternatif, audit novelty |
-| [research-design](../.agents/skills/research-design/SKILL.md) | Menentukan desain, pengukuran, analisis, kesiapan | Design matrix, analysis/ethics plan |
-| [research-writing](../.agents/skills/research-writing/SKILL.md) | Menyusun atau memperbaiki naskah berbasis bukti | Naskah dengan sitasi dan batas klaim |
-| [research-audit](../.agents/skills/research-audit/SKILL.md) | Menilai mutu, kesiapan, atau persiapan ujian | Review berbasis lokasi/bukti dan tindak lanjut |
+| [research-workflow](../.agents/skills/research-workflow/SKILL.md) | Starting/continuing an Issue, preserving context, preparing a PR, or closing work | Issue, checkpoint, branch/PR, integration trail |
+| [research-rigor](../.agents/skills/research-rigor/SKILL.md) | Applying cross-stage guardrails for assumptions, parsimony, scope, falsification, and verification | Success criteria, scope boundaries, pass/blocked status, decision trail |
+| [research-framing](../.agents/skills/research-framing/SKILL.md) | Clarifying the problem, questions, scope, or feasibility | Project brief/problem memo with explicit open decisions |
+| [research-evidence](../.agents/skills/research-evidence/SKILL.md) | Designing or conducting search, screening, extraction, or appraisal | Protocol, logs, source notes, claim ledger |
+| [research-theory](../.agents/skills/research-theory/SKILL.md) | Synthesizing debates and testing contribution candidates | Argument map, alternative explanations, novelty/contribution audit |
+| [research-design](../.agents/skills/research-design/SKILL.md) | Selecting design, measurement, analysis, and execution requirements | Design matrix, analysis plan, ethics/data plan |
+| [research-writing](../.agents/skills/research-writing/SKILL.md) | Drafting or revising an evidence-based manuscript | Manuscript with citations and explicit claim limits |
+| [research-audit](../.agents/skills/research-audit/SKILL.md) | Assessing quality, readiness, or examination preparation | Location/evidence-based review and follow-up actions |
 
-Skill dapat dipanggil dengan nama, misalnya `$research-evidence`. Skill ini tidak melakukan pencarian, mengakses database, atau menilai naskah sebelum dijalankan dalam suatu tugas.
+A skill may be invoked by name, for example `$research-evidence`, when the environment supports it. A skill does not search databases or assess a manuscript merely by existing in the repository; it must be used within an actual task.
 
-## Kombinasi dan batas
+## Combining skills and respecting limits
 
-Gunakan workflow untuk koordinasi, terapkan research-rigor sebagai disiplin lintas tahap, dan pilih skill akademik sesuai keluaran. Alur akademik: framing → evidence → theory → design → writing → audit, dengan iterasi bila bukti mengubah keputusan. Jangan memuat semua skill sekaligus; baca hanya tahap yang diperlukan.
+Use `research-workflow` for coordination, apply `research-rigor` as the cross-stage execution discipline, and select the academic skill that matches the required output. A typical academic flow is framing → evidence → theory → design → writing → audit, with iteration when evidence changes earlier decisions.
 
-Skill dokumen/PDF/spreadsheet dari lingkungan boleh digunakan untuk artefak yang memerlukannya. Skill deep-research atau konektor ilmiah, jika tersedia dan sesuai permintaan, melengkapi akses; hasilnya tetap melalui verifikasi dan appraisal proyek.
+Do not load every skill at once. Read only what the active task requires.
 
-Jika tool/sumber tidak tersedia, laporkan batas akses dan lanjutkan bagian yang dapat dikerjakan. Jangan mengklaim pencarian di Scopus, Web of Science, atau basis data lain yang tidak benar-benar diakses.
+Environment-specific document/PDF/spreadsheet capabilities may be used for artifacts that require them. Deep-research or scholarly connectors, when available and explicitly appropriate, may extend access; their outputs still require project-level verification and appraisal.
+
+If a tool or source is unavailable, report the access limit and continue only the parts that can be performed honestly. Never claim a Scopus, Web of Science, ProQuest, or other database search that did not actually occur.

@@ -1,5 +1,5 @@
-# Review akademik
+# Academic review
 
-Gunakan [gate-review](../templates/gate-review.md) dan [review-response](../templates/review-response.md). Simpan review aktual dengan tanggal dan versi naskah; jangan membuat komentar promotor fiktif.
+Use the [gate-review](../templates/gate-review.md) and [review-response](../templates/review-response.md) templates. Store actual reviews with the date and manuscript version; never fabricate supervisor or reviewer comments.
 
-Bedakan review mandiri/agent, reviewer akademik, dan keputusan institusi. Prioritaskan temuan yang memengaruhi argumen, bukti, metode, atau kontribusi. Penutupan komentar memerlukan respons yang menjawab inti kritik.
+Distinguish self/agent review, academic human review, and institutional decisions. Prioritize findings that affect the argument, evidence, method, or contribution. Closing a review comment requires a response that addresses the substance of the criticism.

@@ -1,23 +1,23 @@
-# Literatur dan bukti
+# Literature and evidence
 
-[references.bib](references.bib) adalah basis metadata bibliografis terverifikasi. File dimulai kosong agar tidak ada referensi fiktif.
+[references.bib](references.bib) is the canonical store for verified bibliographic metadata. It starts empty so the builder does not introduce fictional references.
 
-Gunakan [model provenance](../docs/provenance.md) untuk membedakan **report/source (SRC)**, **study (STUDY)**, **claim (CLM)**, **decision (DEC)**, dan **review finding (REV)**.
+Use the [provenance model](../docs/provenance.md) to distinguish **report/source (SRC)**, **study (STUDY)**, **claim (CLM)**, **decision (DEC)**, and **review finding (REV)**.
 
-Buat saat diperlukan:
+Create these only when needed:
 
-- `searches/`: log dan ekspor penelusuran yang boleh disimpan.
-- `screening/`: keputusan seleksi serta hubungan record–report–study.
-- `notes/`: satu catatan per SRC menggunakan source-note.
-- `claim-ledger.md`: hubungan claim–evidence dari template.
+- `searches/`: search logs and permitted search exports.
+- `screening/`: selection decisions and record–report–study relationships.
+- `notes/`: one note per SRC using the source-note template.
+- `claim-ledger.md`: claim–evidence relationships based on the template.
 
-PDF berlisensi disimpan lokal pada `literature/pdfs/` yang diabaikan Git atau di penyimpanan institusi. Jangan menganggap kepemilikan file memberi izin redistribusi.
+Licensed PDFs should be stored locally under `literature/pdfs/` (ignored by Git) or in approved institutional storage. Possessing a file does not imply permission to redistribute it.
 
-## Identity dan deduplication
+## Identity and deduplication
 
-Satu publikasi/report menggunakan satu SRC. Beberapa report dapat berasal dari STUDY yang sama.
+One publication/report receives one SRC. Multiple reports may come from the same STUDY.
 
-Contoh struktur:
+Example:
 
 ```text
 STUDY-012
@@ -26,30 +26,30 @@ STUDY-012
 └── SRC-063 correction
 ```
 
-Jangan menghitung report tersebut sebagai tiga studi independen.
+Do not count these reports as three independent studies.
 
-Saat deduplikasi, periksa setidaknya DOI/identifier, title, authors, year, versi, dan hubungan report–study. DOI dinormalisasi tanpa prefix `https://doi.org/` dan dibandingkan case-insensitively.
+During deduplication, inspect at least DOI/identifier, title, authors, year, version, and the report–study relationship. Normalize DOI values without the `https://doi.org/` prefix and compare them case-insensitively.
 
 ## Citation keys
 
-Konvensi default:
+Default convention:
 
 ```text
 authorYYYYshorttitle
 ```
 
-Gunakan huruf kecil ASCII tanpa spasi. Tambahkan suffix `a`, `b`, dan seterusnya hanya bila collision tetap terjadi setelah short title dibuat cukup jelas.
+Use lowercase ASCII without spaces. Add suffixes such as `a`, `b`, and so on only when collisions remain after making the short title sufficiently distinctive.
 
-Citation key hanyalah identifier kerja; ia bukan bukti bahwa dua record identik atau berbeda.
+A citation key is a working identifier; it is not proof that two records are identical or different.
 
 ## Version lifecycle
 
-Preprint, published article, correction, expression of concern, dan retraction dapat menjadi SRC berbeda. Catat versi yang benar-benar dibaca dan tautkan hubungan antar-report pada source note.
+A preprint, published article, correction, expression of concern, and retraction may be separate SRC records. Record the version actually read and link related reports in the source note.
 
-Jika versi terbit menggantikan preprint, jangan menghapus provenance preprint. Periksa apakah claim, locator, atau appraisal perlu diperbarui.
+If a published version supersedes a preprint, do not erase the preprint’s provenance. Reassess whether claims, locators, or appraisal need to be updated.
 
 ## Verification rule
 
-Metadata masuk ke `references.bib` hanya setelah diverifikasi dari sumber yang benar-benar diakses. Keberadaan DOI atau citation key tidak membuktikan bahwa isi source mendukung suatu claim.
+Metadata enters `references.bib` only after it has been verified from a source that was actually accessed. The presence of a DOI or citation key does not prove that the source content supports a claim.
 
-Daftar pustaka yang dibaca manusia dihasilkan dari bibliografi setelah alat ekspor disiapkan. Jangan memelihara metadata yang sama secara manual di dua tempat.
+Human-readable reference lists should be generated from the bibliography once an export tool is configured. Do not maintain the same bibliographic metadata manually in multiple places.

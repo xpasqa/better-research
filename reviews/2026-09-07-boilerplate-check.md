@@ -1,29 +1,29 @@
-# Pemeriksaan boilerplate
+# Builder Baseline Check
 
-Tanggal: 7 September 2026. Penilai: Codex (agent). Cakupan: dokumentasi, skill, dan template awal; tidak mencakup penelitian substantif atau review manusia.
+Date: 7 September 2026. Assessor: Codex (agent). Scope: builder documentation, skills, and initial templates; no substantive research or human academic review.
 
-## Pemeriksaan aktual
+## Checks actually performed
 
-- Enam SKILL.md lolos validator bawaan skill-creator: frontmatter, penamaan, dan format dasar.
-- Tautan Markdown lokal diperiksa terhadap berkas tujuan; tidak ada target hilang.
-- Jalur data mentah, olahan peserta, consent, linkage, PDF lokal, private, dan .env cocok dengan aturan ignore.
-- Pemeriksaan diff tidak menemukan kesalahan whitespace.
+- Initial SKILL.md files passed the available skill-format validator for frontmatter, naming, and basic structure at the time of creation.
+- Local Markdown links were checked against their target paths during builder development.
+- Raw/processed participant-data paths, consent/linkage paths, local PDFs, private paths, and environment files were aligned with ignore rules.
+- Repository integrity automation was later added and passed before the research-infrastructure merge.
 
-## Review konsistensi aturan
+## Rule-consistency review
 
-Ini pemeriksaan isi aturan, bukan uji eksekusi skill dalam sesi independen.
+This is a review of the written rules, not an independent behavioral evaluation of the skills.
 
-| Kasus yang ditinjau | Perlakuan yang tertulis | Hasil review |
+| Reviewed case | Written treatment | Review result |
 |---|---|---|
-| Topik dan metode belum diberikan | Framing mempertahankan kandidat dan ketidakpastian; tidak membawa model proyek lain | Konsisten |
-| Hanya abstrak tersedia | Evidence membatasi klaim dan menandai appraisal yang belum lengkap | Konsisten |
-| Hasil tidak mendukung model | Integritas dan theory mewajibkan bukti tandingan serta revisi batas kontribusi | Konsisten |
-| Pendekatan kualitatif interpretif | Design tidak memaksakan saturation atau kesepakatan antar-coder | Konsisten |
-| Dokumen etik sudah ditulis tetapi izin belum ada | G5 tidak dianggap SIAP berdasarkan dokumen draf | Konsisten |
-| Data sudah dilihat sebelum rencana analisis | Analysis plan dan deviation log mencatat waktu/pengetahuan awal | Konsisten |
+| Topic and method not yet provided | Framing preserves candidates and uncertainty; it does not inherit a model from another project | Consistent |
+| Only an abstract is available | Evidence skill limits claims and marks appraisal as incomplete | Consistent |
+| Results contradict the preferred model | Integrity/theory rules require counterevidence and revision of contribution limits | Consistent |
+| Interpretive qualitative approach | Design skill does not automatically impose saturation or intercoder agreement | Consistent |
+| Ethics document exists but approval does not | G5 is not READY merely because a draft document exists | Consistent |
+| Data were seen before the analysis plan | Analysis plan and deviation log record prior knowledge/timing | Consistent |
 
-## Batas pemeriksaan
+## Limits of this check
 
-Belum dilakukan uji perilaku skill pada kasus riset nyata, audit referensi substantif, penilaian promotor, atau konfirmasi kepatuhan kampus. Pipeline ekspor dan pemeriksaan statistik belum dibuat karena format, metode, dan data belum ditentukan.
+No behavioral testing on a real research project, substantive reference audit, supervisor assessment, or institutional-compliance confirmation was performed. Export and statistical-analysis pipelines remain project-dependent because format, method, and data vary.
 
-Keputusan: boilerplate dapat digunakan untuk memulai pengisian brief. Seluruh gate penelitian tetap BELUM DINILAI.
+Decision: the builder can be used to initialize a research project. All research quality gates remain NOT ASSESSED.

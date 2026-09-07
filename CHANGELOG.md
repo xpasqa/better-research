@@ -2,6 +2,22 @@
 
 All notable changes to Better Research are recorded here. The repository uses semantic versioning for the **builder contract**, not for the maturity of any research project.
 
+## [0.1.1] - 2026-09-07
+
+Global-English documentation and multilingual research-output policy.
+
+### Changed
+
+- Repository documentation, skills, templates, examples, and project scaffolding are now written in English for global portability.
+- Canonical placeholder/status tokens are now English: `NOT YET FILLED`, `NOT YET DECIDED`, `NOT YET VERIFIED`, `NOT ASSESSED`, `REVISION REQUIRED`, `READY`, and `NOT APPLICABLE`.
+- The project brief now treats research-output language as a project-level decision rather than assuming Indonesian.
+- `research-writing` and manuscript guidance explicitly support Indonesian, English, bilingual, and multilingual research outputs.
+- The bootstrap script now targets the English project-brief schema.
+
+### Migration
+
+Projects on 0.1.0 should follow [0.1.0 → 0.1.1](docs/migrations/0.1.0-to-0.1.1.md). Existing research projects should not translate active empirical content merely to match the builder; the migration concerns builder instructions, scaffolding, and status vocabulary.
+
 ## [0.1.0] - 2026-09-07
 
 First explicitly versioned builder baseline.

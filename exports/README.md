@@ -1,7 +1,7 @@
-# Ekspor dokumen
+# Document exports
 
-Belum ada pipeline atau file ekspor. Siapkan sesuai pedoman kampus setelah format dipilih.
+No export pipeline or export files exist yet. Configure them only after the institutional or publication format has been selected.
 
-Setiap ekspor mencatat commit/versi naskah dan bibliografi, alat/versi, template/style, waktu, serta pemeriksaan visual yang benar-benar dilakukan. Contoh pola nama: `disertasi-YYYY-MM-DD-commit.docx`.
+Each export should record the manuscript commit/version, bibliography version, tool/version, template or style, export time, and the visual checks that were actually performed. Example filename pattern: `research-YYYY-MM-DD-commit.docx`.
 
-Jangan menganggap file ekspor sebagai sumber utama atau mengeditnya tanpa menerapkan perubahan kembali ke naskah kanonik. Periksa sitasi, daftar pustaka, tabel/gambar, penomoran, daftar isi, dan layout sebelum menyatakan siap diserahkan.
+Do not treat an exported file as the canonical source, and do not edit it without applying the same change back to the canonical manuscript. Before declaring an export ready for submission, verify citations, references, tables/figures, numbering, table of contents, and layout.

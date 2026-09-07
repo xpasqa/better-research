@@ -1,40 +1,38 @@
 ---
 name: research-evidence
-description: Rancang atau jalankan review literatur yang transparan melalui pencarian, seleksi, ekstraksi, appraisal, dan pelacakan klaim.
+description: Design or conduct a transparent literature review through search, selection, extraction, appraisal, and claim-level evidence tracking.
 ---
 
-# Penelusuran dan evaluasi bukti
+# Evidence Search and Evaluation
 
-Baca [integritas](../../../docs/academic-integrity.md), [alur](../../../docs/research-workflow.md), [standar](../../../docs/standards.md), dan brief. Pilih mode: protokol saja, pencarian, seleksi, ekstraksi/appraisal, atau pemutakhiran. Jangan menjalankan tahap yang belum diminta.
+Read the [academic integrity rules](../../../docs/academic-integrity.md), [research workflow](../../../docs/research-workflow.md), [standards register](../../../docs/standards.md), and the project brief. Select the mode: protocol only, search, selection, extraction/appraisal, or update. Do not perform stages that were not requested.
 
-## Sebelum pencarian terstruktur
+## Before structured searching
 
-Gunakan [review protocol](../../../templates/review-protocol.md). Cocokkan bentuk review dengan pertanyaan. Tentukan konsep/istilah, sumber pencarian, batas yang beralasan, kriteria inklusi/eksklusi, deduplikasi, penilaian, sintesis, dan pemeriksaan reviewer. Pencarian pendahuluan boleh memperbaiki protokol; catat perubahannya.
+Use the [review protocol](../../../templates/review-protocol.md). Match the review form to the research question. Define concepts/terms, search sources, justified limits, inclusion/exclusion criteria, deduplication, appraisal, synthesis, and reviewer checks. Exploratory searching may refine the protocol; record those changes.
 
-## Saat mengumpulkan bukti
+## While collecting evidence
 
-- Catat kueri persis, platform/basis data, tanggal, filter, jumlah aktual, berkas ekspor, dan batas akses di [search log](../../../templates/search-log.md).
-- Jangan menyamakan hasil yang ditampilkan platform dengan record yang benar-benar diekspor. Jangan menebak jumlah PRISMA.
-- Bedakan record bibliografis, report/publikasi, dan study. Satukan beberapa report dari studi yang sama agar sampel/bukti tidak dihitung ganda.
-- Simpan keputusan seleksi beserta alasan di [screening log](../../../templates/screening-log.md). Catat cara reviewer bekerja dan penyelesaian perbedaan yang benar-benar dilakukan.
-- Buka sumber asli yang dapat diakses; gunakan [source note](../../../templates/source-note.md) untuk metadata, locator, konteks, desain, sampel/corpus, temuan, dan keterbatasan.
-- Temuan dari abstrak terbatas pada informasi yang dilaporkan di abstrak. Metode yang tidak dilaporkan berstatus tidak jelas, bukan diasumsikan baik.
-- Pilih appraisal menurut desain/tradisi; sebut alat dan versinya atau alasan kerangka khusus. Nilai per domain dengan bukti. Jangan membuat skor gabungan arbitrer atau memakai reputasi jurnal sebagai pengganti appraisal.
-- Tambahkan hanya metadata terverifikasi ke bibliografi. Catat pencabutan/koreksi dan versi sumber.
-- Kaitkan klaim ke sumber serta bukti tandingan dalam [claim ledger](../../../templates/claim-ledger.md).
+- Record the exact query, platform/database, date, filters, actual counts, export files, and access limits in the [search log](../../../templates/search-log.md).
+- Do not treat the number displayed by a platform as the number actually exported. Do not guess PRISMA counts.
+- Distinguish bibliographic records, reports/publications, and studies. Link multiple reports from the same study so the sample/evidence is not double-counted.
+- Store selection decisions and reasons in the [screening log](../../../templates/screening-log.md). Record how reviewers actually worked and how disagreements were actually resolved.
+- Open the original source when accessible; use a [source note](../../../templates/source-note.md) for metadata, locators, context, design, sample/corpus, findings, and limitations.
+- Findings from an abstract are limited to what the abstract reports. Unreported methods are unknown, not assumed to be sound.
+- Choose appraisal tools according to design/tradition; name the tool and version or justify a custom framework. Assess by domain using evidence. Do not create arbitrary total scores or substitute journal reputation for appraisal.
+- Add only verified metadata to the bibliography. Record corrections, retractions, and source versions.
+- Link claims to supporting, contradicting, limiting, and contextualizing evidence in the [claim ledger](../../../templates/claim-ledger.md).
 
-## Sintesis dan penutupan
+## Synthesis and closure
 
-Kelompokkan studi menurut perdebatan, konsep, desain, konteks, dan batas inferensi. Jangan melakukan vote counting berdasarkan banyaknya hasil signifikan. Meta-analisis memerlukan kompatibilitas pertanyaan, efek dan desain serta penanganan ketergantungan; jangan otomatis menggabungkan semua angka.
+Group studies by debate, concept, design, context, and inferential boundary. Do not vote-count based on the number of statistically significant results. Meta-analysis requires compatibility of questions, effects, designs, and dependency handling; do not automatically pool every numeric result.
 
-Nyatakan cakupan yang benar-benar dicapai, sumber tidak tersedia, keputusan terbuka, dan alasan berhenti/pemutakhiran. Bukti yang berlawanan tidak dikeluarkan karena merusak model. Keluaran AI diperiksa terhadap sumber; jangan menyebut dua proses AI sebagai dua reviewer manusia independen.
+State the coverage actually achieved, unavailable sources, open decisions, and the rationale for stopping or updating the search. Do not exclude opposing evidence because it weakens the preferred model. AI output must be checked against source material; two AI runs are not two independent human reviewers.
 
+## Execution discipline
 
-## Disiplin eksekusi
+Apply the cross-skill principles in `research-rigor`: do not silently resolve uncertainty, use the minimum sufficient complexity, keep changes within task scope, and verify outcomes against explicit acceptance criteria. For high-impact claims or decisions, inspect counterevidence and alternative explanations before strengthening the conclusion.
 
-Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.
+## Evidence provenance
 
-
-## Provenance evidence
-
-Gunakan [model provenance](../../../docs/provenance.md) untuk membedakan report/source (SRC), underlying study (STUDY), claim (CLM), decision (DEC), dan review finding (REV). Satu report tidak sama dengan satu study; setiap hubungan evidence–claim mencatat relation, directness, access status, locator, dan batas penggunaan.
+Use the [provenance model](../../../docs/provenance.md) to distinguish report/source (SRC), underlying study (STUDY), claim (CLM), decision (DEC), and review finding (REV). One report is not the same as one study. Every evidence–claim relation should record relation type, directness, access status, locator, and limits of use.

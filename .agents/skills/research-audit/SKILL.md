@@ -1,34 +1,32 @@
 ---
 name: research-audit
-description: Audit mutu, kesiapan tahap riset, konsistensi naskah, dan kemampuan mempertahankan kontribusi penelitian dengan bukti konkret.
+description: Audit research quality, stage readiness, manuscript consistency, and the defensibility of the research contribution using concrete evidence.
 ---
 
-# Audit akademik dan persiapan ujian
+# Academic Audit and Examination Preparation
 
-Baca [quality gates](../../../docs/quality-gates.md), [integritas](../../../docs/academic-integrity.md), brief dan artefak dalam cakupan audit. Gunakan [gate review](../../../templates/gate-review.md). Audit file bukan verifikasi otomatis seluruh kegiatan penelitian.
+Read the [quality gates](../../../docs/quality-gates.md), [academic integrity rules](../../../docs/academic-integrity.md), the project brief, and the artifacts within the audit scope. Use the [gate review](../../../templates/gate-review.md). Auditing files is not the same as verifying every research activity.
 
-## Prosedur
+## Procedure
 
-1. Tetapkan cakupan, versi, bukti yang tersedia, dan yang tidak diperiksa. Jangan membuat penilaian menyeluruh dari satu bab.
-2. Rekonstruksi argumen penulis sebelum mengkritik. Periksa rantai masalah → pertanyaan → teori → bukti/desain → hasil → kontribusi.
-3. Uji klaim utama terhadap sumber, bukti tandingan, dan batas desain. Bedakan referensi nyata dari referensi yang benar-benar mendukung kalimat.
-4. Bedakan kelemahan konseptual, metodologis, evidensial, integritas, dan editorial. Jangan menaikkan persoalan gaya menjadi kegagalan ilmiah.
-5. Berikan temuan dengan lokasi, bukti, akibat terhadap kesimpulan, tindakan koreksi, dan kondisi selesai. Prioritaskan masalah yang mengubah validitas atau kelayakan.
-6. Catat SIAP/PERLU REVISI/BELUM DINILAI/TIDAK BERLAKU per gate yang relevan. Dilarang memberi SIAP karena dokumen lengkap bila bukti aktivitas belum ada.
-7. Periksa kritik lama dan responsnya; tutup hanya jika perubahan benar-benar menjawab masalah.
+1. Define the scope, version, available evidence, and what was not inspected. Do not make a project-wide judgment from one chapter.
+2. Reconstruct the author’s argument before criticizing it. Inspect the chain: problem → questions → theory → evidence/design → results → contribution.
+3. Test major claims against sources, counterevidence, and design limits. Distinguish a real reference from a reference that actually supports the sentence.
+4. Separate conceptual, methodological, evidential, integrity, and editorial weaknesses. Do not inflate a style problem into a scientific failure.
+5. Report findings with location, evidence, consequence for the conclusion, corrective action, and closure condition. Prioritize issues that affect validity or feasibility.
+6. Record READY / REVISION REQUIRED / NOT ASSESSED / NOT APPLICABLE for each relevant gate. Do not mark a gate READY merely because the documents look complete when the underlying activity has not been evidenced.
+7. Revisit earlier criticism and responses; close a finding only when the change actually resolves the issue.
 
-## Persiapan ujian
+## Examination or defense preparation
 
-Susun pertanyaan penguji berdasarkan titik lemah nyata: signifikansi masalah, pembanding kontribusi, alternatif teori, kesesuaian metode, dasar inferensi, hasil yang bertentangan, dan batas penerapan. Jawaban latihan mengacu pada lokasi bukti; kekosongan harus diakui.
+Develop examiner questions from real vulnerabilities: significance of the problem, contribution comparators, alternative theories, method fit, inferential basis, contradictory results, and limits of application. Practice answers should point to evidence locations; unresolved gaps must be acknowledged.
 
-Review oleh agent tidak disebut review promotor, independent human review, atau persetujuan etik. Untuk tugas draf rutin, laporkan koreksi yang diperlukan tanpa membuat prosedur persetujuan baru.
+Agent review must not be described as supervisor review, independent human review, or ethics approval. For routine drafting work, report the corrections required without inventing new approval procedures.
 
+## Execution discipline
 
-## Disiplin eksekusi
-
-Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.
-
+Apply the cross-skill principles in `research-rigor`: do not silently resolve uncertainty, use the minimum sufficient complexity, keep changes within task scope, and verify outcomes against explicit acceptance criteria. For high-impact claims or decisions, inspect counterevidence and alternative explanations before strengthening the conclusion.
 
 ## Gate diagnostics
 
-Saat menilai gate, gunakan critical failure dan reopen trigger pada [quality gates](../../../docs/quality-gates.md). Gate yang pernah SIAP dibuka kembali bila basis keputusannya berubah; jangan menimpa assessment lama.
+When assessing a gate, use the critical-failure criteria and reopen triggers in the [quality gates](../../../docs/quality-gates.md). A gate that was previously READY must be reopened when the basis of the decision materially changes; do not overwrite the earlier assessment.

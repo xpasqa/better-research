@@ -1,26 +1,25 @@
 ---
 name: research-theory
-description: Sintesis perdebatan teori dan uji kandidat kontribusi penelitian terhadap studi terdekat serta penjelasan alternatif.
+description: Synthesize theoretical debates and test candidate research contributions against the closest prior studies and alternative explanations.
 ---
 
-# Sintesis teori dan kontribusi
+# Theory Synthesis and Contribution Testing
 
-Baca [integritas](../../../docs/academic-integrity.md), brief, serta source notes/claim ledger yang relevan. Gunakan [theory and contribution](../../../templates/theory-contribution.md).
+Read the [academic integrity rules](../../../docs/academic-integrity.md), the project brief, and relevant source notes/claim ledger entries. Use the [theory and contribution template](../../../templates/theory-contribution.md).
 
-## Prosedur
+## Procedure
 
-1. Pisahkan definisi konsep, dimensi, indikator, mekanisme, konteks, dan tingkat analisis. Jangan menyamakan nama yang mirip tanpa memeriksa makna.
-2. Petakan argumen lintas studi: apa yang disepakati, diperdebatkan, berlawanan, dan belum dijelaskan. Bedakan ketidaksepakatan teori dari perbedaan pengukuran/desain.
-3. Nyatakan fungsi setiap teori dalam menjawab pertanyaan; hindari daftar teori dekoratif. Untuk pendekatan interpretif/konseptual, jelaskan posisi dan logika pembacaan, tanpa memaksakan model variabel.
-4. Cari studi paling dekat dan upayakan menggugurkan kandidat novelty melalui sinonim konstruk, mekanisme alternatif, literatur berdekatan, dan penelusuran sitasi. Bila akses belum memadai, sebut kandidat belum teruji.
-5. Bandingkan penjelasan alternatif serta bukti yang akan membedakannya. Untuk klaim kausal, sebut urutan, mekanisme, confounding/reverse direction yang relevan; untuk klaim interpretif, tangani pembacaan dan kasus tandingan.
-6. Putuskan pertahankan, persempit, tunda, atau gugurkan setiap kandidat kontribusi. Kombinasi variabel, lokasi baru, alat analisis, atau adaptasi instrumen tidak otomatis membuktikan kontribusi doktoral.
+1. Separate concept definitions, dimensions, indicators, mechanisms, contexts, and levels of analysis. Do not treat similar labels as equivalent without checking their meaning.
+2. Map arguments across studies: what is agreed, disputed, contradictory, and unexplained. Distinguish theoretical disagreement from measurement or design differences.
+3. State the function of each theory in answering the question; avoid decorative theory lists. For interpretive or conceptual approaches, explain the position and logic of interpretation without forcing a variable model.
+4. Identify the closest prior studies and actively try to defeat the novelty candidate through construct synonyms, alternative mechanisms, adjacent literatures, and citation chasing. If access remains insufficient, state that the candidate is not yet adequately tested.
+5. Compare alternative explanations and specify the evidence that would distinguish them. For causal claims, address sequence, mechanism, confounding, and reverse direction when relevant; for interpretive claims, address alternative readings and counter-cases.
+6. Decide whether to retain, narrow, defer, or reject each candidate contribution. A new combination of variables, location, analytical tool, or instrument adaptation does not by itself establish a doctoral contribution.
 
-## Keluaran
+## Output
 
-Memo harus menghubungkan kontribusi yang diusulkan dengan perdebatan, pembanding terdekat, bukti yang diperlukan, dan batas generalisasi/transferabilitas. Jangan menyatakan “pertama” atau “belum pernah diteliti” hanya dari ketiadaan hasil pencarian. Setelah hasil tersedia, pisahkan kontribusi yang direncanakan dari yang benar-benar didukung.
+The memo should connect the proposed contribution to the debate, closest comparators, evidence required, and limits of generalization/transferability. Do not claim “first” or “never studied before” merely because a search returned no result. Once empirical results exist, distinguish the planned contribution from the contribution actually supported by the evidence.
 
+## Execution discipline
 
-## Disiplin eksekusi
-
-Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.
+Apply the cross-skill principles in `research-rigor`: do not silently resolve uncertainty, use the minimum sufficient complexity, keep changes within task scope, and verify outcomes against explicit acceptance criteria. For high-impact claims or decisions, inspect counterevidence and alternative explanations before strengthening the conclusion.

@@ -19,10 +19,10 @@ def run(cmd: list[str], cwd: Path) -> None:
 def rewrite_project_brief(destination: Path, project_name: str) -> None:
     brief = destination / "research" / "project-brief.md"
     text = brief.read_text(encoding="utf-8")
-    text = text.replace("Mode workspace: TEMPLATE.", "Mode workspace: RESEARCH.")
+    text = text.replace("Workspace mode: TEMPLATE.", "Workspace mode: RESEARCH.")
     text = text.replace(
-        "Nama proyek penelitian: BELUM DIISI.",
-        f"Nama proyek penelitian: {project_name}.",
+        "Research project name: NOT YET FILLED.",
+        f"Research project name: {project_name}.",
     )
     brief.write_text(text, encoding="utf-8")
 

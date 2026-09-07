@@ -1,20 +1,21 @@
-# Peta teori dan audit kontribusi
+# Theory Map and Contribution Audit
 
-Status/versi: BELUM DIISI.
+Status/version: NOT YET FILLED.
 
-## Konsep dan perdebatan
+## Concepts and debates
 
-| Konsep/posisi teori | Definisi dan tingkat analisis | Argumen/mekanisme | Bukti utama | Kontradiksi/batas |
+| Concept/theoretical position | Definition and level of analysis | Argument/mechanism | Main evidence | Contradictions/limits |
 |---|---|---|---|---|
 
-## Uji kandidat kontribusi
+## Candidate-contribution test
 
-| Kandidat kontribusi | Studi/argumen terdekat | Persamaan/perbedaan substantif | Pencarian untuk membantah | Bukti yang membedakan | Keputusan/alasan |
+| Candidate contribution | Closest study/argument | Substantive similarity/difference | Search designed to challenge it | Distinguishing evidence | Decision/rationale |
 |---|---|---|---|---|---|
 
-Keputusan: PERTAHANKAN, PERSEMPIT, TUNDA, atau GUGURKAN.
-Lokasi baru atau kombinasi variabel hanya bernilai bila perbedaan itu mempunyai konsekuensi pengetahuan yang dijelaskan.
+Decision: RETAIN / NARROW / DEFER / REJECT.
 
-## Kontribusi aktual
+A new location or combination of variables matters only when the difference has an explainable consequence for knowledge.
 
-Diisi setelah bukti/analisis tersedia: apa yang berubah dari pengetahuan sebelumnya, dukungan hasil, batas, alternatif yang masih mungkin, serta apa yang tidak dapat diklaim.
+## Actual contribution
+
+Complete only after evidence/analysis exists: what changes relative to prior knowledge, what results support that change, the limits, alternatives that remain plausible, and what cannot be claimed.

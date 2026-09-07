@@ -1,32 +1,32 @@
-# SRC-SYN-001 — synthetic source note
+# SRC-SYN-001 — Synthetic Source Note
 
-> CONTOH SINTETIS. Tidak ada publikasi nyata di balik source ini.
+> **SYNTHETIC EXAMPLE.** No real publication exists behind this source.
 
 ## Identity and provenance
 
 - SRC ID: SRC-SYN-001
 - STUDY ID: STUDY-SYN-001
-- Citation key: TIDAK BERLAKU — synthetic
-- Jenis report/source: synthetic observational report
-- Metadata: CONTOH SINTETIS
+- Citation key: NOT APPLICABLE — synthetic
+- Report/source type: synthetic observational report
+- Metadata: SYNTHETIC EXAMPLE
 - Access: FULL_TEXT synthetic
 
 ## Extraction
 
-| Aspek | Isi | Locator |
+| Aspect | Content | Locator |
 |---|---|---|
-| Pertanyaan | Apakah coordination routine terkait dengan role clarity? | synthetic section 1 |
-| Desain | Cross-sectional observational | synthetic section 2 |
+| Question | Are coordination routines associated with role clarity? | synthetic section 1 |
+| Design | Cross-sectional observational | synthetic section 2 |
 | Unit | Synthetic employee records | synthetic section 2 |
-| Temuan | Positive association reported in synthetic data | synthetic table 1 |
-| Keterbatasan | No temporal ordering; no causal identification | synthetic limitation |
+| Finding | Positive association reported in synthetic data | synthetic table 1 |
+| Limitation | No temporal ordering; no causal identification | synthetic limitation |
 
 ## Claim relations
 
-| CLM ID | Relation | Directness | Locator | Batas penggunaan |
+| CLM ID | Relation | Directness | Locator | Limit of use |
 |---|---|---|---|---|
-| CLM-SYN-001 | LIMITS | DIRECT | synthetic design + limitation | Mendukung association, bukan causal effect |
+| CLM-SYN-001 | LIMITS | DIRECT | synthetic design + limitation | supports association, not causal effect |
 
 ## Provenance notes
 
-Source ini hanya untuk demonstrasi workflow. Ia tidak boleh dipindahkan ke `literature/references.bib`.
+This source exists only to demonstrate the Better Research workflow. It must not be added to `literature/references.bib`.

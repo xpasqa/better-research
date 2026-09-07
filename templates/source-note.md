@@ -1,60 +1,60 @@
-# Catatan sumber
+# Source Note
 
-Lihat [model provenance](../docs/provenance.md).
+See the [provenance model](../docs/provenance.md).
 
 ## Identity and provenance
 
-- SRC ID: BELUM DIISI
-- STUDY ID: BELUM DIISI / TIDAK BERLAKU
-- Citation key: BELUM DIISI
-- Jenis report/source: BELUM DIISI
-- Metadata penulis/tahun/judul/penerbit atau jurnal: BELUM DIVERIFIKASI
-- DOI/identifier/URL kanonik: BELUM DIVERIFIKASI
-- Sumber verifikasi metadata: BELUM DIISI
-- Versi yang dibaca: BELUM DIISI
-- Related report (preprint/published/correction/retraction): BELUM DIISI
-- Tanggal akses/status correction-retraction: BELUM DIISI
+- SRC ID: NOT YET FILLED
+- STUDY ID: NOT YET FILLED / NOT APPLICABLE
+- Citation key: NOT YET FILLED
+- Report/source type: NOT YET FILLED
+- Author/year/title/publisher or journal metadata: NOT YET VERIFIED
+- Canonical DOI/identifier/URL: NOT YET VERIFIED
+- Metadata verification source: NOT YET FILLED
+- Version read: NOT YET FILLED
+- Related report (preprint/published/correction/retraction): NOT YET FILLED
+- Access date / correction-retraction status: NOT YET FILLED
 - Access: METADATA_ONLY / ABSTRACT_ONLY / PARTIAL / FULL_TEXT / UNAVAILABLE
 
-Jika report ini dan report lain berasal dari study yang sama, gunakan STUDY ID yang sama. Jangan menghitung ulang sebagai studi independen.
+If this report and another report come from the same underlying study, use the same STUDY ID. Do not count them again as independent studies.
 
 ## Extraction
 
-| Aspek | Isi | Locator/bukti sumber |
+| Aspect | Content | Source locator/evidence |
 |---|---|---|
-| Pertanyaan/argumen | | |
-| Teori/definisi konsep | | |
-| Desain dan konteks | | |
-| Sampel/corpus/unit analisis | | |
-| Pengukuran/prosedur/analisis | | |
-| Temuan dan ketidakpastian | | |
-| Keterbatasan yang dilaporkan | | |
-| Hubungan dengan report lain dari study sama | | |
+| Question/argument | | |
+| Theory/concept definition | | |
+| Design and context | | |
+| Sample/corpus/unit of analysis | | |
+| Measurement/procedure/analysis | | |
+| Findings and uncertainty | | |
+| Reported limitations | | |
+| Relationship to other reports from the same study | | |
 
 ## Critical appraisal
 
-Alat/kerangka dan versi, alasan kesesuaian, penilai/tanggal: BELUM DIISI.
+Tool/framework and version, rationale for fit, assessor/date: NOT YET FILLED.
 
-| Domain | Penilaian | Bukti/locator | Informasi tidak tersedia | Dampak pada penggunaan |
+| Domain | Assessment | Evidence/locator | Information unavailable | Impact on use |
 |---|---|---|---|---|
 
 ## Claim relations
 
-| CLM ID | Relation | Directness | Locator | Batas penggunaan |
+| CLM ID | Relation | Directness | Locator | Limits of use |
 |---|---|---|---|---|
 
 Relation: SUPPORTS / CONTRADICTS / LIMITS / CONTEXTUALIZES.
 
 Directness: DIRECT / INDIRECT / SECONDARY.
 
-## Quotes, paraphrase, and interpretation
+## Quotations, paraphrase, and interpretation
 
-Pisahkan kutipan verbatim beserta locator dari parafrasa dan interpretasi peneliti. Tandai terjemahan. Jangan menulis locator yang tidak diperiksa.
+Keep verbatim quotations with their locators separate from paraphrases and researcher interpretations. Mark translations explicitly. Do not invent locators that were not checked.
 
 ## Provenance notes
 
-- Perubahan versi/source:
-- Bukti tandingan:
-- Batas transfer/generalization:
-- Unknown:
-- DEC/REV terkait:
+- Source/version changes:
+- Counterevidence:
+- Transfer/generalization limits:
+- Unknowns:
+- Related DEC/REV:

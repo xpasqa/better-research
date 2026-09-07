@@ -1,20 +1,20 @@
-# Rencana etika dan tata kelola data
+# Ethics and Data-Governance Plan
 
-Status: DRAF KOSONG; tidak memberikan izin pelaksanaan.
+Status: EMPTY DRAFT; this document does not authorize research activity.
 
-| Aspek | Keputusan aktual | Bukti/dokumen aman | Penanggung jawab | Belum selesai |
+| Aspect | Actual decision/status | Safe evidence/document | Responsible party | Outstanding work |
 |---|---|---|---|---|
-| Kegiatan, peserta/corpus, risiko | | | | |
-| Lembaga etik dan penetapan status | | | | |
-| Izin akses/penggunaan sekunder | | | | |
-| Consent/assent dan hak peserta bila berlaku | | | | |
-| Izin instrumen/adaptasi/pilot bila berlaku | | | | |
-| Data minimum yang diperlukan | | | | |
-| Lokasi penyimpanan dan akses berbasis peran | | | | |
-| Pemisahan identitas dan linkage key | | | | |
-| Retensi/pemusnahan dan pihak yang bertanggung jawab | | | | |
-| Kutipan, publikasi data, risiko identifikasi | | | | |
-| Penggunaan AI/layanan eksternal | | | | |
-| Penanganan insiden/penarikan partisipasi | | | | |
+| Activity, participants/corpus, and risks | | | | |
+| Ethics authority and status determination | | | | |
+| Access permission / secondary-use permission | | | | |
+| Consent/assent and participant rights when applicable | | | | |
+| Instrument/adaptation/pilot permission when applicable | | | | |
+| Minimum data required | | | | |
+| Storage location and role-based access | | | | |
+| Identity separation and linkage key | | | | |
+| Retention/destruction and responsible party | | | | |
+| Quotations, data publication, and re-identification risk | | | | |
+| AI/external-service use | | | | |
+| Incident handling / withdrawal procedures | | | | |
 
-Jika aspek tidak berlaku, tulis alasan. Keputusan institusi dicatat hanya bila tersedia; agent tidak menentukan exemption atas nama institusi. Data rahasia tidak dilampirkan ke formulir dalam Git.
+If an aspect does not apply, record the reason. Institutional decisions are recorded only when they actually exist; an agent cannot determine an exemption on behalf of an institution. Do not attach confidential data to this Git-tracked form.

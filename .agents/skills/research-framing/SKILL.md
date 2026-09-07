@@ -1,26 +1,25 @@
 ---
 name: research-framing
-description: Rumuskan masalah, pertanyaan, cakupan, dan kelayakan penelitian sebelum menetapkan teori atau metode.
+description: Frame the research problem, questions, scope, and feasibility before committing to theory or method.
 ---
 
-# Perumusan masalah penelitian
+# Research Problem Framing
 
-Baca [project brief](../../../research/project-brief.md), [integritas](../../../docs/academic-integrity.md), dan gate G0–G1 di [quality gates](../../../docs/quality-gates.md). Gunakan [problem memo](../../../templates/problem-memo.md).
+Read the [project brief](../../../research/project-brief.md), [academic integrity rules](../../../docs/academic-integrity.md), and G0–G1 in the [quality gates](../../../docs/quality-gates.md). Use the [problem memo](../../../templates/problem-memo.md).
 
-## Prosedur
+## Procedure
 
-1. Pisahkan fakta yang diberikan, dugaan, persoalan normatif, dan masalah yang dapat diteliti. Jangan mengubah kepentingan praktis menjadi klaim gap ilmiah tanpa literatur.
-2. Nyatakan objek/konsep, unit analisis, konteks, dan apa yang belum dijelaskan. Jika pengguna belum memilih topik, buat kriteria seleksi dan opsi sebagai kandidat, bukan keputusan final.
-3. Rumuskan pertanyaan yang dapat dijawab dengan jenis bukti yang mungkin diperoleh. Jangan menyelipkan jawaban yang diinginkan ke dalam pertanyaan.
-4. Bandingkan kandidat pertanyaan berdasarkan nilai pengetahuan, akses bukti, waktu, kapasitas, sensitivitas, dan batas cakupan. Minta hanya informasi yang benar-benar menentukan keputusan.
-5. Pisahkan kontribusi yang diharapkan dari kontribusi yang sudah terbukti. Jangan menetapkan metode atau mediator karena diwarisi dari proyek lain.
-6. Perbarui brief dan decision log hanya jika keputusan telah memiliki dasar. Sisakan ketidakpastian secara eksplisit.
+1. Separate given facts, assumptions, normative concerns, and researchable problems. Do not convert practical importance into a scientific gap claim without literature support.
+2. State the object/concepts, unit of analysis, context, and what remains unexplained. If the user has not selected a topic, develop selection criteria and candidate options rather than making a final decision.
+3. Formulate questions that can be answered with evidence that could realistically be obtained. Do not embed the desired answer inside the question.
+4. Compare candidate questions by knowledge value, evidence access, time, capacity, sensitivity, and scope constraints. Ask only for information that materially changes the decision.
+5. Separate an expected contribution from a contribution already demonstrated. Do not select a method or mediator simply because it appeared in another project.
+6. Update the project brief and decision log only when a decision has a defensible basis. Leave uncertainty explicit when it remains unresolved.
 
-## Keluaran dan pemeriksaan
+## Outputs and checks
 
-Problem memo harus memuat pertanyaan, dasar bukti awal, alternatif, alasan batas studi, serta keputusan berikutnya. Jika literatur belum ditelusuri, beri status gap sebagai kandidat. Jangan menyatakan G1 SIAP hanya karena rumusan terdengar akademik.
+The problem memo should include the questions, initial evidence basis, alternatives, rationale for study boundaries, and the next decisions required. If the literature has not yet been searched, describe the gap as a candidate rather than an established fact. Do not mark G1 READY merely because the wording sounds academic.
 
+## Execution discipline
 
-## Disiplin eksekusi
-
-Terapkan prinsip lintas-skill di `research-rigor`: jangan menyelesaikan ketidakpastian secara diam-diam, gunakan kompleksitas minimum yang cukup, batasi perubahan pada scope tugas, dan verifikasi hasil terhadap kriteria penerimaan yang eksplisit. Untuk klaim atau keputusan berdampak tinggi, cari bukti tandingan dan penjelasan alternatif sebelum memperkuat kesimpulan.
+Apply the cross-skill principles in `research-rigor`: do not silently resolve uncertainty, use the minimum sufficient complexity, keep changes within task scope, and verify outcomes against explicit acceptance criteria. For high-impact claims or decisions, inspect counterevidence and alternative explanations before strengthening the conclusion.

@@ -1,36 +1,36 @@
-# Checkpoint issue
+# Issue Checkpoint
 
-Salin isi berikut menjadi komentar issue dan perbarui snapshot body. Ini formulir, bukan bukti checkpoint sudah dikirim.
+Copy the structure below into an Issue comment and update the Issue-body snapshot. This is a form; it is not evidence that a checkpoint was actually posted.
 
-## Identitas dan keadaan
+## Identity and state
 
-- Waktu:
-- Issue dan owner/repo:
-- Status kerja:
+- Time:
+- Issue and owner/repo:
+- Work status:
 - Branch / HEAD / PR:
-- Checkpoint sebelumnya:
+- Previous checkpoint:
 
-## Selesai sejak checkpoint sebelumnya
+## Completed since the previous checkpoint
 
-- Keluaran dan tautan berkas/commit:
-- Pemeriksaan yang benar-benar dilakukan:
+- Outputs and file/commit links:
+- Checks actually performed:
 
-## Keputusan dan alasan
+## Decisions and rationale
 
-- Keputusan serta bukti:
-- Opsi yang ditolak/diubah dan dampaknya:
+- Decisions and supporting evidence:
+- Rejected/changed options and impact:
 
-## Belum selesai
+## Incomplete work
 
-- Checklist tersisa:
-- Review belum dijawab:
+- Remaining checklist/success criteria:
+- Unresolved review findings:
 - Blocker/dependency:
-- Perubahan lokal belum commit/push dan lokasi aman:
+- Uncommitted/unpushed local changes and safe location:
 
-## Lanjutkan dari sini
+## Continue from here
 
-- Langkah berikutnya yang konkret:
-- Berkas/sumber/skill yang perlu dibaca:
-- Batas otorisasi atau persetujuan yang masih diperlukan:
+- Concrete next step:
+- Files/sources/skills to read:
+- Authorization or approval boundaries still relevant:
 
-Jangan memasukkan rahasia, identitas peserta, atau isi seluruh percakapan. Jangan mengklaim commit, push, review, atau merge sebelum memeriksa hasilnya.
+Do not include secrets, participant identities, or the full conversation transcript. Do not claim that a commit, push, review, or merge occurred until the result has been verified.

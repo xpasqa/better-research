@@ -1,84 +1,90 @@
-# Kriteria mutu dan kesiapan
+# Quality and Readiness Gates
 
-Quality gate adalah keputusan berbasis bukti pada **scope tertentu**, bukan jumlah file atau status delivery. Seluruh gate riset mulai dengan status **BELUM DINILAI**.
+A quality gate is an evidence-based decision about a **defined scope**, not a count of completed files or a delivery status. Every research gate starts as **NOT ASSESSED**.
 
-Status:
+Statuses:
 
-- `BELUM DINILAI`
-- `PERLU REVISI`
-- `SIAP`
-- `TIDAK BERLAKU` — wajib disertai alasan desain
+- `NOT ASSESSED`
+- `REVISION REQUIRED`
+- `READY`
+- `NOT APPLICABLE` — requires a design-based reason
 
-Setiap penilaian mencatat: commit/versi, bukti yang diperiksa, bukti yang tidak diperiksa, penilai dan peran, critical failure bila ada, syarat penyelesaian, dan reopen trigger. Gunakan [template gate review](../templates/gate-review.md).
+Every assessment records the commit/version, evidence inspected, evidence not inspected, assessor and role, any critical failure, closure conditions, and reopen triggers. Use the [gate review template](../templates/gate-review.md).
 
-**PR PASS atau repository checks PASS tidak membuat gate otomatis SIAP.**
+**A PR PASS or repository-check PASS does not make an academic gate READY.**
 
-## Matriks gate
+## Gate matrix
 
-| Gate | Bukti minimum untuk SIAP | Critical failure / kondisi PERLU REVISI | Reopen trigger |
+| Gate | Minimum evidence for READY | Critical failure / REVISION REQUIRED | Reopen trigger |
 |---|---|---|---|
-| **G0 Konteks** | Brief membedakan informasi terverifikasi, unknown, batas, mandat, dan keputusan terbuka; syarat institusi yang relevan tersedia | Tujuan, akses, aturan institusi, atau mandat inti masih diasumsikan padahal keputusan bergantung padanya | perubahan institusi/pedoman, akses data, tujuan proyek, batas waktu, atau mandat |
-| **G1 Masalah** | Masalah empiris/konseptual jelas; RQ, unit analisis, konteks, dan signifikansi selaras serta dapat dijawab | hanya topik luas; problem normatif tanpa objek analisis; RQ mengandung jawaban; unit analisis tidak jelas; pertanyaan tidak dapat dijawab dengan bukti yang realistis | perubahan RQ, unit analisis, fenomena, scope, atau evidence mapping yang menggugurkan framing |
-| **G2 Protokol & bukti** | Jenis review beralasan; search/screening trail, source notes, appraisal, dan claim provenance sesuai klaim cakupan | sumber inti tidak dibaca; seleksi tidak terlacak; report dihitung sebagai study berbeda; appraisal tidak sesuai desain; klaim “systematic/comprehensive” tanpa proses yang mendukung | perubahan RQ/protokol, database/akses baru, sumber inti baru, correction/retraction, atau temuan deduplication material |
-| **G3 Teori & kontribusi** | Studi terdekat, mekanisme/argumen, teori yang mempunyai fungsi, evidence tandingan, alternatif, boundary conditions, dan batas kontribusi dipetakan | novelty hanya berdasarkan lokasi/kombinasi variabel/metode; tidak ada closest-study comparison; teori dekoratif; counterevidence diabaikan; klaim “pertama” tanpa dasar memadai | close prior study baru, perubahan definisi konstruk/RQ, correction/retraction penting, atau hasil empiris yang mengubah kontribusi |
-| **G4 Desain** | RQ–data–design–analysis konsisten; target inferensi, asumsi, sampling/corpus, measurement, feasibility, ethics, dan limitation jelas | metode dipilih karena populer; bukti tidak mampu mendukung klaim; causal language tanpa identification; estimator/model tidak terjustifikasi; access/feasibility tidak realistis | perubahan RQ, data source, sample/corpus, instrument, analysis target, assumption, atau feasibility |
-| **G5 Kesiapan pelaksanaan** | status etik/izin dan akses sesuai kegiatan; instrumen/prosedur, pilot bila relevan, governance, kapasitas, dan analysis plan memadai | approval yang diperlukan belum ada; protokol dianggap sama dengan pelaksanaan; consent/access diasumsikan; penyimpanan data tidak aman | perubahan prosedur, populasi, lokasi, data sensitivity, instrument, izin, atau governance |
-| **G6 Hasil & interpretasi** | analisis terlacak; preprocessing/parameter/deviasi tersedia; uncertainty, hasil nol/tandingan, sensitivity, dan batas inferensi dilaporkan | hasil dibuat/dipilih tanpa jejak; exclusion tidak dijelaskan; HARKing disembunyikan; claim melampaui design; contradictory result dihapus | data/analysis baru, koreksi kode, exclusion/sensitivity baru, protocol deviation, atau discovery yang mengubah interpretation |
-| **G7 Naskah & ujian** | alur masalah→RQ→teori→design→hasil→kontribusi konsisten; claim–evidence traceable; citations, tables/figures, references, response to critique, dan export diperiksa | claim utama tanpa bukti; bab saling inkonsisten; TODO substantif tersembunyi; citation tidak mendukung kalimat; hasil/approval yang belum terjadi ditulis sebagai fakta | perubahan substantif G1–G6, reviewer finding utama, citation correction/retraction, atau perubahan format institusi yang material |
+| **G0 Context** | Project brief distinguishes verified information, unknowns, constraints, mandate, and open decisions; relevant institutional requirements are available | Core purpose, access, institutional rules, or mandate remain assumed even though a decision depends on them | institutional/guideline change, data-access change, project-purpose change, deadline/resource change, or mandate change |
+| **G1 Problem** | Empirical/conceptual problem is clear; RQ, unit of analysis, context, and significance are aligned and answerable | broad topic only; normative problem without an object of analysis; RQ contains the answer; unclear unit of analysis; question cannot be answered with realistic evidence | change in RQ, unit of analysis, phenomenon, scope, or evidence mapping that undermines the framing |
+| **G2 Protocol & evidence** | Review type is justified; search/screening trail, source notes, appraisal, and claim provenance match the claimed coverage | core sources not read; selection untraceable; reports counted as separate studies; appraisal inappropriate to design; “systematic/comprehensive” claim without supporting process | change in RQ/protocol, new database/access, new core source, correction/retraction, or material deduplication finding |
+| **G3 Theory & contribution** | Closest studies, mechanisms/arguments, functional use of theory, counterevidence, alternatives, boundary conditions, and contribution limits are mapped | novelty based only on location/variable combination/method; no closest-study comparison; decorative theory; ignored counterevidence; unsupported “first” claim | new close prior study, construct/RQ change, important correction/retraction, or empirical result that changes the contribution |
+| **G4 Design** | RQ–data–design–analysis are coherent; inferential target, assumptions, sampling/corpus, measurement, feasibility, ethics, and limitations are explicit | method chosen because it is popular; evidence cannot support the claim; causal language without identification; unjustified estimator/model; unrealistic access/feasibility | change in RQ, data source, sample/corpus, instrument, analysis target, assumption, or feasibility |
+| **G5 Execution readiness** | Ethics/permission status and access match the planned activity; procedures/instruments, pilot when relevant, governance, capacity, and analysis plan are adequate | required approval absent; protocol treated as equivalent to execution; consent/access assumed; unsafe data storage | change in procedure, population, location, data sensitivity, instrument, permission, or governance |
+| **G6 Results & interpretation** | Analysis is traceable; preprocessing/parameters/deviations are recorded; uncertainty, null/contradictory results, sensitivity, and inferential limits are reported | fabricated/selectively reported results; unexplained exclusion; hidden HARKing; claim exceeds design; contradictory result removed | new data/analysis, code correction, new exclusion/sensitivity check, protocol deviation, or discovery that changes interpretation |
+| **G7 Manuscript & examination** | problem→RQ→theory→design→results→contribution are coherent; claim–evidence paths are traceable; citations, tables/figures, references, responses to critique, and exports are checked | major claim without evidence; cross-chapter inconsistency; hidden substantive TODO; citation does not support sentence; unperformed result/approval written as fact | substantive change to G1–G6, major reviewer finding, citation correction/retraction, or material institutional-format change |
 
-## Kriteria kondisional
+## Conditional criteria
 
-### Kuantitatif
-Periksa bila relevan: target estimand/populasi, sampling, ukuran sampel berbasis precision/power/simulation, measurement validity/reliability, missingness, clustering, weights, confounding, model assumptions, multiplicity, robustness/sensitivity, dan uncertainty.
+### Quantitative
+
+When relevant, inspect: target estimand/population, sampling, sample size based on precision/power/simulation, measurement validity/reliability, missingness, clustering, weights, confounding, model assumptions, multiplicity, robustness/sensitivity, and uncertainty.
 
 ### SEM / latent-variable models
-Bedakan measurement dan structural model, reflective/formative bila relevan, identification, estimator, sample adequacy, model fit, alternative models, dan batas causal interpretation.
 
-### Kualitatif
-Periksa kecocokan tradisi, case selection, positionality/reflexivity, provenance corpus, proses interpretasi, negative/deviant cases, context, dan adequacy sesuai pendekatan. Jangan memaksakan saturation, member checking, atau intercoder agreement pada semua tradisi.
+Distinguish measurement and structural models, reflective/formative specification when relevant, identification, estimator, sample adequacy, model fit, alternative models, and the limits of causal interpretation.
+
+### Qualitative
+
+Inspect fit with the research tradition, case selection, positionality/reflexivity, corpus provenance, interpretive process, negative/deviant cases, context, and adequacy according to the approach. Do not impose saturation, member checking, or intercoder agreement on every qualitative tradition.
 
 ### Mixed methods
-Periksa alasan integrasi, sequence/priority, sample relationship, integration points, joint display bila relevan, dan bagaimana hasil yang tidak sejalan memengaruhi meta-inference.
 
-### Konseptual / arsip
-Periksa corpus selection, provenance, authenticity/context, aturan pembacaan, alternative interpretation, dan batas akses.
+Inspect the reason for integration, sequence/priority, sample relationship, integration points, joint display when relevant, and how discrepant results affect the meta-inference.
 
-### Review tanpa peserta
-Tentukan apakah ethics/permission tertentu masih relevan. Jangan mengarang approval atau menganggap semua review memerlukan prosedur peserta.
+### Conceptual / archival
+
+Inspect corpus selection, provenance, authenticity/context, rules of interpretation, alternative readings, and access limitations.
+
+### Review without participants
+
+Determine whether any ethics or data-permission requirement still applies. Do not fabricate approval or assume every review study requires participant procedures.
 
 ## Decision rule
 
-Gunakan status paling konservatif yang sesuai evidence dalam scope:
+Use the most conservative status supported by the evidence within the assessed scope:
 
-- **SIAP**: semua evidence minimum yang berlaku telah diperiksa, tidak ada critical failure terbuka, dan limitation dicatat.
-- **PERLU REVISI**: ada critical failure atau deficiency yang dapat mengubah validity/defensibility.
-- **BELUM DINILAI**: scope/evidence belum cukup untuk penilaian.
-- **TIDAK BERLAKU**: gate/kriteria tidak relevan karena desain, dengan alasan eksplisit.
+- **READY:** all applicable minimum evidence was inspected, no critical failure remains open, and limitations are recorded.
+- **REVISION REQUIRED:** a critical failure or deficiency could materially affect validity or defensibility.
+- **NOT ASSESSED:** scope/evidence are insufficient for an assessment.
+- **NOT APPLICABLE:** the gate or criterion does not apply because of the design, with an explicit reason.
 
-Jangan menggunakan skor agregat untuk menutupi critical failure.
+Do not use an aggregate score to hide a critical failure.
 
-## Scope dan reviewer identity
+## Scope and reviewer identity
 
-Setiap gate review menyebutkan apa yang **tidak diperiksa**. Penilaian agent adalah assessment atas artefak yang dibaca, bukan persetujuan promotor, komite etik, reviewer jurnal, atau institusi.
+Every gate review records what was **not inspected**. An agent assessment is a judgment about the artifacts actually read, not approval from a supervisor, ethics committee, journal reviewer, or institution.
 
-Jika reviewer manusia memberi keputusan, catat identitas/peran sesuai kebutuhan proyek tetapi jangan menyimpulkan independensi atau otorisasi yang tidak dinyatakan.
+If a human reviewer makes a decision, record the identity/role as appropriate to the project but do not infer independence or authority that was not explicitly stated.
 
 ## Reopening
 
-Gate yang pernah SIAP harus dibuka kembali bila trigger material terjadi. Reopen tidak berarti pekerjaan sebelumnya salah; ia menunjukkan basis keputusan telah berubah.
+A gate that was previously READY must be reopened when a material trigger changes the basis of the decision. Reopening does not imply the earlier work was wrong; it means the evidence basis has changed.
 
-Contoh:
+Example:
 
 ```text
-G3 = SIAP
+G3 = READY
     ↓
-close prior study baru ditemukan
+new close prior study discovered
     ↓
-G3 = PERLU REASSESSMENT
+G3 = REASSESSMENT REQUIRED
     ↓
 review evidence + contribution
     ↓
-SIAP / PERLU REVISI
+READY / REVISION REQUIRED
 ```
 
-Riwayat gate tidak dihapus. Simpan assessment baru sebagai review baru dan tautkan assessment sebelumnya.
+Do not erase gate history. Save the new assessment as a new review and link the earlier assessment.

@@ -1,9 +1,9 @@
-# Analisis dan reproduksibilitas
+# Analysis and reproducibility
 
-Belum ada analisis. Mulai dari [analysis plan](../templates/analysis-plan.md).
+No analysis has been conducted yet. Start with the [analysis plan](../templates/analysis-plan.md).
 
-Saat analisis dijalankan, simpan kode/syntax, versi perangkat lunak, parameter, seed bila relevan, ketergantungan, versi data aman, urutan eksekusi, serta hubungan tabel/figur ke output. Untuk analisis interpretif, simpan jejak coding/memo dan keputusan sesuai tradisi tanpa membocorkan peserta.
+When analysis begins, preserve code or syntax, software versions, parameters, random seeds when relevant, dependencies, safe data-version identifiers, execution order, and the links between tables/figures and their outputs. For interpretive analysis, preserve coding trails, memos, and methodological decisions appropriate to the research tradition without exposing participant identities.
 
-Jangan menyebut analisis dapat direproduksi sebelum prosedur benar-benar dijalankan ulang atau diaudit sesuai pendekatan. Ketersediaan publik mengikuti etika, hak data, dan institusi; reproduksibilitas tidak selalu berarti membuka data peserta.
+Do not claim that an analysis is reproducible until the procedure has actually been rerun or audited in a way appropriate to the method. Public availability must follow ethics requirements, data rights, and institutional rules; reproducibility does not always require publishing participant-level data.
 
-Catat hasil nol, diagnostik, sensitivitas yang relevan, kegagalan, dan deviasi dari rencana.
+Record null results, diagnostics, relevant sensitivity analyses, failures, and deviations from the plan.
