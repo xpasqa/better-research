@@ -1,8 +1,8 @@
-# Publion Disertasi Builder
+# Better Research
 
 **Boilerplate untuk merancang, menjalankan, menulis, dan meninjau riset tingkat doktoral dengan bantuan AI.**
 
-Builder ini menyediakan aturan akademik, tujuh skill, 14 formulir kerja, dan pemeriksaan kesiapan riset. Peneliti menggunakannya untuk menjaga hubungan antara masalah, literatur, teori, metode, bukti, dan kontribusi disertasi.
+Builder ini menyediakan aturan akademik, delapan skill, 14 formulir kerja, dan pemeriksaan kesiapan riset. Peneliti menggunakannya untuk menjaga hubungan antara masalah, literatur, teori, metode, bukti, dan kontribusi disertasi.
 
 **Untuk proyek disertasi: Issue → Branch → Draft PR → Review → Merge → Penutupan issue.** Issue menyimpan konteks lintas sesi AI; semua keluaran berkas masuk ke main melalui PR yang diperiksa.
 
@@ -25,11 +25,11 @@ Informasi yang belum diketahui tetap ditandai `BELUM DIISI` atau `BELUM DIVERIFI
 
 ### Untuk penelitian baru
 
-Gunakan satu repositori terpisah untuk setiap disertasi. Salin **isi versi aktif builder** ke repositori penelitian baru, kemudian isi identitas proyek. Repositori induk Publion Disertasi Builder digunakan untuk mengembangkan aturan dan template yang dapat dipakai ulang.
+Gunakan satu repositori terpisah untuk setiap disertasi. Salin **isi versi aktif builder** ke repositori penelitian baru, kemudian isi identitas proyek. Repositori induk Better Research digunakan untuk mengembangkan aturan dan template yang dapat dipakai ulang.
 
 Contoh instruksi kepada agent:
 
-> Buat repositori private baru bernama [nama-proyek] di akun saya, menggunakan isi versi aktif Publion Disertasi Builder. Sertakan folder tersembunyi .agents dan .github. Mulai riwayat Git baru dan tetapkan mode RESEARCH pada project brief sebagai bagian provisioning. Atur origin ke repositori baru dan jangan mengubah repositori builder. Setelah repositori tersedia, buat issue inisialisasi brief sebelum kustomisasi; semua perubahan selanjutnya melalui branch dan PR. Biarkan topik dan metode kosong sampai saya memberikan informasi.
+> Buat repositori private baru bernama [nama-proyek] di akun saya, menggunakan isi versi aktif Better Research. Sertakan folder tersembunyi .agents dan .github. Mulai riwayat Git baru dan tetapkan mode RESEARCH pada project brief sebagai bagian provisioning. Atur origin ke repositori baru dan jangan mengubah repositori builder. Setelah repositori tersedia, buat issue inisialisasi brief sebelum kustomisasi; semua perubahan selanjutnya melalui branch dan PR. Biarkan topik dan metode kosong sampai saya memberikan informasi.
 
 Ganti `[nama-proyek]` dengan nama yang diinginkan. Instruksi ini baru dijalankan saat diberikan kepada agent; README tidak membuat repositori otomatis.
 
@@ -50,7 +50,7 @@ Di lingkungan agent lain, arahkan agent untuk membaca [AGENTS.md](AGENTS.md) dan
 
 Berikan instruksi berikut di workspace penelitian:
 
-> Baca AGENTS.md, research/project-brief.md, dan research/status.md. Verifikasi repositori tujuan. Gunakan dissertation-workflow untuk mencari atau membuat issue inisialisasi brief, lalu dissertation-framing untuk membantu saya mengisinya. Mulai dari masalah dan informasi yang saya miliki. Jangan menebak pedoman kampus, memilih metode, atau mengklaim novelty sebelum ada dasar. Catat keputusan dan checkpoint di issue, lalu siapkan hasil berkas melalui PR.
+> Baca AGENTS.md, research/project-brief.md, dan research/status.md. Verifikasi repositori tujuan. Gunakan research-workflow untuk mencari atau membuat issue inisialisasi brief, lalu research-framing untuk membantu saya mengisinya. Mulai dari masalah dan informasi yang saya miliki. Jangan menebak pedoman kampus, memilih metode, atau mengklaim novelty sebelum ada dasar. Catat keputusan dan checkpoint di issue, lalu siapkan hasil berkas melalui PR.
 
 Isi [project brief](research/project-brief.md) bersama agent. Tetapkan tahap aktif di [status penelitian](research/status.md). Untuk mulai menulis bagian tertentu, jelaskan keluaran yang diminta dan bahan yang tersedia.
 
@@ -73,15 +73,16 @@ Tahap boleh diulang ketika bukti mengubah keputusan. Draf dapat ditulis sepanjan
 
 | Skill | Kapan digunakan | Contoh instruksi |
 |---|---|---|
-| `dissertation-workflow` | Memulai/melanjutkan pekerjaan dan mengintegrasikan hasil | “Lanjutkan issue aktif dari checkpoint terakhir; simpan progres dan siapkan PR dengan bukti pemeriksaan.” |
-| `dissertation-framing` | Masalah dan pertanyaan belum tajam | “Perjelas masalah dari brief; bandingkan alternatif dan kelayakannya.” |
-| `dissertation-evidence` | Menyiapkan atau menjalankan review literatur | “Susun protokol review dahulu. Catat batas akses; jangan mulai pencarian sebelum protokol dibahas.” |
-| `dissertation-theory` | Mensintesis teori dan menilai kontribusi | “Uji kandidat novelty terhadap studi terdekat dan bukti yang dapat membantahnya.” |
-| `dissertation-design` | Memilih desain atau menyiapkan analisis | “Bandingkan desain berdasarkan pertanyaan, akses data, asumsi, dan batas inferensi.” |
-| `dissertation-writing` | Menyusun atau memperbaiki naskah | “Revisi bagian ini memakai sumber terverifikasi; tandai klaim yang belum didukung.” |
-| `dissertation-audit` | Memeriksa kesiapan atau berlatih ujian | “Audit G1–G4 dari berkas yang tersedia; tunjukkan bukti, kekurangan, dan prioritas revisi.” |
+| `research-workflow` | Memulai/melanjutkan pekerjaan dan mengintegrasikan hasil | “Lanjutkan issue aktif dari checkpoint terakhir; simpan progres dan siapkan PR dengan bukti pemeriksaan.” |
+| `research-rigor` | Guardrail lintas tahap untuk asumsi, parsimoni, scope, falsifikasi, dan verification | “Nyatakan known/unknown, success criteria, dan bukti yang diperlukan; buat perubahan minimum lalu verifikasi.” |
+| `research-framing` | Masalah dan pertanyaan belum tajam | “Perjelas masalah dari brief; bandingkan alternatif dan kelayakannya.” |
+| `research-evidence` | Menyiapkan atau menjalankan review literatur | “Susun protokol review dahulu. Catat batas akses; jangan mulai pencarian sebelum protokol dibahas.” |
+| `research-theory` | Mensintesis teori dan menilai kontribusi | “Uji kandidat novelty terhadap studi terdekat dan bukti yang dapat membantahnya.” |
+| `research-design` | Memilih desain atau menyiapkan analisis | “Bandingkan desain berdasarkan pertanyaan, akses data, asumsi, dan batas inferensi.” |
+| `research-writing` | Menyusun atau memperbaiki naskah | “Revisi bagian ini memakai sumber terverifikasi; tandai klaim yang belum didukung.” |
+| `research-audit` | Memeriksa kesiapan atau berlatih ujian | “Audit G1–G4 dari berkas yang tersedia; tunjukkan bukti, kekurangan, dan prioritas revisi.” |
 
-Skill disimpan di `.agents/skills/`; tautan lengkap ada di [indeks skill](docs/skills.md). Dalam Codex yang mendukungnya, gunakan nama skill atau panggilan seperti `$dissertation-evidence`. Jika belum muncul, buka ulang sesi atau minta agent membaca jalur SKILL.md terkait.
+Skill disimpan di `.agents/skills/`; tautan lengkap ada di [indeks skill](docs/skills.md). Dalam Codex yang mendukungnya, gunakan nama skill atau panggilan seperti `$research-evidence`. Jika belum muncul, buka ulang sesi atau minta agent membaca jalur SKILL.md terkait.
 
 Skill tidak memasang konektor, menyediakan langganan basis data, atau menjalankan pekerjaan tanpa permintaan. Jika akses sumber terbatas, keluaran harus menyebutkan batas tersebut.
 
@@ -98,6 +99,10 @@ Skill tidak memasang konektor, menyediakan langganan basis data, atau menjalanka
 9. **Nyatakan status secara jujur.** Dokumen protokol yang siap tidak membuktikan pilot, pengumpulan data, analisis, atau persetujuan etik telah selesai.
 
 Baca [aturan agent](AGENTS.md), [integritas akademik](docs/academic-integrity.md), dan [register standar](docs/standards.md) untuk rincian. Builder tidak menggantikan arahan promotor atau persetujuan institusi.
+
+## 6.1 Disiplin eksekusi agent
+
+Seluruh skill mengikuti `research-rigor`: agent harus membedakan fakta, dukungan, inferensi, asumsi, dan unknown; memilih kompleksitas minimum yang cukup; membatasi perubahan pada scope; serta bekerja terhadap success criteria yang dapat diverifikasi. Untuk klaim penting, bukti tandingan dan penjelasan alternatif diperiksa sebelum klaim diperkuat. PR yang lolos verification lokal tidak otomatis membuat quality gate akademik berstatus SIAP.
 
 ## 7. Menyimpan pekerjaan dan memeriksa kesiapan
 
