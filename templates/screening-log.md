@@ -1,13 +1,13 @@
-# Log seleksi
+# Screening Log
 
-Protokol/versi: BELUM DIISI.
-Proses reviewer dan penyelesaian perbedaan yang benar-benar digunakan: BELUM DIISI.
+Protocol/version: NOT YET FILLED.
+Actual reviewer process and disagreement-resolution method: NOT YET FILLED.
 
-| Record ID | Report/SRC ID | Study ID | Duplikat dari | Tahap | Reviewer/tanggal | Keputusan | Alasan eksklusi/ketidakpastian | Lokasi sumber |
+| Record ID | Report/SRC ID | Study ID | Duplicate of | Stage | Reviewer/date | Decision | Exclusion reason/uncertainty | Source location |
 |---|---|---|---|---|---|---|---|---|
 
-Keputusan: INCLUDE, EXCLUDE, UNCERTAIN, atau NOT RETRIEVED. Akses full text yang gagal dicatat sebagai tidak diperoleh, bukan penilaian buruk terhadap isi.
+Decision: INCLUDE / EXCLUDE / UNCERTAIN / NOT RETRIEVED. Failure to obtain full text is recorded as NOT RETRIEVED, not as a negative appraisal of the source content.
 
-## Rekonsiliasi jumlah
+## Count reconciliation
 
-Jumlah ditemukan, diekspor, duplikat, screened, excluded, sought, not retrieved, assessed, excluded with reasons, included reports, dan included studies diisi berdasarkan log aktual. Sesuaikan diagram dengan jenis review; jangan menghitung report dari studi sama sebagai studi independen.
+Populate counts for identified, exported, duplicated, screened, excluded, sought, not retrieved, assessed, excluded-with-reasons, included reports, and included studies from the actual logs. Match any flow diagram to the review type. Do not count multiple reports from the same study as independent studies.
