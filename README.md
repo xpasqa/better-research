@@ -1,6 +1,6 @@
 # Better Research
 
-Builder version: **0.1.1** · [Changelog](CHANGELOG.md) · [Migration policy](docs/migrations/README.md) · [MIT License](LICENSE)
+Builder version: **0.2.0** · [Changelog](CHANGELOG.md) · [Migration policy](docs/migrations/README.md) · [MIT License](LICENSE)
 
 > **Do not ask AI to remember your entire research project. Build a system that makes research context recoverable.**
 
@@ -83,6 +83,38 @@ Translation must preserve:
 - the distinction between source content and researcher interpretation.
 
 Repository language and research-output language are separate decisions.
+
+---
+
+# Creswell-first methodology layer
+
+Better Research uses **Creswell & Creswell (2023)** as the default research-design framework for methodological reasoning.
+
+The AI should not jump from a topic directly to a technique. Methodological reasoning starts from the research problem and questions, then makes the relationship among worldview, research approach, research design, and specific methods explicit.
+
+```text
+Research problem
+        ↓
+Purpose / research questions
+        ↓
+Philosophical worldview
+        ↓
+Qualitative / Quantitative / Mixed Methods
+        ↓
+Research design
+        ↓
+Sampling + data collection + analysis
+        ↓
+Validity / validation / integration
+        ↓
+Method chapter
+```
+
+The operational decision layer lives in [`method/`](method/README.md). Before recommending a design, read the [Creswell research-design flow](method/01-creswell-research-design-flow.md), run the [method-selection protocol](method/05-method-selection-protocol.md), and then read the relevant qualitative, quantitative, or mixed-methods file.
+
+This is **Creswell-first, not Creswell-only**. Creswell provides the study architecture; specialist methodological literature is still required for technical decisions such as SEM, psychometrics, multilevel models, advanced causal inference, or design-specific qualitative analysis.
+
+AI recommendations remain proposals. Final methodological judgment belongs to the researcher.
 
 ---
 
@@ -475,7 +507,7 @@ Do not search only for confirmation.
 
 # Academic workflow
 
-Better Research does not impose one method, paradigm, or dissertation structure.
+Better Research uses a Creswell-first framework for selecting research methodology, but it does not preselect qualitative, quantitative, mixed methods, or a specific design before the research problem and questions justify that choice.
 
 | Stage | Main decision question | Typical artifact |
 |---|---|---|
@@ -659,6 +691,7 @@ Workflow: [`.github/workflows/repository-integrity.yml`](.github/workflows/repos
 ├── scripts/
 ├── examples/
 ├── research/
+├── method/
 ├── literature/
 ├── analysis/
 ├── manuscript/
@@ -674,6 +707,7 @@ Workflow: [`.github/workflows/repository-integrity.yml`](.github/workflows/repos
 | [`AGENTS.md`](AGENTS.md) | Canonical agent rules |
 | [`.agents/skills/`](.agents/skills/) | Eight research skills |
 | [`research/`](research/project-brief.md) | Project brief, status, decisions, deviations, and AI-use log |
+| [`method/`](method/README.md) | Creswell-first methodology selection, design logic, AI rules, and method-chapter blueprint |
 | [`literature/`](literature/README.md) | Search trail, screening, source notes, claim ledger, and bibliography |
 | [`analysis/`](analysis/README.md) | Analysis plan and analysis trail |
 | [`manuscript/`](manuscript/README.md) | Canonical manuscript guidance |
@@ -909,6 +943,8 @@ It makes the project recoverable, inspectable, and continuable.**
 
 - [Agent rules](AGENTS.md)
 - [Research workflow](docs/research-workflow.md)
+- [Creswell-first methodology layer](method/README.md)
+- [Method selection protocol](method/05-method-selection-protocol.md)
 - [Git workflow](docs/git-workflow.md)
 - [Issue guidance](docs/issues.md)
 - [Session continuity](docs/session-continuity.md)

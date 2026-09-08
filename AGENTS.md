@@ -34,7 +34,7 @@ The following principles apply across skills and should be used proportionally. 
 - Distinguish source content, researcher inference, hypotheses, synthetic examples, and unknowns.
 - Important empirical claims require a traceable path to evidence and explicit interpretive limits. The existence of a source does not mean it supports the claim.
 - Do not use statistical significance, citation count, manuscript length, or low similarity scores as proxies for research quality.
-- The question determines the method. Do not default to SLR, SEM, PLS-SEM, mixed methods, a paradigm, or a chapter structure without justification.
+- Methodological decisions are **Creswell-first**. Before recommending qualitative, quantitative, mixed methods, or a specific design, read [`method/README.md`](method/README.md), [`method/01-creswell-research-design-flow.md`](method/01-creswell-research-design-flow.md), [`method/05-method-selection-protocol.md`](method/05-method-selection-protocol.md), and the relevant approach file. Start from the research problem and questions; treat requested techniques such as SEM, PLS-SEM, interviews, or mixed methods as proposals rather than approved designs. Use specialist methodological literature when technical decisions exceed Creswell & Creswell's research-design scope. Final methodological judgment belongs to the researcher.
 - A research stage is considered academically ready only through the [quality gates](docs/quality-gates.md); document completion is not research completion.
 - Keep participant data and identity keys outside Git according to the data-governance plan. A private repository is not permission to send sensitive data to AI services.
 - Repository documentation is written in English for portability. **Research outputs may be Indonesian, English, bilingual, or multilingual.** Follow the language requirements recorded in the project brief.
@@ -48,7 +48,7 @@ Read only the SKILL.md relevant to the task through the [skill index](docs/skill
 - Problem framing: `research-framing`.
 - Search, selection, extraction, and appraisal: `research-evidence`.
 - Theory synthesis and contribution testing: `research-theory`.
-- Design, analysis, and execution readiness: `research-design`.
+- Design, analysis, and execution readiness: `research-design`; for methodology selection, also read the Creswell-first [`method/`](method/README.md) decision layer.
 - Manuscript drafting and citation: `research-writing`.
 - Quality audit and examination preparation: `research-audit`.
 

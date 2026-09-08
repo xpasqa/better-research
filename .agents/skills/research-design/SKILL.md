@@ -1,15 +1,15 @@
 ---
 name: research-design
-description: Align research questions with design, evidence, analysis, ethics, and execution readiness without privileging a particular method.
+description: Use Creswell-first reasoning to align research problems and questions with approach, design, evidence, analysis, ethics, and execution readiness.
 ---
 
 # Research Design and Execution
 
-Read the project brief, [academic integrity rules](../../../docs/academic-integrity.md), and G4–G6 in the [quality gates](../../../docs/quality-gates.md). Use the [design matrix](../../../templates/design-matrix.md), [analysis plan](../../../templates/analysis-plan.md), and [ethics and data plan](../../../templates/ethics-data-plan.md).
+Read the project brief, [academic integrity rules](../../../docs/academic-integrity.md), G4–G6 in the [quality gates](../../../docs/quality-gates.md), and the Creswell-first [method layer](../../../method/README.md). Before recommending a methodology, run the [method selection protocol](../../../method/05-method-selection-protocol.md) and read the relevant [qualitative](../../../method/02-qualitative.md), [quantitative](../../../method/03-quantitative.md), or [mixed-methods](../../../method/04-mixed-methods.md) guidance. Use the [design matrix](../../../templates/design-matrix.md), [analysis plan](../../../templates/analysis-plan.md), and [ethics and data plan](../../../templates/ethics-data-plan.md).
 
 ## Foundational decisions
 
-Start from the type of claim: descriptive, interpretive, explanatory, causal, predictive, evaluative, or conceptual. Compare feasible designs and explain the tradeoffs. A paradigm should fit the question and analytic practice; do not add philosophical labels that have no methodological consequences.
+Start from the research problem, purpose, and research questions. Use Creswell & Creswell's relationship among philosophical worldview, research approach, research design, and research methods as the default design architecture. Then consider the type of claim: descriptive, interpretive, explanatory, causal, predictive, evaluative, or conceptual. Compare feasible designs and explain the tradeoffs. A paradigm should fit the question and analytic practice; do not add philosophical labels that have no methodological consequences. Treat the AI's recommendation as `PROPOSED`; only the researcher can approve the methodological decision.
 
 ## Apply only what is relevant
 

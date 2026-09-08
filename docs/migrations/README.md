@@ -17,5 +17,6 @@ Better Research projects pin the builder version they were created from. A resea
 
 - [Unversioned snapshot → 0.1.0](unversioned-to-0.1.0.md)
 - [0.1.0 → 0.1.1](0.1.0-to-0.1.1.md)
+- [0.1.1 → 0.2.0](0.1.1-to-0.2.0.md)
 
 A builder upgrade is a workflow/configuration change. It is not evidence that the underlying research has improved.
