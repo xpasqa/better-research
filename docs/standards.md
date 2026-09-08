@@ -4,6 +4,7 @@ Reviewed for builder preparation on 7 September 2026. This is a register of guid
 
 | Primary source / steward | Scope | Use in this builder |
 |---|---|---|
+| Creswell, J. W., & Creswell, J. D. (2023), *Research Design: Qualitative, Quantitative, and Mixed Methods Approaches* (6th ed., SAGE) | Research-design architecture and selection across qualitative, quantitative, and mixed methods | Default Creswell-first framework for the [`method/`](../method/README.md) decision layer; specialist technical sources are still required where the book is not a detailed method manual |
 | [ALLEA European Code of Conduct, 2023 edition](https://allea.org/code-of-conduct/) | Cross-disciplinary research integrity | Reference for reliability, honesty, respect, and accountability; not a claim that European funding rules automatically bind a project |
 | [PRISMA 2020](https://www.prisma-statement.org/prisma-2020) | Reporting systematic reviews, especially intervention evaluations | Select guidance according to review type; not mandatory for every dissertation or study |
 | [PRISMA-S](https://www.prisma-statement.org/prisma-search) | Reporting search strategies | Basis for transparent search-source and query documentation |
@@ -17,6 +18,8 @@ Reviewed for builder preparation on 7 September 2026. This is a register of guid
 ## Rule classification
 
 **Core integrity rules:** do not fabricate; attribute sources; report limitations; protect data; do not claim activities that did not occur.
+
+**Research-design framework:** Creswell & Creswell (2023) is the builder's default methodological reasoning framework. This is a Better Research design choice, not an external regulation that automatically binds every institution or discipline.
 
 **Conditional standards:** PRISMA, JBI, SRQR, JARS, preregistration, and other frameworks are selected according to purpose, design, discipline, and institutional requirements. They are not all required simultaneously.
 
