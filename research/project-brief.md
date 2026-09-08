@@ -22,6 +22,7 @@ Do not guess answers. Fill fields only from user-provided information or verifia
 | Literature and data access | NOT YET FILLED | |
 | Time, budget, and capacity | NOT YET FILLED | |
 | Paradigm and rationale | NOT YET DECIDED | |
+| Methodological decision framework | Creswell & Creswell (2023), 6th ed. | Better Research default; supplement with specialist methodological sources as needed |
 | Design/method and rationale | NOT YET DECIDED | |
 | Citation style | NOT YET DECIDED | Verify institutional/publisher requirements |
 | Primary research-output language | NOT YET DECIDED | May be Indonesian, English, bilingual, or multilingual |
