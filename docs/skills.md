@@ -9,7 +9,7 @@ Open this repository in an AI development/research environment that can read pro
 | [research-framing](../.agents/skills/research-framing/SKILL.md) | Clarifying the problem, questions, scope, or feasibility | Project brief/problem memo with explicit open decisions |
 | [research-evidence](../.agents/skills/research-evidence/SKILL.md) | Designing or conducting search, screening, extraction, or appraisal | Protocol, logs, source notes, claim ledger |
 | [research-theory](../.agents/skills/research-theory/SKILL.md) | Synthesizing debates and testing contribution candidates | Argument map, alternative explanations, novelty/contribution audit |
-| [research-design](../.agents/skills/research-design/SKILL.md) | Selecting design, measurement, analysis, and execution requirements | Design matrix, analysis plan, ethics/data plan |
+| [research-design](../.agents/skills/research-design/SKILL.md) | Selecting methodology, design, measurement, analysis, and execution requirements using the Creswell-first [`method/`](../method/README.md) decision layer | Methodological recommendation, design matrix, analysis plan, ethics/data plan |
 | [research-writing](../.agents/skills/research-writing/SKILL.md) | Drafting or revising an evidence-based manuscript | Manuscript with citations and explicit claim limits |
 | [research-audit](../.agents/skills/research-audit/SKILL.md) | Assessing quality, readiness, or examination preparation | Location/evidence-based review and follow-up actions |
 
