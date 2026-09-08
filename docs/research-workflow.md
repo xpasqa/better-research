@@ -12,12 +12,12 @@ In a RESEARCH project, every substantive task begins from an active Issue and fo
 | 3. Protocol | How will evidence be gathered transparently? | Review protocol, selection/appraisal plan | evidence |
 | 4. Evidence | What do the sources actually report, and what are their limits? | Search log, screening, source notes, claim ledger | evidence |
 | 5. Synthesis | Which explanations survive counterevidence? | Debate map and contribution audit | theory |
-| 6. Design | What evidence can answer the question defensibly? | Design matrix, analysis plan, ethics/data plan | design |
+| 6. Design | What evidence can answer the question defensibly? | Method decision record, design matrix, analysis plan, ethics/data plan | design |
 | 7. Execution | Are operational conditions satisfied and was the plan actually carried out? | Field/pilot records, deviations, analysis outputs | design |
 | 8. Interpretation | How do the results change understanding? | Result synthesis, integration, contribution limits | theory, writing |
 | 9. Manuscript/examination | Can the argument be traced and defended? | Manuscript, audit, reviewer response, export | writing, audit |
 
-The full skill names are in the [skill index](skills.md). Copy a [template](../templates/README.md) only when needed. Use the [provenance model](provenance.md) so report/source, study, claim, decision, and review finding remain traceable.
+At Stage 6, methodology selection is Creswell-first: read the [`method/`](../method/README.md) decision layer and run the [method-selection protocol](../method/05-method-selection-protocol.md) before locking a design. The full skill names are in the [skill index](skills.md). Copy a [template](../templates/README.md) only when needed. Use the [provenance model](provenance.md) so report/source, study, claim, decision, and review finding remain traceable.
 
 ## Searching and access
 
